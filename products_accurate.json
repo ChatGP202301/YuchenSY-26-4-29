@@ -1,0 +1,242 @@
+{
+  "alkaline-purifier": {
+    "category": "Water Purifier",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/alkaline-purifier.png",
+    "en": {
+      "name": "Alkaline Water Purifier System",
+      "desc": "Produces alkaline water by increasing pH levels and adding essential minerals for improved health and taste."
+    },
+    "ru": {
+      "name": "Система очистки щелочной воды",
+      "desc": "Производит щелочную воду, повышая уровень pH и добавляя необходимые минералы для улучшения здоровья и вкуса."
+    },
+    "de": {
+      "name": "Alkalisches Wasserreinigungssystem",
+      "desc": "Produziert alkalisches Wasser durch Erhöhung des pH-Werts und Hinzufügen von essentiellen Mineralien für bessere Gesundheit und Geschmack."
+    },
+    "fr": {
+      "name": "Système de purification d'eau alcaline",
+      "desc": "Produit de l'eau alcaline en augmentant le pH et en ajoutant des minéraux essentiels pour améliorer la santé et le goût."
+    },
+    "es": {
+      "name": "Sistema purificador de agua alcalina",
+      "desc": "Produce agua alcalina aumentando el pH y agregando minerales esenciales para mejorar la salud y el sabor."
+    }
+  },
+  "antibacterial-mineralization": {
+    "category": "Inline Filter",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/inline-small-mol_inline-small-molecule-antibacterial-mineralization-filter-cartridge-m2WbO3PQ8rSy",
+    "en": {
+      "name": "Antibacterial Mineralization Filter Cartridge",
+      "desc": "Removes harmful bacteria and viruses while adding beneficial minerals to water."
+    },
+    "ru": {
+      "name": "Антибактериальный минерализующий фильтр",
+      "desc": "Удаляет вредные бактерии и вирусы, добавляя полезные минералы в воду."
+    },
+    "de": {
+      "name": "Antibakterielle Mineralisierungsfilterpatrone",
+      "desc": "Entfernt schädliche Bakterien und Viren und fügt dem Wasser nützliche Mineralien hinzu."
+    },
+    "fr": {
+      "name": "Cartouche de filtre de minéralisation antibactérienne",
+      "desc": "Élimine les bactéries et virus nocifs tout en ajoutant des minéraux bénéfiques à l'eau."
+    },
+    "es": {
+      "name": "Cartucho de filtro de mineralización antibacteriana",
+      "desc": "Elimina bacterias y virus dañinos mientras agrega minerales beneficiosos al agua."
+    }
+  },
+  "big-blue-3stage": {
+    "category": "Filter Housing",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/big-blue-3stage_IMG_8856-scaled-768x1024.jpg",
+    "en": {
+      "name": "30-inch Three Stage Big Blue Water Filter",
+      "desc": "Three-stage whole house filtration system with large capacity big blue housings for extended filter life."
+    },
+    "ru": {
+      "name": "30-дюймовый трехступенчатый фильтр Big Blue",
+      "desc": "Трехступенчатая система фильтрации для всего дома с большими корпусами для увеличенного срока службы фильтра."
+    },
+    "de": {
+      "name": "30-Zoll-Dreistufiger Big Blue Wasserfilter",
+      "desc": "Dreistufiges Ganzhausfiltrationssystem mit großen Big Blue-Gehäusen für verlängerte Filterlebensdauer."
+    },
+    "fr": {
+      "name": "Filtre à eau Big Blue à trois étages de 30 pouces",
+      "desc": "Système de filtration de maison entière à trois étages avec grands boîtiers pour une durée de vie prolongée du filtre."
+    },
+    "es": {
+      "name": "Filtro de agua Big Blue de tres etapas de 30 pulgadas",
+      "desc": "Sistema de filtración de casa completa de tres etapas con carcasas grandes para mayor vida útil del filtro."
+    }
+  },
+  "carbon-block": {
+    "category": "Filter Cartridge",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/carbon-block-industrial_wechatimg25665-YbNbr1krr7SvNJV0.jpeg",
+    "en": {
+      "name": "CTO Coconut Shell Carbon Block Filter",
+      "desc": "Premium coconut shell activated carbon block for superior chlorine and chemical reduction."
+    },
+    "ru": {
+      "name": "Фильтр CTO с угольным блоком из кокосовой скорлупы",
+      "desc": "Премиальный блок активированного угля из кокосовой скорлупы для превосходного удаления хлора и химических веществ."
+    },
+    "de": {
+      "name": "CTO Kokosnussschalen-Kohleblockfilter",
+      "desc": "Premium-Aktivkohleblock aus Kokosnussschale für überlegene Chlor- und Chemikalienreduktion."
+    },
+    "fr": {
+      "name": "Filtre à bloc de charbon CTO en coque de noix de coco",
+      "desc": "Bloc de charbon actif premium de coque de noix de coco pour une réduction supérieure du chlore et des produits chimiques."
+    },
+    "es": {
+      "name": "Filtro de bloque de carbón CTO de cáscara de coco",
+      "desc": "Bloque de carbón activado premium de cáscara de coco para reducción superior de cloro y químicos."
+    }
+  },
+  "pp-spun": {
+    "category": "Filter Cartridge",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/pp-spun_PP-Spun-Filter-copy.jpg",
+    "en": {
+      "name": "PP Melt Blown Sediment Filter Cartridge",
+      "desc": "100% pure polypropylene filter removes rust, silt, scale, sediment and dirt effectively."
+    },
+    "ru": {
+      "name": "PP фильтр от осадка",
+      "desc": "100% чистый полипропиленовый фильтр эффективно удаляет ржавчину, ил, накипь, осадок и грязь."
+    },
+    "de": {
+      "name": "PP-Schmelzgeblasen-Sedimentfilterpatrone",
+      "desc": "100% reiner Polypropylenfilter entfernt effektiv Rost, Schlamm, Kalk, Sedimente und Schmutz."
+    },
+    "fr": {
+      "name": "Cartouche de filtre à sédiments PP soufflé par fusion",
+      "desc": "Filtre en polypropylène pur à 100% élimine efficacement la rouille, le limon, le tartre, les sédiments et la saleté."
+    },
+    "es": {
+      "name": "Cartucho de filtro de sedimentos PP soplado por fusión",
+      "desc": "Filtro de polipropileno 100% puro elimina eficazmente óxido, limo, incrustaciones, sedimentos y suciedad."
+    }
+  },
+  "ro-membrane": {
+    "category": "Filter Cartridge",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/ro-membrane_RO-Membrane-Filter-Cartridge-copy.jpg",
+    "en": {
+      "name": "Reverse Osmosis (RO) Membrane Element",
+      "desc": "High-efficiency RO membrane for gravity-fed under-sink water filtration systems."
+    },
+    "ru": {
+      "name": "Мембрана обратного осмоса (RO)",
+      "desc": "Высокоэффективная мембрана обратного осмоса для гравитационных систем фильтрации воды под раковиной."
+    },
+    "de": {
+      "name": "Umkehrosmose (RO) Membranelement",
+      "desc": "Hocheffiziente RO-Membran für Schwerkraft-Untertisch-Wasserfiltrationssysteme."
+    },
+    "fr": {
+      "name": "Élément de membrane d'osmose inverse (RO)",
+      "desc": "Membrane RO haute efficacité pour systèmes de filtration d'eau sous évier par gravité."
+    },
+    "es": {
+      "name": "Elemento de membrana de ósmosis inversa (RO)",
+      "desc": "Membrana RO de alta eficiencia para sistemas de filtración de agua bajo fregadero por gravedad."
+    }
+  },
+  "udf-cartridge": {
+    "category": "Filter Cartridge",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/udf-cartridge_UDF-Filter-cartridge-copy.jpg",
+    "en": {
+      "name": "GAC Granular Activated Carbon Filter",
+      "desc": "Standard 10-inch GAC filter reduces chlorine, organic chemicals, tastes and odors."
+    },
+    "ru": {
+      "name": "Картридж с гранулированным активированным углем (GAC)",
+      "desc": "Стандартный 10-дюймовый фильтр GAC уменьшает хлор, органические химические вещества, вкус и запах."
+    },
+    "de": {
+      "name": "GAC Aktivkohle-Granulat-Filter",
+      "desc": "Standard 10-Zoll GAC-Filter reduziert Chlor, organische Chemikalien, Geschmack und Gerüche."
+    },
+    "fr": {
+      "name": "Filtre à charbon actif granulaire (GAC)",
+      "desc": "Filtre GAC standard de 10 pouces réduit le chlore, les produits chimiques organiques, les goûts et les odeurs."
+    },
+    "es": {
+      "name": "Filtro de carbón activado granular (GAC)",
+      "desc": "Filtro GAC estándar de 10 pulgadas reduce el cloro, químicos orgánicos, sabores y olores."
+    }
+  },
+  "uf-cartridge": {
+    "category": "Filter Cartridge",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/uf-cartridge.png",
+    "en": {
+      "name": "Ultrafiltration (UF) Cartridge",
+      "desc": "Hollow-fiber UF membrane removes bacteria, viruses and colloidal matter without electricity."
+    },
+    "ru": {
+      "name": "Картридж ультрафильтрации (UF)",
+      "desc": "Полая волоконная мембрана UF удаляет бактерии, вирусы и коллоидные вещества без электричества."
+    },
+    "de": {
+      "name": "Ultrafiltrations (UF) Kartusche",
+      "desc": "Hohlfaser-UF-Membran entfernt Bakterien, Viren und Kolloide ohne Strom."
+    },
+    "fr": {
+      "name": "Cartouche d'ultrafiltration (UF)",
+      "desc": "Membrane UF à fibres creuses élimine les bactéries, virus et matières colloïdales sans électricité."
+    },
+    "es": {
+      "name": "Cartucho de ultrafiltración (UF)",
+      "desc": "Membrana UF de fibra hueca elimina bacterias, virus y materia coloidal sin electricidad."
+    }
+  },
+  "ceramic-filter": {
+    "category": "Filter Cartridge",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/ceramic-filter_WeChat8b6176de1327055fb109da157c1d47dd-845x1024.png",
+    "en": {
+      "name": "Ceramic Filter Cartridge",
+      "desc": "Premium ceramic filter with 0.2-0.5 micron pore size removes bacteria, cysts and turbidity."
+    },
+    "ru": {
+      "name": "Керамический фильтр-картридж",
+      "desc": "Премиальный керамический фильтр с размером пор 0,2-0,5 микрон удаляет бактерии, цисты и мутность."
+    },
+    "de": {
+      "name": "Keramikfilterpatrone",
+      "desc": "Premium-Keramikfilter mit 0,2-0,5 Mikron Porengröße entfernt Bakterien, Zysten und Trübung."
+    },
+    "fr": {
+      "name": "Cartouche de filtre céramique",
+      "desc": "Filtre céramique premium avec taille de pores de 0,2-0,5 micron élimine bactéries, kystes et turbidité."
+    },
+    "es": {
+      "name": "Cartucho de filtro cerámico",
+      "desc": "Filtro cerámico premium con tamaño de poro de 0,2-0,5 micras elimina bacterias, quistes y turbidez."
+    }
+  },
+  "flat-cap-cto": {
+    "category": "Flat Cap Filter",
+    "image": "https://chatgp202301.github.io/YuchenSY-2026-4-28/assets/products/flat-cap-cto_1676798539834-dOqM8JyQL5fj99OO.jpg",
+    "en": {
+      "name": "Flat Cap CTO Carbon Block Filter",
+      "desc": "Universal carbon block with flat cap design for secure, leak-free installation."
+    },
+    "ru": {
+      "name": "Фильтр CTO с плоской крышкой",
+      "desc": "Универсальный угольный блок с плоской крышкой для надежной установки без утечек."
+    },
+    "de": {
+      "name": "Flachkappe CTO Kohleblockfilter",
+      "desc": "Universeller Kohleblock mit Flachkappendesign für sichere, leckfreie Installation."
+    },
+    "fr": {
+      "name": "Filtre à bloc de charbon CTO à capuchon plat",
+      "desc": "Bloc de charbon universel avec design à capuchon plat pour installation sécurisée sans fuite."
+    },
+    "es": {
+      "name": "Filtro de bloque de carbón CTO con tapa plana",
+      "desc": "Bloque de carbón universal con diseño de tapa plana para instalación segura sin fugas."
+    }
+  }
+}
