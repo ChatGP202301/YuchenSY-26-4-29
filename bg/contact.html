@@ -82,7 +82,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="../assets/styles.css" />
+  <style id="critical-css-inlined">
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1f2937;background:#fff}
+img{max-width:100%;height:auto;display:block}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+.topbar{background:#1f2937;color:#fff;padding:8px 0;font-size:13px}
+.topbar-content{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.header{background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.06);position:sticky;top:0;z-index:100}
+.header-content{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+.logo{display:flex;align-items:center;gap:10px;font-size:1.4rem;font-weight:700;color:#1e40af;text-decoration:none}
+.logo-img{height:64px;width:64px;object-fit:contain;border-radius:0}
+.hero{padding:80px 20px;text-align:center;color:#fff;position:relative;overflow:hidden}
+.hero h1{font-size:2.5rem;font-weight:700;margin-bottom:16px;line-height:1.2}
+@media(max-width:768px){.hero h1{font-size:1.8rem}.hero{padding:60px 20px}}
+</style>
+<link rel="stylesheet" href="../assets/styles.css" media="all" />
 
   <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -250,15 +265,20 @@
         </div>
       </div>
 
-      <form class="contact-form" onsubmit="event.preventDefault(); window.open('https://wa.me/8619908311885?text=Inquiry from ' + this.elements.name.value, '_blank');">
-        <h3 style="color:var(--fg);margin-bottom:24px;font-size:1.5rem;">Request a Quote</h3>
+      <form action="https://formsubmit.co/expresswater025@gmail.com" method="POST" class="contact-form">
+        <h3 style="color:var(--fg);margin-bottom:24px;font-size:1.5rem;">Поискай Оферта</h3>
+        <input type="hidden" name="_subject" value="New Inquiry from Express Water Website" />
+        <input type="hidden" name="_captcha" value="true" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_next" value="https://expresswater.cn/thank-you.html" />
+
         <div class="form-row"><label>Име</label><input type="text" name="name" required></div>
         <div class="form-row"><label>Компания</label><input type="text" name="company"></div>
         <div class="form-row"><label>Email</label><input type="email" name="email" required></div>
-        <div class="form-row"><label>Phone / WhatsApp</label><input type="text" name="phone"></div>
-        <div class="form-row"><label>Country</label><input type="text" name="country"></div>
-        <div class="form-row"><label>Your Inquiry — please specify product, quantity, destination</label><textarea name="message" required></textarea></div>
-        <button type="submit" class="btn">Send Inquiry →</button>
+        <div class="form-row"><label>Телефон / WhatsApp</label><input type="text" name="phone"></div>
+        <div class="form-row"><label>Държава</label><input type="text" name="country"></div>
+        <div class="form-row"><label>Вашето Запитване — посочете продукт, количество, дестинация</label><textarea name="message" required></textarea></div>
+        <button type="submit" class="btn">Изпрати Запитване →</button>
       </form>
     </div>
   </div>
