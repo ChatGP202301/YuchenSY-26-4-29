@@ -93,10 +93,10 @@ img { max-width: 100%; height: auto; display: block; }
   flex-shrink: 0;
 }
 .logo-img { 
-  height: 48px; 
-  width: 48px; 
-  object-fit: cover; 
-  border-radius: 8px;
+  height: 64px; 
+  width: 64px; 
+  object-fit: contain; 
+  border-radius: 0;
 }
 .brand-name { 
   font-size: 1.4rem; 
@@ -739,4 +739,126 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .whatsapp-float:hover {
   transform: scale(1.1);
+}
+
+/* Stats Section - Optimized Layout */
+.stats {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 60px 0;
+  color: white;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stats-grid > div {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.stats-grid > div:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.stat-num {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .stat-num {
+    font-size: 36px;
+  }
+  
+  .stat-label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+/* Feature Cards - Optimized 2x2 Grid Layout */
+.feat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feat-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #e8f0fe;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.feat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: #2563eb;
+}
+
+.feat-card .icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.feat-card h3 {
+  color: #1e40af;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.feat-card p {
+  color: #4b5563;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .feat-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
