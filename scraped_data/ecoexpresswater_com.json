@@ -1,0 +1,95 @@
+{
+  "site": "ecoexpresswater.com",
+  "scraped_at": "2026-04-30",
+  "background_images": ["scraped_data/images/backgrounds/hero1.jpg"],
+  "workshop_images": [
+    "scraped_data/images/workshop/line1.png",
+    "scraped_data/images/workshop/line2.png",
+    "scraped_data/images/workshop/line3.png",
+    "scraped_data/images/workshop/test1.png"
+  ],
+  "about_text": "Welcome to Eco Express Water, a high-tech environment protection enterprise specializing in filter materials and filter equipment for water purification. Our products integrate the full stream from research and development, manufacturing, marketing to technical support. Our company is located in Yuanhua Town, Haining City, Zhejiang Province. At Eco Express Water, we have a first-class technical expert team, integrated functional middle test/expanding test, and a large-scale manufacturing center.",
+  "certifications": ["SGS", "Halal (JAKIM Malaysia)", "3C"],
+  "products": [
+    {
+      "id": "reverse-osmosis-water-filter-under-sink-without-pump",
+      "name": "Reverse Osmosis Water Filter Under Sink Without Pump",
+      "category": "RO System",
+      "description": "A reverse osmosis (RO) water filter system that is installed under the sink and does not use a pump is known as a gravity-fed reverse osmosis system. These systems rely on water pressure from the incoming water supply to push water through the RO membrane.",
+      "specs": {"Type": "Gravity-fed", "Stages": "Multi-stage"},
+      "features": ["No pump required", "Removes rust, dirt, chlorine, heavy metals", "Storage tank included"],
+      "images": ["scraped_data/images/ecoexpresswater_com/ro-system/main.jpg"],
+      "source_url": "https://www.ecoexpresswater.com/reverse-osmosis-water-filter-under-sink-without-pump/"
+    },
+    {
+      "id": "30-big-blue-water-filter",
+      "name": "30 inches Three stages Big Blue Water Filter",
+      "category": "Filter",
+      "description": "Eco Express Water is proud to offer its 30 inches Three Stages Big Blue Water Filter, designed to provide you with clean and safe drinking water. With its three stages of filtration (PP Filter, RO Membrane, and CTO Carbon Block Filter), this filter removes contaminants from your water.",
+      "specs": {"Size": "30 inches", "Stages": "3 (PP, RO, CTO)", "Brand": "Eco Express Water"},
+      "features": ["High efficiency", "Large capacity", "Removes particles, chlorine, heavy metals"],
+      "images": ["scraped_data/images/ecoexpresswater_com/big-blue/main.jpg"],
+      "source_url": "https://www.ecoexpresswater.com/30-big-blue-water-filter/"
+    },
+    {
+      "id": "hot-and-cold-wall-mounted-pipeline-water-dispenser",
+      "name": "Hot and Cold Wall Mounted Pipeline Water Dispenser",
+      "category": "Dispenser",
+      "description": "A hot and cold wall-mounted pipeline water dispenser is a device that dispenses both hot and cold water. It is typically mounted on a wall and is connected to a water supply line.",
+      "specs": {"Heating Power": "2200W", "Heating Time": "3 seconds", "Cert": "3C"},
+      "features": ["Multiple temperature settings", "Selectable water volume", "Advanced filtration system"],
+      "images": ["scraped_data/images/ecoexpresswater_com/dispenser/main.jpg"],
+      "source_url": "https://www.ecoexpresswater.com/product/hot-and-cold-wall-mounted-pipeline-water-dispenser/"
+    },
+    {
+      "id": "pp-melt-blown-filter-sediments",
+      "name": "PP Melt-blown filter sediments",
+      "category": "Filter",
+      "description": "PP Melt-Blown Filter Sediments are a type of filter made of polypropylene (PP) fibers that have been melted and blown to form a matrix of fine fibers.",
+      "specs": {"Size": "10\" to 50\"", "Micron": "As small as 0.1 microns", "Type": "DOE or SOE"},
+      "features": ["Efficient filtration", "High flow rate", "Cost-effective"],
+      "images": ["scraped_data/images/ecoexpresswater_com/pp-filter/main.jpg"],
+      "source_url": "https://www.ecoexpresswater.com/product/pp-melt-blown-filter-sediments/"
+    },
+    {
+      "id": "eco-express-water-carbon-block-filter",
+      "name": "Eco Express Water Carbon Block Filter",
+      "category": "Filter",
+      "description": "A carbon block filter is a type of water filter that uses activated carbon to remove impurities. The activated carbon is compressed into a block or cartridge.",
+      "specs": {"Material": "Coconut Shell, Coal, or Sintered Carbon", "Size": "10 inches, 20 inches"},
+      "features": ["High adsorption capacity", "Removes chlorine, chemicals", "Available in Big Blue types"],
+      "images": ["scraped_data/images/ecoexpresswater_com/carbon-block/main.jpg"],
+      "source_url": "https://www.ecoexpresswater.com/eco-express-water-carbon-block-filter/"
+    },
+    {
+      "id": "ceramic-filter",
+      "name": "Eco Express Water Ceramic Filter",
+      "category": "Filter",
+      "description": "Ceramic water filter for purification.",
+      "specs": {},
+      "features": ["Visual appealing design"],
+      "images": [],
+      "source_url": "https://www.ecoexpresswater.com/product/"
+    },
+    {
+      "id": "resin-filter",
+      "name": "Eco Express Water Resin Filter",
+      "category": "Filter",
+      "description": "Resin filter for water softening and purification.",
+      "specs": {},
+      "features": [],
+      "images": [],
+      "source_url": "https://www.ecoexpresswater.com/product/"
+    },
+    {
+      "id": "uf-cartridge",
+      "name": "Ultra Filter (UF) Cartridge",
+      "category": "Filter",
+      "description": "Ultra filtration membrane cartridge.",
+      "specs": {},
+      "features": ["Advanced membrane technology"],
+      "images": [],
+      "source_url": "https://www.ecoexpresswater.com/product/"
+    }
+  ]
+}

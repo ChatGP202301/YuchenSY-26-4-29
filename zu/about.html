@@ -1,76 +1,295 @@
-<!DOCTYPE html><html lang="zu" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>About Express Water - Express Water</title><meta name="description" content="Leading China manufacturer of water filtration solutions since 1998. NSF/ISO certified."><style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:#374151;background:#f9fafb}body.rtl{direction:rtl;text-align:right}a{color:#0ea5e9;text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%;height:auto;display:block}.top-bar{background:linear-gradient(135deg,#1e40af,#0ea5e9);color:#fff;padding:.5rem 1rem;text-align:center;font-size:.85rem}header{background:#fff;border-bottom:2px solid #0ea5e9;box-shadow:0 2px 8px rgba(0,0,0,.08);position:sticky;top:0;z-index:100}.nav{max-width:1400px;margin:0 auto;padding:1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}.logo{display:flex;align-items:center;gap:.75rem;text-decoration:none}.logo img{width:55px;height:55px;border-radius:8px;object-fit:cover}.logo-text{font-size:1.5rem;font-weight:700;background:linear-gradient(135deg,#1e40af,#0ea5e9);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.menu{display:flex;gap:1.5rem;flex-wrap:wrap}.menu a{color:#374151;font-weight:600;padding:.5rem 0;border-bottom:2px solid transparent;text-decoration:none}.menu a:hover{color:#0ea5e9;border-bottom-color:#0ea5e9}.right-nav{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap}.lang-sel{padding:.5rem .75rem;border:2px solid #0ea5e9;border-radius:6px;background:#fff;cursor:pointer;font-weight:600;color:#0ea5e9;font-size:.9rem;max-width:160px}.wa-btn{background:#25D366;color:#fff;padding:.6rem 1rem;border-radius:6px;font-weight:600;display:inline-flex;align-items:center;gap:.4rem;text-decoration:none;font-size:.9rem}.wa-btn:hover{transform:scale(1.05);text-decoration:none;color:#fff}.hero{background:linear-gradient(135deg,#1e40af,#0ea5e9);color:#fff;padding:4rem 1rem;text-align:center}.hero h1{font-size:2.8rem;margin-bottom:1rem;text-shadow:0 2px 4px rgba(0,0,0,.2)}.hero p{font-size:1.2rem;max-width:800px;margin:0 auto 2rem;opacity:.95}.hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}.btn-primary{background:#fff;color:#1e40af;padding:.9rem 2rem;border-radius:6px;font-weight:700;font-size:1rem;text-decoration:none;display:inline-block}.btn-primary:hover{transform:translateY(-2px);text-decoration:none;color:#1e40af}.btn-secondary{background:transparent;color:#fff;padding:.9rem 2rem;border-radius:6px;font-weight:700;font-size:1rem;border:2px solid #fff;text-decoration:none;display:inline-block}.btn-secondary:hover{background:#fff;color:#1e40af;text-decoration:none}.container{max-width:1400px;margin:0 auto;padding:3rem 1rem}.section-title{font-size:2.2rem;color:#1e40af;text-align:center;margin-bottom:1rem;font-weight:700}.section-desc{color:#6b7280;text-align:center;font-size:1.1rem;max-width:800px;margin:0 auto 3rem;line-height:1.7}.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1.5rem}.product-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.08);transition:all .3s;text-decoration:none;color:inherit;display:block}.product-card:hover{transform:translateY(-6px);box-shadow:0 8px 24px rgba(0,0,0,.15);text-decoration:none;color:inherit}.product-img{height:220px;overflow:hidden;background:#f3f4f6;position:relative}.product-img img{width:100%;height:100%;object-fit:cover}.product-cat{position:absolute;top:1rem;left:1rem;background:#0ea5e9;color:#fff;padding:.4rem .8rem;border-radius:5px;font-size:.8rem;font-weight:600}.product-body{padding:1.25rem}.product-title{color:#1e40af;font-size:1.15rem;margin-bottom:.5rem;font-weight:700;line-height:1.3;min-height:2.6rem}.product-desc{color:#6b7280;font-size:.95rem;line-height:1.5;margin-bottom:1rem;min-height:4.5rem}.product-link{color:#0ea5e9;font-weight:700;display:inline-flex;align-items:center;gap:.4rem}.about-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;margin-top:3rem}.stat-box{background:#fff;padding:2rem;border-radius:12px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.08)}.stat-num{font-size:3rem;font-weight:700;color:#0ea5e9;line-height:1;margin-bottom:.5rem}.stat-label{color:#6b7280;font-weight:600}.feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;margin:2rem 0}.feature-card{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08);border-top:4px solid #0ea5e9}.feature-card h3{color:#1e40af;font-size:1.2rem;margin-bottom:.75rem}.feature-card p{color:#6b7280;font-size:.95rem;line-height:1.6}.content-card{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin-bottom:1.5rem}.content-card h2{color:#1e40af;font-size:1.7rem;margin-bottom:1rem}.content-card h3{color:#1e40af;font-size:1.3rem;margin:1.5rem 0 .75rem}.content-card p{color:#4b5563;line-height:1.8;margin-bottom:1rem;font-size:1.05rem}.content-card ul{margin:1rem 0;padding-left:1.5rem}.content-card li{color:#4b5563;margin-bottom:.5rem;line-height:1.7}.faq-item{background:#fff;padding:1.5rem 2rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin-bottom:1rem;border-left:4px solid #0ea5e9}.faq-item h3{color:#1e40af;font-size:1.15rem;margin-bottom:.75rem}.faq-item p{color:#4b5563;line-height:1.7}.product-detail{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-bottom:3rem}.product-detail-img{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.08)}.product-detail-img img{width:100%;height:auto}.product-detail-info h1{color:#1e40af;font-size:2.2rem;margin-bottom:1rem}.product-detail-info .product-cat-tag{display:inline-block;background:#0ea5e9;color:#fff;padding:.4rem 1rem;border-radius:5px;font-size:.85rem;font-weight:600;margin-bottom:1rem}.product-detail-info p{color:#4b5563;line-height:1.8;margin-bottom:1.5rem;font-size:1.05rem}.specs-table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;margin:1rem 0}.specs-table tr{border-bottom:1px solid #e5e7eb}.specs-table tr:last-child{border-bottom:none}.specs-table td{padding:.85rem 1rem;font-size:.95rem}.specs-table td:first-child{font-weight:600;color:#1e40af;background:#f9fafb;width:40%}.specs-table td:last-child{color:#4b5563}footer{background:#1f2937;color:#fff;padding:3rem 1rem 2rem;margin-top:4rem}.footer-grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem}.footer-section h3{margin-bottom:1rem;font-size:1.15rem;color:#fff}.footer-section p,.footer-section a{color:#9ca3af;line-height:1.8;margin-bottom:.4rem;font-size:.95rem}.footer-section a:hover{color:#fff}.footer-bottom{max-width:1400px;margin:2rem auto 0;padding-top:1.5rem;border-top:1px solid #374151;text-align:center;color:#9ca3af;font-size:.9rem}.wa-float{position:fixed;bottom:25px;right:25px;background:#25D366;color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2rem;text-decoration:none;box-shadow:0 4px 16px rgba(37,211,102,.5);z-index:999;transition:transform .3s}.wa-float:hover{transform:scale(1.1);color:#fff}body.rtl .wa-float{right:auto;left:25px}@media(max-width:768px){.hero h1{font-size:2rem}.hero p{font-size:1rem}.section-title{font-size:1.7rem}.product-detail{grid-template-columns:1fr}.menu{gap:1rem}.menu a{font-size:.9rem}.logo-text{font-size:1.2rem}}</style></head><body class=""><div class="top-bar">🌐 NSF & ISO 9001 Certified | Serving 50+ Countries Worldwide | OEM/ODM Available</div>
-<header><div class="nav">
-<a href="index.html" class="logo"><img src="../images/logo.jpg" alt="Express Water"><span class="logo-text">Express Water</span></a>
-<nav class="menu">
-<a href="index.html">Ikhaya</a>
-<a href="products.html">Imikhiqizo</a>
-<a href="about.html">Ngathi</a>
-<a href="workshop.html">Ifekthri</a>
-<a href="faq.html">Imibuzo</a>
-</nav>
-<div class="right-nav">
-<select class="lang-sel" onchange="if(this.value)window.location.href=this.value"><option value="">🌐</option><option value="../en/about.html">🇬🇧 English</option><option value="../es/about.html">🇪🇸 Español</option><option value="../fr/about.html">🇫🇷 Français</option><option value="../de/about.html">🇩🇪 Deutsch</option><option value="../pt/about.html">🇵🇹 Português</option><option value="../ru/about.html">🇷🇺 Русский</option><option value="../ar/about.html">🇸🇦 العربية</option><option value="../ja/about.html">🇯🇵 日本語</option><option value="../ko/about.html">🇰🇷 한국어</option><option value="../it/about.html">🇮🇹 Italiano</option><option value="../tr/about.html">🇹🇷 Türkçe</option><option value="../hi/about.html">🇮🇳 हिन्दी</option><option value="../bn/about.html">🇧🇩 বাংলা</option><option value="../id/about.html">🇮🇩 Bahasa Indonesia</option><option value="../vi/about.html">🇻🇳 Tiếng Việt</option><option value="../th/about.html">🇹🇭 ไทย</option><option value="../pl/about.html">🇵🇱 Polski</option><option value="../nl/about.html">🇳🇱 Nederlands</option><option value="../fa/about.html">🇮🇷 فارسی</option><option value="../ur/about.html">🇵🇰 اردو</option><option value="../ms/about.html">🇲🇾 Bahasa Melayu</option><option value="../tl/about.html">🇵🇭 Tagalog</option><option value="../he/about.html">🇮🇱 עברית</option><option value="../el/about.html">🇬🇷 Ελληνικά</option><option value="../cs/about.html">🇨🇿 Čeština</option><option value="../hu/about.html">🇭🇺 Magyar</option><option value="../ro/about.html">🇷🇴 Română</option><option value="../sv/about.html">🇸🇪 Svenska</option><option value="../da/about.html">🇩🇰 Dansk</option><option value="../fi/about.html">🇫🇮 Suomi</option><option value="../no/about.html">🇳🇴 Norsk</option><option value="../uk/about.html">🇺🇦 Українська</option><option value="../bg/about.html">🇧🇬 Български</option><option value="../hr/about.html">🇭🇷 Hrvatski</option><option value="../sr/about.html">🇷🇸 Српски</option><option value="../sk/about.html">🇸🇰 Slovenčina</option><option value="../sl/about.html">🇸🇮 Slovenščina</option><option value="../lt/about.html">🇱🇹 Lietuvių</option><option value="../et/about.html">🇪🇪 Eesti</option><option value="../lv/about.html">🇱🇻 Latviešu</option><option value="../sw/about.html">🇰🇪 Kiswahili</option><option value="../ha/about.html">🇳🇬 Hausa</option><option value="../zu/about.html" selected>🇿🇦 isiZulu</option><option value="../ta/about.html">🇮🇳 தமிழ்</option><option value="../kk/about.html">🇰🇿 Қазақша</option></select>
-<a href="https://wa.me/8619908311885" class="wa-btn" target="_blank" rel="noopener">📱 WhatsApp</a>
-</div>
-</div></header>
-<div class="hero" style="padding:3rem 1rem">
-<h1>About Express Water</h1>
-</div>
-<div class="container" style="max-width:1000px">
-<div class="content-card">
-<p>Founded in 1998, Express Water has grown into one of China's most trusted water purification manufacturers, with over 25 years of experience in the industry.</p>
-<p>We specialize in manufacturing PP Melt Blown filters, CTO Carbon Block filters, GAC filters, RO membranes, water dispensers, and complete water purification systems for residential, commercial, and industrial applications.</p>
-<p>With NSF/ANSI 42, 53 & 58, ISO 9001:2015, CE, SGS, FDA, and Halal certifications, we export to over 50 countries worldwide, serving wholesale distributors, OEM/ODM partners, and direct customers.</p>
+<!DOCTYPE html>
+<html lang="zu" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Express Water | OEM Water Filter Manufacturer Since 1998</title>
+  <meta name="description" content="Express Water is a leading China-based OEM water filtration manufacturer with 27+ years of experience, ISO 9001 certified, exporting to 50+ countries." />
+  <meta name="keywords" content="water filter manufacturer, NSF certified, RO membrane, OEM water purifier, PP melt-blown filter, CTO carbon block, GAC filter, UF membrane, T33 post-carbon, reverse osmosis system, industrial filtration, halal water filter, China water dispenser factory, ISO 9001 water filter, wholesale water purifier, Express Water" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Express Water" />
+
+  <!-- Geo tags -->
+  <meta name="geo.region" content="CN-ZJ" />
+  <meta name="geo.placename" content="Haining, Zhejiang" />
+  <meta name="geo.position" content="30.4398;120.6974" />
+  <meta name="ICBM" content="30.4398, 120.6974" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="About Express Water | OEM Water Filter Manufacturer Since 1998" />
+  <meta property="og:description" content="Express Water is a leading China-based OEM water filtration manufacturer with 27+ years of experience, ISO 9001 certified, exporting to 50+ countries." />
+  <meta property="og:url" content="https://expresswater.cn/zu/about.html" />
+  <meta property="og:image" content="https://expresswater.cn/assets/backgrounds/eco_hero1.jpg" />
+  <meta property="og:locale" content="zu" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Express Water | OEM Water Filter Manufacturer Since 1998" />
+  <meta name="twitter:description" content="Express Water is a leading China-based OEM water filtration manufacturer with 27+ years of experience, ISO 9001 certified, exporting to 50+ countries." />
+
+  <link rel="canonical" href="https://expresswater.cn/zu/about.html" />
+  <link rel="alternate" hreflang="en" href="https://expresswater.cn/en/about.html" />
+  <link rel="alternate" hreflang="es" href="https://expresswater.cn/es/about.html" />
+  <link rel="alternate" hreflang="fr" href="https://expresswater.cn/fr/about.html" />
+  <link rel="alternate" hreflang="de" href="https://expresswater.cn/de/about.html" />
+  <link rel="alternate" hreflang="pt" href="https://expresswater.cn/pt/about.html" />
+  <link rel="alternate" hreflang="ru" href="https://expresswater.cn/ru/about.html" />
+  <link rel="alternate" hreflang="ar" href="https://expresswater.cn/ar/about.html" />
+  <link rel="alternate" hreflang="ja" href="https://expresswater.cn/ja/about.html" />
+  <link rel="alternate" hreflang="ko" href="https://expresswater.cn/ko/about.html" />
+  <link rel="alternate" hreflang="it" href="https://expresswater.cn/it/about.html" />
+  <link rel="alternate" hreflang="tr" href="https://expresswater.cn/tr/about.html" />
+  <link rel="alternate" hreflang="hi" href="https://expresswater.cn/hi/about.html" />
+  <link rel="alternate" hreflang="bn" href="https://expresswater.cn/bn/about.html" />
+  <link rel="alternate" hreflang="id" href="https://expresswater.cn/id/about.html" />
+  <link rel="alternate" hreflang="vi" href="https://expresswater.cn/vi/about.html" />
+  <link rel="alternate" hreflang="th" href="https://expresswater.cn/th/about.html" />
+  <link rel="alternate" hreflang="pl" href="https://expresswater.cn/pl/about.html" />
+  <link rel="alternate" hreflang="nl" href="https://expresswater.cn/nl/about.html" />
+  <link rel="alternate" hreflang="fa" href="https://expresswater.cn/fa/about.html" />
+  <link rel="alternate" hreflang="ur" href="https://expresswater.cn/ur/about.html" />
+  <link rel="alternate" hreflang="ms" href="https://expresswater.cn/ms/about.html" />
+  <link rel="alternate" hreflang="tl" href="https://expresswater.cn/tl/about.html" />
+  <link rel="alternate" hreflang="he" href="https://expresswater.cn/he/about.html" />
+  <link rel="alternate" hreflang="el" href="https://expresswater.cn/el/about.html" />
+  <link rel="alternate" hreflang="cs" href="https://expresswater.cn/cs/about.html" />
+  <link rel="alternate" hreflang="hu" href="https://expresswater.cn/hu/about.html" />
+  <link rel="alternate" hreflang="ro" href="https://expresswater.cn/ro/about.html" />
+  <link rel="alternate" hreflang="sv" href="https://expresswater.cn/sv/about.html" />
+  <link rel="alternate" hreflang="da" href="https://expresswater.cn/da/about.html" />
+  <link rel="alternate" hreflang="fi" href="https://expresswater.cn/fi/about.html" />
+  <link rel="alternate" hreflang="no" href="https://expresswater.cn/no/about.html" />
+  <link rel="alternate" hreflang="uk" href="https://expresswater.cn/uk/about.html" />
+  <link rel="alternate" hreflang="bg" href="https://expresswater.cn/bg/about.html" />
+  <link rel="alternate" hreflang="hr" href="https://expresswater.cn/hr/about.html" />
+  <link rel="alternate" hreflang="sr" href="https://expresswater.cn/sr/about.html" />
+  <link rel="alternate" hreflang="sk" href="https://expresswater.cn/sk/about.html" />
+  <link rel="alternate" hreflang="sl" href="https://expresswater.cn/sl/about.html" />
+  <link rel="alternate" hreflang="lt" href="https://expresswater.cn/lt/about.html" />
+  <link rel="alternate" hreflang="et" href="https://expresswater.cn/et/about.html" />
+  <link rel="alternate" hreflang="lv" href="https://expresswater.cn/lv/about.html" />
+  <link rel="alternate" hreflang="sw" href="https://expresswater.cn/sw/about.html" />
+  <link rel="alternate" hreflang="ha" href="https://expresswater.cn/ha/about.html" />
+  <link rel="alternate" hreflang="zu" href="https://expresswater.cn/zu/about.html" />
+  <link rel="alternate" hreflang="ta" href="https://expresswater.cn/ta/about.html" />
+  <link rel="alternate" hreflang="kk" href="https://expresswater.cn/kk/about.html" />
+  <link rel="alternate" hreflang="x-default" href="https://expresswater.cn/en/about.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../assets/styles.css" />
+
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "IndustrialBusiness",
+  "name": "Express Water",
+  "alternateName": "Eco Express Water",
+  "url": "https://expresswater.cn/zu/about.html",
+  "logo": "https://expresswater.cn/assets/logo.png",
+  "image": "https://expresswater.cn/assets/backgrounds/eco_hero1.jpg",
+  "description": "Express Water is a leading China-based OEM water filtration manufacturer with 27+ years of experience, ISO 9001 certified, exporting to 50+ countries.",
+  "telephone": "+86-19908311885",
+  "email": "expresswater025@gmail.com",
+  "foundingDate": "1998",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Yuanhua Town",
+    "addressLocality": "Haining",
+    "addressRegion": "Zhejiang",
+    "addressCountry": "CN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 30.4398,
+    "longitude": 120.6974
+  },
+  "areaServed": ["United States","Germany","France","Russia","Brazil","Mexico","UK","Italy","Spain","Japan","Korea","Saudi Arabia","UAE","Egypt","India","Indonesia","Malaysia","Vietnam","Thailand","Turkey"],
+  "knowsAbout": ["NSF certified water filter","RO Membrane manufacturer","OEM water purifier","Industrial filtration","PP melt-blown filter","CTO carbon block","GAC filter","UF membrane","T33 post-carbon","reverse osmosis","Halal water filter","ISO 9001:2015","SGS test report","CE certification"]
+}</script>
+</head>
+<body class="ltr">
+
+<div class="topbar">
+  <div class="container topbar-row">
+    <div class="topbar-left">📞 <a href="tel:+86-19908311885">+86-19908311885</a> &nbsp;·&nbsp; ✉ <a href="mailto:expresswater025@gmail.com">expresswater025@gmail.com</a></div>
+    <div class="topbar-right">Ukuthengisa ngenqwaba · Kusukela ngo-1998</div>
+  </div>
 </div>
 
-<div class="content-card">
-<h2>Our Mission</h2>
-<p>To provide high-quality, certified water filtration solutions to global partners, ensuring clean and safe drinking water for everyone.</p>
+<header class="header">
+  <div class="container header-row">
+    <a href="index.html" class="brand">
+      <img src="../assets/logo.png" alt="Express Water" class="logo-img" onerror="this.style.display='none'" />
+      <span class="brand-name">Express Water</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Ikhaya</a>
+      <a href="about.html" class="nav-link active">Mayelana nathi</a>
+      <a href="products.html" class="nav-link">Imikhiqizo</a>
+      <a href="workshop.html" class="nav-link">Indawo yokusebenzela</a>
+      <a href="faq.html" class="nav-link">FAQ</a>
+      <a href="contact.html" class="nav-link">Oxhumana nabo</a>
+      
+    </nav>
+    <div class="header-actions">
+      
+<div class="lang-switcher">
+  <button class="lang-btn" onclick="toggleLangMenu()">🌐 <span>isiZulu</span> ▾</button>
+  <div class="lang-menu" id="langMenu">
+    <a href="../en/about.html" class="lang-option " lang="en">English</a>
+    <a href="../es/about.html" class="lang-option " lang="es">Español</a>
+    <a href="../fr/about.html" class="lang-option " lang="fr">Français</a>
+    <a href="../de/about.html" class="lang-option " lang="de">Deutsch</a>
+    <a href="../pt/about.html" class="lang-option " lang="pt">Português</a>
+    <a href="../ru/about.html" class="lang-option " lang="ru">Русский</a>
+    <a href="../ar/about.html" class="lang-option " lang="ar">العربية</a>
+    <a href="../ja/about.html" class="lang-option " lang="ja">日本語</a>
+    <a href="../ko/about.html" class="lang-option " lang="ko">한국어</a>
+    <a href="../it/about.html" class="lang-option " lang="it">Italiano</a>
+    <a href="../tr/about.html" class="lang-option " lang="tr">Türkçe</a>
+    <a href="../hi/about.html" class="lang-option " lang="hi">हिन्दी</a>
+    <a href="../bn/about.html" class="lang-option " lang="bn">বাংলা</a>
+    <a href="../id/about.html" class="lang-option " lang="id">Bahasa Indonesia</a>
+    <a href="../vi/about.html" class="lang-option " lang="vi">Tiếng Việt</a>
+    <a href="../th/about.html" class="lang-option " lang="th">ไทย</a>
+    <a href="../pl/about.html" class="lang-option " lang="pl">Polski</a>
+    <a href="../nl/about.html" class="lang-option " lang="nl">Nederlands</a>
+    <a href="../fa/about.html" class="lang-option " lang="fa">فارسی</a>
+    <a href="../ur/about.html" class="lang-option " lang="ur">اردو</a>
+    <a href="../ms/about.html" class="lang-option " lang="ms">Bahasa Melayu</a>
+    <a href="../tl/about.html" class="lang-option " lang="tl">Tagalog</a>
+    <a href="../he/about.html" class="lang-option " lang="he">עברית</a>
+    <a href="../el/about.html" class="lang-option " lang="el">Ελληνικά</a>
+    <a href="../cs/about.html" class="lang-option " lang="cs">Čeština</a>
+    <a href="../hu/about.html" class="lang-option " lang="hu">Magyar</a>
+    <a href="../ro/about.html" class="lang-option " lang="ro">Română</a>
+    <a href="../sv/about.html" class="lang-option " lang="sv">Svenska</a>
+    <a href="../da/about.html" class="lang-option " lang="da">Dansk</a>
+    <a href="../fi/about.html" class="lang-option " lang="fi">Suomi</a>
+    <a href="../no/about.html" class="lang-option " lang="no">Norsk</a>
+    <a href="../uk/about.html" class="lang-option " lang="uk">Українська</a>
+    <a href="../bg/about.html" class="lang-option " lang="bg">Български</a>
+    <a href="../hr/about.html" class="lang-option " lang="hr">Hrvatski</a>
+    <a href="../sr/about.html" class="lang-option " lang="sr">Српски</a>
+    <a href="../sk/about.html" class="lang-option " lang="sk">Slovenčina</a>
+    <a href="../sl/about.html" class="lang-option " lang="sl">Slovenščina</a>
+    <a href="../lt/about.html" class="lang-option " lang="lt">Lietuvių</a>
+    <a href="../et/about.html" class="lang-option " lang="et">Eesti</a>
+    <a href="../lv/about.html" class="lang-option " lang="lv">Latviešu</a>
+    <a href="../sw/about.html" class="lang-option " lang="sw">Kiswahili</a>
+    <a href="../ha/about.html" class="lang-option " lang="ha">Hausa</a>
+    <a href="../zu/about.html" class="lang-option active" lang="zu">isiZulu</a>
+    <a href="../ta/about.html" class="lang-option " lang="ta">தமிழ்</a>
+    <a href="../kk/about.html" class="lang-option " lang="kk">Қазақша</a>
+  </div>
 </div>
 
-<div class="about-grid">
-<div class="stat-box"><div class="stat-num">25+</div><div class="stat-label">Years Experience</div></div>
-<div class="stat-box"><div class="stat-num">50+</div><div class="stat-label">Countries</div></div>
-<div class="stat-box"><div class="stat-num">20,000m²</div><div class="stat-label">Factory Area</div></div>
-<div class="stat-box"><div class="stat-num">10M+</div><div class="stat-label">Annual Output</div></div>
-</div>
+      <a href="https://wa.me/8619908311885" target="_blank" rel="noopener" class="cta-wa">📱 WhatsApp</a>
+      <button class="mobile-menu-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+    </div>
+  </div>
+</header>
 
-<h2 class="section-title" style="margin-top:3rem">Why Choose Us</h2>
-<div class="feature-grid">
-<div class="feature-card"><h3>🏭 25+ Years Experience</h3><p>Established in 1998 with deep industry expertise</p></div>
-<div class="feature-card"><h3>✅ Full Certifications</h3><p>NSF, ISO 9001, CE, SGS, FDA certified</p></div>
-<div class="feature-card"><h3>🌍 Global Reach</h3><p>Exporting to 50+ countries worldwide</p></div>
-<div class="feature-card"><h3>🔧 OEM/ODM Service</h3><p>Custom solutions for your brand</p></div>
-</div>
-</div>
-<footer><div class="footer-grid">
-<div class="footer-section">
-<h3>Express Water</h3>
-<p>Leading China manufacturer of water filtration solutions since 1998.</p>
-</div>
-<div class="footer-section">
-<h3>Quick Links</h3>
-<p><a href="index.html">Ikhaya</a></p>
-<p><a href="products.html">Imikhiqizo</a></p>
-<p><a href="about.html">Ngathi</a></p>
-<p><a href="workshop.html">Ifekthri</a></p>
-<p><a href="faq.html">Imibuzo</a></p>
-</div>
-<div class="footer-section">
-<h3>Contact Information</h3>
-<p>📍 Yuanhua Town, Haining City, Zhejiang Province, China</p>
-<p>📞 +86-19908311885</p>
-<p>✉️ <a href="mailto:expresswater025@gmail.com">expresswater025@gmail.com</a></p>
-<p>📱 <a href="https://wa.me/8619908311885" target="_blank" rel="noopener">WhatsApp</a></p>
-</div>
-<div class="footer-section">
-<h3>Certifications</h3>
-<p>✓ NSF/ANSI 42, 53 & 58</p>
-<p>✓ ISO 9001:2015</p>
-<p>✓ CE, SGS, FDA</p>
-<p>✓ Halal Certified</p>
-</div>
-</div>
-<div class="footer-bottom"><p>© 2024 Express Water. All Rights Reserved.</p></div>
+<section class="hero" style="min-height:42vh; background-image:linear-gradient(rgba(58,69,54,0.82), rgba(58,69,54,0.7)), url('../assets/backgrounds/eco_hero1.jpg');">
+  <div class="container hero-content">
+    <div class="hero-eyebrow">About Express Water</div>
+    <h1>Mayelana nathi</h1>
+    <p class="hero-desc">Founded in 1998, Express Water has grown into one of China&#x27;s most trusted water purification manufacturers, exporting to 50+ countries with full NSF, ISO 9001, CE and SGS certification.</p>
+  </div>
+</section>
+
+<section class="section section-light">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
+      <div>
+        <div class="eyebrow">Our Story</div>
+        <h2 style="margin-bottom:20px;">27+ Years Producing Premium Water Filtration</h2>
+        <p style="font-size:16px;line-height:1.85;color:var(--muted);margin-bottom:18px;">Founded in 1998 in Yuanhua Town, Haining City, Zhejiang Province — strategically located 90 minutes from Shanghai's container ports — Express Water has grown into one of the most trusted OEM/ODM water filtration manufacturers in China.</p>
+        <p style="font-size:16px;line-height:1.85;color:var(--muted);margin-bottom:18px;">Our 20,000+ m² ISO 9001:2015 certified facility houses dedicated production lines for PP melt-blown sediment filters, sintered CTO carbon block filters, GAC granular carbon, T33 post-carbon, UF hollow-fiber membranes, and the full RO membrane element family from 50 GPD residential to 600 GPD commercial.</p>
+        <p style="font-size:16px;line-height:1.85;color:var(--muted);">Today we proudly supply over 50 countries with NSF/ANSI 42, 53 and 58 compliant products, holding CE, SGS, FDA, China 3C and JAKIM Halal certifications for international compliance.</p>
+      </div>
+      <div>
+        <img src="../assets/workshop/line1.png" alt="Express Water Factory" style="width:100%;border-radius:6px;box-shadow:var(--shadow-md);" onerror="this.src='../assets/backgrounds/eco_hero1.jpg'" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-cream">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Why Choose Express Water</div>
+      <h2>Built for Global B2B Distributors</h2>
+    </div>
+    <div class="feat-grid">
+      <div class="feat-card"><div class="icon">🏆</div><h3>OEM/ODM Specialist</h3><p>Custom branding, tooling, packaging — MOQ from 1,000 pcs.</p></div>
+      <div class="feat-card"><div class="icon">✅</div><h3>Certified Quality</h3><p>NSF, ISO 9001:2015, CE, SGS, FDA &amp; Halal compliant.</p></div>
+      <div class="feat-card"><div class="icon">🌍</div><h3>Global Logistics</h3><p>FOB Shanghai/Ningbo · CIF · DDP — 50+ countries shipped.</p></div>
+      <div class="feat-card"><div class="icon">💬</div><h3>24/7 B2B Support</h3><p>WhatsApp + email engineering support in 5+ languages.</p></div>
+      <div class="feat-card"><div class="icon">🧪</div><h3>R&D & Testing</h3><p>In-house lab tests every batch for flow rate, pressure drop, contaminant rejection.</p></div>
+      <div class="feat-card"><div class="icon">🚚</div><h3>Container-Ready</h3><p>1×20'GP ≈ 80,000 cartridges. FOB SHA/NGB · CIF · DDP terms.</p></div>
+      <div class="feat-card"><div class="icon">📋</div><h3>Halal Certified</h3><p>JAKIM Malaysia certified for Muslim markets — full documentation.</p></div>
+      <div class="feat-card"><div class="icon">🔧</div><h3>Tooling & R&D</h3><p>Custom injection-mold tooling — refundable on volume orders.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" style="background-image:linear-gradient(rgba(58,69,54,0.92),rgba(58,69,54,0.92)),url('../assets/backgrounds/eco_hero1.jpg');background-size:cover;">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow" style="color:var(--gd-light);">Certifications & Compliance</div>
+      <h2 style="color:var(--gd-light);">Globally Recognized Quality Standards</h2>
+    </div>
+    <div class="feat-grid">
+      <div class="feat-card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.1);"><div class="icon">🏅</div><h3 style="color:var(--gd-light);">NSF/ANSI 42, 53 & 58</h3><p style="color:rgba(255,255,255,0.8);">Aesthetic, health and reverse osmosis water treatment.</p></div>
+      <div class="feat-card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.1);"><div class="icon">📜</div><h3 style="color:var(--gd-light);">ISO 9001:2015</h3><p style="color:rgba(255,255,255,0.8);">Quality management system certified.</p></div>
+      <div class="feat-card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.1);"><div class="icon">🇪🇺</div><h3 style="color:var(--gd-light);">CE Marking</h3><p style="color:rgba(255,255,255,0.8);">European import compliance.</p></div>
+      <div class="feat-card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.1);"><div class="icon">🔬</div><h3 style="color:var(--gd-light);">SGS Test Reports</h3><p style="color:rgba(255,255,255,0.8);">Heavy-metal & VOC removal validated.</p></div>
+      <div class="feat-card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.1);"><div class="icon">🇨🇳</div><h3 style="color:var(--gd-light);">China 3C</h3><p style="color:rgba(255,255,255,0.8);">Compulsory certification for dispensers.</p></div>
+      <div class="feat-card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.1);"><div class="icon">☪️</div><h3 style="color:var(--gd-light);">JAKIM Halal</h3><p style="color:rgba(255,255,255,0.8);">For Muslim-market distribution.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <div class="footer-logo">Express Water</div>
+      <p>Leading China manufacturer of water filtration solutions since 1998. Specialized in PP Melt Blown, CTO Carbon Block, GAC, and RO membranes for global bulk wholesale and OEM/ODM partners.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="index.html">Ikhaya</a>
+      <a href="about.html">Mayelana nathi</a>
+      <a href="workshop.html">Indawo yokusebenzela</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a href="products.html">PP Melt-Blown Filter</a>
+      <a href="products.html">CTO Carbon Block</a>
+      <a href="products.html">GAC Filter</a>
+      <a href="products.html">RO Membrane</a>
+      <a href="products.html">UF Membrane</a>
+      <a href="products.html">Water Dispenser</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>📍 Yuanhua Town, Haining City, Zhejiang Province, China</p>
+      <p>📞 <a href="tel:+86-19908311885">+86-19908311885</a></p>
+      <p>✉ <a href="mailto:expresswater025@gmail.com">expresswater025@gmail.com</a></p>
+      <p>📱 <a href="https://wa.me/8619908311885" target="_blank">WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      © 2026 Express Water · Eco Express Water Co., Ltd. · Amalungelo agodliwe. · NSF · ISO 9001:2015 · CE · SGS · 3C · Halal Certified
+    </div>
+  </div>
 </footer>
-<a href="https://wa.me/8619908311885" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a></body></html>
+<script src="../assets/site.js"></script>
+</body>
+</html>

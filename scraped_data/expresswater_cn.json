@@ -1,0 +1,131 @@
+{
+  "site": "expresswater.cn",
+  "scraped_at": "2026-04-30",
+  "background_images": [
+    "https://assets.zyrosite.com/A85Dpv78OotyVQVx/aeoe1-2e-r-3-4e-r-a-1-4ao-AoPDOeo2j3CarL5d.jpg"
+  ],
+  "products": [
+    {
+      "id": "carbon-block-filter",
+      "name": "Carbon Block Filter",
+      "category": "Carbon Block Filters",
+      "description": "Our carbon block filter is the product of advanced technology and years of research and development. We use a unique blend of activated carbon and sintering coconut shell, which allows us to create a filter with unparalleled performance. Our filter is able to remove a wide range of impurities, including chlorine, VOCs, and other harmful chemicals.",
+      "specs": {
+        "Technology": "Advanced Carbon Block",
+        "Material": "Activated carbon and sintering coconut shell",
+        "Removal": "Chlorine, VOCs, sediment"
+      },
+      "images": [
+        "https://assets.zyrosite.com/A85Dpv78OotyVQVx/img_5611-Yyvy7nEvNPUO3M3M.JPG"
+      ],
+      "source_url": "https://www.expresswater.cn/carbonblockfilters"
+    },
+    {
+      "id": "industrial-pp-filter",
+      "name": "Industrial PP Filter (SOE/DOE)",
+      "category": "Carbon Block Filters",
+      "description": "Industrial PP Filters come in sizes ranging from 10″ to 50″, offering flexibility for diverse applications and ensuring a perfect fit. The micro-groove, deep-groove, or smooth surface options optimize filtration performance.",
+      "specs": {
+        "Size": "10\" to 50\"",
+        "Type": "DOE or SOE",
+        "End Cap": "222 Flat and Fin end Nitrile O-Ring caps",
+        "Material": "Polypropylene"
+      },
+      "images": [],
+      "source_url": "https://www.expresswater.cn/carbonblockfilters"
+    },
+    {
+      "id": "silicon-ring-seal-udf",
+      "name": "Silicon Ring Seal Connection UDF",
+      "category": "Flat Cap Filter Series",
+      "description": "Silicon Ring Seal Connection UDF filter is easy to install and easy to do maintenance. Both sides end cap can be chosen for different colors.",
+      "specs": {
+        "Connection": "Silicon Ring Seal",
+        "Maintenance": "Easy"
+      },
+      "images": [
+        "https://assets.zyrosite.com/A85Dpv78OotyVQVx/a13apsudf-mp8MqXBP8ptD7oab.jpg"
+      ],
+      "source_url": "https://www.expresswater.cn/flat-cap-filter-series"
+    },
+    {
+      "id": "big-blue-udf-filter",
+      "name": "Big Blue UDF Filter",
+      "category": "Flat Cap Filter Series",
+      "description": "Big Blue UDF Filter has FLAT END CAP available only and Outer Shell can be customized.",
+      "specs": {
+        "Connection": "Flat End Cap",
+        "Customization": "Outer Shell"
+      },
+      "images": [],
+      "source_url": "https://www.expresswater.cn/flat-cap-filter-series"
+    },
+    {
+      "id": "t33-coconut-shell-filter",
+      "name": "T33 coconut shell activated carbon filter",
+      "category": "Flat Cap Filter Series",
+      "description": "High-quality filtration that effectively removes impurities like chlorine, VOCs, and other harmful contaminants. Coconut shell carbon filter provides better taste and odor.",
+      "specs": {
+        "Material": "Coconut shell activated carbon",
+        "Benefits": "Improved taste and odor"
+      },
+      "images": [],
+      "source_url": "https://www.expresswater.cn/flat-cap-filter-series"
+    },
+    {
+      "id": "flat-cap-pco-filter",
+      "name": "FLAT CAP PCO FILTER CARBON BLOCK",
+      "category": "Flat Cap Filter Series",
+      "description": "Advanced carbon block technology that removes impurities like chlorine and sediment. A unique photocatalytic oxidation process that eliminates harmful bacteria and viruses.",
+      "specs": {
+        "Process": "Photocatalytic oxidation",
+        "Removal": "Bacteria, viruses, chlorine"
+      },
+      "images": [],
+      "source_url": "https://www.expresswater.cn/flat-cap-filter-series"
+    },
+    {
+      "id": "inline-water-filter",
+      "name": "Inline Water Filter For Home",
+      "category": "Inline filter",
+      "description": "Our filter uses a combination of activated carbon and sediment filter to remove chlorine, lead, and other impurities from your water. Simply attach the filter to your water line.",
+      "specs": {
+        "Lifespan": "Up to 6 months",
+        "Installation": "Direct inline"
+      },
+      "images": [
+        "https://assets.zyrosite.com/A85Dpv78OotyVQVx/wechatimg25674-m7V2npvka6TLValG.jpeg"
+      ],
+      "source_url": "https://www.expresswater.cn/inline-filter-series"
+    },
+    {
+      "id": "mineralized-small-t33",
+      "name": "Mineralized Small T33 Inline Water Filter",
+      "category": "Inline filter",
+      "description": "Improves taste and odor by removing chlorine and other contaminants. Adds beneficial minerals to water for improved health and hydration.",
+      "specs": {
+        "Function": "Mineralization",
+        "Benefits": "Improved taste, health"
+      },
+      "images": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=723,fit=crop/A85Dpv78OotyVQVx/mineralized-small-t33-inline-water-filter-AQEX6g58g7ikZgwl.png"
+      ],
+      "source_url": "https://www.expresswater.cn/inline-filter-series"
+    },
+    {
+      "id": "wall-mounted-dispenser",
+      "name": "WALL MOUNTED PIPELINE WATER DISPENSER",
+      "category": "Water Dispenser",
+      "description": "Wall-mounted pipeline water dispenser has 5 stages of water volume 150ML to 850ML, and 5 levels of water temperature 25C to 100C. Hot water in 3 seconds.",
+      "specs": {
+        "Stages": "5 stages volume, 5 levels temp",
+        "Heating": "3 seconds instant heat",
+        "Colors": "Golden, White, Dark Green, Black"
+      },
+      "images": [
+        "https://assets.zyrosite.com/A85Dpv78OotyVQVx/aeoe1-2e-r-3-4e-r-a-1-4ao-AoPDOeo2j3CarL5d.jpg"
+      ],
+      "source_url": "https://www.expresswater.cn/water-dispenser"
+    }
+  ]
+}

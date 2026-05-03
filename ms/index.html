@@ -1,132 +1,406 @@
-<!DOCTYPE html><html lang="ms" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Express Water - Pengeluar Penapis Air Profesional</title><meta name="description" content="Leading China manufacturer of water filtration solutions since 1998. NSF/ISO certified."><style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:#374151;background:#f9fafb}body.rtl{direction:rtl;text-align:right}a{color:#0ea5e9;text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%;height:auto;display:block}.top-bar{background:linear-gradient(135deg,#1e40af,#0ea5e9);color:#fff;padding:.5rem 1rem;text-align:center;font-size:.85rem}header{background:#fff;border-bottom:2px solid #0ea5e9;box-shadow:0 2px 8px rgba(0,0,0,.08);position:sticky;top:0;z-index:100}.nav{max-width:1400px;margin:0 auto;padding:1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}.logo{display:flex;align-items:center;gap:.75rem;text-decoration:none}.logo img{width:55px;height:55px;border-radius:8px;object-fit:cover}.logo-text{font-size:1.5rem;font-weight:700;background:linear-gradient(135deg,#1e40af,#0ea5e9);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.menu{display:flex;gap:1.5rem;flex-wrap:wrap}.menu a{color:#374151;font-weight:600;padding:.5rem 0;border-bottom:2px solid transparent;text-decoration:none}.menu a:hover{color:#0ea5e9;border-bottom-color:#0ea5e9}.right-nav{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap}.lang-sel{padding:.5rem .75rem;border:2px solid #0ea5e9;border-radius:6px;background:#fff;cursor:pointer;font-weight:600;color:#0ea5e9;font-size:.9rem;max-width:160px}.wa-btn{background:#25D366;color:#fff;padding:.6rem 1rem;border-radius:6px;font-weight:600;display:inline-flex;align-items:center;gap:.4rem;text-decoration:none;font-size:.9rem}.wa-btn:hover{transform:scale(1.05);text-decoration:none;color:#fff}.hero{background:linear-gradient(135deg,#1e40af,#0ea5e9);color:#fff;padding:4rem 1rem;text-align:center}.hero h1{font-size:2.8rem;margin-bottom:1rem;text-shadow:0 2px 4px rgba(0,0,0,.2)}.hero p{font-size:1.2rem;max-width:800px;margin:0 auto 2rem;opacity:.95}.hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}.btn-primary{background:#fff;color:#1e40af;padding:.9rem 2rem;border-radius:6px;font-weight:700;font-size:1rem;text-decoration:none;display:inline-block}.btn-primary:hover{transform:translateY(-2px);text-decoration:none;color:#1e40af}.btn-secondary{background:transparent;color:#fff;padding:.9rem 2rem;border-radius:6px;font-weight:700;font-size:1rem;border:2px solid #fff;text-decoration:none;display:inline-block}.btn-secondary:hover{background:#fff;color:#1e40af;text-decoration:none}.container{max-width:1400px;margin:0 auto;padding:3rem 1rem}.section-title{font-size:2.2rem;color:#1e40af;text-align:center;margin-bottom:1rem;font-weight:700}.section-desc{color:#6b7280;text-align:center;font-size:1.1rem;max-width:800px;margin:0 auto 3rem;line-height:1.7}.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1.5rem}.product-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.08);transition:all .3s;text-decoration:none;color:inherit;display:block}.product-card:hover{transform:translateY(-6px);box-shadow:0 8px 24px rgba(0,0,0,.15);text-decoration:none;color:inherit}.product-img{height:220px;overflow:hidden;background:#f3f4f6;position:relative}.product-img img{width:100%;height:100%;object-fit:cover}.product-cat{position:absolute;top:1rem;left:1rem;background:#0ea5e9;color:#fff;padding:.4rem .8rem;border-radius:5px;font-size:.8rem;font-weight:600}.product-body{padding:1.25rem}.product-title{color:#1e40af;font-size:1.15rem;margin-bottom:.5rem;font-weight:700;line-height:1.3;min-height:2.6rem}.product-desc{color:#6b7280;font-size:.95rem;line-height:1.5;margin-bottom:1rem;min-height:4.5rem}.product-link{color:#0ea5e9;font-weight:700;display:inline-flex;align-items:center;gap:.4rem}.about-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;margin-top:3rem}.stat-box{background:#fff;padding:2rem;border-radius:12px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.08)}.stat-num{font-size:3rem;font-weight:700;color:#0ea5e9;line-height:1;margin-bottom:.5rem}.stat-label{color:#6b7280;font-weight:600}.feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;margin:2rem 0}.feature-card{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08);border-top:4px solid #0ea5e9}.feature-card h3{color:#1e40af;font-size:1.2rem;margin-bottom:.75rem}.feature-card p{color:#6b7280;font-size:.95rem;line-height:1.6}.content-card{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin-bottom:1.5rem}.content-card h2{color:#1e40af;font-size:1.7rem;margin-bottom:1rem}.content-card h3{color:#1e40af;font-size:1.3rem;margin:1.5rem 0 .75rem}.content-card p{color:#4b5563;line-height:1.8;margin-bottom:1rem;font-size:1.05rem}.content-card ul{margin:1rem 0;padding-left:1.5rem}.content-card li{color:#4b5563;margin-bottom:.5rem;line-height:1.7}.faq-item{background:#fff;padding:1.5rem 2rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin-bottom:1rem;border-left:4px solid #0ea5e9}.faq-item h3{color:#1e40af;font-size:1.15rem;margin-bottom:.75rem}.faq-item p{color:#4b5563;line-height:1.7}.product-detail{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-bottom:3rem}.product-detail-img{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.08)}.product-detail-img img{width:100%;height:auto}.product-detail-info h1{color:#1e40af;font-size:2.2rem;margin-bottom:1rem}.product-detail-info .product-cat-tag{display:inline-block;background:#0ea5e9;color:#fff;padding:.4rem 1rem;border-radius:5px;font-size:.85rem;font-weight:600;margin-bottom:1rem}.product-detail-info p{color:#4b5563;line-height:1.8;margin-bottom:1.5rem;font-size:1.05rem}.specs-table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;margin:1rem 0}.specs-table tr{border-bottom:1px solid #e5e7eb}.specs-table tr:last-child{border-bottom:none}.specs-table td{padding:.85rem 1rem;font-size:.95rem}.specs-table td:first-child{font-weight:600;color:#1e40af;background:#f9fafb;width:40%}.specs-table td:last-child{color:#4b5563}footer{background:#1f2937;color:#fff;padding:3rem 1rem 2rem;margin-top:4rem}.footer-grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem}.footer-section h3{margin-bottom:1rem;font-size:1.15rem;color:#fff}.footer-section p,.footer-section a{color:#9ca3af;line-height:1.8;margin-bottom:.4rem;font-size:.95rem}.footer-section a:hover{color:#fff}.footer-bottom{max-width:1400px;margin:2rem auto 0;padding-top:1.5rem;border-top:1px solid #374151;text-align:center;color:#9ca3af;font-size:.9rem}.wa-float{position:fixed;bottom:25px;right:25px;background:#25D366;color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2rem;text-decoration:none;box-shadow:0 4px 16px rgba(37,211,102,.5);z-index:999;transition:transform .3s}.wa-float:hover{transform:scale(1.1);color:#fff}body.rtl .wa-float{right:auto;left:25px}@media(max-width:768px){.hero h1{font-size:2rem}.hero p{font-size:1rem}.section-title{font-size:1.7rem}.product-detail{grid-template-columns:1fr}.menu{gap:1rem}.menu a{font-size:.9rem}.logo-text{font-size:1.2rem}}</style></head><body class=""><div class="top-bar">🌐 NSF & ISO 9001 Certified | Serving 50+ Countries Worldwide | OEM/ODM Available</div>
-<header><div class="nav">
-<a href="index.html" class="logo"><img src="../images/logo.jpg" alt="Express Water"><span class="logo-text">Express Water</span></a>
-<nav class="menu">
-<a href="index.html">Laman Utama</a>
-<a href="products.html">Produk</a>
-<a href="about.html">Tentang Kami</a>
-<a href="workshop.html">Kilang</a>
-<a href="faq.html">Soalan</a>
-</nav>
-<div class="right-nav">
-<select class="lang-sel" onchange="if(this.value)window.location.href=this.value"><option value="">🌐</option><option value="../en/index.html">🇬🇧 English</option><option value="../es/index.html">🇪🇸 Español</option><option value="../fr/index.html">🇫🇷 Français</option><option value="../de/index.html">🇩🇪 Deutsch</option><option value="../pt/index.html">🇵🇹 Português</option><option value="../ru/index.html">🇷🇺 Русский</option><option value="../ar/index.html">🇸🇦 العربية</option><option value="../ja/index.html">🇯🇵 日本語</option><option value="../ko/index.html">🇰🇷 한국어</option><option value="../it/index.html">🇮🇹 Italiano</option><option value="../tr/index.html">🇹🇷 Türkçe</option><option value="../hi/index.html">🇮🇳 हिन्दी</option><option value="../bn/index.html">🇧🇩 বাংলা</option><option value="../id/index.html">🇮🇩 Bahasa Indonesia</option><option value="../vi/index.html">🇻🇳 Tiếng Việt</option><option value="../th/index.html">🇹🇭 ไทย</option><option value="../pl/index.html">🇵🇱 Polski</option><option value="../nl/index.html">🇳🇱 Nederlands</option><option value="../fa/index.html">🇮🇷 فارسی</option><option value="../ur/index.html">🇵🇰 اردو</option><option value="../ms/index.html" selected>🇲🇾 Bahasa Melayu</option><option value="../tl/index.html">🇵🇭 Tagalog</option><option value="../he/index.html">🇮🇱 עברית</option><option value="../el/index.html">🇬🇷 Ελληνικά</option><option value="../cs/index.html">🇨🇿 Čeština</option><option value="../hu/index.html">🇭🇺 Magyar</option><option value="../ro/index.html">🇷🇴 Română</option><option value="../sv/index.html">🇸🇪 Svenska</option><option value="../da/index.html">🇩🇰 Dansk</option><option value="../fi/index.html">🇫🇮 Suomi</option><option value="../no/index.html">🇳🇴 Norsk</option><option value="../uk/index.html">🇺🇦 Українська</option><option value="../bg/index.html">🇧🇬 Български</option><option value="../hr/index.html">🇭🇷 Hrvatski</option><option value="../sr/index.html">🇷🇸 Српски</option><option value="../sk/index.html">🇸🇰 Slovenčina</option><option value="../sl/index.html">🇸🇮 Slovenščina</option><option value="../lt/index.html">🇱🇹 Lietuvių</option><option value="../et/index.html">🇪🇪 Eesti</option><option value="../lv/index.html">🇱🇻 Latviešu</option><option value="../sw/index.html">🇰🇪 Kiswahili</option><option value="../ha/index.html">🇳🇬 Hausa</option><option value="../zu/index.html">🇿🇦 isiZulu</option><option value="../ta/index.html">🇮🇳 தமிழ்</option><option value="../kk/index.html">🇰🇿 Қазақша</option></select>
-<a href="https://wa.me/8619908311885" class="wa-btn" target="_blank" rel="noopener">📱 WhatsApp</a>
-</div>
-</div></header>
-<div class="hero">
-<h1>💧 Express Water</h1>
-<p>Pengeluar Penapis Air Profesional<br>Sejak 1998 | Diperakui NSF | Berkhidmat ke 50+ Negara</p>
-<div class="hero-btns">
-<a href="products.html" class="btn-primary">Lihat Semua Produk</a>
-<a href="https://wa.me/8619908311885" class="btn-secondary" target="_blank" rel="noopener">Hubungi Kami</a>
-</div>
+<!DOCTYPE html>
+<html lang="ms" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Express Water | Penyelesaian Penulenan Air Industri - OEM Manufacturer Since 1998</title>
+  <meta name="description" content="Pembekal borong global untuk penapis PP, CTO, GAC dan membran RO. Sejak 1998, menyediakan perkhidmatan OEM/ODM." />
+  <meta name="keywords" content="water filter manufacturer, NSF certified, RO membrane, OEM water purifier, PP melt-blown filter, CTO carbon block, GAC filter, UF membrane, T33 post-carbon, reverse osmosis system, industrial filtration, halal water filter, China water dispenser factory, ISO 9001 water filter, wholesale water purifier, Express Water" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Express Water" />
+
+  <!-- Geo tags -->
+  <meta name="geo.region" content="CN-ZJ" />
+  <meta name="geo.placename" content="Haining, Zhejiang" />
+  <meta name="geo.position" content="30.4398;120.6974" />
+  <meta name="ICBM" content="30.4398, 120.6974" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Express Water | Penyelesaian Penulenan Air Industri - OEM Manufacturer Since 1998" />
+  <meta property="og:description" content="Pembekal borong global untuk penapis PP, CTO, GAC dan membran RO. Sejak 1998, menyediakan perkhidmatan OEM/ODM." />
+  <meta property="og:url" content="https://expresswater.cn/ms/index.html" />
+  <meta property="og:image" content="https://expresswater.cn/assets/backgrounds/eco_hero1.jpg" />
+  <meta property="og:locale" content="ms" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Express Water | Penyelesaian Penulenan Air Industri - OEM Manufacturer Since 1998" />
+  <meta name="twitter:description" content="Pembekal borong global untuk penapis PP, CTO, GAC dan membran RO. Sejak 1998, menyediakan perkhidmatan OEM/ODM." />
+
+  <link rel="canonical" href="https://expresswater.cn/ms/index.html" />
+  <link rel="alternate" hreflang="en" href="https://expresswater.cn/en/index.html" />
+  <link rel="alternate" hreflang="es" href="https://expresswater.cn/es/index.html" />
+  <link rel="alternate" hreflang="fr" href="https://expresswater.cn/fr/index.html" />
+  <link rel="alternate" hreflang="de" href="https://expresswater.cn/de/index.html" />
+  <link rel="alternate" hreflang="pt" href="https://expresswater.cn/pt/index.html" />
+  <link rel="alternate" hreflang="ru" href="https://expresswater.cn/ru/index.html" />
+  <link rel="alternate" hreflang="ar" href="https://expresswater.cn/ar/index.html" />
+  <link rel="alternate" hreflang="ja" href="https://expresswater.cn/ja/index.html" />
+  <link rel="alternate" hreflang="ko" href="https://expresswater.cn/ko/index.html" />
+  <link rel="alternate" hreflang="it" href="https://expresswater.cn/it/index.html" />
+  <link rel="alternate" hreflang="tr" href="https://expresswater.cn/tr/index.html" />
+  <link rel="alternate" hreflang="hi" href="https://expresswater.cn/hi/index.html" />
+  <link rel="alternate" hreflang="bn" href="https://expresswater.cn/bn/index.html" />
+  <link rel="alternate" hreflang="id" href="https://expresswater.cn/id/index.html" />
+  <link rel="alternate" hreflang="vi" href="https://expresswater.cn/vi/index.html" />
+  <link rel="alternate" hreflang="th" href="https://expresswater.cn/th/index.html" />
+  <link rel="alternate" hreflang="pl" href="https://expresswater.cn/pl/index.html" />
+  <link rel="alternate" hreflang="nl" href="https://expresswater.cn/nl/index.html" />
+  <link rel="alternate" hreflang="fa" href="https://expresswater.cn/fa/index.html" />
+  <link rel="alternate" hreflang="ur" href="https://expresswater.cn/ur/index.html" />
+  <link rel="alternate" hreflang="ms" href="https://expresswater.cn/ms/index.html" />
+  <link rel="alternate" hreflang="tl" href="https://expresswater.cn/tl/index.html" />
+  <link rel="alternate" hreflang="he" href="https://expresswater.cn/he/index.html" />
+  <link rel="alternate" hreflang="el" href="https://expresswater.cn/el/index.html" />
+  <link rel="alternate" hreflang="cs" href="https://expresswater.cn/cs/index.html" />
+  <link rel="alternate" hreflang="hu" href="https://expresswater.cn/hu/index.html" />
+  <link rel="alternate" hreflang="ro" href="https://expresswater.cn/ro/index.html" />
+  <link rel="alternate" hreflang="sv" href="https://expresswater.cn/sv/index.html" />
+  <link rel="alternate" hreflang="da" href="https://expresswater.cn/da/index.html" />
+  <link rel="alternate" hreflang="fi" href="https://expresswater.cn/fi/index.html" />
+  <link rel="alternate" hreflang="no" href="https://expresswater.cn/no/index.html" />
+  <link rel="alternate" hreflang="uk" href="https://expresswater.cn/uk/index.html" />
+  <link rel="alternate" hreflang="bg" href="https://expresswater.cn/bg/index.html" />
+  <link rel="alternate" hreflang="hr" href="https://expresswater.cn/hr/index.html" />
+  <link rel="alternate" hreflang="sr" href="https://expresswater.cn/sr/index.html" />
+  <link rel="alternate" hreflang="sk" href="https://expresswater.cn/sk/index.html" />
+  <link rel="alternate" hreflang="sl" href="https://expresswater.cn/sl/index.html" />
+  <link rel="alternate" hreflang="lt" href="https://expresswater.cn/lt/index.html" />
+  <link rel="alternate" hreflang="et" href="https://expresswater.cn/et/index.html" />
+  <link rel="alternate" hreflang="lv" href="https://expresswater.cn/lv/index.html" />
+  <link rel="alternate" hreflang="sw" href="https://expresswater.cn/sw/index.html" />
+  <link rel="alternate" hreflang="ha" href="https://expresswater.cn/ha/index.html" />
+  <link rel="alternate" hreflang="zu" href="https://expresswater.cn/zu/index.html" />
+  <link rel="alternate" hreflang="ta" href="https://expresswater.cn/ta/index.html" />
+  <link rel="alternate" hreflang="kk" href="https://expresswater.cn/kk/index.html" />
+  <link rel="alternate" hreflang="x-default" href="https://expresswater.cn/en/index.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../assets/styles.css" />
+
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "IndustrialBusiness",
+  "name": "Express Water",
+  "alternateName": "Eco Express Water",
+  "url": "https://expresswater.cn/ms/index.html",
+  "logo": "https://expresswater.cn/assets/logo.png",
+  "image": "https://expresswater.cn/assets/backgrounds/eco_hero1.jpg",
+  "description": "Pembekal borong global untuk penapis PP, CTO, GAC dan membran RO. Sejak 1998, menyediakan perkhidmatan OEM/ODM.",
+  "telephone": "+86-19908311885",
+  "email": "expresswater025@gmail.com",
+  "foundingDate": "1998",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Yuanhua Town",
+    "addressLocality": "Haining",
+    "addressRegion": "Zhejiang",
+    "addressCountry": "CN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 30.4398,
+    "longitude": 120.6974
+  },
+  "areaServed": ["United States","Germany","France","Russia","Brazil","Mexico","UK","Italy","Spain","Japan","Korea","Saudi Arabia","UAE","Egypt","India","Indonesia","Malaysia","Vietnam","Thailand","Turkey"],
+  "knowsAbout": ["NSF certified water filter","RO Membrane manufacturer","OEM water purifier","Industrial filtration","PP melt-blown filter","CTO carbon block","GAC filter","UF membrane","T33 post-carbon","reverse osmosis","Halal water filter","ISO 9001:2015","SGS test report","CE certification"]
+}</script>
+</head>
+<body class="ltr">
+
+<div class="topbar">
+  <div class="container topbar-row">
+    <div class="topbar-left">📞 <a href="tel:+86-19908311885">+86-19908311885</a> &nbsp;·&nbsp; ✉ <a href="mailto:expresswater025@gmail.com">expresswater025@gmail.com</a></div>
+    <div class="topbar-right">Borong Global · Pakar OEM/ODM · Sejak 1998</div>
+  </div>
 </div>
 
-<div class="container">
-<h2 class="section-title">Produk Premium Kami</h2>
-<p class="section-desc">Rangkaian lengkap produk penapisan air untuk aplikasi kediaman, komersial dan perindustrian.</p>
-<div class="products-grid"><a href="product-alkaline-purifier.html" class="product-card">
-<div class="product-img"><img src="../images/products/alkaline-purifier.jpg" alt="Alkaline Water Purifier System" style="width:100%;height:100%;object-fit:cover;">
-<div style="font-size:1.1rem;font-weight:bold;color:#1e40af;text-align:center;">Express Water</div>
-<div style="font-size:0.9rem;color:#6b7280;margin-top:0.5rem;text-align:center;">Professional Filter</div>
-</div><div class="product-cat">Water Purifier</div></div>
-<div class="product-body">
-<h3 class="product-title">Alkaline Water Purifier System</h3>
-<p class="product-desc">Advanced alkaline water purification system with multi-stage filtration for healthy mineralized drinking water.</p>
-<span class="product-link">Lihat Butiran →</span>
-</div></a><a href="product-antibacterial-mineralization.html" class="product-card">
-<div class="product-img"><img src="../images/products/antibacterial-mineralization.jpg" alt="Antibacterial Mineralization Filter" style="width:100%;height:100%;object-fit:cover;">
-<div style="font-size:1.1rem;font-weight:bold;color:#1e40af;text-align:center;">Express Water</div>
-<div style="font-size:0.9rem;color:#6b7280;margin-top:0.5rem;text-align:center;">Professional Filter</div>
-</div><div class="product-cat">Filter Cartridge</div></div>
-<div class="product-body">
-<h3 class="product-title">Antibacterial Mineralization Filter</h3>
-<p class="product-desc">Advanced filter cartridge with antibacterial silver-ion technology and mineral enrichment for healthy water.</p>
-<span class="product-link">Lihat Butiran →</span>
-</div></a><a href="product-big-blue-3stage.html" class="product-card">
-<div class="product-img"><img src="../images/products/big-blue-3stage.jpg" alt="30-inch Three Stage Big Blue Filter" style="width:100%;height:100%;object-fit:cover;">
-<div style="font-size:1.1rem;font-weight:bold;color:#1e40af;text-align:center;">Express Water</div>
-<div style="font-size:0.9rem;color:#6b7280;margin-top:0.5rem;text-align:center;">Professional Filter</div>
-</div><div class="product-cat">Whole House</div></div>
-<div class="product-body">
-<h3 class="product-title">30-inch Three Stage Big Blue Filter</h3>
-<p class="product-desc">Heavy-duty 30-inch Big Blue triple-stage water filtration system for whole-house water treatment.</p>
-<span class="product-link">Lihat Butiran →</span>
-</div></a><a href="product-carbon-block.html" class="product-card">
-<div class="product-img"><img src="../images/products/carbon-block.jpg" alt="CTO Coconut Shell Carbon Block Filter" style="width:100%;height:100%;object-fit:cover;">
-<div style="font-size:1.1rem;font-weight:bold;color:#1e40af;text-align:center;">Express Water</div>
-<div style="font-size:0.9rem;color:#6b7280;margin-top:0.5rem;text-align:center;">Professional Filter</div>
-</div><div class="product-cat">Filter Cartridge</div></div>
-<div class="product-body">
-<h3 class="product-title">CTO Coconut Shell Carbon Block Filter</h3>
-<p class="product-desc">Premium CTO carbon block cartridge made from coconut shell activated carbon for superior chlorine and chemical removal.</p>
-<span class="product-link">Lihat Butiran →</span>
-</div></a><a href="product-pp-spun.html" class="product-card">
-<div class="product-img"><img src="../images/products/pp-spun.jpg" alt="PP Melt Blown Sediment Filter" style="width:100%;height:100%;object-fit:cover;">
-<div style="font-size:1.1rem;font-weight:bold;color:#1e40af;text-align:center;">Express Water</div>
-<div style="font-size:0.9rem;color:#6b7280;margin-top:0.5rem;text-align:center;">Professional Filter</div>
-</div><div class="product-cat">Filter Cartridge</div></div>
-<div class="product-body">
-<h3 class="product-title">PP Melt Blown Sediment Filter</h3>
-<p class="product-desc">High-efficiency polypropylene melt-blown sediment filter for removing particles, rust, sand and turbidity.</p>
-<span class="product-link">Lihat Butiran →</span>
-</div></a><a href="product-ro-membrane.html" class="product-card">
-<div class="product-img"><img src="../images/products/ro-membrane.jpg" alt="RO Membrane Element" style="width:100%;height:100%;object-fit:cover;">
-<div style="font-size:1.1rem;font-weight:bold;color:#1e40af;text-align:center;">Express Water</div>
-<div style="font-size:0.9rem;color:#6b7280;margin-top:0.5rem;text-align:center;">Professional Filter</div>
-</div><div class="product-cat">RO Membrane</div></div>
-<div class="product-body">
-<h3 class="product-title">RO Membrane Element</h3>
-<p class="product-desc">High-rejection reverse osmosis membrane element for residential and commercial water purification systems.</p>
-<span class="product-link">Lihat Butiran →</span>
-</div></a></div>
-<div style="text-align:center;margin-top:3rem"><a href="products.html" class="btn-primary" style="background:#0ea5e9;color:#fff">Semua Produk →</a></div>
+<header class="header">
+  <div class="container header-row">
+    <a href="index.html" class="brand">
+      <img src="../assets/logo.png" alt="Express Water" class="logo-img" onerror="this.style.display='none'" />
+      <span class="brand-name">Express Water</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link active">Laman Utama</a>
+      <a href="about.html" class="nav-link">Tentang Kami</a>
+      <a href="products.html" class="nav-link">Produk</a>
+      <a href="workshop.html" class="nav-link">Bengkel</a>
+      <a href="faq.html" class="nav-link">FAQ</a>
+      <a href="contact.html" class="nav-link">Hubungi</a>
+      
+    </nav>
+    <div class="header-actions">
+      
+<div class="lang-switcher">
+  <button class="lang-btn" onclick="toggleLangMenu()">🌐 <span>Bahasa Melayu</span> ▾</button>
+  <div class="lang-menu" id="langMenu">
+    <a href="../en/index.html" class="lang-option " lang="en">English</a>
+    <a href="../es/index.html" class="lang-option " lang="es">Español</a>
+    <a href="../fr/index.html" class="lang-option " lang="fr">Français</a>
+    <a href="../de/index.html" class="lang-option " lang="de">Deutsch</a>
+    <a href="../pt/index.html" class="lang-option " lang="pt">Português</a>
+    <a href="../ru/index.html" class="lang-option " lang="ru">Русский</a>
+    <a href="../ar/index.html" class="lang-option " lang="ar">العربية</a>
+    <a href="../ja/index.html" class="lang-option " lang="ja">日本語</a>
+    <a href="../ko/index.html" class="lang-option " lang="ko">한국어</a>
+    <a href="../it/index.html" class="lang-option " lang="it">Italiano</a>
+    <a href="../tr/index.html" class="lang-option " lang="tr">Türkçe</a>
+    <a href="../hi/index.html" class="lang-option " lang="hi">हिन्दी</a>
+    <a href="../bn/index.html" class="lang-option " lang="bn">বাংলা</a>
+    <a href="../id/index.html" class="lang-option " lang="id">Bahasa Indonesia</a>
+    <a href="../vi/index.html" class="lang-option " lang="vi">Tiếng Việt</a>
+    <a href="../th/index.html" class="lang-option " lang="th">ไทย</a>
+    <a href="../pl/index.html" class="lang-option " lang="pl">Polski</a>
+    <a href="../nl/index.html" class="lang-option " lang="nl">Nederlands</a>
+    <a href="../fa/index.html" class="lang-option " lang="fa">فارسی</a>
+    <a href="../ur/index.html" class="lang-option " lang="ur">اردو</a>
+    <a href="../ms/index.html" class="lang-option active" lang="ms">Bahasa Melayu</a>
+    <a href="../tl/index.html" class="lang-option " lang="tl">Tagalog</a>
+    <a href="../he/index.html" class="lang-option " lang="he">עברית</a>
+    <a href="../el/index.html" class="lang-option " lang="el">Ελληνικά</a>
+    <a href="../cs/index.html" class="lang-option " lang="cs">Čeština</a>
+    <a href="../hu/index.html" class="lang-option " lang="hu">Magyar</a>
+    <a href="../ro/index.html" class="lang-option " lang="ro">Română</a>
+    <a href="../sv/index.html" class="lang-option " lang="sv">Svenska</a>
+    <a href="../da/index.html" class="lang-option " lang="da">Dansk</a>
+    <a href="../fi/index.html" class="lang-option " lang="fi">Suomi</a>
+    <a href="../no/index.html" class="lang-option " lang="no">Norsk</a>
+    <a href="../uk/index.html" class="lang-option " lang="uk">Українська</a>
+    <a href="../bg/index.html" class="lang-option " lang="bg">Български</a>
+    <a href="../hr/index.html" class="lang-option " lang="hr">Hrvatski</a>
+    <a href="../sr/index.html" class="lang-option " lang="sr">Српски</a>
+    <a href="../sk/index.html" class="lang-option " lang="sk">Slovenčina</a>
+    <a href="../sl/index.html" class="lang-option " lang="sl">Slovenščina</a>
+    <a href="../lt/index.html" class="lang-option " lang="lt">Lietuvių</a>
+    <a href="../et/index.html" class="lang-option " lang="et">Eesti</a>
+    <a href="../lv/index.html" class="lang-option " lang="lv">Latviešu</a>
+    <a href="../sw/index.html" class="lang-option " lang="sw">Kiswahili</a>
+    <a href="../ha/index.html" class="lang-option " lang="ha">Hausa</a>
+    <a href="../zu/index.html" class="lang-option " lang="zu">isiZulu</a>
+    <a href="../ta/index.html" class="lang-option " lang="ta">தமிழ்</a>
+    <a href="../kk/index.html" class="lang-option " lang="kk">Қазақша</a>
+  </div>
 </div>
 
-<div class="container">
-<h2 class="section-title">Mengapa Pilih Kami</h2>
-<div class="feature-grid">
-<div class="feature-card"><h3>🏭 25+ Tahun Pengalaman</h3><p>Ditubuhkan pada 1998 dengan kepakaran industri mendalam</p></div>
-<div class="feature-card"><h3>✅ Pensijilan Penuh</h3><p>NSF, ISO 9001, CE, SGS, FDA diperakui</p></div>
-<div class="feature-card"><h3>🌍 Capaian Global</h3><p>Mengeksport ke lebih 50 negara</p></div>
-<div class="feature-card"><h3>🔧 Perkhidmatan OEM/ODM</h3><p>Penyelesaian tersuai untuk jenama anda</p></div>
-</div>
-<div class="about-grid">
-<div class="stat-box"><div class="stat-num">1998</div><div class="stat-label">Founded</div></div>
-<div class="stat-box"><div class="stat-num">50+</div><div class="stat-label">Countries</div></div>
-<div class="stat-box"><div class="stat-num">20K m²</div><div class="stat-label">Factory</div></div>
-<div class="stat-box"><div class="stat-num">10M+</div><div class="stat-label">Annual Capacity</div></div>
-</div>
-</div>
+      <a href="https://wa.me/8619908311885" target="_blank" rel="noopener" class="cta-wa">📱 WhatsApp</a>
+      <button class="mobile-menu-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+    </div>
+  </div>
+</header>
 
-<footer><div class="footer-grid">
-<div class="footer-section">
-<h3>Express Water</h3>
-<p>Pengeluar terkemuka China untuk penyelesaian penapisan air sejak 1998.</p>
-</div>
-<div class="footer-section">
-<h3>Pautan Pantas</h3>
-<p><a href="index.html">Laman Utama</a></p>
-<p><a href="products.html">Produk</a></p>
-<p><a href="about.html">Tentang Kami</a></p>
-<p><a href="workshop.html">Kilang</a></p>
-<p><a href="faq.html">Soalan</a></p>
-</div>
-<div class="footer-section">
-<h3>Maklumat Hubungan</h3>
-<p>📍 Pekan Yuanhua, Bandar Haining, Wilayah Zhejiang, China</p>
-<p>📞 +86-19908311885</p>
-<p>✉️ <a href="mailto:expresswater025@gmail.com">expresswater025@gmail.com</a></p>
-<p>📱 <a href="https://wa.me/8619908311885" target="_blank" rel="noopener">WhatsApp</a></p>
-</div>
-<div class="footer-section">
-<h3>Pensijilan</h3>
-<p>✓ NSF/ANSI 42, 53 & 58</p>
-<p>✓ ISO 9001:2015</p>
-<p>✓ CE, SGS, FDA</p>
-<p>✓ Halal Certified</p>
-</div>
-</div>
-<div class="footer-bottom"><p>© 2024 Express Water. Semua Hak Terpelihara.</p></div>
+<section class="hero">
+  <div class="container hero-content">
+    <div class="hero-eyebrow">✦ Leading China Water Filter Manufacturer | NSF &amp; ISO Certified Factory</div>
+    <h1>Penyelesaian Penulenan Air Industri</h1>
+    <p class="hero-desc">Pembekal borong global untuk penapis PP, CTO, GAC dan membran RO. Sejak 1998, menyediakan perkhidmatan OEM/ODM.</p>
+    <div class="hero-actions">
+      <a href="products.html" class="btn btn-gold">View Product Catalog</a>
+      <a href="https://wa.me/8619908311885" target="_blank" class="btn btn-outline">📱 WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div><div class="stat-num">27+</div><div class="stat-label">Years Experience</div></div>
+      <div><div class="stat-num">200+</div><div class="stat-label">Product SKUs</div></div>
+      <div><div class="stat-num">50+</div><div class="stat-label">Countries Served</div></div>
+      <div><div class="stat-num">20,000</div><div class="stat-label">m² Factory Area</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-cream">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">About Express Water</div>
+      <h2>OEM/ODM Water Filtration Excellence</h2>
+      <p>Founded in 1998, Express Water has grown into one of China&#x27;s most trusted water purification manufacturers, exporting to 50+ countries with full NSF, ISO 9001, CE and SGS certification.</p>
+    </div>
+    <div class="feat-grid">
+      <div class="feat-card"><div class="icon">🏆</div><h3>OEM/ODM Specialist</h3><p>Custom branding, tooling, packaging — MOQ from 1,000 pcs.</p></div>
+      <div class="feat-card"><div class="icon">✅</div><h3>Certified Quality</h3><p>NSF, ISO 9001:2015, CE, SGS, FDA &amp; Halal compliant.</p></div>
+      <div class="feat-card"><div class="icon">🌍</div><h3>Global Logistics</h3><p>FOB Shanghai/Ningbo · CIF · DDP — 50+ countries shipped.</p></div>
+      <div class="feat-card"><div class="icon">💬</div><h3>24/7 B2B Support</h3><p>WhatsApp + email engineering support in 5+ languages.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-light">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Premium Product Line</div>
+      <h2>Industrial Water Filtration Products</h2>
+      <p>Complete OEM/ODM range covering filter cartridges, RO membranes, dispensers, housings and full water purification systems for residential, commercial and industrial applications.</p>
+    </div>
+    <div class="product-grid">
+      <article class="product-card" data-cat="Water Purifier">
+        <a href="product-alkaline-purifier.html" class="product-img-wrap">
+          <span class="product-cat-badge">Water Purifier</span>
+          <img src="../assets/products/alkaline-purifier.png" alt="Alkaline Water Purifier System" loading="lazy" onerror="this.src='../assets/products/1.png'" />
+        </a>
+        <div class="product-body">
+          <h3>Alkaline Water Purifier System</h3>
+          <p>Produces alkaline water by increasing pH levels and adding essential minerals. Wholesale factory supply, customizable for OEM/ODM....</p>
+          <a href="product-alkaline-purifier.html" class="product-link">View Details →</a>
+        </div>
+      </article>
+      <article class="product-card" data-cat="Inline Filter">
+        <a href="product-antibacterial-mineralization.html" class="product-img-wrap">
+          <span class="product-cat-badge">Inline Filter</span>
+          <img src="../assets/products/inline-small-mol_inline-small-molecule-antibacterial-mineralization-filter-cartridge-m2WbO3PQ8rSy" alt="Antibacterial Mineralization Filter Cartridge" loading="lazy" onerror="this.src='../assets/products/1.png'" />
+        </a>
+        <div class="product-body">
+          <h3>Antibacterial Mineralization Filter Cartridge</h3>
+          <p>Effectively removes harmful bacteria and viruses and adds beneficial minerals. Wholesale factory supply, customizable for OEM/ODM....</p>
+          <a href="product-antibacterial-mineralization.html" class="product-link">View Details →</a>
+        </div>
+      </article>
+      <article class="product-card" data-cat="Filter Housing">
+        <a href="product-big-blue-3stage.html" class="product-img-wrap">
+          <span class="product-cat-badge">Filter Housing</span>
+          <img src="../assets/products/big-blue-3stage_IMG_8856-scaled-768x1024.jpg" alt="30-inch Three Stage Big Blue Water Filter" loading="lazy" onerror="this.src='../assets/products/1.png'" />
+        </a>
+        <div class="product-body">
+          <h3>30-inch Three Stage Big Blue Water Filter</h3>
+          <p>Eco Express Water is proud to offer its 30 inches Three Stages Big Blue Water Filter, designed to provide you with clean and safe ...</p>
+          <a href="product-big-blue-3stage.html" class="product-link">View Details →</a>
+        </div>
+      </article>
+      <article class="product-card" data-cat="Filter Cartridge">
+        <a href="product-carbon-block.html" class="product-img-wrap">
+          <span class="product-cat-badge">Filter Cartridge</span>
+          <img src="../assets/products/carbon-block-industrial_wechatimg25665-YbNbr1krr7SvNJV0.jpeg" alt="CTO Coconut Shell CTO Carbon Block Filter Cartridge" loading="lazy" onerror="this.src='../assets/products/1.png'" />
+        </a>
+        <div class="product-body">
+          <h3>CTO Coconut Shell CTO Carbon Block Filter Cartridge</h3>
+          <p>Our carbon block filter is the product of advanced technology and years of research and development. We use a unique blend of acti...</p>
+          <a href="product-carbon-block.html" class="product-link">View Details →</a>
+        </div>
+      </article>
+      <article class="product-card" data-cat="Industrial Filter">
+        <a href="product-carbon-block-2.html" class="product-img-wrap">
+          <span class="product-cat-badge">Industrial Filter</span>
+          <img src="../assets/products/carbon-block-industrial_wechatimg25665-YbNbr1krr7SvNJV0.jpeg" alt="Compressed Activated CTO Carbon Block" loading="lazy" onerror="this.src='../assets/products/1.png'" />
+        </a>
+        <div class="product-body">
+          <h3>Compressed Activated CTO Carbon Block</h3>
+          <p>Our carbon block filter is the product of advanced technology and years of research and development. We use a unique blend of acti...</p>
+          <a href="product-carbon-block-2.html" class="product-link">View Details →</a>
+        </div>
+      </article>
+      <article class="product-card" data-cat="Industrial Filter">
+        <a href="product-carbon-block-industrial.html" class="product-img-wrap">
+          <span class="product-cat-badge">Industrial Filter</span>
+          <img src="../assets/products/carbon-block-industrial_wechatimg25665-YbNbr1krr7SvNJV0.jpeg" alt="Industrial High-Flow CTO Carbon Block Filter" loading="lazy" onerror="this.src='../assets/products/1.png'" />
+        </a>
+        <div class="product-body">
+          <h3>Industrial High-Flow CTO Carbon Block Filter</h3>
+          <p>Our carbon block filter is the product of advanced technology and years of research and development. We use a unique blend of acti...</p>
+          <a href="product-carbon-block-industrial.html" class="product-link">View Details →</a>
+        </div>
+      </article>
+      <article class="product-card" data-cat="Filter Cartridge">
+        <a href="product-ceramic-filter.html" class="product-img-wrap">
+          <span class="product-cat-badge">Filter Cartridge</span>
+          <img src="../assets/products/ceramic-filter_WeChat8b6176de1327055fb109da157c1d47dd-845x1024.png" alt="Ceramic Filter Cartridge" loading="lazy" onerror="this.src='../assets/products/1.png'" />
+        </a>
+        <div class="product-body">
+          <h3>Ceramic Filter Cartridge</h3>
+          <p>High-quality ceramic filter cartridge for removing fine particles and bacteria. Wholesale factory supply, customizable for OEM/ODM...</p>
+          <a href="product-ceramic-filter.html" class="product-link">View Details →</a>
+        </div>
+      </article>
+      <article class="product-card" data-cat="Filter Cartridge">
+        <a href="product-filter-combo.html" class="product-img-wrap">
+          <span class="product-cat-badge">Filter Cartridge</span>
+          <img src="../assets/products/filter-combo.png" alt="Multi-Stage Filter Cartridge Combination" loading="lazy" onerror="this.src='../assets/products/1.png'" />
+        </a>
+        <div class="product-body">
+          <h3>Multi-Stage Filter Cartridge Combination</h3>
+          <p>Our carbon block filter is the product of advanced technology and years of research and development. We use a unique blend of acti...</p>
+          <a href="product-filter-combo.html" class="product-link">View Details →</a>
+        </div>
+      </article>
+    </div>
+    <div style="text-align:center; margin-top:50px;">
+      <a href="products.html" class="btn btn-gold">View Product Catalog →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" style="background-image:linear-gradient(rgba(58,69,54,0.92), rgba(58,69,54,0.92)), url('../assets/backgrounds/eco_hero1.jpg'); background-size:cover; background-position:center;">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow" style="color:var(--gd-light);">State-of-the-Art Manufacturing</div>
+      <h2 style="color:var(--gd-light);">Our Production Lines</h2>
+      <p style="color:rgba(255,255,255,0.85);">20,000+ m² ISO 9001 certified facility in Haining, Zhejiang — dedicated lines for PP melt-blown, sintered carbon block, UF/RO membrane assembly and dispenser SMT.</p>
+    </div>
+    <div class="workshop-grid">
+      <div class="workshop-card"><img src="../assets/workshop/line1.png" alt="PP Melt-Blown Production Line" /><div class="label"><h3>PP Melt-Blown Filter Line</h3><p>Automated extrusion · 24/7 operation</p></div></div>
+      <div class="workshop-card"><img src="../assets/workshop/2_carbon_block_line.jpg" alt="Carbon Block Production Line" /><div class="label"><h3>Carbon Block Line</h3><p>Sintered CTO · Coconut-shell media</p></div></div>
+      <div class="workshop-card"><img src="../assets/workshop/3_quick_connect_line.png" alt="Quick Connect Assembly Line" /><div class="label"><h3>Inline Filter Line</h3><p>Quick-connect assembly</p></div></div>
+      <div class="workshop-card"><img src="../assets/workshop/4_leak_test.png" alt="Quality Leakage Test" /><div class="label"><h3>QC Leakage Test</h3><p>100% pressure-tested before shipment</p></div></div>
+    </div>
+    <div style="text-align:center; margin-top:40px;">
+      <a href="workshop.html" class="btn btn-gold">Bengkel →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-cream">
+  <div class="container" style="text-align:center; max-width:760px;">
+    <h2 style="margin-bottom:20px;">Request a Quote · Bulk OEM Inquiry</h2>
+    <p style="font-size:17px; color:var(--muted); margin-bottom:32px;">Pembekal borong global untuk penapis PP, CTO, GAC dan membran RO. Sejak 1998, menyediakan perkhidmatan OEM/ODM.</p>
+    <div class="hero-actions" style="justify-content:center;">
+      <a href="contact.html" class="btn btn-gold">Request a Quote</a>
+      <a href="https://wa.me/8619908311885" target="_blank" class="btn" style="background:#25D366;color:#fff !important;">📱 WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <div class="footer-logo">Express Water</div>
+      <p>Leading China manufacturer of water filtration solutions since 1998. Specialized in PP Melt Blown, CTO Carbon Block, GAC, and RO membranes for global bulk wholesale and OEM/ODM partners.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="index.html">Laman Utama</a>
+      <a href="about.html">Tentang Kami</a>
+      <a href="workshop.html">Bengkel</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a href="products.html">PP Melt-Blown Filter</a>
+      <a href="products.html">CTO Carbon Block</a>
+      <a href="products.html">GAC Filter</a>
+      <a href="products.html">RO Membrane</a>
+      <a href="products.html">UF Membrane</a>
+      <a href="products.html">Water Dispenser</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>📍 Yuanhua Town, Haining City, Zhejiang Province, China</p>
+      <p>📞 <a href="tel:+86-19908311885">+86-19908311885</a></p>
+      <p>✉ <a href="mailto:expresswater025@gmail.com">expresswater025@gmail.com</a></p>
+      <p>📱 <a href="https://wa.me/8619908311885" target="_blank">WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      © 2026 Express Water · Eco Express Water Co., Ltd. · Hak cipta terpelihara. · NSF · ISO 9001:2015 · CE · SGS · 3C · Halal Certified
+    </div>
+  </div>
 </footer>
-<a href="https://wa.me/8619908311885" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a></body></html>
+<script src="../assets/site.js"></script>
+</body>
+</html>
