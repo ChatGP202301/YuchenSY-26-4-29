@@ -520,12 +520,12 @@ img{max-width:100%;height:auto;display:block}
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_next" value="https://expresswater.cn/thank-you.html" />
 
-        <div class="form-row"><label>Сіздің Атыңыз</label><input type="text" name="name" required></div>
+        <div class="form-row"><label>Сіздің Атыңыз</label><input type="text" name="name" required minlength="2" required></div>
         <div class="form-row"><label>Компания Атауы</label><input type="text" name="company"></div>
-        <div class="form-row"><label>Email Мекенжайы</label><input type="email" name="email" required></div>
-        <div class="form-row"><label>Телефон / WhatsApp</label><input type="text" name="phone"></div>
-        <div class="form-row"><label>Ел</label><input type="text" name="country"></div>
-        <div class="form-row"><label>Сіздің Сұрауыңыз — өнімді, мөлшерді, бағытты көрсетіңіз</label><textarea name="message" required></textarea></div>
+        <div class="form-row"><label>Email Мекенжайы</label><input type="email" name="email" required required></div>
+        <div class="form-row"><label>Телефон / WhatsApp</label><input type="tel" name="phone" required placeholder="+1 555-1234 (include country code)"></div>
+        <div class="form-row"><label>Ел</label><input type="text" name="country" required minlength="2"></div>
+        <div class="form-row"><label>Сіздің Сұрауыңыз — өнімді, мөлшерді, бағытты көрсетіңіз</label><textarea name="message" required minlength="10" required></textarea></div>
         <button type="submit" class="btn">Сұрау Жіберу →</button>
       </form>
     </div>
@@ -573,5 +573,651 @@ img{max-width:100%;height:auto;display:block}
   </div>
 </footer>
 <script src="../assets/site.js"></script>
+
+
+<!-- Google reCAPTCHA v3 (Invisible) -->
+<script src="https://www.google.com/recaptcha/api.js?render=YOUR_RECAPTCHA_SITE_KEY"></script>
+
+<script>
+(function() {
+  'use strict';
+  
+  const form = document.querySelector('.contact-form');
+  if (!form) return;
+  
+  console.log('🛡️ Anti-spam protection enabled');
+  
+  // =================================================
+  // 1. 蜜罐字段（Honeypot）- 机器人陷阱
+  // =================================================
+  // 创建一个隐藏字段，机器人会填写但人类看不到
+  const honeypot = document.createElement('input');
+  honeypot.type = 'text';
+  honeypot.name = 'website'; // 常见的机器人目标字段
+  honeypot.value = '';
+  honeypot.style.cssText = 'position:absolute;left:-9999px;top:-9999px;width:0;height:0;opacity:0;';
+  honeypot.tabIndex = -1;
+  honeypot.setAttribute('autocomplete', 'off');
+  honeypot.setAttribute('aria-hidden', 'true');
+  form.insertBefore(honeypot, form.firstChild);
+  
+  console.log('✓ Honeypot field created');
+  
+  // =================================================
+  // 2. 时间戳验证 - 检测填写速度
+  // =================================================
+  const formLoadTime = Date.now();
+  const MIN_FILL_TIME = 3000;  // 最少3秒（正常人需要时间阅读和填写）
+  const MAX_FILL_TIME = 600000; // 最多10分钟（超时可能是机器人）
+  
+  // =================================================
+  // 3. 行为分析 - 追踪人类行为特征
+  // =================================================
+  let behaviorData = {
+    mouseMovements: 0,
+    keyPresses: 0,
+    focusEvents: 0,
+    scrollEvents: 0,
+    touchEvents: 0,
+    clickEvents: 0,
+    hasHumanBehavior: false
+  };
+  
+  // 鼠标移动追踪
+  let mouseMoveThrottle = 0;
+  document.addEventListener('mousemove', function(e) {
+    mouseMoveThrottle++;
+    if (mouseMoveThrottle % 10 === 0) { // 节流：每10次计数1次
+      behaviorData.mouseMovements++;
+      if (behaviorData.mouseMovements > 5) {
+        behaviorData.hasHumanBehavior = true;
+      }
+    }
+  });
+  
+  // 键盘输入追踪
+  form.addEventListener('keypress', function() {
+    behaviorData.keyPresses++;
+    if (behaviorData.keyPresses > 10) {
+      behaviorData.hasHumanBehavior = true;
+    }
+  });
+  
+  // 焦点事件追踪
+  form.addEventListener('focusin', function() {
+    behaviorData.focusEvents++;
+  });
+  
+  // 滚动追踪
+  let scrollThrottle = 0;
+  window.addEventListener('scroll', function() {
+    scrollThrottle++;
+    if (scrollThrottle % 5 === 0) {
+      behaviorData.scrollEvents++;
+    }
+  });
+  
+  // 点击追踪
+  document.addEventListener('click', function() {
+    behaviorData.clickEvents++;
+  });
+  
+  // 触摸事件（移动设备）
+  document.addEventListener('touchstart', function() {
+    behaviorData.touchEvents++;
+    behaviorData.hasHumanBehavior = true;
+  });
+  
+  console.log('✓ Behavior tracking initialized');
+  
+  // =================================================
+  // 4. 提交频率限制 - 防止批量提交
+  // =================================================
+  function checkSubmissionRate() {
+    try {
+      const lastSubmit = localStorage.getItem('lastFormSubmit');
+      if (lastSubmit) {
+        const timeSince = Date.now() - parseInt(lastSubmit);
+        const minInterval = 60000; // 60秒
+        if (timeSince < minInterval) {
+          const waitTime = Math.ceil((minInterval - timeSince) / 1000);
+          return { allowed: false, waitTime: waitTime };
+        }
+      }
+      return { allowed: true };
+    } catch (e) {
+      return { allowed: true }; // 如果localStorage不可用，允许提交
+    }
+  }
+  
+  function recordSubmission() {
+    try {
+      localStorage.setItem('lastFormSubmit', Date.now().toString());
+    } catch (e) {
+      // localStorage不可用，忽略
+    }
+  }
+  
+  // =================================================
+  // 5. 客户端指纹 - 识别特征
+  // =================================================
+  function getClientFingerprint() {
+    return {
+      userAgent: navigator.userAgent,
+      language: navigator.language || navigator.userLanguage,
+      languages: navigator.languages ? navigator.languages.join(',') : '',
+      platform: navigator.platform,
+      screenResolution: screen.width + 'x' + screen.height + 'x' + screen.colorDepth,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      timezoneOffset: new Date().getTimezoneOffset(),
+      plugins: navigator.plugins ? navigator.plugins.length : 0,
+      doNotTrack: navigator.doNotTrack,
+      cookieEnabled: navigator.cookieEnabled,
+      webGL: !!window.WebGLRenderingContext,
+      canvas: (function() {
+        try {
+          var canvas = document.createElement('canvas');
+          return !!(canvas.getContext && canvas.getContext('2d'));
+        } catch(e) { return false; }
+      })()
+    };
+  }
+  
+  // =================================================
+  // 6. 自动化工具检测
+  // =================================================
+  function detectAutomation() {
+    const flags = [];
+    
+    // 检测 WebDriver (Selenium)
+    if (navigator.webdriver) {
+      flags.push('webdriver');
+    }
+    
+    // 检测 PhantomJS
+    if (window.callPhantom || window._phantom) {
+      flags.push('phantom');
+    }
+    
+    // 检测 Nightmare
+    if (window.__nightmare) {
+      flags.push('nightmare');
+    }
+    
+    // 检测 Headless Chrome
+    if (/HeadlessChrome/i.test(navigator.userAgent)) {
+      flags.push('headless');
+    }
+    
+    // 检测异常的 Chrome 属性
+    if (navigator.webdriver === false && !window.chrome) {
+      flags.push('suspicious_chrome');
+    }
+    
+    // 检测 plugins 数量异常（无头浏览器通常为0）
+    if (navigator.plugins && navigator.plugins.length === 0) {
+      flags.push('no_plugins');
+    }
+    
+    return flags;
+  }
+  
+  // =================================================
+  // 7. 表单提交拦截和验证
+  // =================================================
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    console.log('📝 Form submission started');
+    
+    // ====== 第1关：蜜罐检测 ======
+    if (honeypot.value && honeypot.value.trim() !== '') {
+      console.log('🚫 SPAM DETECTED: Honeypot filled');
+      // 静默失败 - 不让机器人知道被发现
+      setTimeout(function() {
+        window.location.href = 'thank-you.html';
+      }, 1000);
+      return false;
+    }
+    console.log('✓ Honeypot check passed');
+    
+    // ====== 第2关：时间戳验证 ======
+    const fillTime = Date.now() - formLoadTime;
+    
+    if (fillTime < MIN_FILL_TIME) {
+      alert('⏱️ Please take your time to fill out the form carefully. (Minimum ' + (MIN_FILL_TIME/1000) + ' seconds)');
+      console.log('🚫 TOO FAST: ' + fillTime + 'ms');
+      return false;
+    }
+    
+    if (fillTime > MAX_FILL_TIME) {
+      alert('⏰ Form session expired. Please refresh the page and try again.');
+      console.log('🚫 TIMEOUT: ' + fillTime + 'ms');
+      return false;
+    }
+    console.log('✓ Timing check passed: ' + fillTime + 'ms');
+    
+    // ====== 第3关：行为分析 ======
+    const minInteractions = behaviorData.touchEvents > 0 ? 1 : 5; // 移动设备要求更低
+    const totalInteractions = behaviorData.mouseMovements + 
+                              behaviorData.keyPresses + 
+                              behaviorData.touchEvents;
+    
+    if (!behaviorData.hasHumanBehavior || totalInteractions < minInteractions) {
+      console.log('🚫 NO HUMAN BEHAVIOR DETECTED');
+      console.log('Behavior data:', behaviorData);
+      // 静默失败
+      setTimeout(function() {
+        window.location.href = 'thank-you.html';
+      }, 1000);
+      return false;
+    }
+    console.log('✓ Human behavior detected:', behaviorData);
+    
+    // ====== 第4关：提交频率检查 ======
+    const rateCheck = checkSubmissionRate();
+    if (!rateCheck.allowed) {
+      alert('⏳ Please wait ' + rateCheck.waitTime + ' seconds before submitting another inquiry.');
+      console.log('🚫 RATE LIMIT: wait ' + rateCheck.waitTime + 's');
+      return false;
+    }
+    console.log('✓ Rate limit check passed');
+    
+    // ====== 第5关：自动化工具检测 ======
+    const automationFlags = detectAutomation();
+    if (automationFlags.length > 0) {
+      console.log('⚠️ AUTOMATION DETECTED:', automationFlags);
+      // 可以选择阻止或仅记录
+      // 这里我们记录但允许继续，因为有些用户可能使用合法的浏览器扩展
+    } else {
+      console.log('✓ No automation detected');
+    }
+    
+    // ====== 收集所有数据用于服务器端分析 ======
+    const fingerprint = getClientFingerprint();
+    const behaviorReport = {
+      fingerprint: fingerprint,
+      behavior: behaviorData,
+      fillTime: fillTime,
+      automation: automationFlags,
+      timestamp: new Date().toISOString()
+    };
+    
+    // 添加行为数据作为隐藏字段
+    const behaviorInput = document.createElement('input');
+    behaviorInput.type = 'hidden';
+    behaviorInput.name = '_behavior';
+    behaviorInput.value = JSON.stringify(behaviorReport);
+    form.appendChild(behaviorInput);
+    
+    console.log('📊 Behavior report:', behaviorReport);
+    
+    // ====== 第6关：Google reCAPTCHA v3 验证 ======
+    console.log('🔐 Executing reCAPTCHA...');
+    
+    // 检查 reCAPTCHA 是否已配置
+    if (typeof grecaptcha === 'undefined') {
+      console.warn('⚠️ reCAPTCHA not loaded, skipping...');
+      // 如果 reCAPTCHA 未配置，记录提交并允许通过
+      recordSubmission();
+      form.submit();
+      return false;
+    }
+    
+    grecaptcha.ready(function() {
+      grecaptcha.execute('YOUR_RECAPTCHA_SITE_KEY', {action: 'submit'}).then(function(token) {
+        console.log('✓ reCAPTCHA token obtained');
+        
+        // 添加 reCAPTCHA token
+        let recaptchaInput = form.querySelector('input[name="g-recaptcha-response"]');
+        if (!recaptchaInput) {
+          recaptchaInput = document.createElement('input');
+          recaptchaInput.type = 'hidden';
+          recaptchaInput.name = 'g-recaptcha-response';
+          form.appendChild(recaptchaInput);
+        }
+        recaptchaInput.value = token;
+        
+        // 记录提交时间
+        recordSubmission();
+        
+        console.log('✅ All checks passed - Submitting form');
+        
+        // 提交表单
+        form.submit();
+      }).catch(function(error) {
+        console.error('❌ reCAPTCHA error:', error);
+        alert('Security verification failed. Please try again.');
+      });
+    });
+    
+    return false;
+  });
+  
+  // =================================================
+  // 8. 页面可见性检测（额外保护）
+  // =================================================
+  let pageHiddenTime = 0;
+  let pageVisibleTime = 0;
+  
+  document.addEventListener('visibilitychange', function() {
+    if (document.hidden) {
+      pageHiddenTime = Date.now();
+    } else {
+      if (pageHiddenTime > 0) {
+        pageVisibleTime += Date.now() - pageHiddenTime;
+      }
+    }
+  });
+  
+  // 检测页面是否一直隐藏（可疑行为）
+  setInterval(function() {
+    const totalTime = Date.now() - formLoadTime;
+    const hiddenRatio = pageVisibleTime / totalTime;
+    if (totalTime > 10000 && hiddenRatio > 0.8) {
+      console.log('⚠️ SUSPICIOUS: Page mostly hidden (' + Math.round(hiddenRatio * 100) + '%)');
+    }
+  }, 5000);
+  
+  console.log('🛡️ Anti-spam protection fully activated');
+  
+})();
+</script>
+
+<style>
+/* 确保蜜罐字段完全不可见 */
+input[name="website"] {
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  pointer-events: none !important;
+}
+</style>
+
+<!-- 电话号码验证库 - libphonenumber-js -->
+<script src="https://cdn.jsdelivr.net/npm/libphonenumber-js@1.10.51/bundle/libphonenumber-min.js"></script>
+
+<script>
+(function() {
+  'use strict';
+  
+  const form = document.querySelector('.contact-form');
+  if (!form) return;
+  
+  // 字段翻译（多语言支持）
+  const translations = {
+    'en': {
+      name: 'Name',
+      company: 'Company Name',
+      email: 'Email Address',
+      phone: 'Phone / WhatsApp',
+      country: 'Country',
+      message: 'Your Inquiry',
+      errors: {
+        required: 'This field is required',
+        invalidEmail: 'Please enter a valid email address',
+        invalidPhone: 'Please enter a valid phone number',
+        phoneFormat: 'Invalid phone format. Include country code (e.g., +1 for US, +44 for UK)'
+      }
+    },
+    'es': {
+      errors: {
+        required: 'Este campo es obligatorio',
+        invalidEmail: 'Ingrese un correo electrónico válido',
+        invalidPhone: 'Ingrese un número de teléfono válido',
+        phoneFormat: 'Formato de teléfono inválido. Incluya código de país (ej: +1 para EE.UU.)'
+      }
+    },
+    'fr': {
+      errors: {
+        required: 'Ce champ est obligatoire',
+        invalidEmail: 'Veuillez entrer une adresse e-mail valide',
+        invalidPhone: 'Veuillez entrer un numéro de téléphone valide',
+        phoneFormat: 'Format de téléphone invalide. Inclure le code pays (ex: +33 pour France)'
+      }
+    },
+    'de': {
+      errors: {
+        required: 'Dieses Feld ist erforderlich',
+        invalidEmail: 'Bitte geben Sie eine gültige E-Mail-Adresse ein',
+        invalidPhone: 'Bitte geben Sie eine gültige Telefonnummer ein',
+        phoneFormat: 'Ungültiges Telefonformat. Ländercode angeben (z.B. +49 für Deutschland)'
+      }
+    }
+  };
+  
+  // 检测当前语言
+  const currentLang = document.documentElement.lang || 'en';
+  const t = translations[currentLang] || translations.en;
+  
+  // 创建错误消息元素
+  function createErrorElement(message) {
+    const error = document.createElement('div');
+    error.className = 'form-error';
+    error.textContent = message;
+    error.style.cssText = 'color:#dc2626;font-size:0.875rem;margin-top:4px;display:block;';
+    return error;
+  }
+  
+  // 移除错误消息
+  function removeError(input) {
+    const existingError = input.parentElement.querySelector('.form-error');
+    if (existingError) {
+      existingError.remove();
+    }
+    input.style.borderColor = '';
+  }
+  
+  // 显示错误消息
+  function showError(input, message) {
+    removeError(input);
+    input.style.borderColor = '#dc2626';
+    const errorEl = createErrorElement(message);
+    input.parentElement.appendChild(errorEl);
+  }
+  
+  // 验证邮箱（严格验证）
+  function validateEmail(email) {
+    // RFC 5322 简化版正则
+    const emailRegex = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+    
+    if (!emailRegex.test(email)) {
+      return false;
+    }
+    
+    // 额外检查：常见的无效域名
+    const invalidDomains = ['test.com', 'example.com', 'temp.com', 'fake.com'];
+    const domain = email.split('@')[1];
+    if (invalidDomains.includes(domain)) {
+      return false;
+    }
+    
+    // 检查域名是否有 TLD
+    if (!domain || domain.split('.').length < 2) {
+      return false;
+    }
+    
+    return true;
+  }
+  
+  // 验证电话号码（使用 libphonenumber-js）
+  function validatePhone(phoneNumber) {
+    try {
+      // 移除所有非数字字符（除了+和空格）
+      const cleaned = phoneNumber.trim();
+      
+      // 必须以 + 开头（国际格式）
+      if (!cleaned.startsWith('+')) {
+        return { valid: false, error: t.errors.phoneFormat };
+      }
+      
+      // 使用 libphonenumber-js 验证
+      const phoneUtil = libphonenumber;
+      const parsedNumber = phoneUtil.parsePhoneNumber(cleaned);
+      
+      if (!parsedNumber) {
+        return { valid: false, error: t.errors.invalidPhone };
+      }
+      
+      // 检查是否为有效号码
+      if (!parsedNumber.isValid()) {
+        return { valid: false, error: t.errors.invalidPhone };
+      }
+      
+      // 验证成功
+      return { valid: true, country: parsedNumber.country };
+      
+    } catch (error) {
+      return { valid: false, error: t.errors.phoneFormat };
+    }
+  }
+  
+  // 实时验证
+  const nameInput = form.querySelector('input[name="name"]');
+  const companyInput = form.querySelector('input[name="company"]');
+  const emailInput = form.querySelector('input[name="email"]');
+  const phoneInput = form.querySelector('input[name="phone"]');
+  const countryInput = form.querySelector('input[name="country"]');
+  const messageInput = form.querySelector('textarea[name="message"]');
+  
+  // 邮箱实时验证
+  if (emailInput) {
+    emailInput.addEventListener('blur', function() {
+      if (this.value && !validateEmail(this.value)) {
+        showError(this, t.errors.invalidEmail);
+      } else {
+        removeError(this);
+      }
+    });
+    
+    emailInput.addEventListener('input', function() {
+      if (this.value && validateEmail(this.value)) {
+        removeError(this);
+      }
+    });
+  }
+  
+  // 电话号码实时验证
+  if (phoneInput) {
+    phoneInput.addEventListener('blur', function() {
+      if (this.value) {
+        const result = validatePhone(this.value);
+        if (!result.valid) {
+          showError(this, result.error);
+        } else {
+          removeError(this);
+          // 如果验证成功，自动填充国家（如果国家字段为空）
+          if (countryInput && !countryInput.value && result.country) {
+            const countryNames = {
+              'US': 'United States', 'GB': 'United Kingdom', 'DE': 'Germany',
+              'FR': 'France', 'CN': 'China', 'JP': 'Japan', 'KR': 'South Korea',
+              'IN': 'India', 'BR': 'Brazil', 'AU': 'Australia', 'CA': 'Canada',
+              'MX': 'Mexico', 'ES': 'Spain', 'IT': 'Italy', 'RU': 'Russia',
+              'SA': 'Saudi Arabia', 'AE': 'UAE', 'EG': 'Egypt', 'TR': 'Turkey'
+            };
+            countryInput.value = countryNames[result.country] || result.country;
+          }
+        }
+      }
+    });
+    
+    phoneInput.addEventListener('input', function() {
+      if (this.value && this.value.startsWith('+')) {
+        const result = validatePhone(this.value);
+        if (result.valid) {
+          removeError(this);
+        }
+      }
+    });
+  }
+  
+  // 表单提交验证
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    let isValid = true;
+    
+    // 验证所有必填字段
+    const requiredFields = [
+      { input: nameInput, name: 'name' },
+      { input: emailInput, name: 'email' },
+      { input: phoneInput, name: 'phone' },
+      { input: countryInput, name: 'country' },
+      { input: messageInput, name: 'message' }
+    ];
+    
+    requiredFields.forEach(field => {
+      if (!field.input || !field.input.value.trim()) {
+        showError(field.input, t.errors.required);
+        isValid = false;
+      }
+    });
+    
+    // 如果有必填字段为空，停止
+    if (!isValid) {
+      // 滚动到第一个错误字段
+      const firstError = form.querySelector('.form-error');
+      if (firstError) {
+        firstError.parentElement.querySelector('input, textarea').focus();
+      }
+      return false;
+    }
+    
+    // 验证邮箱
+    if (emailInput && emailInput.value) {
+      if (!validateEmail(emailInput.value)) {
+        showError(emailInput, t.errors.invalidEmail);
+        emailInput.focus();
+        return false;
+      }
+    }
+    
+    // 验证电话号码
+    if (phoneInput && phoneInput.value) {
+      const phoneResult = validatePhone(phoneInput.value);
+      if (!phoneResult.valid) {
+        showError(phoneInput, phoneResult.error);
+        phoneInput.focus();
+        return false;
+      }
+    }
+    
+    // 所有验证通过，提交表单
+    this.submit();
+  });
+  
+  // 为所有输入添加焦点时移除错误的功能
+  form.querySelectorAll('input, textarea').forEach(input => {
+    input.addEventListener('focus', function() {
+      removeError(this);
+    });
+  });
+  
+})();
+</script>
+
+<style>
+.form-row input:invalid, .form-row textarea:invalid {
+  border-color: #fca5a5;
+}
+.form-row input:valid, .form-row textarea:valid {
+  border-color: #86efac;
+}
+.form-error {
+  animation: fadeIn 0.3s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
+
 </body>
 </html>
