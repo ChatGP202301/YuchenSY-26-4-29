@@ -209,3 +209,23 @@
     font-size: 0.95rem !important;
   }
 }
+
+/* About Us 页面响应式布局 */
+.about-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+@media (max-width: 968px) {
+  .about-two-col {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  /* 图片在移动端放在上面 */
+  .about-two-col > div:last-child {
+    order: -1;
+  }
+}

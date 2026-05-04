@@ -1,0 +1,556 @@
+/* ========================================
+   Express Water - Brand Redesign
+   Industrial · Professional · Modern
+   ======================================== */
+
+:root {
+  /* 品牌色 - 现代工业风 */
+  --brand-primary: #0f172a;      /* 深蓝灰（专业、可靠） */
+  --brand-accent: #3b82f6;       /* 科技蓝（工业感） */
+  --brand-dark: #020617;         /* 极深灰 */
+  --brand-light: #f8fafc;        /* 极浅灰 */
+  
+  /* 文字颜色 */
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+  
+  /* 背景 */
+  --bg-white: #ffffff;
+  --bg-gray: #f1f5f9;
+  --bg-dark: #0f172a;
+  
+  /* 间距系统 */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 48px;
+  --space-xl: 80px;
+  --space-2xl: 120px;
+  
+  /* 字体 */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+/* ========================================
+   基础样式
+   ======================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--text-primary);
+  background: var(--bg-white);
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========================================
+   布局容器
+   ======================================== */
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.container-narrow {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+/* ========================================
+   Header - 极简专业
+   ======================================== */
+
+.header {
+  background: var(--bg-white);
+  border-bottom: 1px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-md);
+  height: 72px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 42px;
+  width: auto;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--brand-primary);
+  letter-spacing: -0.5px;
+}
+
+.tagline {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.nav {
+  display: flex;
+  gap: var(--space-lg);
+}
+
+.nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: var(--brand-accent);
+}
+
+/* ========================================
+   Hero - 大气简洁
+   ======================================== */
+
+.hero-brand {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: white;
+  padding: var(--space-2xl) 0;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content-brand {
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 20px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: var(--space-md);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-brand h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: var(--space-md);
+  letter-spacing: -2px;
+}
+
+.hero-lead {
+  font-size: 1.35rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: var(--space-xl);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Hero Stats */
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg) 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-num {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--brand-accent);
+  line-height: 1;
+  margin-bottom: 8px;
+  font-family: var(--font-mono);
+}
+
+.stat-label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.hero-cta {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+}
+
+/* ========================================
+   按钮系统
+   ======================================== */
+
+.btn-primary, .btn-secondary, .btn-white {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: var(--brand-accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary:hover {
+  border-color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-white {
+  background: white;
+  color: var(--brand-primary);
+}
+
+.btn-white:hover {
+  background: var(--bg-light);
+}
+
+/* ========================================
+   Section 布局
+   ======================================== */
+
+.section-white, .section-gray, .section-dark {
+  padding: var(--space-2xl) 0;
+}
+
+.section-white {
+  background: var(--bg-white);
+}
+
+.section-gray {
+  background: var(--bg-gray);
+}
+
+.section-dark {
+  background: var(--bg-dark);
+  color: white;
+}
+
+.section-header-center {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto var(--space-xl);
+}
+
+.section-header-center h2 {
+  font-size: 2.75rem;
+  font-weight: 800;
+  margin-bottom: var(--space-sm);
+  letter-spacing: -1px;
+  color: var(--brand-primary);
+}
+
+.section-gray .section-header-center h2,
+.section-dark .section-header-center h2 {
+  color: inherit;
+}
+
+.section-lead {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.section-dark .section-lead {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ========================================
+   Capabilities Grid
+   ======================================== */
+
+.capabilities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+}
+
+.capability-card {
+  background: white;
+  padding: var(--space-lg);
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s;
+}
+
+.capability-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  border-color: var(--brand-accent);
+}
+
+.capability-icon {
+  font-size: 3rem;
+  margin-bottom: var(--space-sm);
+}
+
+.capability-card h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--brand-primary);
+}
+
+.capability-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* ========================================
+   Product Lines
+   ======================================== */
+
+.product-lines {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+.product-line-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s;
+}
+
+.product-line-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+.product-line-image {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: var(--bg-gray);
+}
+
+.product-line-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.product-line-card:hover .product-line-image img {
+  transform: scale(1.05);
+}
+
+.product-line-content {
+  padding: var(--space-md);
+}
+
+.product-line-content h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--brand-primary);
+}
+
+.product-line-content p {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-sm);
+  line-height: 1.6;
+}
+
+.link-arrow {
+  color: var(--brand-accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.link-arrow:hover {
+  text-decoration: underline;
+}
+
+/* ========================================
+   Technical Data
+   ======================================== */
+
+.tech-data-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg);
+}
+
+.tech-data-card {
+  text-align: center;
+  padding: var(--space-lg);
+  background: var(--bg-gray);
+  border-radius: 12px;
+  border: 2px solid #e2e8f0;
+}
+
+.tech-metric {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--brand-accent);
+  margin-bottom: 8px;
+  font-family: var(--font-mono);
+  line-height: 1;
+}
+
+.tech-label {
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+/* ========================================
+   Case Studies
+   ======================================== */
+
+.case-studies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+.case-study {
+  background: white;
+  padding: var(--space-lg);
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.case-flag {
+  font-size: 3rem;
+  margin-bottom: var(--space-sm);
+}
+
+.case-study h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--brand-primary);
+}
+
+.case-stats {
+  font-size: 13px;
+  color: var(--brand-accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--space-sm);
+}
+
+.case-study p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.case-note {
+  text-align: center;
+  margin-top: var(--space-lg);
+  color: var(--text-muted);
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* ========================================
+   响应式
+   ======================================== */
+
+@media (max-width: 968px) {
+  .hero-brand h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .capabilities-grid,
+  .product-lines,
+  .tech-data-grid,
+  .case-studies {
+    grid-template-columns: 1fr;
+  }
+  
+  .nav {
+    display: none; /* 移动端使用汉堡菜单 */
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-brand h1 {
+    font-size: 2.25rem;
+  }
+  
+  .stat-num {
+    font-size: 2.25rem;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+  }
+}
