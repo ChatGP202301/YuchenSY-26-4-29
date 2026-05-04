@@ -562,27 +562,5 @@ img{max-width:100%;height:auto;display:block}
   </div>
 </footer>
 <script src="../assets/site.js"></script>
-
-
-
-
-<script>
-// 简单的语言切换器
-function toggleLangMenu() {
-  const menu = document.getElementById('langMenu');
-  menu.classList.toggle('open');
-}
-
-// 点击页面其他地方关闭菜单
-document.addEventListener('click', function(e) {
-  const langSwitcher = document.querySelector('.lang-switcher');
-  const langMenu = document.getElementById('langMenu');
-  
-  if (langSwitcher && !langSwitcher.contains(e.target) && langMenu) {
-    langMenu.classList.remove('open');
-  }
-});
-</script>
-
 </body>
 </html>
