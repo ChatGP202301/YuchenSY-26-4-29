@@ -206,7 +206,7 @@ def render_home(lang):
       <p style="color:rgba(255,255,255,0.85);">{esc(t['section_workshop_desc'])}</p>
     </div>
     <div class="workshop-grid">
-      <div class="workshop-card"><img src="../assets/workshop/line1.png" alt="PP Melt-Blown Production Line" /><div class="label"><h3>PP Melt-Blown Filter Line</h3><p>Automated extrusion · 24/7 operation</p></div></div>
+      <div class="workshop-card"><img src="../assets/workshop/line1-optimized.jpg" alt="PP Melt-Blown Production Line" loading="lazy" decoding="async" /><div class="label"><h3>PP Melt-Blown Filter Line</h3><p>Automated extrusion · 24/7 operation</p></div></div>
       <div class="workshop-card"><img src="../assets/workshop/2_carbon_block_line.jpg" alt="Carbon Block Production Line" /><div class="label"><h3>Carbon Block Line</h3><p>Sintered CTO · Coconut-shell media</p></div></div>
       <div class="workshop-card"><img src="../assets/workshop/3_quick_connect_line.png" alt="Quick Connect Assembly Line" /><div class="label"><h3>Inline Filter Line</h3><p>Quick-connect assembly</p></div></div>
       <div class="workshop-card"><img src="../assets/workshop/4_leak_test.png" alt="Quality Leakage Test" /><div class="label"><h3>QC Leakage Test</h3><p>100% pressure-tested before shipment</p></div></div>
@@ -287,7 +287,7 @@ def render_about(lang):
         <p style="font-size:16px;line-height:1.85;color:var(--muted);">Today we proudly supply over 50 countries with NSF/ANSI 42, 53 and 58 compliant products, holding CE, SGS, FDA, China 3C and JAKIM Halal certifications for international compliance.</p>
       </div>
       <div>
-        <img src="../assets/workshop/line1.png" alt="Express Water Factory" style="width:100%;border-radius:6px;box-shadow:var(--shadow-md);" onerror="this.src='../assets/backgrounds/eco_hero1.jpg'" />
+        <img src="../assets/workshop/line1-optimized.jpg" alt="Express Water Factory" style="width:100%;border-radius:6px;box-shadow:var(--shadow-md);" onerror="this.src='../assets/backgrounds/eco_hero1.jpg'" loading="lazy" decoding="async" />
       </div>
     </div>
   </div>
@@ -464,7 +464,7 @@ def render_workshop(lang):
     body += navbar_html(t, lang, "workshop.html")
 
     body += f'''
-<section class="hero" style="min-height:38vh; background-image:linear-gradient(rgba(58,69,54,0.85),rgba(58,69,54,0.7)), url('../assets/workshop/line1.png');background-size:cover;background-position:center;">
+<section class="hero" style="min-height:38vh; background-image:linear-gradient(rgba(58,69,54,0.85),rgba(58,69,54,0.7)), url('../assets/workshop/line1-optimized.jpg');background-size:cover;background-position:center;">
   <div class="container hero-content">
     <div class="hero-eyebrow">{esc(t['section_workshop_eyebrow'])}</div>
     <h1>{esc(t['nav_workshop'])}</h1>
@@ -480,7 +480,7 @@ def render_workshop(lang):
       <p>Our state-of-the-art manufacturing center in Yuanhua Town, Haining, Zhejiang Province operates dedicated lines for every product family — ensuring traceability, quality and on-time delivery for global wholesale orders.</p>
     </div>
     <div class="workshop-grid">
-      <div class="workshop-card"><img src="../assets/workshop/line1.png" alt="PP Melt-Blown Production Line" /><div class="label"><h3>PP Melt-Blown Filter Line</h3><p>Automated extrusion · 24/7 production · Virgin PP resin only</p></div></div>
+      <div class="workshop-card"><img src="../assets/workshop/line1-optimized.jpg" alt="PP Melt-Blown Production Line" loading="lazy" decoding="async" /><div class="label"><h3>PP Melt-Blown Filter Line</h3><p>Automated extrusion · 24/7 production · Virgin PP resin only</p></div></div>
       <div class="workshop-card"><img src="../assets/workshop/2_carbon_block_line.jpg" alt="Carbon Block Production Line" /><div class="label"><h3>Carbon Block Line</h3><p>Sintered carbon · Coconut-shell media · NSF certified</p></div></div>
       <div class="workshop-card"><img src="../assets/workshop/3_quick_connect_line.png" alt="Quick-Connect Inline Filter Assembly" /><div class="label"><h3>Inline / Quick-Connect Assembly</h3><p>T33, mineralization & post-carbon cartridges</p></div></div>
       <div class="workshop-card"><img src="../assets/workshop/4_leak_test.png" alt="Quality Control Leakage Test" /><div class="label"><h3>QC Leakage & Pressure Test</h3><p>100% hydrostatic-tested at 1.5× rated pressure</p></div></div>
@@ -641,8 +641,12 @@ def render_contact(lang):
   </div>
 </section>
 
-<section class="section section-light" style="padding:0;">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.123!2d{GEO['lon']}!3d{GEO['lat']}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sHaining%20Zhejiang!5e0!3m2!1sen!2scn!4v1730000000" width="100%" height="380" style="border:0;display:block;" loading="lazy"></iframe>
+<section class="section section-light map-strip">
+  <a class="map-card" href="https://www.google.com/maps/search/?api=1&query={GEO['lat']},{GEO['lon']}" target="_blank" rel="noopener" aria-label="{GEO['lat']}, {GEO['lon']}">
+    <span class="map-pin" aria-hidden="true"></span>
+    <span class="map-place">Haining, Zhejiang, CN</span>
+    <span class="map-coordinates">{GEO['lat']}, {GEO['lon']}</span>
+  </a>
 </section>
 '''
     body += footer_html(t, lang)
