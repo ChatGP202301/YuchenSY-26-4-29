@@ -11,6 +11,38 @@
   },
   "products": [
     {
+      "id": "built-in-pressure-tank-ro",
+      "name": "Built-In Pressure Tank RO Water Purifier",
+      "category": "RO System",
+      "desc": "Compact RO water purifier with a built-in pressure tank. Available in 5-stage and 6-stage filtration, with 100G and 200G output options for OEM/ODM wholesale projects.",
+      "specs": {
+        "Filtration Stages": "5 / 6",
+        "Output Capacity": "100G / 200G",
+        "Storage Tank": "Built-in pressure tank",
+        "Type": "Compact reverse osmosis water purifier",
+        "OEM/ODM": "Logo, filter label and packaging support",
+        "Buyer Type": "Wholesale distributors, OEM brands, project buyers"
+      },
+      "image": "../assets/products/built-in-pressure-tank-ro-open-front.jpg",
+      "image_local": "assets/products/built-in-pressure-tank-ro-open-front.jpg",
+      "image_orig": "../assets/products/built-in-pressure-tank-ro-open-front.jpg",
+      "keywords": [
+        "built-in pressure tank RO water purifier",
+        "compact RO water purifier",
+        "100G RO system",
+        "200G RO system",
+        "5-stage RO water filter",
+        "6-stage reverse osmosis purifier",
+        "OEM ODM RO purifier",
+        "wholesale reverse osmosis system",
+        "China RO water purifier factory",
+        "private label water purifier",
+        "cabinet RO purifier",
+        "reverse osmosis water filtration",
+        "NSF ISO certified water filter manufacturer"
+      ]
+    },
+    {
       "id": "alkaline-purifier",
       "name": "Alkaline Water Purifier System",
       "category": "Water Purifier",
