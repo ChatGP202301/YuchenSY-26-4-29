@@ -193,7 +193,7 @@ RUSSIAN_PRODUCT_NAMES = {
     "PP Melt BlownF Polypropylene Fiber Cartridge": "PP melt-blown картридж из полипропиленового волокна",
     "Pre-UDF Activated Carbon Cartridge": "Предварительный UDF-картридж с активированным углем",
     "Ion-Exchange Resin Filter": "Фильтр с ионообменной смолой",
-    "Reverse Osmosis (RO) Membrane Element Element": "Мембранный элемент обратного осмоса (RO)",
+    "Reverse Osmosis (RO) Membrane Element": "Мембранный элемент обратного осмоса (RO)",
     "400GPD High-Flow Reverse Osmosis (RO) Membrane Element": "Высокопоточная RO-мембрана 400GPD",
     "Under-Sink Reverse Osmosis Water Filter": "Подмоечный фильтр обратного осмоса",
     "304/316L Stainless Steel Industrial Jumbo Filter Housing": "Промышленный корпус Jumbo из нержавеющей стали 304/316L",
