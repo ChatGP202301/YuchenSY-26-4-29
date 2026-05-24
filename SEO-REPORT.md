@@ -80,7 +80,7 @@
 ### 提交到Google的方法：
 ```
 1. 访问 Google Search Console
-2. 添加网站: expresswater.cn (或你的域名)
+2. 添加网站: www.yuchensy.com (或你的域名)
 3. 提交 sitemap.xml
 4. 请求索引所有语言的首页
 ```

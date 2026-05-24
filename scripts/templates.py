@@ -55,12 +55,12 @@ def head(title, description, lang, page_path, alt_langs):
     """SEO+GEO head with hreflang, JSON-LD, OG, GEO tags."""
     is_rtl = lang in RTL_LANGS
     dir_attr = ' dir="rtl"' if is_rtl else ' dir="ltr"'
-    canonical = f"https://expresswater.cn/{lang}/{page_path}"
+    canonical = f"https://www.yuchensy.com/{lang}/{page_path}"
     hreflang = "\n".join(
-        f'  <link rel="alternate" hreflang="{l}" href="https://expresswater.cn/{l}/{page_path}" />'
+        f'  <link rel="alternate" hreflang="{l}" href="https://www.yuchensy.com/{l}/{page_path}" />'
         for l in alt_langs
     )
-    hreflang += f'\n  <link rel="alternate" hreflang="x-default" href="https://expresswater.cn/en/{page_path}" />'
+    hreflang += f'\n  <link rel="alternate" hreflang="x-default" href="https://www.yuchensy.com/en/{page_path}" />'
 
     jsonld = f'''
 {{
@@ -69,8 +69,8 @@ def head(title, description, lang, page_path, alt_langs):
   "name": "Express Water",
   "alternateName": "Eco Express Water",
   "url": "{canonical}",
-  "logo": "https://expresswater.cn/assets/logo.png",
-  "image": "https://expresswater.cn/assets/backgrounds/eco_hero1.jpg",
+  "logo": "https://www.yuchensy.com/assets/logo.png",
+  "image": "https://www.yuchensy.com/assets/backgrounds/eco_hero1.jpg",
   "description": "{description}",
   "telephone": "{GEO['phone']}",
   "email": "{GEO['email']}",
@@ -113,7 +113,7 @@ def head(title, description, lang, page_path, alt_langs):
   <meta property="og:title" content="{title}" />
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
-  <meta property="og:image" content="https://expresswater.cn/assets/backgrounds/eco_hero1.jpg" />
+  <meta property="og:image" content="https://www.yuchensy.com/assets/backgrounds/eco_hero1.jpg" />
   <meta property="og:locale" content="{lang}" />
 
   <!-- Twitter -->

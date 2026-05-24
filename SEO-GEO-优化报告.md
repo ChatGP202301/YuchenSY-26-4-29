@@ -114,15 +114,15 @@
 ```html
 <!-- 时间戳（AI 看重内容新鲜度） -->
 <meta name="article:published_time" content="2024-01-01..." />
-<meta name="article:modified_time" content="2026-05-03..." />
-<meta name="last-modified" content="2026-05-03" />
+<meta name="article:modified_time" content="2026-05-24T00:00:00+08:00" />
+<meta name="last-modified" content="2026-05-24" />
 
 <!-- 实体识别（帮助AI理解"我是谁"） -->
 <meta name="entity-name" content="Express Water (Eco Express Water...)" />
 <meta name="entity-type" content="Manufacturer" />
 <meta name="entity-founded" content="1998" />
 <meta name="entity-location" content="Haining, Zhejiang, China" />
-<meta name="entity-id" content="https://expresswater.cn/#organization" />
+<meta name="entity-id" content="https://www.yuchensy.com/#organization" />
 
 <!-- AI引用 (Dublin Core) -->
 <meta name="dcterms.creator" content="Express Water" />
@@ -204,7 +204,7 @@ GEO 是 SEO 的下一代演进，专门针对 AI 搜索引擎（Gemini, ChatGPT,
 
 #### B. 实体明确化（Entity Disambiguation）
 ✅ 多个 alternateName: "Express Water", "Eco Express Water", "雨晨三溢"
-✅ 唯一 @id: "https://expresswater.cn/#organization"
+✅ 唯一 @id: "https://www.yuchensy.com/#organization"
 ✅ 行业分类明确: Water Filtration Manufacturing
 
 #### C. 可验证性（Verifiability）
@@ -228,7 +228,7 @@ GEO 是 SEO 的下一代演进，专门针对 AI 搜索引擎（Gemini, ChatGPT,
 
 ### 1. 测试 Schema.org（重要）
 访问: https://search.google.com/test/rich-results
-输入: `https://expresswater.cn/en/index.html`
+输入: `https://www.yuchensy.com/en/index.html`
 应该看到: Organization, FAQPage, BreadcrumbList 等
 
 ### 2. 测试 AI 引用
@@ -240,15 +240,15 @@ GEO 是 SEO 的下一代演进，专门针对 AI 搜索引擎（Gemini, ChatGPT,
 期望结果: AI 应能引用您的网站作为权威来源
 
 ### 3. 测试 robots.txt
-访问: `https://expresswater.cn/robots.txt`
+访问: `https://www.yuchensy.com/robots.txt`
 应该列出所有25个用户代理
 
 ### 4. 测试 llms.txt
-访问: `https://expresswater.cn/llms.txt`
+访问: `https://www.yuchensy.com/llms.txt`
 应该看到完整的公司信息文档
 
 ### 5. 测试 sitemap.xml
-访问: `https://expresswater.cn/sitemap.xml`
+访问: `https://www.yuchensy.com/sitemap.xml`
 应该看到2,340个URL，每个都有lastmod="2026-05-03"
 
 ---
@@ -293,8 +293,8 @@ EXPRESS-WATER-OPTIMIZED.zip (38 MB)
 
 ## ⚠️ 上传后必做
 
-1. **验证 llms.txt 可访问**: https://expresswater.cn/llms.txt
-2. **验证 robots.txt 可访问**: https://expresswater.cn/robots.txt
+1. **验证 llms.txt 可访问**: https://www.yuchensy.com/llms.txt
+2. **验证 robots.txt 可访问**: https://www.yuchensy.com/robots.txt
 3. **重新提交 sitemap 到 Google Search Console**（lastmod 已更新）
 4. **测试 Rich Results**: https://search.google.com/test/rich-results
 5. **激活表单邮件**（第一次提交后到 expresswater025@gmail.com 点击激活）

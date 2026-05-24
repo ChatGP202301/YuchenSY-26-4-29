@@ -32,7 +32,7 @@ def ext_from_url(url):
 
 stats = {"ok": 0, "fail": 0, "details": []}
 
-# expresswater.cn
+# www.yuchensy.com
 with open(os.path.join(ROOT, "scraped_data/expresswater_cn.json")) as f:
     cn = json.load(f)
 for url in cn.get("background_images", []):

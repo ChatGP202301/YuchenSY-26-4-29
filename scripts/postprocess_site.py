@@ -374,7 +374,7 @@ def localize_common_text(text: str, lang: str) -> str:
 
 def rewrite_root_index() -> None:
     alternates = "\n".join(
-        f'  <link rel="alternate" hreflang="{lang}" href="https://expresswater.cn/{lang}/index.html" />'
+        f'  <link rel="alternate" hreflang="{lang}" href="https://www.yuchensy.com/{lang}/index.html" />'
         for lang in LANGS
     )
     (ROOT / "index.html").write_text(
@@ -386,9 +386,9 @@ def rewrite_root_index() -> None:
   <title>Express Water | Water Filter Manufacturer & OEM/ODM Supplier</title>
   <meta name="description" content="Express Water is a China-based water filter manufacturer offering OEM/ODM filter cartridges, RO membranes, dispensers and industrial water purification solutions since 1998." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://expresswater.cn/en/index.html" />
+  <link rel="canonical" href="https://www.yuchensy.com/en/index.html" />
 {alternates}
-  <link rel="alternate" hreflang="x-default" href="https://expresswater.cn/en/index.html" />
+  <link rel="alternate" hreflang="x-default" href="https://www.yuchensy.com/en/index.html" />
   <meta http-equiv="refresh" content="2; url=en/index.html" />
   <script>
     (function() {{
@@ -431,7 +431,7 @@ def rewrite_legacy_root_pages() -> None:
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title} | Redirect</title>
   <meta name="robots" content="noindex, follow" />
-  <link rel="canonical" href="https://expresswater.cn/{target}" />
+  <link rel="canonical" href="https://www.yuchensy.com/{target}" />
   <meta http-equiv="refresh" content="0; url={target}" />
   <script>window.location.replace("{target}");</script>
 </head>

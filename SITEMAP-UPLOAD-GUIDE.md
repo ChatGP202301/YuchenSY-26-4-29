@@ -17,7 +17,7 @@
 
 1. 点击 **"添加属性"** 按钮
 2. 选择 **"域名"** 选项
-3. 输入你的域名（例如：`expresswater.cn`）
+3. 输入你的域名（例如：`www.yuchensy.com`）
 4. 点击 **"继续"**
 
 ### 验证域名所有权
@@ -49,7 +49,7 @@ Google会要求你验证域名。你需要添加一个DNS TXT记录：
 
 1. 点击 **"添加属性"**
 2. 选择 **"网址前缀"**
-3. 输入完整网址（例如：`https://expresswater.cn`）
+3. 输入完整网址（例如：`https://www.yuchensy.com`）
 4. 点击 **"继续"**
 
 ### 验证方式（选择一种）：
@@ -57,7 +57,7 @@ Google会要求你验证域名。你需要添加一个DNS TXT记录：
 **方法1：HTML文件验证（最简单）**
 1. 下载Google提供的HTML验证文件（例如：`google123abc.html`）
 2. 上传到你网站的根目录
-3. 确保可以访问：`https://expresswater.cn/google123abc.html`
+3. 确保可以访问：`https://www.yuchensy.com/google123abc.html`
 4. 点击 **"验证"**
 
 **方法2：HTML标签验证**
@@ -74,7 +74,7 @@ Google会要求你验证域名。你需要添加一个DNS TXT记录：
 
 确保你的sitemap.xml文件在网站根目录，可以通过以下URL访问：
 ```
-https://expresswater.cn/sitemap.xml
+https://www.yuchensy.com/sitemap.xml
 ```
 
 用浏览器测试这个链接，应该能看到XML内容。
@@ -105,7 +105,7 @@ https://expresswater.cn/sitemap.xml
 
 1. 在顶部搜索框输入完整URL，例如：
    ```
-   https://expresswater.cn/en/index.html
+   https://www.yuchensy.com/en/index.html
    ```
 
 2. 点击回车
@@ -118,18 +118,18 @@ https://expresswater.cn/sitemap.xml
 ### 推荐请求索引的页面（按优先级）：
 
 1. **首页（必须）**：
-   - `https://expresswater.cn/en/index.html`
-   - `https://expresswater.cn/es/index.html`
-   - `https://expresswater.cn/fr/index.html`
-   - `https://expresswater.cn/de/index.html`
-   - `https://expresswater.cn/ru/index.html`
+   - `https://www.yuchensy.com/en/index.html`
+   - `https://www.yuchensy.com/es/index.html`
+   - `https://www.yuchensy.com/fr/index.html`
+   - `https://www.yuchensy.com/de/index.html`
+   - `https://www.yuchensy.com/ru/index.html`
 
 2. **产品列表页**：
-   - `https://expresswater.cn/en/products.html`
+   - `https://www.yuchensy.com/en/products.html`
 
 3. **热门产品页面**（选3-5个）：
-   - `https://expresswater.cn/en/product-ro-membrane.html`
-   - `https://expresswater.cn/en/product-pp-sediment.html`
+   - `https://www.yuchensy.com/en/product-ro-membrane.html`
+   - `https://www.yuchensy.com/en/product-pp-sediment.html`
    - 等等
 
 **注意**：每天有配额限制（大约10-20个请求），不要一次性提交太多。
@@ -205,7 +205,7 @@ https://expresswater.cn/sitemap.xml
 ### Bing Webmaster Tools
 1. 访问：https://www.bing.com/webmasters
 2. 添加网站
-3. 提交sitemap：`https://expresswater.cn/sitemap.xml`
+3. 提交sitemap：`https://www.yuchensy.com/sitemap.xml`
 
 ### Yandex（俄语市场重要）
 1. 访问：https://webmaster.yandex.com

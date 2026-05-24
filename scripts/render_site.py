@@ -714,21 +714,21 @@ def main():
     for lang in LANGS:
         for page in ["index.html", "about.html", "products.html", "workshop.html", "faq.html", "contact.html"]:
             sitemap_lines.append(f'  <url>')
-            sitemap_lines.append(f'    <loc>https://expresswater.cn/{lang}/{page}</loc>')
+            sitemap_lines.append(f'    <loc>https://www.yuchensy.com/{lang}/{page}</loc>')
             for alt in LANGS:
-                sitemap_lines.append(f'    <xhtml:link rel="alternate" hreflang="{alt}" href="https://expresswater.cn/{alt}/{page}"/>')
+                sitemap_lines.append(f'    <xhtml:link rel="alternate" hreflang="{alt}" href="https://www.yuchensy.com/{alt}/{page}"/>')
             sitemap_lines.append(f'    <changefreq>weekly</changefreq>')
             sitemap_lines.append(f'    <priority>0.8</priority>')
             sitemap_lines.append(f'  </url>')
         for p in get_products(lang):
-            sitemap_lines.append(f'  <url><loc>https://expresswater.cn/{lang}/product-{p["id"]}.html</loc><priority>0.7</priority></url>')
+            sitemap_lines.append(f'  <url><loc>https://www.yuchensy.com/{lang}/product-{p["id"]}.html</loc><priority>0.7</priority></url>')
     sitemap_lines.append('</urlset>')
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write("\n".join(sitemap_lines))
 
     # Robots
     with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8") as f:
-        f.write("User-agent: *\nAllow: /\nSitemap: https://expresswater.cn/sitemap.xml\n")
+        f.write("User-agent: *\nAllow: /\nSitemap: https://www.yuchensy.com/sitemap.xml\n")
 
     print(f"\n✓ Total files generated: {total_files} HTML pages across {len(LANGS)} languages")
     print(f"✓ Root redirect, sitemap.xml, robots.txt written")

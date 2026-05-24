@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Enrich product descriptions and specs using authoritative content from
-www.expresswater.cn and www.ecoexpresswater.com scraped data, plus a B2B
+www.yuchensy.com and www.ecoexpresswater.com scraped data, plus a B2B
 expansion that bakes industry keywords (NSF, ISO, OEM, SGS) into every product."""
 import json, os, glob
 
