@@ -3340,8 +3340,14 @@ body[dir="rtl"] .faq-item::before {
 }
 
 /* Header fit guard: keep the logo and Yuchen Water text visible across languages. */
+.header > .container,
+.header .header-row {
+  max-width: min(1560px, calc(100% - 48px));
+}
+
 .header-row {
   position: relative;
+  gap: 10px !important;
 }
 
 .brand {
@@ -3358,6 +3364,7 @@ body[dir="rtl"] .faq-item::before {
 .header-actions {
   position: relative;
   z-index: 3;
+  flex-wrap: nowrap !important;
 }
 
 @media (min-width: 1181px) {
@@ -3366,23 +3373,72 @@ body[dir="rtl"] .faq-item::before {
   }
 
   .brand {
-    flex: 0 1 auto;
-    min-width: 220px;
+    flex: 0 0 auto;
+    gap: 8px !important;
+    min-width: auto;
+  }
+
+  .logo-img {
+    width: 132px !important;
+    max-width: none !important;
+  }
+
+  .brand-name {
+    font-size: 1.12rem !important;
+    line-height: 1.1;
   }
 
   .nav {
     flex: 1 1 auto;
     min-width: 0;
-    flex-wrap: wrap;
-    row-gap: 4px;
+    flex-wrap: nowrap !important;
+    justify-content: center;
+    gap: 2px !important;
+    overflow: visible;
+    white-space: nowrap;
+  }
+
+  .nav-link {
+    flex: 0 0 auto;
+    padding: 8px 9px !important;
+    font-size: 0.84rem !important;
+    line-height: 1.1;
+    white-space: nowrap;
   }
 
   .header-actions {
     flex: 0 1 auto;
+    gap: 7px !important;
+    min-width: 0;
+  }
+
+  .lang-btn {
+    min-height: 38px !important;
+    padding: 7px 10px !important;
+    font-size: 0.82rem !important;
+    border-radius: 7px !important;
+  }
+
+  .header-actions > .btn {
+    min-height: 38px !important;
+    padding: 7px 12px !important;
+    font-size: 0.8rem !important;
+    line-height: 1.12 !important;
+    border-radius: 7px !important;
+    white-space: nowrap;
+  }
+
+  .header-actions .cta-wa {
+    min-height: 38px !important;
+    padding: 8px 12px !important;
+    font-size: 0.82rem !important;
+    line-height: 1.1 !important;
+    border-radius: 7px !important;
+    white-space: nowrap;
   }
 }
 
-@media (max-width: 1380px) {
+@media (max-width: 1500px) {
   .header-actions .cta-wa {
     display: none !important;
   }
@@ -3395,11 +3451,40 @@ body[dir="rtl"] .faq-item::before {
 
   .brand {
     flex: 1 1 auto;
-    max-width: calc(100% - 260px);
+    max-width: calc(100% - 230px);
+  }
+
+  .logo-img {
+    width: 112px !important;
+    max-width: none !important;
+  }
+
+  .brand-name {
+    font-size: 0.98rem !important;
+    line-height: 1.1;
+  }
+
+  .nav {
+    flex: 1 1 auto;
+    min-width: 0;
+    flex-wrap: nowrap !important;
+    justify-content: center;
+    gap: 2px !important;
+    overflow: visible;
+    white-space: nowrap;
+  }
+
+  .nav-link {
+    flex: 0 0 auto;
+    padding: 7px 6px !important;
+    font-size: 0.74rem !important;
+    line-height: 1.1;
+    white-space: nowrap;
   }
 
   .header-actions {
     flex: 0 0 auto;
+    gap: 7px !important;
     margin-left: auto;
   }
 
@@ -3412,6 +3497,10 @@ body[dir="rtl"] .faq-item::before {
   .header-actions .cta-wa {
     display: none !important;
   }
+
+  .header-actions > .btn {
+    display: none !important;
+  }
 }
 
 @media (max-width: 820px) {
@@ -3421,6 +3510,31 @@ body[dir="rtl"] .faq-item::before {
 
   .header-actions > .btn {
     display: none !important;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1320px) {
+  .header > .container,
+  .header .header-row {
+    max-width: calc(100% - 28px);
+  }
+
+  .logo-img {
+    width: 116px !important;
+  }
+
+  .brand-name {
+    font-size: 0.98rem !important;
+  }
+
+  .nav-link {
+    padding: 7px 7px !important;
+    font-size: 0.78rem !important;
+  }
+
+  .header-actions > .btn,
+  .lang-btn {
+    font-size: 0.76rem !important;
   }
 }
 
