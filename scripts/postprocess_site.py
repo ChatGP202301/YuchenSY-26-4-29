@@ -16,12 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MODIFIED_DATE = "2026-05-11"
 
-LANGS = [
-    "en", "es", "fr", "de", "pt", "ru", "ar", "ja", "ko", "it", "tr",
-    "hi", "bn", "id", "vi", "th", "pl", "nl", "fa", "ur", "ms", "tl",
-    "he", "el", "cs", "hu", "ro", "sv", "da", "fi", "no", "uk", "bg",
-    "hr", "sr", "sk", "sl", "lt", "et", "lv", "sw", "ha", "zu", "ta", "kk",
-]
+LANGS = ["en", "ru", "es", "ar", "fr", "de", "id", "vi"]
 
 RTL_LANGS = {"ar", "fa", "he", "ur"}
 

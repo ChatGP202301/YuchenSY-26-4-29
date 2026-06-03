@@ -16,12 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-LANGS = [
-    "en", "es", "fr", "de", "pt", "ru", "ar", "ja", "ko", "it", "tr",
-    "hi", "bn", "id", "vi", "th", "pl", "nl", "fa", "ur", "ms", "tl",
-    "he", "el", "cs", "hu", "ro", "sv", "da", "fi", "no", "uk", "bg",
-    "hr", "sr", "sk", "sl", "lt", "et", "lv", "sw", "ha", "zu", "ta", "kk",
-]
+LANGS = ["en", "ru", "es", "ar", "fr", "de", "id", "vi"]
 
 COMMON = {
     "es": {"related": "Productos relacionados", "years": "Años de experiencia", "countries": "Países atendidos", "factory": "m² de fábrica", "skus": "Referencias de producto", "email": "Correo electrónico", "leading": "Fabricante líder de filtros de agua en China | Fábrica certificada NSF e ISO"},

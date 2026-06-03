@@ -106,12 +106,7 @@ body {
   flex-direction: column;
 }
 
-.brand-name {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--brand-primary);
-  letter-spacing: -0.5px;
-}
+.brand-name{font-size:1.4rem;font-weight:700;color:var(--primary-dark);white-space:nowrap;background:linear-gradient(135deg,var(--primary-dark),var(--primary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 
 .tagline {
   font-size: 11px;

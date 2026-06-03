@@ -3,6 +3,11 @@
 Forest Green / Champagne Gold theme. Produces semantic, SEO-rich HTML.
 """
 
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
 # Forest Green #485342, Champagne Gold #B5A48B, Light BG #F9F9F7
 PALETTE = {
     "fg": "#485342",       # Forest Green
@@ -25,7 +30,7 @@ GEO = {
     "wa": "8619908311885",
 }
 
-LANGS = ['en','es','fr','de','pt','ru','ar','ja','ko','it','tr','hi','bn','id','vi','th','pl','nl','fa','ur','ms','tl','he','el','cs','hu','ro','sv','da','fi','no','uk','bg','hr','sr','sk','sl','lt','et','lv','sw','ha','zu','ta','kk']
+LANGS = ['en', 'ru', 'es', 'ar', 'fr', 'de', 'id', 'vi']
 
 LANG_LABELS = {
     "en": "English", "es": "Español", "fr": "Français", "de": "Deutsch", "pt": "Português",
@@ -60,7 +65,8 @@ def head(title, description, lang, page_path, alt_langs):
         f'  <link rel="alternate" hreflang="{l}" href="https://www.yuchensy.com/{l}/{page_path}" />'
         for l in alt_langs
     )
-    hreflang += f'\n  <link rel="alternate" hreflang="x-default" href="https://www.yuchensy.com/en/{page_path}" />'
+    default_path = page_path if (ROOT / "en" / page_path).exists() else "index.html"
+    hreflang += f'\n  <link rel="alternate" hreflang="x-default" href="https://www.yuchensy.com/en/{default_path}" />'
 
     jsonld = f'''
 {{
@@ -88,7 +94,7 @@ def head(title, description, lang, page_path, alt_langs):
     "longitude": {GEO['lon']}
   }},
   "areaServed": ["United States","Germany","France","Russia","Brazil","Mexico","UK","Italy","Spain","Japan","Korea","Saudi Arabia","UAE","Egypt","India","Indonesia","Malaysia","Vietnam","Thailand","Turkey"],
-  "knowsAbout": ["NSF certified water filter","RO Membrane manufacturer","OEM water purifier","Industrial filtration","PP melt-blown filter","CTO carbon block","GAC filter","UF membrane","T33 post-carbon","reverse osmosis","Halal water filter","ISO 9001:2015","SGS test report","CE certification"]
+  "knowsAbout": ["selected NSF/ANSI test options water filter","RO Membrane manufacturer","OEM water purifier","Industrial filtration","PP melt-blown filter","CTO carbon block","GAC filter","UF membrane","T33 post-carbon","reverse osmosis","Halal water filter","ISO 9001:2015","SGS test report","CE certification"]
 }}'''.strip()
 
     return f'''<!DOCTYPE html>
@@ -98,7 +104,7 @@ def head(title, description, lang, page_path, alt_langs):
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content="{description}" />
-  <meta name="keywords" content="water filter manufacturer, NSF certified, RO membrane, OEM water purifier, PP melt-blown filter, CTO carbon block, GAC filter, UF membrane, T33 post-carbon, reverse osmosis system, industrial filtration, halal water filter, China water dispenser factory, ISO 9001 water filter, wholesale water purifier, Express Water" />
+  <meta name="keywords" content="water filter manufacturer, selected NSF/ANSI test options, RO membrane, OEM water purifier, PP melt-blown filter, CTO carbon block, GAC filter, UF membrane, T33 post-carbon, reverse osmosis system, industrial filtration, halal water filter, China water dispenser factory, ISO 9001 water filter, wholesale water purifier, Express Water" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Express Water" />
 
@@ -146,7 +152,7 @@ def topbar_html(t, lang):
 def lang_switcher_dropdown(current_lang, page_path="index.html"):
     """Inline language picker between Contact and WhatsApp."""
     options = "\n".join(
-        f'    <a href="../{l}/{page_path}" class="lang-option {"active" if l == current_lang else ""}" lang="{l}">{LANG_LABELS[l]}</a>'
+        f'    <a href="../{l}/{page_path if (ROOT / l / page_path).exists() else "index.html"}" class="lang-option {"active" if l == current_lang else ""}" lang="{l}">{LANG_LABELS[l]}</a>'
         for l in LANGS
     )
     return f'''
@@ -172,7 +178,7 @@ def navbar_html(t, lang, current_page="index.html"):
     for key, href in NAV_KEYS:
         active = " active" if href == current_page else ""
         items += f'<a href="{href}" class="nav-link{active}">{nav_labels[key]}</a>\n      '
-    wa_label = t.get("cta_whatsapp", "WhatsApp Us")
+    wa_label = t.get("cta_whatsapp", "Contact Engineer")
     return f'''
 <header class="header">
   <div class="container header-row">
@@ -235,7 +241,7 @@ def footer_html(t, lang):
   </div>
   <div class="footer-bottom">
     <div class="container">
-      © 2026 Express Water · Eco Express Water Co., Ltd. · {t.get("footer_rights", "All Rights Reserved")} · NSF · ISO 9001:2015 · CE · SGS · 3C · Halal Certified
+      © 2026 Express Water · Eco Express Water Co., Ltd. · {t.get("footer_rights", "All Rights Reserved")} · NSF/ANSI options · ISO 9001 · CE · SGS · Halal documents on request
     </div>
   </div>
 </footer>
