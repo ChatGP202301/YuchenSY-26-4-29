@@ -1,9 +1,32 @@
-/* Express Water Interactive JS */
+/* Yuchen Water Interactive JS */
 
 function toggleLangMenu() {
     const menu = document.getElementById('langMenu');
     if (!menu) return;
-    menu.classList.toggle('open');
+    const overlay = ensureLangMenuOverlay();
+    const isOpen = menu.classList.toggle('open');
+    overlay.classList.toggle('open', isOpen);
+    document.body.classList.toggle('lang-menu-open', isOpen);
+}
+
+function ensureLangMenuOverlay() {
+    let overlay = document.querySelector('.lang-menu-overlay');
+    if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.className = 'lang-menu-overlay';
+        overlay.setAttribute('aria-hidden', 'true');
+        overlay.addEventListener('click', closeLangMenu);
+        document.body.appendChild(overlay);
+    }
+    return overlay;
+}
+
+function closeLangMenu() {
+    const menu = document.getElementById('langMenu');
+    const overlay = document.querySelector('.lang-menu-overlay');
+    if (menu) menu.classList.remove('open');
+    if (overlay) overlay.classList.remove('open');
+    document.body.classList.remove('lang-menu-open');
 }
 
 // Close menus when clicking outside
@@ -11,7 +34,7 @@ document.addEventListener('click', function(e) {
     const langSwitcher = document.querySelector('.lang-switcher');
     const langMenu = document.getElementById('langMenu');
     if (langSwitcher && langMenu && !langSwitcher.contains(e.target)) {
-        langMenu.classList.remove('open');
+        closeLangMenu();
     }
 });
 
@@ -48,7 +71,7 @@ document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
         const langMenu = document.getElementById('langMenu');
         const nav = document.querySelector('.nav');
-        if (langMenu) langMenu.classList.remove('open');
+        if (langMenu) closeLangMenu();
         if (nav) nav.classList.remove('open');
     }
 });
@@ -91,7 +114,7 @@ document.addEventListener('submit', async function(e) {
     const submitButton = form.querySelector('[type="submit"]');
     const honeypot = form.querySelector('input[name="_honey"]');
     const readyAt = Number(form.dataset.readyAt || Date.now());
-    const message = form.querySelector('textarea[name="Message"]');
+    const message = form.querySelector('textarea[name="message"]');
     const urlCount = message && message.value ? (message.value.match(/https?:\/\/|www\./gi) || []).length : 0;
 
     if (success) success.hidden = true;
