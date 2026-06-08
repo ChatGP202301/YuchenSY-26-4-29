@@ -3788,10 +3788,18 @@ a img {
     overflow: hidden;
   }
 
+  body.lang-menu-open .header {
+    z-index: 1300 !important;
+  }
+
+  body.lang-menu-open .mobile-whatsapp-bar {
+    display: none !important;
+  }
+
   .lang-menu-overlay {
     position: fixed !important;
     inset: 0 !important;
-    z-index: 1190 !important;
+    z-index: 1200 !important;
     display: none;
     background: rgba(15, 23, 42, 0.44);
   }
@@ -3811,7 +3819,7 @@ a img {
     right: 12px !important;
     bottom: 12px !important;
     left: 12px !important;
-    z-index: 1210 !important;
+    z-index: 1310 !important;
     display: none;
     width: auto !important;
     min-width: 0 !important;
