@@ -113,7 +113,7 @@ img{max-width:100%;height:auto;display:block}
 .hero h1{font-size:2.5rem;font-weight:700;margin-bottom:16px;line-height:1.2}
 @media(max-width:768px){.hero h1{font-size:1.8rem}.hero{padding:60px 20px}}
 </style>
-<link rel="stylesheet" href="../assets/styles.min.css?v=20260608-langmenu-final2" media="all" />
+<link rel="stylesheet" href="../assets/styles.min.css?v=20260612-mobile-lang-polished" media="all" />
 
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":["Organization","Manufacturer","Corporation"],"@id":"https://www.yuchensy.com/#organization","name":"Yuchen Water","alternateName":["Yuchen Water","Yuchen Water China","雨晨三溢"],"legalName":"Yuchen Water","url":"https://www.yuchensy.com","logo":{"@type":"ImageObject","url":"https://www.yuchensy.com/assets/logo.png","width":500,"height":500},"image":"https://www.yuchensy.com/assets/backgrounds/eco_hero1.webp","description":"Yuchen Water is a China water filtration manufacturer supplying PP, CTO, GAC, T33, UF, RO membrane, water purifier, water dispenser and filter housing products for global B2B OEM and ODM buyers.","slogan":"Industrial-Grade Water Purification & OEM Solutions","foundingDate":"1998","foundingLocation":{"@type":"Place","name":"Haining, Zhejiang, China"},"numberOfEmployees":{"@type":"QuantitativeValue","minValue":50,"maxValue":200},"address":{"@type":"PostalAddress","streetAddress":"Yuanhua Town","addressLocality":"Haining","addressRegion":"Zhejiang","postalCode":"314400","addressCountry":"CN"},"geo":{"@type":"GeoCoordinates","latitude":30.4398,"longitude":120.6974},"contactPoint":[{"@type":"ContactPoint","telephone":"+86-19908311885","contactType":"sales","email":"expresswater025@gmail.com","availableLanguage":["en","ru","fr","de","it","es","pt","tr","ar","pl","nl","sv","uk","ja","ko","uz","kk","cs","sk","hu","ro","bg","hr","sr","sl","bs","sr-ME","sq","el","lt","lv","et","fa","he","ku","ka","hy","az","ky","tg","tk","fi","da","no","vi","th","id","ms","tl","bn","sw","af"],"areaServed":"Worldwide"},{"@type":"ContactPoint","telephone":"+86-19908311885","contactType":"customer support","email":"expresswater025@gmail.com","availableLanguage":["en","ru","fr","de","it","es","pt","tr","ar","pl","nl","sv","uk","ja","ko","uz","kk","cs","sk","hu","ro","bg","hr","sr","sl","bs","sr-ME","sq","el","lt","lv","et","fa","he","ku","ka","hy","az","ky","tg","tk","fi","da","no","vi","th","id","ms","tl","bn","sw","af"],"areaServed":"Worldwide"}],"areaServed":{"@type":"Place","name":"Worldwide"},"knowsAbout":["built-in pressure tank RO water purifier","compact reverse osmosis water purifier","100G and 200G RO systems","5-stage and 6-stage RO filtration","OEM/ODM water purifier manufacturing","private-label water filtration products","PP melt-blown filter cartridge","CTO carbon block filter","GAC activated carbon filter","UF membrane filtration","RO membrane element","water dispenser manufacturing"],"hasCredential":[{"@type":"EducationalOccupationalCredential","name":"Selected products can be supplied or tested according to NSF/ANSI 42, 53 and 58 requirements","credentialCategory":"product testing support"},{"@type":"EducationalOccupationalCredential","name":"ISO 9001 quality management documents available upon request","credentialCategory":"quality document"},{"@type":"EducationalOccupationalCredential","name":"CE documents available upon request where applicable","credentialCategory":"market document"},{"@type":"EducationalOccupationalCredential","name":"SGS test reports available upon request where applicable","credentialCategory":"third-party test document"},{"@type":"EducationalOccupationalCredential","name":"Halal-related documents available upon request where applicable","credentialCategory":"market document"}],"award":["27+ years of water filtration manufacturing experience","50+ export markets","200+ water filtration product SKU range"],"makesOffer":[{"@type":"Offer","itemOffered":{"@type":"Product","name":"PP melt blown filter"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"CTO carbon block filter"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"GAC filter"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"T33 inline filter"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"UF membrane"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"RO membrane"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"water purifier"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"water dispenser"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"filter housing"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"OEM manufacturing service"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"ODM design service"}}]},{"@context":"https://schema.org","@type":"WebSite","@id":"https://www.yuchensy.com/#website","url":"https://www.yuchensy.com","name":"Yuchen Water","description":"Global water filter and reverse osmosis system manufacturer for OEM/ODM wholesale buyers","publisher":{"@id":"https://www.yuchensy.com/#organization"},"inLanguage":"cs","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.yuchensy.com/cs/products.html?search={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.yuchensy.com/cs/index.html"},{"@type":"ListItem","position":2,"name":"About Us","item":"https://www.yuchensy.com/cs/about.html"}]}]}</script>
 <style>
@@ -218,6 +218,65 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
     <a href="../hi/about.html" class="lang-option" lang="hi">हिन्दी</a>
     <a href="../ta/about.html" class="lang-option" lang="ta">தமிழ்</a>
   </div>
+        <select class="lang-select-mobile" aria-label="Select language" onchange="changeLanguage(this)">
+          <option value="../en/about.html">English</option>
+          <option value="../ru/about.html">Русский</option>
+          <option value="../fr/about.html">Français</option>
+          <option value="../de/about.html">Deutsch</option>
+          <option value="../it/about.html">Italiano</option>
+          <option value="../es/about.html">Español</option>
+          <option value="../pt/about.html">Português</option>
+          <option value="../tr/about.html">Türkçe</option>
+          <option value="../ar/about.html">العربية</option>
+          <option value="../pl/about.html">Polski</option>
+          <option value="../nl/about.html">Nederlands</option>
+          <option value="../sv/about.html">Svenska</option>
+          <option value="../uk/about.html">Українська</option>
+          <option value="../ja/about.html">日本語</option>
+          <option value="../ko/about.html">한국어</option>
+          <option value="../uz/about.html">Oʻzbekcha</option>
+          <option value="../kk/about.html">Қазақша</option>
+          <option value="../cs/about.html" selected>Čeština</option>
+          <option value="../sk/about.html">Slovenčina</option>
+          <option value="../hu/about.html">Magyar</option>
+          <option value="../ro/about.html">Română</option>
+          <option value="../bg/about.html">Български</option>
+          <option value="../hr/about.html">Hrvatski</option>
+          <option value="../sr/about.html">Српски</option>
+          <option value="../sl/about.html">Slovenščina</option>
+          <option value="../bs/about.html">Bosanski</option>
+          <option value="../sr-me/about.html">Crnogorski</option>
+          <option value="../sq/about.html">Shqip</option>
+          <option value="../el/about.html">Ελληνικά</option>
+          <option value="../lt/about.html">Lietuvių</option>
+          <option value="../lv/about.html">Latviešu</option>
+          <option value="../et/about.html">Eesti</option>
+          <option value="../fa/about.html">فارسی</option>
+          <option value="../he/about.html">עברית</option>
+          <option value="../ku/about.html">Kurdî</option>
+          <option value="../ka/about.html">ქართული</option>
+          <option value="../hy/about.html">Հայերեն</option>
+          <option value="../az/about.html">Azərbaycanca</option>
+          <option value="../ky/about.html">Кыргызча</option>
+          <option value="../tg/about.html">Тоҷикӣ</option>
+          <option value="../tk/about.html">Türkmençe</option>
+          <option value="../fi/about.html">Suomi</option>
+          <option value="../da/about.html">Dansk</option>
+          <option value="../no/about.html">Norsk</option>
+          <option value="../vi/about.html">Tiếng Việt</option>
+          <option value="../th/about.html">ไทย</option>
+          <option value="../id/about.html">Bahasa Indonesia</option>
+          <option value="../ms/about.html">Bahasa Melayu</option>
+          <option value="../tl/about.html">Tagalog</option>
+          <option value="../bn/about.html">বাংলা</option>
+          <option value="../sw/about.html">Kiswahili</option>
+          <option value="../af/about.html">Afrikaans</option>
+          <option value="../ur/about.html">اردو</option>
+          <option value="../zu/about.html">isiZulu</option>
+          <option value="../ha/about.html">Hausa</option>
+          <option value="../hi/about.html">हिन्दी</option>
+          <option value="../ta/about.html">தமிழ்</option>
+        </select>
 </div>
 
       <a href="https://wa.me/8619908311885" target="_blank" rel="noopener" class="cta-wa">📱 WhatsApp</a>
@@ -306,7 +365,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
       © 2026 Yuchen Water · Yuchen Water · Všechna práva vyhrazena. · ISO 9001, CE, SGS, selected NSF/ANSI and Halal-related documents available on request · <a href="privacy-policy.html">Privacy Policy</a></div>
   </div>
 </footer>
-<script src="../assets/site.min.js?v=20260608-langmenu-final2" defer></script>
+<script src="../assets/site.min.js?v=20260612-mobile-lang-polished" defer></script>
 
 <script>
 // 简单的语言切换器

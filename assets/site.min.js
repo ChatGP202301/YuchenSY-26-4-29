@@ -9,6 +9,12 @@ function toggleLangMenu() {
     document.body.classList.toggle('lang-menu-open', isOpen);
 }
 
+function changeLanguage(select) {
+    if (select && select.value) {
+        window.location.href = select.value;
+    }
+}
+
 function ensureLangMenuOverlay() {
     let overlay = document.querySelector('.lang-menu-overlay');
     if (!overlay) {
