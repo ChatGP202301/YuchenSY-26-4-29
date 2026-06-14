@@ -68,3 +68,4 @@ Each indexable HTML page should use a self-referencing canonical URL, index/foll
 
 Use the contact form at https://www.yuchensy.com/en/contact.html or email expresswater025@gmail.com. The form asks for name, company, email, WhatsApp, country, product, quantity, destination port and message. After a successful submission, the site displays a Thank You confirmation and provides WhatsApp and email contact options.
 - 20-inch Commercial RO Water Purifier 800G/1200G/1600G/2000G: https://www.yuchensy.com/en/product-20-inch-commercial-ro-water-purifier-800g-2000g.html
+- Large Industrial Reverse Osmosis Water Treatment Equipment 3-100 TPH: https://www.yuchensy.com/en/product-large-industrial-reverse-osmosis-water-treatment-equipment.html

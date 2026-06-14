@@ -133,6 +133,39 @@
       ]
     },
     {
+      "id": "large-industrial-reverse-osmosis-water-treatment-equipment",
+      "name": "Large Industrial Reverse Osmosis Water Treatment Equipment 3-100 TPH",
+      "category": "RO System",
+      "desc": "Large industrial RO water treatment system with 3-100 TPH flow, automatic control, customizable pretreatment and UPVC/304 piping options for OEM projects.",
+      "specs": {
+        "Product Type": "Large Industrial Reverse Osmosis Water Treatment Equipment 3-100 TPH",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "Three-stage pretreatment plus reverse osmosis; purification process is customized according to water analysis",
+        "Pure Water Flow": "3-100 t/h",
+        "Feed Water": "Tap water and groundwater",
+        "Piping Material": "UPVC or 304 stainless steel according to project standard",
+        "Protection Functions": "No-water protection, overload protection and alarm interfaces",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized"
+      },
+      "image": "../assets/products/large-industrial-reverse-osmosis-water-treatment-equipment-3-100tph-oem.webp",
+      "image_local": "assets/products/large-industrial-reverse-osmosis-water-treatment-equipment-3-100tph-oem.webp",
+      "image_orig": "../assets/products/large-industrial-reverse-osmosis-water-treatment-equipment-3-100tph-oem.webp",
+      "summary": "Yuchen Water large industrial reverse osmosis water treatment equipment is built for factories, water plants, hotels and B2B project contractors that need stable purified water output from 3 to 100 tons per hour. The system combines three-stage pretreatment with RO separation, full automatic intelligent operation, no-water protection, overload protection and customizable process modules for tap water or groundwater.",
+      "features": [
+        "3-100 TPH pure water flow",
+        "Full automatic intelligent operation",
+        "No-water and overload protection",
+        "Three-stage pretreatment plus reverse osmosis",
+        "UPVC or 304 piping options"
+      ],
+      "applications": "Factories, water plants, hotels, food processing and industrial pure water projects.",
+      "related": [
+        "ro-seawater-desalination-machine",
+        "20-inch-commercial-ro-water-purifier-800g-2000g",
+        "ss-jumbo-housing"
+      ]
+    },
+    {
       "id": "big-blue-3stage",
       "name": "30-inch Three Stage Big Blue Water Filter",
       "category": "Big Blue Water Filter",
