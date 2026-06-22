@@ -59,6 +59,42 @@
       ]
     },
     {
+      "id": "desktop-ro-water-machine-compressor-cooling-100g",
+      "name": "Desktop RO Water Machine with Compressor Cooling 100G",
+      "category": "RO Water Purifier",
+      "desc": "Desktop RO Water Machine with Compressor Cooling: Four-stage filtration: PP + CTO + T33 + RO, with 100G RO capacity; Compressor cooling for chilled drinking water and stable countertop service; Black housing standard; other colors, logo, panel language and packaging can be customized for OEM/ODM; child lock available.",
+      "specs": {
+        "Product Type": "Desktop RO Water Machine with Compressor Cooling 100G",
+        "Operating Mode": "Compressor cooling for chilled drinking water and stable countertop service",
+        "Treatment Process": "Four-stage filtration: PP + CTO + T33 + RO, with 100G RO capacity",
+        "Pure Water Flow": "100G",
+        "Feed Water": "Municipal tap water",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Black housing standard; other colors, logo, panel language and packaging can be customized for OEM/ODM; child lock available",
+        "Application": "Offices, showrooms, apartments, small kitchens, pantries and branded countertop appliance programs",
+        "OEM/ODM": "Black housing standard; other colors, logo, panel language and packaging can be customized for OEM/ODM; child lock available",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/desktop-ro-water-machine-compressor-cooling-100g-black-front-oem.webp",
+      "image_local": "assets/products/desktop-ro-water-machine-compressor-cooling-100g-black-front-oem.webp",
+      "image_orig": "../assets/products/desktop-ro-water-machine-compressor-cooling-100g-black-front-oem.webp",
+      "summary": "Desktop RO Water Machine with Compressor Cooling 100G. Operating Mode: Compressor cooling for chilled drinking water and stable countertop service. Treatment Process: Four-stage filtration: PP + CTO + T33 + RO, with 100G RO capacity. Pure Water Flow: 100G. Feed Water: Municipal tap water. Project customization: Black housing standard; other colors, logo, panel language and packaging can be customized for OEM/ODM; child lock available. Application: Offices, showrooms, apartments, small kitchens, pantries and branded countertop appliance programs.",
+      "features": [
+        "Desktop RO water machine with compressor cooling",
+        "Four-stage PP + CTO + T33 + RO filtration",
+        "100G RO capacity",
+        "Black cabinet with custom color options",
+        "Child lock and custom logo options"
+      ],
+      "applications": "Desktop RO drinking water machine for offices, showrooms, apartments, small kitchens, pantries and OEM appliance programs.",
+      "related": [
+        "built-in-pressure-tank-ro",
+        "custom-5-6-7-stage-ro-water-purifier",
+        "commercial-ro-water-purifier-800g-2000g",
+        "ro-water-purifier"
+      ]
+    },
+    {
       "id": "alkaline-purifier",
       "name": "Alkaline Water Purifier System",
       "category": "Water Purifier",
