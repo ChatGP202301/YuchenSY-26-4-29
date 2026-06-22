@@ -133,6 +133,42 @@
       ]
     },
     {
+      "id": "small-medium-seawater-desalination-ro-equipment",
+      "name": "Small and Medium Seawater Desalination RO Equipment",
+      "category": "RO System",
+      "desc": "Small and medium seawater desalination RO system for 10000-45000 ppm raw water, 60-10000 L/h output and OEM project configuration.",
+      "specs": {
+        "Product model": "Small and medium seawater desalination equipment",
+        "Raw water salinity": "10000-45000 ppm",
+        "Nitrate removal rate": "≥90%",
+        "Inlet water temperature": "2-40°C",
+        "Salt rejection": "≥99.7%",
+        "Product water flow": "60 L/h-10000 L/h",
+        "Product water salinity": "≤750 ppm",
+        "Treatment process": "Three-stage pretreatment plus reverse osmosis; process customized by water analysis",
+        "Control and protection": "Automatic operation, no-water protection and overload protection; functions selected by project need",
+        "Application": "Seawater and brackish water desalination for coastal, island, vessel and project water supply",
+        "Customization": "Membrane quantity, pump, voltage, control panel, frame, piping and packaging can be configured"
+      },
+      "image": "../assets/products/small-medium-seawater-desalination-ro-equipment-60l-10000l-oem.webp",
+      "image_local": "assets/products/small-medium-seawater-desalination-ro-equipment-60l-10000l-oem.webp",
+      "image_orig": "../assets/products/small-medium-seawater-desalination-ro-equipment-60l-10000l-oem.webp",
+      "summary": "Yuchen Water small and medium seawater desalination RO equipment is built for coastal projects, islands, vessels, hotels and B2B contractors that need reliable drinking or process water from seawater. The system treats 10000-45000 ppm raw water salinity, combines pretreatment with reverse osmosis, and delivers 60 L/h-10000 L/h product water with salt rejection of at least 99.7%. Control, pumps, membrane quantity and protection functions can be customized according to water analysis and project requirements.",
+      "features": [
+        "10000-45000 ppm feed water",
+        "≥99.7% salt rejection",
+        "60-10000 L/h product water",
+        "Automatic operation with no-water and overload protection",
+        "Project-based membrane and pump configuration"
+      ],
+      "applications": "Coastal projects, islands, vessels, hotels and seawater or brackish water supply projects.",
+      "related": [
+        "ro-seawater-desalination-machine",
+        "large-industrial-reverse-osmosis-water-treatment-equipment",
+        "20-inch-commercial-ro-water-purifier-800g-2000g"
+      ]
+    },
+    {
       "id": "large-industrial-reverse-osmosis-water-treatment-equipment",
       "name": "Large Industrial Reverse Osmosis Water Treatment Equipment 3-100 TPH",
       "category": "RO System",
@@ -163,6 +199,435 @@
         "ro-seawater-desalination-machine",
         "20-inch-commercial-ro-water-purifier-800g-2000g",
         "ss-jumbo-housing"
+      ]
+    },
+    {
+      "id": "dual-tank-pretreatment-integrated-skid-ro-equipment",
+      "name": "Dual-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h",
+      "category": "RO System",
+      "desc": "Integrated skid RO system with automatic sand and carbon tanks, precision filtration and 1000-3000 L/h purified water output for OEM projects.",
+      "specs": {
+        "Product Type": "Dual-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "Automatic sand tank + automatic carbon tank + precision filter + reverse osmosis",
+        "Pure Water Flow": "1000-3000 L/h",
+        "Feed Water": "Tap water and groundwater",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/dual-tank-pretreatment-integrated-skid-ro-equipment-1000l-3000l-oem.webp",
+      "image_local": "assets/products/dual-tank-pretreatment-integrated-skid-ro-equipment-1000l-3000l-oem.webp",
+      "image_orig": "../assets/products/dual-tank-pretreatment-integrated-skid-ro-equipment-1000l-3000l-oem.webp",
+      "summary": "Yuchen Water dual-tank pretreatment integrated skid RO equipment is designed for commercial and light industrial B2B projects using tap water or groundwater. The system integrates an automatic sand tank, automatic carbon tank, precision filter and reverse osmosis unit on one frame, producing 1000-3000 L/h purified water with 0.1-0.4 MPa feed pressure. Appearance, process flow, configuration and functions can be customized according to source-water analysis and buyer requirements.",
+      "features": [
+        "Automatic sand tank and carbon tank",
+        "Precision filter plus RO purification",
+        "1000-3000 L/h purified water flow",
+        "0.1-0.4 MPa feed pressure",
+        "Customized frame, process and control functions"
+      ],
+      "applications": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects.",
+      "related": [
+        "large-industrial-reverse-osmosis-water-treatment-equipment",
+        "ro-seawater-desalination-machine",
+        "20-inch-commercial-ro-water-purifier-800g-2000g"
+      ]
+    },
+    {
+      "id": "three-tank-pretreatment-integrated-skid-ro-equipment",
+      "name": "Three-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h",
+      "category": "RO System",
+      "desc": "Integrated skid RO system with automatic sand and carbon tanks, precision filtration and 1000-3000 L/h purified water output for OEM projects.",
+      "specs": {
+        "Product Type": "Three-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "Automatic sand tank + automatic carbon tank + automatic softening tank + precision filter + reverse osmosis",
+        "Pure Water Flow": "1000-3000 L/h",
+        "Feed Water": "Tap water and groundwater",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/three-tank-pretreatment-integrated-skid-ro-equipment-1000l-3000l-oem.webp",
+      "image_local": "assets/products/three-tank-pretreatment-integrated-skid-ro-equipment-1000l-3000l-oem.webp",
+      "image_orig": "../assets/products/three-tank-pretreatment-integrated-skid-ro-equipment-1000l-3000l-oem.webp",
+      "summary": "Yuchen Water three-tank pretreatment integrated skid RO equipment is designed for commercial and light industrial B2B projects using tap water or groundwater. The system integrates an automatic sand tank, automatic carbon tank, precision filter and reverse osmosis unit on one frame, producing 1000-3000 L/h purified water with 0.1-0.4 MPa feed pressure. Appearance, process flow, configuration and functions can be customized according to source-water analysis and buyer requirements.",
+      "features": [
+        "Automatic sand, carbon and softening tanks",
+        "Precision filter plus RO purification",
+        "1000-3000 L/h purified water flow",
+        "0.1-0.4 MPa feed pressure",
+        "Customized frame, process and control functions"
+      ],
+      "applications": "Hotels, factories, schools, communities, commercial kitchens and groundwater treatment projects.",
+      "related": [
+        "dual-tank-pretreatment-integrated-skid-ro-equipment",
+        "large-industrial-reverse-osmosis-water-treatment-equipment",
+        "20-inch-commercial-ro-water-purifier-800g-2000g"
+      ]
+    },
+    {
+      "id": "dual-tank-pretreatment-ro-equipment-250-1000lph",
+      "name": "Dual-Tank Pretreatment Reverse Osmosis Equipment 250-1000 L/h",
+      "category": "RO System",
+      "desc": "Dual-tank pretreatment RO equipment with automatic sand and carbon tanks, precision filtration and 250-1000 L/h purified water output for customized OEM projects.",
+      "specs": {
+        "Product Type": "Dual-Tank Pretreatment Reverse Osmosis Equipment 250-1000 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "Automatic sand tank + automatic carbon tank + precision filter + reverse osmosis",
+        "Pure Water Flow": "250-1000 L/h",
+        "Feed Water": "Tap water and groundwater",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, workshops, schools, clinics, commercial kitchens, groundwater pretreatment and compact water purification projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/dual-tank-pretreatment-ro-equipment-250l-1000l-blue-frp-tanks-oem.webp",
+      "image_local": "assets/products/dual-tank-pretreatment-ro-equipment-250l-1000l-blue-frp-tanks-oem.webp",
+      "image_orig": "../assets/products/dual-tank-pretreatment-ro-equipment-250l-1000l-blue-frp-tanks-oem.webp",
+      "summary": "Yuchen Water dual-tank pretreatment reverse osmosis equipment is designed for B2B projects that need 250-1000 L/h purified water from tap water or groundwater. The system combines an automatic sand tank, automatic carbon tank, precision filter and RO purification in a compact frame, with 0.1-0.4 MPa feed pressure. Appearance, process flow, component configuration and control functions can be customized according to water analysis, installation space and buyer requirements.",
+      "features": [
+        "Automatic sand tank and carbon tank",
+        "Precision filter plus RO purification",
+        "250-1000 L/h purified water flow",
+        "0.1-0.4 MPa feed pressure",
+        "Custom appearance, process, configuration and functions"
+      ],
+      "applications": "Hotels, workshops, schools, clinics, commercial kitchens, groundwater pretreatment and compact water purification projects.",
+      "related": [
+        "dual-tank-pretreatment-integrated-skid-ro-equipment",
+        "three-tank-pretreatment-integrated-skid-ro-equipment",
+        "20-inch-commercial-ro-water-purifier-800g-2000g"
+      ]
+    },
+    {
+      "id": "six-housing-ro-equipment-with-pure-water-tank-250-1000lph",
+      "name": "Six-Housing Reverse Osmosis Equipment with Pure Water Tank 250-1000 L/h",
+      "category": "RO System",
+      "desc": "Six-Housing Reverse Osmosis Equipment with Pure Water Tank: 20″ PP + 20″ CTO + 20″ PP + RO; 250-1000 L/h; Tap water and groundwater.",
+      "specs": {
+        "Product Type": "Six-Housing Reverse Osmosis Equipment with Pure Water Tank 250-1000 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "20″ PP + 20″ CTO + 20″ PP + RO",
+        "Pure Water Flow": "250-1000 L/h",
+        "Feed Water": "Tap water and groundwater",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/six-housing-ro-equipment-with-pure-water-tank-250l-1000l-open-oem.webp",
+      "image_local": "assets/products/six-housing-ro-equipment-with-pure-water-tank-250l-1000l-open-oem.webp",
+      "image_orig": "../assets/products/six-housing-ro-equipment-with-pure-water-tank-250l-1000l-open-oem.webp",
+      "summary": "Six-Housing Reverse Osmosis Equipment with Pure Water Tank 250-1000 L/h. Treatment Process: 20″ PP + 20″ CTO + 20″ PP + RO. Pure Water Flow: 250-1000 L/h. Feed Water: Tap water and groundwater. Feed pressure: 0.1-0.4 MPa. Project customization: Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space.",
+      "features": [
+        "20-inch PP + CTO + PP pretreatment",
+        "RO purification with pure water tank",
+        "250-1000 L/h purified water flow",
+        "0.1-0.4 MPa feed pressure",
+        "Custom appearance, process, configuration and functions"
+      ],
+      "applications": "Tap-water and groundwater purification for commercial drinking water, factories, schools, workshops and light industrial projects.",
+      "related": [
+        "dual-tank-pretreatment-ro-equipment-250-1000lph",
+        "20-inch-commercial-ro-water-purifier-800g-2000g",
+        "dual-tank-pretreatment-integrated-skid-ro-equipment",
+        "three-tank-pretreatment-integrated-skid-ro-equipment"
+      ]
+    },
+    {
+      "id": "single-tank-pretreatment-ro-equipment-250-500lph",
+      "name": "Single-Tank Pretreatment Reverse Osmosis Water Purification Equipment 250-500 L/h",
+      "category": "RO System",
+      "desc": "Single-Tank Pretreatment Reverse Osmosis Water Purification Equipment: Automatic sand-carbon tank + 20-inch PP + 20-inch PP + RO; 250-500 L/h; Tap water and groundwater.",
+      "specs": {
+        "Product Type": "Single-Tank Pretreatment Reverse Osmosis Water Purification Equipment 250-500 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "Automatic sand-carbon tank + 20-inch PP + 20-inch PP + RO",
+        "Pure Water Flow": "250-500 L/h",
+        "Feed Water": "Tap water and groundwater",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/single-tank-pretreatment-ro-water-purification-equipment-250l-500l-oem.webp",
+      "image_local": "assets/products/single-tank-pretreatment-ro-water-purification-equipment-250l-500l-oem.webp",
+      "image_orig": "../assets/products/single-tank-pretreatment-ro-water-purification-equipment-250l-500l-oem.webp",
+      "summary": "Single-Tank Pretreatment Reverse Osmosis Water Purification Equipment 250-500 L/h. Treatment Process: Automatic sand-carbon tank + 20-inch PP + 20-inch PP + RO. Pure Water Flow: 250-500 L/h. Feed Water: Tap water and groundwater. Feed pressure: 0.1-0.4 MPa. Project customization: Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space.",
+      "features": [
+        "Automatic sand-carbon pretreatment tank",
+        "20-inch PP + 20-inch PP + RO purification",
+        "250-500 L/h purified water flow",
+        "0.1-0.4 MPa feed pressure",
+        "Custom appearance, process, configuration and functions"
+      ],
+      "applications": "Tap-water and groundwater purification for commercial drinking water, offices, workshops, schools and light industrial projects.",
+      "related": [
+        "six-housing-ro-equipment-with-pure-water-tank-250-1000lph",
+        "dual-tank-pretreatment-ro-equipment-250-1000lph",
+        "20-inch-commercial-ro-water-purifier-800g-2000g",
+        "dual-tank-pretreatment-integrated-skid-ro-equipment"
+      ]
+    },
+    {
+      "id": "single-tank-big-blue-pp-ro-equipment-250-500lph",
+      "name": "Single-Tank 20-Inch Big Blue PP Reverse Osmosis Water Purification Equipment 250-500 L/h",
+      "category": "RO System",
+      "desc": "Single-Tank 20-Inch Big Blue PP Reverse Osmosis Water Purification Equipment: 20-inch Big Blue PP prefilter + RO; 250-500 L/h; Municipal tap water.",
+      "specs": {
+        "Product Type": "Single-Tank 20-Inch Big Blue PP Reverse Osmosis Water Purification Equipment 250-500 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "20-inch Big Blue PP prefilter + RO",
+        "Pure Water Flow": "250-500 L/h",
+        "Feed Water": "Municipal tap water",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/single-tank-20-inch-big-blue-pp-ro-water-purification-equipment-250l-500l-oem.webp",
+      "image_local": "assets/products/single-tank-20-inch-big-blue-pp-ro-water-purification-equipment-250l-500l-oem.webp",
+      "image_orig": "../assets/products/single-tank-20-inch-big-blue-pp-ro-water-purification-equipment-250l-500l-oem.webp",
+      "summary": "Single-Tank 20-Inch Big Blue PP Reverse Osmosis Water Purification Equipment 250-500 L/h. Treatment Process: 20-inch Big Blue PP prefilter + RO. Pure Water Flow: 250-500 L/h. Feed Water: Municipal tap water. Feed pressure: 0.1-0.4 MPa. Project customization: Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space.",
+      "features": [
+        "20-inch Big Blue PP prefilter with RO purification",
+        "250-500 L/h purified water flow",
+        "Designed for municipal tap water projects",
+        "0.1-0.4 MPa feed pressure",
+        "Custom appearance, process, configuration and functions"
+      ],
+      "applications": "Municipal tap-water purification for commercial drinking water, offices, workshops, schools and light industrial water supply.",
+      "related": [
+        "single-tank-pretreatment-ro-equipment-250-500lph",
+        "dual-tank-pretreatment-ro-equipment-250-1000lph",
+        "20-inch-commercial-ro-water-purifier-800g-2000g",
+        "six-housing-ro-equipment-with-pure-water-tank-250-1000lph"
+      ]
+    },
+    {
+      "id": "slim-reverse-osmosis-water-purification-equipment-250-500lph",
+      "name": "Slim Reverse Osmosis Water Purification Equipment 250-500 L/h",
+      "category": "RO System",
+      "desc": "Slim Reverse Osmosis Water Purification Equipment: PP cotton filter cartridge + activated carbon cartridge + RO; 250-500 L/h; Municipal tap water.",
+      "specs": {
+        "Product Type": "Slim Reverse Osmosis Water Purification Equipment 250-500 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "PP cotton filter cartridge + activated carbon cartridge + RO",
+        "Pure Water Flow": "250-500 L/h",
+        "Feed Water": "Municipal tap water",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/slim-reverse-osmosis-water-purification-equipment-250l-500l-oem.webp",
+      "image_local": "assets/products/slim-reverse-osmosis-water-purification-equipment-250l-500l-oem.webp",
+      "image_orig": "../assets/products/slim-reverse-osmosis-water-purification-equipment-250l-500l-oem.webp",
+      "summary": "Slim Reverse Osmosis Water Purification Equipment 250-500 L/h. Treatment Process: PP cotton filter cartridge + activated carbon cartridge + RO. Pure Water Flow: 250-500 L/h. Feed Water: Municipal tap water. Feed pressure: 0.1-0.4 MPa. Project customization: Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space.",
+      "features": [
+        "Slim frame reverse osmosis equipment",
+        "PP cotton cartridge, activated carbon cartridge and RO treatment",
+        "250-500 L/h purified water flow",
+        "Designed for municipal tap water",
+        "0.1-0.4 MPa feed pressure"
+      ],
+      "applications": "Municipal tap-water purification for compact commercial drinking water, offices, workshops, schools and light industrial supply.",
+      "related": [
+        "single-tank-big-blue-pp-ro-equipment-250-500lph",
+        "single-tank-pretreatment-ro-equipment-250-500lph",
+        "dual-tank-pretreatment-ro-equipment-250-1000lph",
+        "20-inch-commercial-ro-water-purifier-800g-2000g"
+      ]
+    },
+    {
+      "id": "commercial-central-ro-water-purification-equipment-250-500lph",
+      "name": "Commercial Central RO Water Purification Equipment 250-500 L/h",
+      "category": "RO System",
+      "desc": "Commercial Central RO Water Purification Equipment: 20-inch PP + 20-inch CTO + 20-inch PP + RO; 250-500 L/h; Tap water and groundwater.",
+      "specs": {
+        "Product Type": "Commercial Central RO Water Purification Equipment 250-500 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "20-inch PP + 20-inch CTO + 20-inch PP + RO",
+        "Pure Water Flow": "250-500 L/h",
+        "Feed Water": "Tap water and groundwater",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/commercial-central-ro-water-purification-equipment-250l-500l-oem.webp",
+      "image_local": "assets/products/commercial-central-ro-water-purification-equipment-250l-500l-oem.webp",
+      "image_orig": "../assets/products/commercial-central-ro-water-purification-equipment-250l-500l-oem.webp",
+      "summary": "Commercial Central RO Water Purification Equipment 250-500 L/h. Treatment Process: 20-inch PP + 20-inch CTO + 20-inch PP + RO. Pure Water Flow: 250-500 L/h. Feed Water: Tap water and groundwater. Feed pressure: 0.1-0.4 MPa. Project customization: Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space.",
+      "features": [
+        "Commercial central RO purification cabinet",
+        "20-inch PP + 20-inch CTO + 20-inch PP + RO treatment",
+        "250-500 L/h purified water flow",
+        "Suitable for tap water and groundwater",
+        "0.1-0.4 MPa feed pressure"
+      ],
+      "applications": "Commercial central water purification for offices, workshops, hotels, schools, kitchens and light industrial drinking-water supply.",
+      "related": [
+        "slim-reverse-osmosis-water-purification-equipment-250-500lph",
+        "single-tank-big-blue-pp-ro-equipment-250-500lph",
+        "single-tank-pretreatment-ro-equipment-250-500lph",
+        "six-housing-ro-equipment-with-pure-water-tank-250-1000lph"
+      ]
+    },
+    {
+      "id": "precision-filter-ro-water-purification-equipment-250-1000lph",
+      "name": "Precision Filter RO Water Purification Equipment 250-1000 L/h",
+      "category": "RO System",
+      "desc": "Precision Filter RO Water Purification Equipment: Precision filter + RO; 250-1000 L/h; Municipal tap water.",
+      "specs": {
+        "Product Type": "Precision Filter RO Water Purification Equipment 250-1000 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "Precision filter + RO",
+        "Pure Water Flow": "250-1000 L/h",
+        "Feed Water": "Municipal tap water",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/precision-filter-ro-water-purification-equipment-250l-1000l-oem.webp",
+      "image_local": "assets/products/precision-filter-ro-water-purification-equipment-250l-1000l-oem.webp",
+      "image_orig": "../assets/products/precision-filter-ro-water-purification-equipment-250l-1000l-oem.webp",
+      "summary": "Precision Filter RO Water Purification Equipment 250-1000 L/h. Treatment Process: Precision filter + RO. Pure Water Flow: 250-1000 L/h. Feed Water: Municipal tap water. Feed pressure: 0.1-0.4 MPa. Project customization: Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space.",
+      "features": [
+        "Precision filter plus RO purification",
+        "250-1000 L/h purified water flow",
+        "Designed for municipal tap water",
+        "0.1-0.4 MPa feed pressure",
+        "Custom appearance, process, configuration and functions"
+      ],
+      "applications": "Municipal tap-water purification for offices, shops, schools, clinics, commercial kitchens and compact drinking-water projects.",
+      "related": [
+        "commercial-central-ro-water-purification-equipment-250-500lph",
+        "slim-reverse-osmosis-water-purification-equipment-250-500lph",
+        "single-tank-big-blue-pp-ro-equipment-250-500lph",
+        "six-housing-ro-equipment-with-pure-water-tank-250-1000lph"
+      ]
+    },
+    {
+      "id": "simple-type-reverse-osmosis-water-purification-equipment-250-1000lph",
+      "name": "Simple Type Reverse Osmosis Water Purification Equipment 250-1000 L/h",
+      "category": "RO System",
+      "desc": "Simple Type Reverse Osmosis Water Purification Equipment: 20-inch PP + 20-inch CTO + 20-inch PP + RO; 250-1000 L/h; Municipal tap water.",
+      "specs": {
+        "Product Type": "Simple Type Reverse Osmosis Water Purification Equipment 250-1000 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "20-inch PP + 20-inch CTO + 20-inch PP + RO",
+        "Pure Water Flow": "250-1000 L/h",
+        "Feed Water": "Municipal tap water",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/simple-type-reverse-osmosis-water-purification-equipment-250l-1000l-oem.webp",
+      "image_local": "assets/products/simple-type-reverse-osmosis-water-purification-equipment-250l-1000l-oem.webp",
+      "image_orig": "../assets/products/simple-type-reverse-osmosis-water-purification-equipment-250l-1000l-oem.webp",
+      "summary": "Simple Type Reverse Osmosis Water Purification Equipment 250-1000 L/h. Treatment Process: 20-inch PP + 20-inch CTO + 20-inch PP + RO. Pure Water Flow: 250-1000 L/h. Feed Water: Municipal tap water. Feed pressure: 0.1-0.4 MPa. Project customization: Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space.",
+      "features": [
+        "20-inch PP, 20-inch CTO and 20-inch PP pretreatment before RO",
+        "250-1000 L/h purified water flow",
+        "Designed for municipal tap water",
+        "0.1-0.4 MPa feed pressure",
+        "Custom appearance, process, configuration and functions"
+      ],
+      "applications": "Simple commercial RO purification for municipal tap water in offices, stores, schools, clinics, restaurants and drinking-water supply projects.",
+      "related": [
+        "precision-filter-ro-water-purification-equipment-250-1000lph",
+        "commercial-central-ro-water-purification-equipment-250-500lph",
+        "single-tank-integrated-ro-water-purification-supply-equipment-250-500lph",
+        "slim-reverse-osmosis-water-purification-equipment-250-500lph"
+      ]
+    },
+    {
+      "id": "horizontal-reverse-osmosis-water-purification-equipment-250lph",
+      "name": "Horizontal Reverse Osmosis Water Purification Equipment 250 L/h",
+      "category": "RO System",
+      "desc": "Horizontal Reverse Osmosis Water Purification Equipment: 10-inch large-diameter PP + 20-inch large-diameter cotton-carbon composite filter + RO; 250 L/h; Municipal tap water.",
+      "specs": {
+        "Product Type": "Horizontal Reverse Osmosis Water Purification Equipment 250 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "10-inch large-diameter PP + 20-inch large-diameter cotton-carbon composite filter + RO",
+        "Pure Water Flow": "250 L/h",
+        "Feed Water": "Municipal tap water",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/horizontal-reverse-osmosis-water-purification-equipment-250lph-oem.webp",
+      "image_local": "assets/products/horizontal-reverse-osmosis-water-purification-equipment-250lph-oem.webp",
+      "image_orig": "../assets/products/horizontal-reverse-osmosis-water-purification-equipment-250lph-oem.webp",
+      "summary": "Horizontal Reverse Osmosis Water Purification Equipment 250 L/h. Treatment Process: 10-inch large-diameter PP + 20-inch large-diameter cotton-carbon composite filter + RO. Pure Water Flow: 250 L/h. Feed Water: Municipal tap water. Feed pressure: 0.1-0.4 MPa. Project customization: Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space.",
+      "features": [
+        "Horizontal cabinet layout for compact commercial installation",
+        "10-inch large-diameter PP pretreatment",
+        "20-inch large-diameter cotton-carbon composite filtration before RO",
+        "250 L/h purified water flow",
+        "Designed for municipal tap water at 0.1-0.4 MPa"
+      ],
+      "applications": "Horizontal commercial RO purification for municipal tap water in shops, offices, restaurants, clinics and compact drinking-water projects.",
+      "related": [
+        "simple-type-reverse-osmosis-water-purification-equipment-250-1000lph",
+        "precision-filter-ro-water-purification-equipment-250-1000lph",
+        "commercial-central-ro-water-purification-equipment-250-500lph",
+        "slim-reverse-osmosis-water-purification-equipment-250-500lph"
+      ]
+    },
+    {
+      "id": "single-tank-integrated-ro-water-purification-supply-equipment-250-500lph",
+      "name": "Single-Tank Integrated RO Water Purification and Supply Equipment 250-500 L/h",
+      "category": "RO System",
+      "desc": "Single-Tank Integrated RO Water Purification and Supply Equipment: Raw water pump + automatic sand-carbon tank + 20-inch PP + RO + stainless steel pure water tank + variable-frequency water supply pump; 250-500 L/h; Tap water and groundwater.",
+      "specs": {
+        "Product Type": "Single-Tank Integrated RO Water Purification and Supply Equipment 250-500 L/h",
+        "Operating Mode": "Full automatic intelligent operation, with manual service mode according to project needs",
+        "Treatment Process": "Raw water pump + automatic sand-carbon tank + 20-inch PP + RO + stainless steel pure water tank + variable-frequency water supply pump",
+        "Pure Water Flow": "250-500 L/h",
+        "Feed Water": "Tap water and groundwater",
+        "Feed pressure": "0.1-0.4 MPa",
+        "Project customization": "Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space",
+        "Application": "Hotels, factories, schools, communities, commercial kitchens and water treatment projects",
+        "OEM/ODM": "Flow rate, pump, membrane, tanks, piping material, voltage, panel language and packaging can be customized",
+        "MOQ": "Confirmed by capacity, configuration and OEM level"
+      },
+      "image": "../assets/products/single-tank-integrated-ro-water-purification-supply-equipment-250l-500l-oem.webp",
+      "image_local": "assets/products/single-tank-integrated-ro-water-purification-supply-equipment-250l-500l-oem.webp",
+      "image_orig": "../assets/products/single-tank-integrated-ro-water-purification-supply-equipment-250l-500l-oem.webp",
+      "summary": "Single-Tank Integrated RO Water Purification and Supply Equipment 250-500 L/h. Treatment Process: Raw water pump + automatic sand-carbon tank + 20-inch PP + RO + stainless steel pure water tank + variable-frequency water supply pump. Pure Water Flow: 250-500 L/h. Feed Water: Tap water and groundwater. Feed pressure: 0.1-0.4 MPa. Project customization: Appearance, process flow, equipment configuration, control panel and protection functions can be customized according to source water and project space.",
+      "features": [
+        "Raw water pump, automatic sand-carbon tank and 20-inch PP pretreatment",
+        "RO purification with stainless steel pure water tank",
+        "Variable-frequency water supply pump",
+        "250-500 L/h purified water flow",
+        "Suitable for tap water and groundwater"
+      ],
+      "applications": "Integrated RO purification and pressure water supply for offices, schools, clinics, hotels, kitchens and commercial drinking-water projects.",
+      "related": [
+        "precision-filter-ro-water-purification-equipment-250-1000lph",
+        "commercial-central-ro-water-purification-equipment-250-500lph",
+        "single-tank-pretreatment-ro-equipment-250-500lph",
+        "single-tank-big-blue-pp-ro-equipment-250-500lph"
       ]
     },
     {

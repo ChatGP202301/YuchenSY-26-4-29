@@ -69,3 +69,16 @@ Each indexable HTML page should use a self-referencing canonical URL, index/foll
 Use the contact form at https://www.yuchensy.com/en/contact.html or email expresswater025@gmail.com. The form asks for name, company, email, WhatsApp, country, product, quantity, destination port and message. After a successful submission, the site displays a Thank You confirmation and provides WhatsApp and email contact options.
 - 20-inch Commercial RO Water Purifier 800G/1200G/1600G/2000G: https://www.yuchensy.com/en/product-20-inch-commercial-ro-water-purifier-800g-2000g.html
 - Large Industrial Reverse Osmosis Water Treatment Equipment 3-100 TPH: https://www.yuchensy.com/en/product-large-industrial-reverse-osmosis-water-treatment-equipment.html
+- Small and Medium Seawater Desalination RO Equipment: https://www.yuchensy.com/en/product-small-medium-seawater-desalination-ro-equipment.html
+- Dual-Tank Pretreatment Integrated Skid RO Equipment: https://www.yuchensy.com/en/product-dual-tank-pretreatment-integrated-skid-ro-equipment.html
+- Three-Tank Pretreatment Integrated Skid RO Equipment: https://www.yuchensy.com/en/product-three-tank-pretreatment-integrated-skid-ro-equipment.html
+- Dual-Tank Pretreatment Reverse Osmosis Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-dual-tank-pretreatment-ro-equipment-250-1000lph.html
+- Six-Housing Reverse Osmosis Equipment with Pure Water Tank: https://www.yuchensy.com/en/product-six-housing-ro-equipment-with-pure-water-tank-250-1000lph.html
+- Single-Tank Pretreatment Reverse Osmosis Water Purification Equipment: https://www.yuchensy.com/en/product-single-tank-pretreatment-ro-equipment-250-500lph.html
+- Single-Tank 20-Inch Big Blue PP Reverse Osmosis Water Purification Equipment: https://www.yuchensy.com/en/product-single-tank-big-blue-pp-ro-equipment-250-500lph.html
+- Slim Reverse Osmosis Water Purification Equipment: https://www.yuchensy.com/en/product-slim-reverse-osmosis-water-purification-equipment-250-500lph.html
+- Commercial Central RO Water Purification Equipment: https://www.yuchensy.com/en/product-commercial-central-ro-water-purification-equipment-250-500lph.html
+- Precision Filter RO Water Purification Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-precision-filter-ro-water-purification-equipment-250-1000lph.html
+- Single-Tank Integrated RO Water Purification and Supply Equipment 250-500 L/h: https://www.yuchensy.com/en/product-single-tank-integrated-ro-water-purification-supply-equipment-250-500lph.html
+- Simple Type Reverse Osmosis Water Purification Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-simple-type-reverse-osmosis-water-purification-equipment-250-1000lph.html
+- Horizontal Reverse Osmosis Water Purification Equipment 250 L/h: https://www.yuchensy.com/en/product-horizontal-reverse-osmosis-water-purification-equipment-250lph.html
