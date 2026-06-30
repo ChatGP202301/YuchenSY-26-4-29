@@ -1,0 +1,16 @@
+Yuchen Water GitHub Pages upload package - 2026-06-28
+
+Included:
+- Full static website files for GitHub Pages.
+- Shanghai Water Show / Aquatech China exhibition pages in 57 language folders.
+- Exhibition images in assets/exhibitions/.
+- robots.txt, sitemap.xml, llms.txt and llms-full.txt.
+
+Not included:
+- Previous failed Built-in Pressure Tank RO white-background cutout previews.
+- Old upload packages and intermediate generation folders.
+- Local scripts and development cache files.
+
+Upload guidance:
+- Extract this zip.
+- Upload the contents inside this folder to the root of the GitHub Pages repository.
