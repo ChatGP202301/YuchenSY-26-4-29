@@ -312,7 +312,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
         </div>
       </div>
 
-      <form class="contact-form" id="quoteForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="3000" accept-charset="UTF-8">
+      <form class="contact-form" id="quoteForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="3000" accept-charset="UTF-8" data-form-protection="required-anti-spam" data-max-links="3" data-repeat-submit-ms="8000">
       <h2>Запросить Цену</h2>
       <input type="hidden" name="_subject" value="New OEM Inquiry from Yuchen Water Website">
       <input type="hidden" name="_template" value="table">
@@ -323,16 +323,19 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
       <input type="hidden" name="Submitted Language" value="ru" data-submitted-language>
       <input type="hidden" name="Form Loaded At" value="" data-form-loaded-at>
       <input type="hidden" name="Submitted At" value="" data-submitted-at>
-      <div class="form-honeypot" aria-hidden="true"><label for="website-url-ru">Website</label><input id="website-url-ru" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
-      <div class="form-row"><label for="name-ru">Имя</label><input id="name-ru" name="Name" type="text" autocomplete="name" required placeholder="например: Ahmed Ali"></div>
-      <div class="form-row"><label for="company-ru">Компания</label><input id="company-ru" name="Company" type="text" autocomplete="organization" required placeholder="например: ABC Water Trading LLC"></div>
-      <div class="form-row"><label for="email-ru">Электронная почта</label><input id="email-ru" name="email" type="email" autocomplete="email" required placeholder="name@company.com"></div>
-      <div class="form-row"><label for="whatsapp-ru">WhatsApp</label><input id="whatsapp-ru" name="WhatsApp" type="text" autocomplete="tel" placeholder="например: +971 50 123 4567"></div>
-      <div class="form-row"><label for="country-ru">Страна</label><input id="country-ru" name="Country" type="text" autocomplete="country-name" required placeholder="например: Саудовская Аравия"></div>
-      <div class="form-row"><label for="product-ru">Продукт</label><input id="product-ru" name="Product" type="text" required placeholder="например: PP 10 дюймов 5 микрон, CTO угольный блок, RO мембрана 400G"></div>
-      <div class="form-row"><label for="quantity-ru">Количество</label><input id="quantity-ru" name="Quantity" type="text" required placeholder="например: 3 000 шт. или 1 комплект"></div>
-      <div class="form-row"><label for="port-ru">Порт назначения</label><input id="port-ru" name="Destination Port" type="text" placeholder="например: Джебель-Али / Роттердам / Лос-Анджелес"></div>
-      <div class="form-row"><label for="message-ru">Сообщение</label><textarea id="message-ru" name="Message" rows="6" required placeholder="Укажите размер, микронность, расход, упаковку, логотип и необходимые сертификаты."></textarea></div>
+      <input type="hidden" name="Submission Token" value="" data-form-token>
+      <input type="hidden" name="Lead Source Check" value="" data-form-source-check>
+      <input type="hidden" name="WhatsApp Normalized" value="" data-whatsapp-normalized>
+      <div class="form-honeypot" aria-hidden="true"><label for="website-url-ru">Website</label><input id="website-url-ru" name="_honey" type="text" tabindex="-1" autocomplete="off" data-spam-trap="true"></div>
+      <div class="form-row required-label"><label for="name-ru">Имя <span class="required-star" aria-hidden="true">*</span></label><input id="name-ru" name="Name" type="text" autocomplete="name" required placeholder="например: Ahmed Ali" aria-required="true"></div>
+      <div class="form-row required-label"><label for="company-ru">Компания <span class="required-star" aria-hidden="true">*</span></label><input id="company-ru" name="Company" type="text" autocomplete="organization" required placeholder="например: ABC Water Trading LLC" aria-required="true"></div>
+      <div class="form-row required-label"><label for="email-ru">Электронная почта <span class="required-star" aria-hidden="true">*</span></label><input id="email-ru" name="email" type="email" autocomplete="email" required placeholder="name@company.com" aria-required="true"></div>
+      <div class="form-row required-label"><label for="whatsapp-ru">WhatsApp <span class="required-star" aria-hidden="true">*</span></label><input id="whatsapp-ru" name="WhatsApp" type="tel" autocomplete="tel" placeholder="например: +971 50 123 4567" required aria-required="true" inputmode="tel" pattern="\+[1-9][0-9\s().-]{7,24}" title="+86 19908311885 / +971 50 123 4567" data-whatsapp-field="true" maxlength="26"></div>
+      <div class="form-row required-label"><label for="country-ru">Страна <span class="required-star" aria-hidden="true">*</span></label><input id="country-ru" name="Country" type="text" autocomplete="country-name" required placeholder="например: Саудовская Аравия" aria-required="true"></div>
+      <div class="form-row required-label"><label for="product-ru">Продукт <span class="required-star" aria-hidden="true">*</span></label><input id="product-ru" name="Product" type="text" required placeholder="например: PP 10 дюймов 5 микрон, CTO угольный блок, RO мембрана 400G" aria-required="true"></div>
+      <div class="form-row required-label"><label for="quantity-ru">Количество <span class="required-star" aria-hidden="true">*</span></label><input id="quantity-ru" name="Quantity" type="text" required placeholder="например: 3 000 шт. или 1 комплект" aria-required="true"></div>
+      <div class="form-row required-label"><label for="port-ru">Порт назначения <span class="required-star" aria-hidden="true">*</span></label><input id="port-ru" name="Destination Port" type="text" placeholder="например: Джебель-Али / Роттердам / Лос-Анджелес" required aria-required="true"></div>
+      <div class="form-row required-label form-row-wide"><label for="message-ru">Сообщение <span class="required-star" aria-hidden="true">*</span></label><textarea id="message-ru" name="Message" rows="6" required placeholder="Укажите размер, микронность, расход, упаковку, логотип и необходимые сертификаты." aria-required="true"></textarea></div>
       <button type="submit" class="btn">Отправить Запрос</button>
       <p class="form-error" hidden></p>
       <p id="formSuccess" class="form-success" hidden>Спасибо. Ваш запрос успешно отправлен в Yuchen Water на expresswater025@gmail.com. Наш инженер по продажам свяжется с вами как можно скорее. Вы также можете связаться с нами через WhatsApp или email.</p>

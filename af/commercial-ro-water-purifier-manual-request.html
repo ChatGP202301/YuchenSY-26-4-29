@@ -240,7 +240,7 @@
             <p>The manual covers installation, component layout, troubleshooting, RO membrane installation, safety precautions and service notes. Each successful request is sent to Yuchen Water so our team can follow up with specification and quotation support.</p>
             <p class="manual-note">The manual is prepared as an online preview. The website does not provide a public PDF link, and page copying, right click, text selection and image dragging are restricted for ordinary visitors.</p>
           </div>
-          <form class="contact-form" id="manualRequestForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="2500" data-success-redirect="commercial-ro-water-purifier-manual.html" data-access-key="commercial-ro-manual-access" data-success-message="Thank you. Your manual access request has been submitted to Yuchen Water. The protected online manual will open now." accept-charset="UTF-8">
+          <form class="contact-form" id="manualRequestForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="2500" data-success-redirect="commercial-ro-water-purifier-manual.html" data-access-key="commercial-ro-manual-access" data-success-message="Thank you. Your manual access request has been submitted to Yuchen Water. The protected online manual will open now." accept-charset="UTF-8" data-form-protection="required-anti-spam" data-max-links="3" data-repeat-submit-ms="8000">
             <h2>Manual Access Form</h2>
             <input type="hidden" name="_subject" value="Commercial RO Manual View Request from Yuchen Water Website - af">
             <input type="hidden" name="_template" value="table">
@@ -252,15 +252,18 @@
             <input type="hidden" name="Submitted Language" value="af" data-submitted-language>
             <input type="hidden" name="Form Loaded At" value="" data-form-loaded-at>
             <input type="hidden" name="Submitted At" value="" data-submitted-at>
-            <div class="form-honeypot" aria-hidden="true"><label for="manual-website">Website</label><input id="manual-website" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
-            <div class="form-row"><label for="manual-name">Name</label><input id="manual-name" name="Name" type="text" autocomplete="name" required></div>
-            <div class="form-row"><label for="manual-company">Company</label><input id="manual-company" name="Company" type="text" autocomplete="organization" required></div>
-            <div class="form-row"><label for="manual-email">Email</label><input id="manual-email" name="email" type="email" autocomplete="email" required></div>
-            <div class="form-row"><label for="manual-whatsapp">WhatsApp</label><input id="manual-whatsapp" name="WhatsApp" type="text" autocomplete="tel"></div>
-            <div class="form-row"><label for="manual-country">Country</label><input id="manual-country" name="Country" type="text" autocomplete="country-name" required></div>
-            <div class="form-row"><label for="manual-product">Product / Project Capacity</label><input id="manual-product" name="Product or Project Capacity" type="text" placeholder="Commercial RO 400G / 600G / 800G / 1200G or project capacity" required></div>
-            <div class="form-row"><label for="manual-quantity">Quantity</label><input id="manual-quantity" name="Quantity" type="text" placeholder="Trial order, bulk order or project quantity"></div>
-            <div class="form-row"><label for="manual-message">Message</label><textarea id="manual-message" name="Message" rows="5" placeholder="Tell us your inlet water, target output, market and OEM/ODM needs." required></textarea></div>
+      <input type="hidden" name="Submission Token" value="" data-form-token>
+      <input type="hidden" name="Lead Source Check" value="" data-form-source-check>
+      <input type="hidden" name="WhatsApp Normalized" value="" data-whatsapp-normalized>
+            <div class="form-honeypot" aria-hidden="true"><label for="manual-website">Website</label><input id="manual-website" name="_honey" type="text" tabindex="-1" autocomplete="off" data-spam-trap="true"></div>
+            <div class="form-row required-label"><label for="manual-name">Name <span class="required-star" aria-hidden="true">*</span></label><input id="manual-name" name="Name" type="text" autocomplete="name" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-company">Company <span class="required-star" aria-hidden="true">*</span></label><input id="manual-company" name="Company" type="text" autocomplete="organization" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-email">Email <span class="required-star" aria-hidden="true">*</span></label><input id="manual-email" name="email" type="email" autocomplete="email" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-whatsapp">WhatsApp <span class="required-star" aria-hidden="true">*</span></label><input id="manual-whatsapp" name="WhatsApp" type="tel" autocomplete="tel" required aria-required="true" inputmode="tel" pattern="\+[1-9][0-9\s().-]{7,24}" title="+86 19908311885 / +971 50 123 4567" data-whatsapp-field="true" maxlength="26"></div>
+            <div class="form-row required-label"><label for="manual-country">Country <span class="required-star" aria-hidden="true">*</span></label><input id="manual-country" name="Country" type="text" autocomplete="country-name" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-product">Product / Project Capacity <span class="required-star" aria-hidden="true">*</span></label><input id="manual-product" name="Product or Project Capacity" type="text" placeholder="Commercial RO 400G / 600G / 800G / 1200G or project capacity" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-quantity">Quantity <span class="required-star" aria-hidden="true">*</span></label><input id="manual-quantity" name="Quantity" type="text" placeholder="Trial order, bulk order or project quantity" required aria-required="true"></div>
+            <div class="form-row required-label form-row-wide"><label for="manual-message">Message <span class="required-star" aria-hidden="true">*</span></label><textarea id="manual-message" name="Message" rows="5" placeholder="Tell us your inlet water, target output, market and OEM/ODM needs." required aria-required="true"></textarea></div>
             <button type="submit" class="btn btn-gold">View Online Manual</button>
             <p class="form-error" hidden></p>
             <p class="form-success" hidden></p>

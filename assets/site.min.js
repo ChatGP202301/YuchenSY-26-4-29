@@ -187,3 +187,103 @@ document.addEventListener('submit', async function(e) {
         if (submitButton) submitButton.disabled = false;
     }
 });
+
+// Strengthen contact-form validation without changing localized page copy.
+(function(){
+  function setHiddenValue(form, selector, value){
+    form.querySelectorAll(selector).forEach(function(input){ input.value = value; });
+  }
+  function compactToken(value){
+    try { return btoa(unescape(encodeURIComponent(value))).replace(/=+$/,''); }
+    catch (err) { return String(Date.now()); }
+  }
+  function prepareProtectedForm(form){
+    if (!form || form.dataset.antiSpamReady === 'true') return;
+    form.dataset.antiSpamReady = 'true';
+    form.dataset.lastSubmitAt = '0';
+    var seed = [Date.now(), window.location.hostname, document.documentElement.lang || ''].join('|');
+    setHiddenValue(form, '[data-form-token]', compactToken(seed));
+    setHiddenValue(form, '[data-form-source-check]', window.location.hostname || 'local-preview');
+  }
+  function getWhatsAppFields(form){
+    return Array.prototype.slice.call(form.querySelectorAll('[data-whatsapp-field], input[name="whatsapp"], input[name="WhatsApp"]'));
+  }
+  function normalizeWhatsApp(value){
+    var compact = String(value || '').trim().replace(/[\s().-]/g, '');
+    if (compact.indexOf('00') === 0) compact = '+' + compact.slice(2);
+    var digits = compact.replace(/^\+/, '');
+    return { compact: compact, digits: digits, normalized: compact.charAt(0) === '+' ? compact : '+' + digits };
+  }
+  function looksLikeFakeNumber(digits){
+    if (!digits) return true;
+    if (/^(\d)\1+$/.test(digits)) return true;
+    if ('01234567890123456789'.indexOf(digits) !== -1) return true;
+    if ('98765432109876543210'.indexOf(digits) !== -1) return true;
+    return false;
+  }
+  function validateWhatsAppFields(form){
+    var fields = getWhatsAppFields(form);
+    var valid = true;
+    var firstInvalid = null;
+    fields.forEach(function(field){
+      var value = field.value || '';
+      if (!value.trim()) {
+        field.setCustomValidity('');
+        return;
+      }
+      var info = normalizeWhatsApp(value);
+      var ok = /^\+[1-9]\d{7,14}$/.test(info.compact) && !looksLikeFakeNumber(info.digits);
+      field.setCustomValidity(ok ? '' : (field.getAttribute('title') || '+86 19908311885 / +971 50 123 4567'));
+      if (ok) {
+        field.value = info.normalized;
+        setHiddenValue(form, '[data-whatsapp-normalized]', info.normalized);
+      } else {
+        valid = false;
+        if (!firstInvalid) firstInvalid = field;
+      }
+    });
+    if (!valid && firstInvalid) firstInvalid.reportValidity();
+    return valid;
+  }
+  document.querySelectorAll('form.contact-form').forEach(prepareProtectedForm);
+  document.addEventListener('submit', function(event){
+    var form = event.target;
+    if (!form || !form.classList || !form.classList.contains('contact-form')) return;
+    prepareProtectedForm(form);
+    var trap = form.querySelector('[data-spam-trap], input[name="_honey"]');
+    if (trap && trap.value.trim()) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      return false;
+    }
+    var now = Date.now();
+    var last = Number(form.dataset.lastSubmitAt || 0);
+    var repeatDelay = Number(form.dataset.repeatSubmitMs || 8000);
+    if (last && now - last < repeatDelay) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      return false;
+    }
+    var text = Array.prototype.map.call(form.querySelectorAll('input:not([type="hidden"]), textarea'), function(el){ return el.value || ''; }).join(' ');
+    var urlCount = (text.match(/https?:\/\/|www\./gi) || []).length;
+    if (urlCount > Number(form.dataset.maxLinks || 3)) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      var error = form.querySelector('.form-error');
+      if (error) { error.hidden = false; error.setAttribute('role','alert'); }
+      return false;
+    }
+    if (!validateWhatsAppFields(form)) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      return false;
+    }
+    if (!form.checkValidity()) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      form.reportValidity();
+      return false;
+    }
+    form.dataset.lastSubmitAt = String(now);
+  }, true);
+})();

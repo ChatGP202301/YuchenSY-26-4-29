@@ -336,7 +336,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
         </div>
       </div>
 
-      <form class="contact-form" id="quoteForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="3000" accept-charset="UTF-8">
+      <form class="contact-form" id="quoteForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="3000" accept-charset="UTF-8" data-form-protection="required-anti-spam" data-max-links="3" data-repeat-submit-ms="8000">
       <h2>Be om Tilbud</h2>
       <input type="hidden" name="_subject" value="New OEM Inquiry from Yuchen Water Website">
       <input type="hidden" name="_template" value="table">
@@ -347,16 +347,19 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
       <input type="hidden" name="Submitted Language" value="no" data-submitted-language>
       <input type="hidden" name="Form Loaded At" value="" data-form-loaded-at>
       <input type="hidden" name="Submitted At" value="" data-submitted-at>
-      <div class="form-honeypot" aria-hidden="true"><label for="website-url-no">Website</label><input id="website-url-no" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
-      <div class="form-row"><label for="name-no">Navn</label><input id="name-no" name="name" type="text" autocomplete="name" required placeholder="e.g. Ahmed Ali"></div>
-      <div class="form-row"><label for="company-no">Firma</label><input id="company-no" name="company" type="text" autocomplete="organization" required placeholder="e.g. ABC Water Trading LLC"></div>
-      <div class="form-row"><label for="email-no">E-post</label><input id="email-no" name="email" type="email" autocomplete="email" required placeholder="name@company.com"></div>
-      <div class="form-row"><label for="whatsapp-no">WhatsApp</label><input id="whatsapp-no" name="whatsapp" type="text" autocomplete="tel" placeholder="e.g. +971 50 123 4567"></div>
-      <div class="form-row"><label for="country-no">Land</label><input id="country-no" name="country" type="text" autocomplete="country-name" required placeholder="e.g. Saudi Arabia"></div>
-      <div class="form-row"><label for="product-no">Produkt</label><input id="product-no" name="product" type="text" required placeholder="e.g. PP 10 inch 5 micron, CTO carbon block, RO membrane 400G"></div>
-      <div class="form-row"><label for="quantity-no">Antall</label><input id="quantity-no" name="quantity" type="text" required placeholder="e.g. 3,000 pcs or 1 set"></div>
-      <div class="form-row"><label for="port-no">Destinasjonshavn</label><input id="port-no" name="destination_port" type="text" placeholder="e.g. Jebel Ali / Rotterdam / Los Angeles"></div>
-      <div class="form-row"><label for="message-no">Melding</label><textarea id="message-no" name="message" rows="6" required placeholder="Please include size, micron rating, flow rate, packaging, logo and certificates needed."></textarea></div>
+      <input type="hidden" name="Submission Token" value="" data-form-token>
+      <input type="hidden" name="Lead Source Check" value="" data-form-source-check>
+      <input type="hidden" name="WhatsApp Normalized" value="" data-whatsapp-normalized>
+      <div class="form-honeypot" aria-hidden="true"><label for="website-url-no">Website</label><input id="website-url-no" name="_honey" type="text" tabindex="-1" autocomplete="off" data-spam-trap="true"></div>
+      <div class="form-row required-label"><label for="name-no">Navn <span class="required-star" aria-hidden="true">*</span></label><input id="name-no" name="name" type="text" autocomplete="name" required placeholder="e.g. Ahmed Ali" aria-required="true"></div>
+      <div class="form-row required-label"><label for="company-no">Firma <span class="required-star" aria-hidden="true">*</span></label><input id="company-no" name="company" type="text" autocomplete="organization" required placeholder="e.g. ABC Water Trading LLC" aria-required="true"></div>
+      <div class="form-row required-label"><label for="email-no">E-post <span class="required-star" aria-hidden="true">*</span></label><input id="email-no" name="email" type="email" autocomplete="email" required placeholder="name@company.com" aria-required="true"></div>
+      <div class="form-row required-label"><label for="whatsapp-no">WhatsApp <span class="required-star" aria-hidden="true">*</span></label><input id="whatsapp-no" name="whatsapp" type="tel" autocomplete="tel" placeholder="e.g. +971 50 123 4567" required aria-required="true" inputmode="tel" pattern="\+[1-9][0-9\s().-]{7,24}" title="+86 19908311885 / +971 50 123 4567" data-whatsapp-field="true" maxlength="26"></div>
+      <div class="form-row required-label"><label for="country-no">Land <span class="required-star" aria-hidden="true">*</span></label><input id="country-no" name="country" type="text" autocomplete="country-name" required placeholder="e.g. Saudi Arabia" aria-required="true"></div>
+      <div class="form-row required-label"><label for="product-no">Produkt <span class="required-star" aria-hidden="true">*</span></label><input id="product-no" name="product" type="text" required placeholder="e.g. PP 10 inch 5 micron, CTO carbon block, RO membrane 400G" aria-required="true"></div>
+      <div class="form-row required-label"><label for="quantity-no">Antall <span class="required-star" aria-hidden="true">*</span></label><input id="quantity-no" name="quantity" type="text" required placeholder="e.g. 3,000 pcs or 1 set" aria-required="true"></div>
+      <div class="form-row required-label"><label for="port-no">Destinasjonshavn <span class="required-star" aria-hidden="true">*</span></label><input id="port-no" name="destination_port" type="text" placeholder="e.g. Jebel Ali / Rotterdam / Los Angeles" required aria-required="true"></div>
+      <div class="form-row required-label form-row-wide"><label for="message-no">Melding <span class="required-star" aria-hidden="true">*</span></label><textarea id="message-no" name="message" rows="6" required placeholder="Please include size, micron rating, flow rate, packaging, logo and certificates needed." aria-required="true"></textarea></div>
       <button type="submit" class="btn">Send Forespørsel</button>
       <p class="form-error" hidden></p>
       <p id="formSuccess" class="form-success" hidden>Takk. Forespørselen din er sendt til Yuchen Water på expresswater025@gmail.com. Vår salgsingeniør kontakter deg så snart som mulig. Du kan også kontakte oss når som helst via WhatsApp +86-19908311885 eller e-post expresswater025@gmail.com.</p>

@@ -240,7 +240,7 @@
             <p>매뉴얼은 설치, 부품 배치, 문제 해결, RO 멤브레인 설치, 안전 주의사항 및 서비스 정보를 다룹니다. 제출된 요청은 Yuchen Water로 전달되어 사양 및 견적 지원에 사용됩니다.</p>
             <p class="manual-note">매뉴얼은 온라인 보기용입니다. 공개 PDF 링크는 제공하지 않으며 복사, 우클릭, 텍스트 선택 및 이미지 드래그가 제한됩니다.</p>
           </div>
-          <form class="contact-form" id="manualRequestForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="2500" data-success-redirect="commercial-ro-water-purifier-manual.html" data-access-key="commercial-ro-manual-access" data-success-message="감사합니다. 요청이 Yuchen Water로 전송되었습니다. 보호된 온라인 매뉴얼이 열립니다." accept-charset="UTF-8">
+          <form class="contact-form" id="manualRequestForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="2500" data-success-redirect="commercial-ro-water-purifier-manual.html" data-access-key="commercial-ro-manual-access" data-success-message="감사합니다. 요청이 Yuchen Water로 전송되었습니다. 보호된 온라인 매뉴얼이 열립니다." accept-charset="UTF-8" data-form-protection="required-anti-spam" data-max-links="3" data-repeat-submit-ms="8000">
             <h2>매뉴얼 접근 신청서</h2>
             <input type="hidden" name="_subject" value="Commercial RO Manual View Request from Yuchen Water Website - ko">
             <input type="hidden" name="_template" value="table">
@@ -252,15 +252,18 @@
             <input type="hidden" name="Submitted Language" value="ko" data-submitted-language>
             <input type="hidden" name="Form Loaded At" value="" data-form-loaded-at>
             <input type="hidden" name="Submitted At" value="" data-submitted-at>
-            <div class="form-honeypot" aria-hidden="true"><label for="manual-website">Website</label><input id="manual-website" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
-            <div class="form-row"><label for="manual-name">이름</label><input id="manual-name" name="Name" type="text" autocomplete="name" required></div>
-            <div class="form-row"><label for="manual-company">회사</label><input id="manual-company" name="Company" type="text" autocomplete="organization" required></div>
-            <div class="form-row"><label for="manual-email">Email</label><input id="manual-email" name="email" type="email" autocomplete="email" required></div>
-            <div class="form-row"><label for="manual-whatsapp">WhatsApp</label><input id="manual-whatsapp" name="WhatsApp" type="text" autocomplete="tel"></div>
-            <div class="form-row"><label for="manual-country">국가</label><input id="manual-country" name="Country" type="text" autocomplete="country-name" required></div>
-            <div class="form-row"><label for="manual-product">제품 / 프로젝트 용량</label><input id="manual-product" name="Product or Project Capacity" type="text" placeholder="Commercial RO 400G / 600G / 800G / 1200G 또는 프로젝트 용량" required></div>
-            <div class="form-row"><label for="manual-quantity">수량</label><input id="manual-quantity" name="Quantity" type="text" placeholder="샘플 주문, 대량 주문 또는 프로젝트 수량"></div>
-            <div class="form-row"><label for="manual-message">메시지</label><textarea id="manual-message" name="Message" rows="5" placeholder="원수 조건, 목표 생산량, 시장 및 OEM/ODM 요구사항을 알려주세요." required></textarea></div>
+      <input type="hidden" name="Submission Token" value="" data-form-token>
+      <input type="hidden" name="Lead Source Check" value="" data-form-source-check>
+      <input type="hidden" name="WhatsApp Normalized" value="" data-whatsapp-normalized>
+            <div class="form-honeypot" aria-hidden="true"><label for="manual-website">Website</label><input id="manual-website" name="_honey" type="text" tabindex="-1" autocomplete="off" data-spam-trap="true"></div>
+            <div class="form-row required-label"><label for="manual-name">이름 <span class="required-star" aria-hidden="true">*</span></label><input id="manual-name" name="Name" type="text" autocomplete="name" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-company">회사 <span class="required-star" aria-hidden="true">*</span></label><input id="manual-company" name="Company" type="text" autocomplete="organization" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-email">Email <span class="required-star" aria-hidden="true">*</span></label><input id="manual-email" name="email" type="email" autocomplete="email" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-whatsapp">WhatsApp <span class="required-star" aria-hidden="true">*</span></label><input id="manual-whatsapp" name="WhatsApp" type="tel" autocomplete="tel" required aria-required="true" inputmode="tel" pattern="\+[1-9][0-9\s().-]{7,24}" title="+86 19908311885 / +971 50 123 4567" data-whatsapp-field="true" maxlength="26"></div>
+            <div class="form-row required-label"><label for="manual-country">국가 <span class="required-star" aria-hidden="true">*</span></label><input id="manual-country" name="Country" type="text" autocomplete="country-name" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-product">제품 / 프로젝트 용량 <span class="required-star" aria-hidden="true">*</span></label><input id="manual-product" name="Product or Project Capacity" type="text" placeholder="Commercial RO 400G / 600G / 800G / 1200G 또는 프로젝트 용량" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-quantity">수량 <span class="required-star" aria-hidden="true">*</span></label><input id="manual-quantity" name="Quantity" type="text" placeholder="샘플 주문, 대량 주문 또는 프로젝트 수량" required aria-required="true"></div>
+            <div class="form-row required-label form-row-wide"><label for="manual-message">메시지 <span class="required-star" aria-hidden="true">*</span></label><textarea id="manual-message" name="Message" rows="5" placeholder="원수 조건, 목표 생산량, 시장 및 OEM/ODM 요구사항을 알려주세요." required aria-required="true"></textarea></div>
             <button type="submit" class="btn btn-gold">온라인 매뉴얼 보기</button>
             <p class="form-error" hidden></p>
             <p class="form-success" hidden></p>

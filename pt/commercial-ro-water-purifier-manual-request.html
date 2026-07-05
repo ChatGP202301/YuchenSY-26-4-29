@@ -240,7 +240,7 @@
             <p>O manual cobre instalação, layout de componentes, solução de problemas, instalação da membrana RO, segurança e notas de serviço. Cada solicitação é enviada à Yuchen Water para suporte de especificação e cotação.</p>
             <p class="manual-note">O manual é uma prévia online. Não há link PDF público; copiar, clicar com o botão direito, selecionar texto e arrastar imagens são restritos.</p>
           </div>
-          <form class="contact-form" id="manualRequestForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="2500" data-success-redirect="commercial-ro-water-purifier-manual.html" data-access-key="commercial-ro-manual-access" data-success-message="Obrigado. Sua solicitação foi enviada à Yuchen Water. O manual online protegido será aberto agora." accept-charset="UTF-8">
+          <form class="contact-form" id="manualRequestForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="2500" data-success-redirect="commercial-ro-water-purifier-manual.html" data-access-key="commercial-ro-manual-access" data-success-message="Obrigado. Sua solicitação foi enviada à Yuchen Water. O manual online protegido será aberto agora." accept-charset="UTF-8" data-form-protection="required-anti-spam" data-max-links="3" data-repeat-submit-ms="8000">
             <h2>Formulário de acesso ao manual</h2>
             <input type="hidden" name="_subject" value="Commercial RO Manual View Request from Yuchen Water Website - pt">
             <input type="hidden" name="_template" value="table">
@@ -252,15 +252,18 @@
             <input type="hidden" name="Submitted Language" value="pt" data-submitted-language>
             <input type="hidden" name="Form Loaded At" value="" data-form-loaded-at>
             <input type="hidden" name="Submitted At" value="" data-submitted-at>
-            <div class="form-honeypot" aria-hidden="true"><label for="manual-website">Website</label><input id="manual-website" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
-            <div class="form-row"><label for="manual-name">Nome</label><input id="manual-name" name="Name" type="text" autocomplete="name" required></div>
-            <div class="form-row"><label for="manual-company">Empresa</label><input id="manual-company" name="Company" type="text" autocomplete="organization" required></div>
-            <div class="form-row"><label for="manual-email">Email</label><input id="manual-email" name="email" type="email" autocomplete="email" required></div>
-            <div class="form-row"><label for="manual-whatsapp">WhatsApp</label><input id="manual-whatsapp" name="WhatsApp" type="text" autocomplete="tel"></div>
-            <div class="form-row"><label for="manual-country">País</label><input id="manual-country" name="Country" type="text" autocomplete="country-name" required></div>
-            <div class="form-row"><label for="manual-product">Produto / capacidade do projeto</label><input id="manual-product" name="Product or Project Capacity" type="text" placeholder="Commercial RO 400G / 600G / 800G / 1200G ou capacidade do projeto" required></div>
-            <div class="form-row"><label for="manual-quantity">Quantidade</label><input id="manual-quantity" name="Quantity" type="text" placeholder="Pedido teste, pedido em volume ou quantidade do projeto"></div>
-            <div class="form-row"><label for="manual-message">Mensagem</label><textarea id="manual-message" name="Message" rows="5" placeholder="Informe água de entrada, produção desejada, mercado e necessidades OEM/ODM." required></textarea></div>
+      <input type="hidden" name="Submission Token" value="" data-form-token>
+      <input type="hidden" name="Lead Source Check" value="" data-form-source-check>
+      <input type="hidden" name="WhatsApp Normalized" value="" data-whatsapp-normalized>
+            <div class="form-honeypot" aria-hidden="true"><label for="manual-website">Website</label><input id="manual-website" name="_honey" type="text" tabindex="-1" autocomplete="off" data-spam-trap="true"></div>
+            <div class="form-row required-label"><label for="manual-name">Nome <span class="required-star" aria-hidden="true">*</span></label><input id="manual-name" name="Name" type="text" autocomplete="name" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-company">Empresa <span class="required-star" aria-hidden="true">*</span></label><input id="manual-company" name="Company" type="text" autocomplete="organization" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-email">Email <span class="required-star" aria-hidden="true">*</span></label><input id="manual-email" name="email" type="email" autocomplete="email" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-whatsapp">WhatsApp <span class="required-star" aria-hidden="true">*</span></label><input id="manual-whatsapp" name="WhatsApp" type="tel" autocomplete="tel" required aria-required="true" inputmode="tel" pattern="\+[1-9][0-9\s().-]{7,24}" title="+86 19908311885 / +971 50 123 4567" data-whatsapp-field="true" maxlength="26"></div>
+            <div class="form-row required-label"><label for="manual-country">País <span class="required-star" aria-hidden="true">*</span></label><input id="manual-country" name="Country" type="text" autocomplete="country-name" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-product">Produto / capacidade do projeto <span class="required-star" aria-hidden="true">*</span></label><input id="manual-product" name="Product or Project Capacity" type="text" placeholder="Commercial RO 400G / 600G / 800G / 1200G ou capacidade do projeto" required aria-required="true"></div>
+            <div class="form-row required-label"><label for="manual-quantity">Quantidade <span class="required-star" aria-hidden="true">*</span></label><input id="manual-quantity" name="Quantity" type="text" placeholder="Pedido teste, pedido em volume ou quantidade do projeto" required aria-required="true"></div>
+            <div class="form-row required-label form-row-wide"><label for="manual-message">Mensagem <span class="required-star" aria-hidden="true">*</span></label><textarea id="manual-message" name="Message" rows="5" placeholder="Informe água de entrada, produção desejada, mercado e necessidades OEM/ODM." required aria-required="true"></textarea></div>
             <button type="submit" class="btn btn-gold">Ver manual online</button>
             <p class="form-error" hidden></p>
             <p class="form-success" hidden></p>

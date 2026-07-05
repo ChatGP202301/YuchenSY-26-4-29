@@ -336,7 +336,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
         </div>
       </div>
 
-      <form class="contact-form" id="quoteForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="3000" accept-charset="UTF-8">
+      <form class="contact-form" id="quoteForm" action="https://formsubmit.co/expresswater025@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/expresswater025@gmail.com" data-min-submit-ms="3000" accept-charset="UTF-8" data-form-protection="required-anti-spam" data-max-links="3" data-repeat-submit-ms="8000">
       <h2>見積依頼</h2>
       <input type="hidden" name="_subject" value="New OEM Inquiry from Yuchen Water Website">
       <input type="hidden" name="_template" value="table">
@@ -347,16 +347,19 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
       <input type="hidden" name="Submitted Language" value="ja" data-submitted-language>
       <input type="hidden" name="Form Loaded At" value="" data-form-loaded-at>
       <input type="hidden" name="Submitted At" value="" data-submitted-at>
-      <div class="form-honeypot" aria-hidden="true"><label for="website-url-ja">Website</label><input id="website-url-ja" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
-      <div class="form-row"><label for="name-ja">お名前</label><input id="name-ja" name="name" type="text" autocomplete="name" required placeholder="例：Ahmed Ali"></div>
-      <div class="form-row"><label for="company-ja">会社名</label><input id="company-ja" name="company" type="text" autocomplete="organization" required placeholder="例：ABC Water Trading LLC"></div>
-      <div class="form-row"><label for="email-ja">メール</label><input id="email-ja" name="email" type="email" autocomplete="email" required placeholder="name@company.com"></div>
-      <div class="form-row"><label for="whatsapp-ja">WhatsApp</label><input id="whatsapp-ja" name="whatsapp" type="text" autocomplete="tel" placeholder="例：+971 50 123 4567"></div>
-      <div class="form-row"><label for="country-ja">国</label><input id="country-ja" name="country" type="text" autocomplete="country-name" required placeholder="例：サウジアラビア"></div>
-      <div class="form-row"><label for="product-ja">製品</label><input id="product-ja" name="product" type="text" required placeholder="例：PP 10インチ 5ミクロン、CTOカーボンブロック、RO膜400G"></div>
-      <div class="form-row"><label for="quantity-ja">数量</label><input id="quantity-ja" name="quantity" type="text" required placeholder="例：3,000個または1セット"></div>
-      <div class="form-row"><label for="port-ja">仕向港</label><input id="port-ja" name="destination_port" type="text" placeholder="例：Jebel Ali / Rotterdam / Los Angeles"></div>
-      <div class="form-row"><label for="message-ja">メッセージ</label><textarea id="message-ja" name="message" rows="6" required placeholder="サイズ、ミクロン精度、流量、包装、ロゴ、必要な証明書をご記入ください。"></textarea></div>
+      <input type="hidden" name="Submission Token" value="" data-form-token>
+      <input type="hidden" name="Lead Source Check" value="" data-form-source-check>
+      <input type="hidden" name="WhatsApp Normalized" value="" data-whatsapp-normalized>
+      <div class="form-honeypot" aria-hidden="true"><label for="website-url-ja">Website</label><input id="website-url-ja" name="_honey" type="text" tabindex="-1" autocomplete="off" data-spam-trap="true"></div>
+      <div class="form-row required-label"><label for="name-ja">お名前 <span class="required-star" aria-hidden="true">*</span></label><input id="name-ja" name="name" type="text" autocomplete="name" required placeholder="例：Ahmed Ali" aria-required="true"></div>
+      <div class="form-row required-label"><label for="company-ja">会社名 <span class="required-star" aria-hidden="true">*</span></label><input id="company-ja" name="company" type="text" autocomplete="organization" required placeholder="例：ABC Water Trading LLC" aria-required="true"></div>
+      <div class="form-row required-label"><label for="email-ja">メール <span class="required-star" aria-hidden="true">*</span></label><input id="email-ja" name="email" type="email" autocomplete="email" required placeholder="name@company.com" aria-required="true"></div>
+      <div class="form-row required-label"><label for="whatsapp-ja">WhatsApp <span class="required-star" aria-hidden="true">*</span></label><input id="whatsapp-ja" name="whatsapp" type="tel" autocomplete="tel" placeholder="例：+971 50 123 4567" required aria-required="true" inputmode="tel" pattern="\+[1-9][0-9\s().-]{7,24}" title="+86 19908311885 / +971 50 123 4567" data-whatsapp-field="true" maxlength="26"></div>
+      <div class="form-row required-label"><label for="country-ja">国 <span class="required-star" aria-hidden="true">*</span></label><input id="country-ja" name="country" type="text" autocomplete="country-name" required placeholder="例：サウジアラビア" aria-required="true"></div>
+      <div class="form-row required-label"><label for="product-ja">製品 <span class="required-star" aria-hidden="true">*</span></label><input id="product-ja" name="product" type="text" required placeholder="例：PP 10インチ 5ミクロン、CTOカーボンブロック、RO膜400G" aria-required="true"></div>
+      <div class="form-row required-label"><label for="quantity-ja">数量 <span class="required-star" aria-hidden="true">*</span></label><input id="quantity-ja" name="quantity" type="text" required placeholder="例：3,000個または1セット" aria-required="true"></div>
+      <div class="form-row required-label"><label for="port-ja">仕向港 <span class="required-star" aria-hidden="true">*</span></label><input id="port-ja" name="destination_port" type="text" placeholder="例：Jebel Ali / Rotterdam / Los Angeles" required aria-required="true"></div>
+      <div class="form-row required-label form-row-wide"><label for="message-ja">メッセージ <span class="required-star" aria-hidden="true">*</span></label><textarea id="message-ja" name="message" rows="6" required placeholder="サイズ、ミクロン精度、流量、包装、ロゴ、必要な証明書をご記入ください。" aria-required="true"></textarea></div>
       <button type="submit" class="btn">お問い合わせを送信</button>
       <p class="form-error" hidden></p>
       <p id="formSuccess" class="form-success" hidden>ありがとうございます。お問い合わせは Yuchen Water（expresswater025@gmail.com）へ正常に送信されました。営業エンジニアができるだけ早くご連絡します。WhatsApp またはメールでもお問い合わせいただけます。</p>
