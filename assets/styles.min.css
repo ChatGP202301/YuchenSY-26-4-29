@@ -3,3 +3,224 @@
 .lang-select-mobile{display:none}@media (max-width:768px){.lang-switcher .lang-btn,.lang-switcher .lang-menu{display:none!important}.lang-select-mobile{display:block!important;width:clamp(78px,25vw,112px);min-height:44px;padding:8px 26px 8px 10px;border:1px solid #d9e8ea;border-radius:8px;background:var(--white);color:var(--text);font-family:inherit;font-size:.9rem;font-weight:700;line-height:1.2;cursor:pointer}.lang-select-mobile:focus{outline:2px solid rgba(14,165,233,.28);outline-offset:2px}}
 @media (max-width:768px){.lang-select-mobile{font-family:inherit!important;font-size:.9rem!important;font-weight:700!important;line-height:1.2!important}}
 @media (max-width:768px){.lang-switcher .lang-menu{display:none!important}.lang-switcher{position:relative;flex:0 0 auto}.lang-switcher .lang-btn{display:inline-flex!important;align-items:center;justify-content:center;min-width:66px;min-height:44px;padding:8px 26px 8px 14px!important;border:1px solid #cfe3e7!important;border-radius:12px!important;background:linear-gradient(180deg,#fff 0%,#f7fbfc 100%)!important;color:#123f48!important;box-shadow:0 8px 22px rgba(15,54,64,.08);pointer-events:none}.lang-switcher .lang-btn:after{content:"";position:absolute;right:12px;top:50%;width:7px;height:7px;border-right:2px solid #5c7f87;border-bottom:2px solid #5c7f87;transform:translateY(-65%) rotate(45deg)}.lang-select-mobile{display:block!important;position:absolute;inset:0;z-index:5;width:100%;height:100%;min-height:44px;opacity:0;font-family:inherit;font-size:.9rem;font-weight:700;line-height:1.2;cursor:pointer}}
+
+/* Pump-free five-stage RO product detail layout. */
+.pump-free-ro-product.product-detail {
+  display: block !important;
+  grid-template-columns: none !important;
+  width: 100%;
+  max-width: 1200px;
+  margin: clamp(24px, 4vw, 48px) auto 0;
+  padding: 0 24px 56px;
+}
+
+.pump-free-ro-product .breadcrumb {
+  margin-bottom: 18px;
+  max-width: 100%;
+}
+
+.pump-free-ro-product .product-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.95fr);
+  gap: clamp(24px, 4vw, 48px);
+  align-items: center;
+  padding: clamp(24px, 4vw, 44px);
+  border: 1px solid var(--ew-line, var(--border));
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 18px 44px rgba(16, 42, 50, 0.08);
+}
+
+.pump-free-ro-product .product-hero-copy h1 {
+  margin: 0 0 16px;
+  color: var(--ew-ink, var(--primary-dark));
+  font-size: clamp(2rem, 3.6vw, 3.2rem);
+  line-height: 1.12;
+}
+
+.pump-free-ro-product .product-hero-copy p {
+  color: #455a64;
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 24px;
+}
+
+.pump-free-ro-product .cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.pump-free-ro-product .btn-primary,
+.pump-free-ro-product .btn-secondary {
+  border-radius: 8px;
+}
+
+.pump-free-ro-product .btn-secondary {
+  background: #ffffff;
+  color: var(--ew-ink, var(--primary-dark)) !important;
+  border: 1px solid var(--ew-line, var(--border));
+}
+
+.pump-free-ro-product .product-hero-media {
+  justify-self: center;
+  width: 100%;
+  max-width: 560px;
+  border: 1px solid var(--ew-line, var(--border));
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.pump-free-ro-product .product-hero-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: contain;
+  padding: clamp(10px, 2vw, 18px);
+  background: #ffffff;
+}
+
+.pump-free-ro-product .product-section,
+.pump-free-ro-product .quote-cta {
+  margin-top: 24px;
+  padding: clamp(20px, 3vw, 32px);
+  border: 1px solid var(--ew-line, var(--border));
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.pump-free-ro-product .product-section h2,
+.pump-free-ro-product .quote-cta h2 {
+  margin-bottom: 12px;
+  color: var(--ew-ink, var(--primary-dark));
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+}
+
+.pump-free-ro-product .feature-list {
+  display: grid;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.pump-free-ro-product .table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pump-free-ro-product .product-gallery-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(12px, 2vw, 20px);
+}
+
+.pump-free-ro-product .product-gallery-item {
+  min-width: 0;
+  margin: 0;
+}
+
+.pump-free-ro-product .product-gallery-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: contain;
+  padding: clamp(8px, 1.4vw, 14px);
+  border: 1px solid var(--ew-line, var(--border));
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.pump-free-ro-product .product-gallery-item figcaption {
+  margin-top: 8px;
+  color: #5f747d;
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+
+.pump-free-ro-product .product-video-section video {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  margin: 18px auto 0;
+  border-radius: 8px;
+  background: #0b1720;
+}
+
+.pump-free-ro-product .faq-section details {
+  padding: 14px 0;
+  border-top: 1px solid var(--ew-line, var(--border));
+}
+
+.pump-free-ro-product .faq-section details:first-of-type {
+  border-top: 0;
+}
+
+.pump-free-ro-product .faq-section summary {
+  cursor: pointer;
+  color: var(--ew-ink, var(--primary-dark));
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .pump-free-ro-product.product-detail {
+    padding: 0 16px 44px;
+  }
+
+  .pump-free-ro-product .product-hero {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .pump-free-ro-product .product-hero-media {
+    order: -1;
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 640px) {
+  .pump-free-ro-product.product-detail {
+    margin-top: 18px;
+  }
+
+  .pump-free-ro-product .product-hero,
+  .pump-free-ro-product .product-section,
+  .pump-free-ro-product .quote-cta {
+    padding: 16px;
+  }
+
+  .pump-free-ro-product .product-hero-copy h1 {
+    font-size: clamp(1.7rem, 8vw, 2.15rem);
+  }
+
+  .pump-free-ro-product .product-hero-copy p {
+    font-size: 0.94rem;
+    line-height: 1.68;
+  }
+
+  .pump-free-ro-product .cta-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .pump-free-ro-product .cta-row .btn,
+  .pump-free-ro-product .cta-row .cta-wa {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pump-free-ro-product .product-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .pump-free-ro-product .product-gallery-item img {
+    padding: 6px;
+  }
+
+  .pump-free-ro-product .product-gallery-item figcaption {
+    font-size: 0.76rem;
+  }
+}
+
