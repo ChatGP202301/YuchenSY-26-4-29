@@ -240,3 +240,41 @@
 
 /* Form pages should not have floating WhatsApp controls covering submit buttons on mobile */
 @media (max-width:640px){body:has(form.contact-form) .mobile-whatsapp-bar,body:has(form.contact-form) .whatsapp-float{display:none!important}}
+/* Smart RO media gallery mobile layout: image-only cards must not inherit text-card columns. */
+@media (max-width:1100px){.product-media-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:14px!important}.product-media-grid .product-card{display:block!important;grid-template-columns:none!important;min-height:0!important}.product-media-grid .product-img-wrap{height:auto!important;min-height:0!important;aspect-ratio:1 / 1!important;border-right:0!important;border-bottom:0!important}.product-media-grid .product-img-wrap img{width:100%!important;height:100%!important;object-fit:contain!important;padding:12px!important}}@media (max-width:640px){.product-media-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}}
+
+/* E600-S commercial RO water dispenser */
+.e600s-page .product-detail-img {
+  background: #fff !important;
+}
+
+.e600s-page .product-main-image {
+  object-fit: contain !important;
+  background: #fff !important;
+}
+
+.e600s-page .product-gallery img {
+  object-fit: cover;
+  background: #fff;
+}
+
+.e600s-page .product-sample-note {
+  margin: -12px 0 24px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--ew-teal, #0f8f86);
+  background: #f1fbf7;
+  color: var(--ew-ink, #102a32);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 680px) {
+  .e600s-page .product-gallery img {
+    object-fit: cover !important;
+  }
+  .e600s-page .product-sample-note {
+    margin-top: 0;
+  }
+}
+
+/* E600-S-Min application scene grid */.e600s-min-page .product-detail-img{overflow:hidden}.e600s-min-page .product-main-image{width:100%;height:auto;aspect-ratio:820/920}.e600s-min-applications .section-head p{max-width:760px;margin-inline:auto}.e600s-min-scene-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}.e600s-min-scene{min-width:0;margin:0;overflow:hidden;border:1px solid var(--ew-line,#d8e4e1);border-radius:8px;background:#fff;box-shadow:0 12px 30px rgba(16,42,50,.08)}.e600s-min-scene img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#f4f7f6}.e600s-min-scene figcaption{display:grid;gap:5px;padding:16px}.e600s-min-scene figcaption strong{color:var(--ew-ink,#102a32);font-size:1rem}.e600s-min-scene figcaption span{color:#52666d;font-size:.88rem;line-height:1.55}@media (max-width:980px){.e600s-min-scene-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (max-width:680px){.e600s-min-page .product-main-image{height:auto!important;max-height:none!important;aspect-ratio:820/920;object-fit:contain!important}.e600s-min-scene-grid{grid-template-columns:1fr;gap:14px}.e600s-min-scene figcaption{padding:14px}}
+/* Product title links and balanced Hot Products */.product-title-link{display:block;border-radius:4px;color:inherit!important;text-decoration:none}.product-title-link:hover{color:var(--ew-teal,var(--primary))!important;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}.product-title-link:focus-visible{outline:2px solid var(--ew-teal,var(--primary));outline-offset:3px}.hot-products-grid{grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch}.hot-products-grid>.product-card:nth-last-child(2):nth-child(4n + 1){grid-column:2}@media(max-width:1100px){.hot-products-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hot-products-grid>.product-card:nth-last-child(2):nth-child(4n + 1){grid-column:auto}}@media(max-width:680px){.hot-products-grid{grid-template-columns:1fr!important}}/* End product title links and balanced Hot Products */

@@ -82,7 +82,7 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-const inquirySuccessHtml = 'Thank you. Your inquiry has been submitted successfully and sent to Yuchen Water at <a href="mailto:expresswater025@gmail.com">expresswater025@gmail.com</a>. Our sales engineer will contact you as soon as possible. You can also contact us anytime on <a href="https://wa.me/8619908311885" target="_blank" rel="noopener">WhatsApp +86-19908311885</a> or email <a href="mailto:expresswater025@gmail.com">expresswater025@gmail.com</a>.';
+const inquirySuccessHtml = 'Your request was accepted by the form service. Please keep the submission ID shown below. Yuchen Water will verify delivery before treating it as a received lead.';
 const inquiryErrorText = 'The form could not be sent right now. Please email expresswater025@gmail.com or contact WhatsApp +86-19908311885.';
 
 function prepareInquiryForm(form) {
@@ -100,9 +100,76 @@ function prepareInquiryForm(form) {
     form.querySelectorAll('[data-submitted-language]').forEach(input => {
         input.value = document.documentElement.lang || '';
     });
+    form.querySelectorAll('[data-submission-id]').forEach(input => {
+        if (!input.value) {
+            const randomPart = window.crypto && window.crypto.randomUUID ? window.crypto.randomUUID().replace(/-/g, '').slice(0, 20) : Math.random().toString(36).slice(2) + Date.now().toString(36);
+            input.value = 'YC-' + (document.documentElement.lang || 'xx').toUpperCase() + '-' + randomPart.toUpperCase();
+        }
+    });
 }
 
 document.querySelectorAll('form.contact-form').forEach(prepareInquiryForm);
+
+const pendingAppScriptForms = new Map();
+
+function submitToAppScript(form, endpoint, submitButton) {
+    const submissionId = form.querySelector('[data-submission-id]')?.value || '';
+    const turnstile = form.querySelector('[name="cf-turnstile-response"]');
+    if (!submissionId || !turnstile || !turnstile.value) throw new Error('Please complete the anti-spam verification.');
+    const frameName = 'yuchen-form-frame-' + submissionId.replace(/[^A-Za-z0-9-]/g, '');
+    let frame = document.querySelector(`iframe[name="${frameName}"]`);
+    if (!frame) {
+        frame = document.createElement('iframe');
+        frame.name = frameName;
+        frame.hidden = true;
+        frame.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(frame);
+    }
+    form.action = endpoint;
+    form.method = 'POST';
+    form.target = frameName;
+    const timeout = window.setTimeout(() => {
+        const pending = pendingAppScriptForms.get(submissionId);
+        if (!pending) return;
+        pendingAppScriptForms.delete(submissionId);
+        if (pending.button) pending.button.disabled = false;
+        if (pending.error) {
+            pending.error.textContent = 'The delivery service did not confirm receipt. Your form was not cleared. Please try again or use WhatsApp.';
+            pending.error.hidden = false;
+        }
+    }, 30000);
+    pendingAppScriptForms.set(submissionId, { form, button: submitButton, error: form.querySelector('.form-error'), success: form.querySelector('.form-success'), timeout });
+    HTMLFormElement.prototype.submit.call(form);
+}
+
+window.addEventListener('message', function(event) {
+    let messageHost = '';
+    try { messageHost = new URL(event.origin).hostname; } catch (error) { return; }
+    if (!/(^|\.)googleusercontent\.com$|(^|\.)google\.com$/.test(messageHost)) return;
+    const data = event.data;
+    if (!data || data.source !== 'yuchen-form' || !data.payload || !data.payload.id) return;
+    const pending = pendingAppScriptForms.get(data.payload.id);
+    if (!pending) return;
+    window.clearTimeout(pending.timeout);
+    pendingAppScriptForms.delete(data.payload.id);
+    if (pending.button) pending.button.disabled = false;
+    if (data.payload.emailSent === true && data.payload.status === 'EMAIL_SENT') {
+        const localized = pending.form.dataset.successMessage || (pending.success ? pending.success.textContent.trim() : '');
+        if (pending.success) {
+            pending.success.textContent = (localized || 'Your inquiry was recorded and the email notification was sent.') + ' ' + data.payload.id;
+            pending.success.hidden = false;
+            pending.success.setAttribute('role', 'status');
+        }
+        pending.form.reset();
+        pending.form.dataset.prepared = 'false';
+        prepareInquiryForm(pending.form);
+        if (window.turnstile) window.turnstile.reset();
+    } else if (pending.error) {
+        pending.error.textContent = data.payload.recorded ? 'Your inquiry was safely recorded, but the email notification is pending retry. Submission ID: ' + data.payload.id : 'The server rejected this inquiry: ' + (data.payload.status || 'UNKNOWN');
+        pending.error.hidden = false;
+        pending.error.setAttribute('role', 'alert');
+    }
+});
 
 document.addEventListener('submit', async function(e) {
     const form = e.target;
@@ -110,7 +177,22 @@ document.addEventListener('submit', async function(e) {
 
     prepareInquiryForm(form);
 
+    const appScriptEndpoint = form.dataset.appsScriptEndpoint;
     const endpoint = form.dataset.endpoint;
+    if (appScriptEndpoint) {
+        e.preventDefault();
+        const submitButton = form.querySelector('[type="submit"]');
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        form.querySelectorAll('[data-submitted-at]').forEach(input => { input.value = new Date().toISOString(); });
+        if (submitButton) submitButton.disabled = true;
+        try { submitToAppScript(form, appScriptEndpoint, submitButton); }
+        catch (error) {
+            if (submitButton) submitButton.disabled = false;
+            const formError = form.querySelector('.form-error');
+            if (formError) { formError.textContent = error.message; formError.hidden = false; }
+        }
+        return;
+    }
     if (!endpoint || !window.fetch) return;
 
     e.preventDefault();
@@ -165,10 +247,15 @@ document.addEventListener('submit', async function(e) {
             headers: { 'Accept': 'application/json' }
         });
 
-        if (!response.ok) throw new Error('Form endpoint rejected the inquiry.');
+        let payload;
+        try { payload = await response.json(); }
+        catch (parseError) { throw new Error('Form endpoint returned an invalid response.'); }
+        const accepted = payload && (payload.success === true || payload.success === 'true');
+        if (!response.ok || !accepted) throw new Error(payload && payload.message ? payload.message : 'Form endpoint rejected the inquiry.');
 
         if (success) {
-            success.innerHTML = inquirySuccessHtml;
+            const submissionId = form.querySelector('[data-submission-id]')?.value || '';
+            success.innerHTML = inquirySuccessHtml + (submissionId ? '<br><strong>' + submissionId.replace(/[<>&"']/g, '') + '</strong>' : '');
             success.hidden = false;
             success.setAttribute('role', 'status');
             success.setAttribute('tabindex', '-1');
