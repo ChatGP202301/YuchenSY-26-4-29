@@ -23,6 +23,7 @@
       if (!dialog || !dialogImage) return;
       dialogImage.src = button.dataset.image;
       dialogImage.alt = button.dataset.title;
+      dialogImage.hidden = false;
       dialogTitle.textContent = button.dataset.title;
       dialog.showModal();
     });
