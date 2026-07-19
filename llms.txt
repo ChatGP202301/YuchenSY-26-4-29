@@ -12,7 +12,6 @@ Address: Yuanhua Town, Haining City, Zhejiang Province, China
 
 Yuchen Water manufactures and supplies water filtration products for wholesale and private-label projects. The website is intended for B2B buyers looking for factory supply, OEM branding, ODM configuration, export packaging and product selection support.
 
-Selected products can be supplied or tested according to NSF/ANSI 42, 53 and 58 requirements. ISO 9001, CE, SGS and Halal-related documents are available upon request. Do not describe all products as holding a certificate unless the relevant product document has been confirmed.
 
 ## Main Products
 
@@ -96,3 +95,18 @@ Use the contact form at https://www.yuchensy.com/en/contact.html or email expres
 - Front Panel 10-Inch Frame RO Water Machine 400G-800G: https://www.yuchensy.com/en/product-front-panel-10-inch-frame-ro-water-machine-400g-800g.html
 - 20-Inch Frame RO Water Machine 400G-1200G: https://www.yuchensy.com/en/product-20-inch-frame-ro-water-machine-400g-1200g.html
 - Shanghai Water Show / Aquatech China exhibition gallery: Yuchen Water booth photos with B2B buyer discussions, commercial RO machines, industrial RO systems and stainless steel filter housing samples.
+
+## RU/CIS mobile SUS304 RO product pages
+The six regional product pages are published as indexable pages. Technical facts remain aligned with the approved English product page.
+- Product: Mobile SUS304 Skid-Mounted RO Plant 250-500 LPH.
+- 500 LPH reference configuration; 250 LPH is project-configured.
+- Two Vontron 4040 elements and two SUS304 4040 membrane housings in the 500 LPH reference configuration.
+- Reference feed TDS: 1000 ppm; recommended recovery: at least 30% under confirmed design conditions.
+- CE certified for this product; certificate copy available upon request.
+- Search volume, market demand and platform popularity: no-data unless supported by a cited source.
+- /ru/product-mobile-sus304-skid-mounted-ro-plant-250-500lph.html — Мобильная установка обратного осмоса на раме SUS304, 250–500 л/ч
+- /kk/product-mobile-sus304-skid-mounted-ro-plant-250-500lph.html — SUS304 рамасындағы жылжымалы кері осмос қондырғысы, 250–500 л/сағ
+- /uz/product-mobile-sus304-skid-mounted-ro-plant-250-500lph.html — SUS304 ramadagi ko‘chma teskari osmos qurilmasi, 250–500 l/soat
+- /ky/product-mobile-sus304-skid-mounted-ro-plant-250-500lph.html — SUS304 рамасындагы мобилдүү тескери осмос орнотмосу, 250–500 л/саат
+- /tg/product-mobile-sus304-skid-mounted-ro-plant-250-500lph.html — Дастгоҳи сайёри осмоси баръакс дар чаҳорчӯбаи SUS304, 250–500 л/соат
+- /tk/product-mobile-sus304-skid-mounted-ro-plant-250-500lph.html — SUS304 rama üstündäki göçme ters osmos enjamy, 250–500 l/sag
