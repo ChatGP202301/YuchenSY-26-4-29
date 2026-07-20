@@ -1,7 +1,5 @@
 # Yuchen Water robots.txt
-
-User-agent: *
-Allow: /
+# Public pages may be crawled by search and answer engines listed below.
 
 User-agent: Googlebot
 Allow: /
@@ -9,13 +7,29 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
 User-agent: OAI-SearchBot
 Allow: /
 
-User-agent: GPTBot
+User-agent: ChatGPT-User
 Allow: /
 
-User-agent: ChatGPT-User
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Do not permit OpenAI model-training crawler.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: *
 Allow: /
 
 Sitemap: https://www.yuchensy.com/sitemap.xml
