@@ -1,49 +1,803 @@
-# Yuchen Water — approved public facts
+# Yuchen Water — Latvian approved public product facts
 
-This file contains only public facts approved for machine-readable use. It does not
-replace a model-specific quotation or technical datasheet.
+This file is generated from visible Latvian pages and their matching Product JSON-LD. It does not replace a model-specific quotation or technical datasheet.
 
-## Company and contact
+## Contact
 
-- Name: Yuchen Water
 - Website: https://www.yuchensy.com/
 - Email: expresswater025@gmail.com
 - Telephone and WhatsApp: +86-19908311885
-- Address: Yuanhua Town, Haining, Zhejiang, China
 
-## Public product scope
+## Products
 
-Yuchen Water publishes product pages for water filter cartridges, water filter
-housings, reverse-osmosis water purifiers and treatment equipment, and water
-dispensers. A page describes only the visible product or configurable product
-family shown on that page.
+### 10 collu rāmja RO ūdens iekārta 400G-1200G
 
-## Latvian configurable filter-housing family
+- URL: https://www.yuchensy.com/lv/product-10-inch-frame-ro-water-machine-400g-1200g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “10 collu rāmja RO ūdens iekārta 400G-1200G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–1200G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
+- Attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, RO membrāna un T33 pēcfiltrs
+- Tīrā ūdens plūsma: 400G–1200G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
 
-Canonical page: https://www.yuchensy.com/lv/product-housing-filter.html
+### 10 collu rāmja RO ūdens iekārta 400G-800G
 
-Approved facts:
+- URL: https://www.yuchensy.com/lv/product-10-inch-frame-ro-water-machine-400g-800g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “10 collu rāmja RO ūdens iekārta 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
+- Attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs
+- Tīrā ūdens plūsma: 400G–800G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
 
-- Cartridge lengths: 10 inches or 20 inches.
-- Housing formats: Slim or Big Blue/Jumbo.
-- Housing variants: blue, black or transparent.
-- Stage options: one, two or three housings in sequence.
-- Installation options: wall bracket or metal floor frame, confirmed per order.
-- Optional items: pressure gauge, housing wrench and installation accessories,
-  confirmed for the selected configuration.
-- A quotation requires the size, format, stage count, housing variant, mounting
-  method, required accessories, quantity, packaging requirements and destination.
+### 20 collu komerciāls RO ūdens attīrītājs 800G/1200G/1600G/2000G
 
-Related intent-specific pages:
+- URL: https://www.yuchensy.com/lv/product-20-inch-commercial-ro-water-purifier-800g-2000g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “20 collu komerciāls RO ūdens attīrītājs 800G/1200G/1600G/2000G” apstiprinātie dati: ražība vai ietilpība: 800G, 1200G, 1600G vai 2000G; filtrācijas pakāpes: piecpakāpju filtrācija ar PP nogulšņu filtru, ogles priekšfiltru, RO membrānu un ogles pēcfiltru; secību var precizēt konfigurācijā; spiediena tvertne: standarta versija bez tvertnes; spiediena tvertni var pievienot atbilstoši saskaņotajai konfigurācijai. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Ražība vai ietilpība: 800G, 1200G, 1600G vai 2000G
+- Filtrācijas pakāpes: piecpakāpju filtrācija ar PP nogulšņu filtru, ogles priekšfiltru, RO membrānu un ogles pēcfiltru; secību var precizēt konfigurācijā
+- Spiediena tvertne: standarta versija bez tvertnes; spiediena tvertni var pievienot atbilstoši saskaņotajai konfigurācijai
+- Nominālā jauda: 160W
+- Iekārtas svars: 28 kg
+- Izmēri: koka rāmis 47 × 33 × 90 cm
+- Uzstādīšana: uz grīdas uzstādāma komerciāla tiešās dzeršanas ūdens iekārta
+- Pielietojums: biroji, restorāni, skolas, kafejnīcas, nelielas ražotnes un izplatītāju projekti
 
-- Category overview: https://www.yuchensy.com/lv/filter-housing.html
-- Three-stage Big Blue configuration: https://www.yuchensy.com/lv/product-big-blue-3stage.html
+### 20 collu rāmja RO ūdens iekārta 400G-1200G
 
-## Limits on interpretation
+- URL: https://www.yuchensy.com/lv/product-20-inch-frame-ro-water-machine-400g-1200g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “20 collu rāmja RO ūdens iekārta 400G-1200G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 20 collu PP, 20 collu UDF, 20 collu PP, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–1200G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
+- Attīrīšanas process: 20 collu PP, 20 collu UDF, 20 collu PP, RO membrāna un T33 pēcfiltrs
+- Tīrā ūdens plūsma: 400G–1200G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
 
-- Photographs show configuration examples; visible accessories are not automatically
-  standard equipment for every model.
-- The approved scope is limited to the listed sizes, formats, colors, stage options,
-  mounting choices and selectable accessories.
-- Confirm the selected model, accessories, quantity, packaging and destination for
-  the requested configuration.
+### Sārmains ūdens attīrītājs
+
+- URL: https://www.yuchensy.com/lv/product-alkaline-purifier.html
+- Category: Dzeramā ūdens attīrītāji
+- Description: Šis ir daudzpakāpju dzeramā ūdens attīrīšanas produkts. Produktam “Sārmains ūdens attīrītājs” apstiprinātie dati: veids: sārmains pildījums; ph diapazons: 8,5–9,5. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Veids: sārmains pildījums
+- pH diapazons: 8,5–9,5
+
+### Antibakteriāls mineralizācijas filtra kārtridžs
+
+- URL: https://www.yuchensy.com/lv/product-antibacterial-mineralization.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Antibakteriāls mineralizācijas filtra kārtridžs” apstiprinātie dati: pildījuma funkcija: antibakteriāla pildījuma un mineralizācijas kombinācija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pildījuma funkcija: antibakteriāla pildījuma un mineralizācijas kombinācija
+
+### Trīspakāpju Big Blue filtru sistēma
+
+- URL: https://www.yuchensy.com/lv/product-big-blue-3stage.html
+- Category: Ūdens filtru korpusi
+- Description: Šis ir nomaināmu filtra kārtridžu korpuss vai korpusu komplekts. Produktam “Trīspakāpju Big Blue filtru sistēma” apstiprinātie dati: sistēmas veids: trīspakāpju Big Blue filtru komplekts; izmērs: 30 collu korpusu klase; pakāpju skaits: nogulšņu, ogles un smalkās filtrācijas pakāpju iespējas. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Sistēmas veids: trīspakāpju Big Blue filtru komplekts
+- Izmērs: 30 collu korpusu klase
+- Pakāpju skaits: nogulšņu, ogles un smalkās filtrācijas pakāpju iespējas
+- Savienojums: pielāgojamas ieplūdes un izplūdes pieslēgumu iespējas
+- Pielietojumi: privātmājas, komerciālas virtuves un vieglās rūpniecības priekšfiltrācija
+
+### RO ūdens attīrītājs ar iebūvētu spiediena tvertni 100G/200G
+
+- URL: https://www.yuchensy.com/lv/product-built-in-pressure-tank-ro.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “RO ūdens attīrītājs ar iebūvētu spiediena tvertni 100G/200G” apstiprinātie dati: filtrācijas pakāpes: piecpakāpju RO filtrācija: PP, UDF/GAC, CTO, RO membrāna un T33 pēcfiltrs; ražība vai ietilpība: 100G vai 200G; uzkrāšanas tvertne: iebūvēta spiediena tvertne. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Filtrācijas pakāpes: piecpakāpju RO filtrācija: PP, UDF/GAC, CTO, RO membrāna un T33 pēcfiltrs
+- Ražība vai ietilpība: 100G vai 200G
+- Uzkrāšanas tvertne: iebūvēta spiediena tvertne
+- Krāsa: standarta balta krāsa; paneļa un krāsas iespējas apstiprina pasūtījuma konfigurācijā
+- Korpuss: kompakts zem izlietnes uzstādāms skapis ar integrētu filtru un tvertni
+- Uzstādīšana: uzstādīšana zem izlietnes, virtuves skapī vai dzeramā ūdens lietošanas punktā
+- Pielietojums: dzīvojamo telpu virtuves, dzīvokļi, biroju virtuves un iekārtu zīmolu programmas
+
+### Augsta blīvuma CTO oglekļa bloka filtrs
+
+- URL: https://www.yuchensy.com/lv/product-carbon-block-2.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “Augsta blīvuma CTO oglekļa bloka filtrs” apstiprinātie dati: blīvums: augsts blīvums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Blīvums: augsts blīvums
+
+### Rūpnieciskais CTO oglekļa bloka filtrs
+
+- URL: https://www.yuchensy.com/lv/product-carbon-block-industrial.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “Rūpnieciskais CTO oglekļa bloka filtrs” apstiprinātie dati: veids: presēts oglekļa bloks; pielietojuma vide: rūpnieciska vide. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Veids: presēts oglekļa bloks
+- Pielietojuma vide: rūpnieciska vide
+
+### CTO kokosriekstu čaumalu oglekļa bloka filtrs
+
+- URL: https://www.yuchensy.com/lv/product-carbon-block.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “CTO kokosriekstu čaumalu oglekļa bloka filtrs” apstiprinātie dati: filtrējošais materiāls: kokosriekstu čaumalu aktīvās ogles bloks; nominālā filtrācijas pakāpe: 1, 5 vai 10 μm; garums: 10 vai 20 collas; iespējams pielāgots garums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Filtrējošais materiāls: kokosriekstu čaumalu aktīvās ogles bloks
+- Nominālā filtrācijas pakāpe: 1, 5 vai 10 μm
+- Garums: 10 vai 20 collas; iespējams pielāgots garums
+- Savietojamība: RO sistēmas, galda filtri un visas ēkas filtru korpusi
+
+### Keramikas filtra kārtridžs 0,2 μm
+
+- URL: https://www.yuchensy.com/lv/product-ceramic-filter.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Keramikas filtra kārtridžs 0,2 μm” apstiprinātie dati: filtrācijas precizitāte: 0,2 μm; veids: keramika. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Filtrācijas precizitāte: 0,2 μm
+- Veids: keramika
+
+### Komerciāls RO ūdens attīrītājs ar lielu korpusu 400G-800G
+
+- URL: https://www.yuchensy.com/lv/product-commercial-big-blue-ro-water-purifier-400g-800g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāls RO ūdens attīrītājs ar lielu korpusu 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu Big Blue PP priekšfiltrs, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
+- Attīrīšanas process: 10 collu Big Blue PP priekšfiltrs, RO membrāna un T33 pēcfiltrs
+- Tīrā ūdens plūsma: 400G–800G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Komerciāla centrālā RO ūdens attīrīšanas iekārta 250-500 L/h
+
+- URL: https://www.yuchensy.com/lv/product-commercial-central-ro-water-purification-equipment-250-500lph.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāla centrālā RO ūdens attīrīšanas iekārta 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna
+- Tīrā ūdens plūsma: 250-500 L/h
+- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Komerciāls augstas plūsmas luksusa RO ūdens attīrītājs ar lieliem korpusiem 800G-1600G
+
+- URL: https://www.yuchensy.com/lv/product-commercial-high-flow-deluxe-big-blue-ro-water-purifier-800g-1600g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāls augstas plūsmas luksusa RO ūdens attīrītājs ar lieliem korpusiem 800G-1600G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar aizsardzību pret ūdens trūkumu, automātisku apturēšanu, divu ūdens kvalitātes rādījumu, darba spiediena rādījumu, filtru maiņas atgādinājumu un mikrodatora vadību; attīrīšanas process: 10 collu liela diametra PP filtrs, 10 collu liela diametra PP un ogles kompozītfiltrs, divas RO membrānas; tīrā ūdens plūsma: 800G–1600G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar aizsardzību pret ūdens trūkumu, automātisku apturēšanu, divu ūdens kvalitātes rādījumu, darba spiediena rādījumu, filtru maiņas atgādinājumu un mikrodatora vadību
+- Attīrīšanas process: 10 collu liela diametra PP filtrs, 10 collu liela diametra PP un ogles kompozītfiltrs, divas RO membrānas
+- Tīrā ūdens plūsma: 800G–1600G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Komerciāls vidēja skapja RO ūdens attīrītājs ar iebūvētu spiediena tvertni 400G-1600G
+
+- URL: https://www.yuchensy.com/lv/product-commercial-mid-cabinet-ro-water-purifier-built-in-pressure-tank-400g-1600g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāls vidēja skapja RO ūdens attīrītājs ar iebūvētu spiediena tvertni 400G-1600G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–1600G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
+- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP, RO membrāna un T33 pēcfiltrs
+- Tīrā ūdens plūsma: 400G–1600G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Iekārtas izmēri: 65 × 55 × 126 cm
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Komerciāls maza skapja RO ūdens attīrītājs 400G-1600G
+
+- URL: https://www.yuchensy.com/lv/product-commercial-small-cabinet-ro-water-purifier-400g-1600g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāls maza skapja RO ūdens attīrītājs 400G-1600G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–1600G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
+- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP, RO membrāna un T33 pēcfiltrs
+- Tīrā ūdens plūsma: 400G–1600G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Iekārtas izmēri: 55 × 35 × 96 cm
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Komerciāls nerūsējošā tērauda RO ūdens dozators E900-K27
+
+- URL: https://www.yuchensy.com/lv/product-commercial-stainless-steel-ro-water-dispenser-e900-k27.html
+- Category: Ūdens dozatori
+- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Komerciāls nerūsējošā tērauda RO ūdens dozators E900-K27” apstiprinātie dati: modelis: E900-K27; izmērs: 800 x 480 x 1520 mm; karstā ūdens tvertne: 27L. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Modelis: E900-K27
+- Izmērs: 800 x 480 x 1520 mm
+- Karstā ūdens tvertne: 27L
+- Barošanas spriegums: 220 V
+- Jauda: 3 kW
+- Ražība: karstā un siltā ūdens padeve, 120 L/h
+- Displejs: LCD ekrāns ar mikrodatora vadību
+- Ūdens izvadi: viens karstā un divi siltā ūdens izvadi
+- Krāns: vieglas nospiešanas poga
+- Materiāls: nerūsējošais tērauds ar nanopārklājumu
+- Standarta filtrācijas secība: PP un presētas aktīvās ogles filtrs; PP un RO membrāna; T33 aktīvās ogles pēcfiltrs
+- Papildu RO modulis: 400G RO attīrīšanas modulis
+- Pielietojumi: biroji, rūpnīcas, skolas un slimnīcas
+
+### Pielāgojams 5/6/7 pakāpju RO ūdens attīrītājs
+
+- URL: https://www.yuchensy.com/lv/product-custom-5-6-7-stage-ro-water-purifier.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Pielāgojams 5/6/7 pakāpju RO ūdens attīrītājs” apstiprinātie dati: materiāls: pārtikai piemēroti plastmasas korpusi, plastmasas vai metāla stiprinājums un papildu manometri; izmērs: izmēru nosaka stiprinājuma, aizmugurējās plāksnes un filtrācijas pakāpju konfigurācija; pielietojums: RO ūdens attīrītāji, ūdens dozatori, priekšfiltrācijas sistēmas, komerciāla ūdens attīrīšana un maiņas kārtridži. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Materiāls: pārtikai piemēroti plastmasas korpusi, plastmasas vai metāla stiprinājums un papildu manometri
+- Izmērs: izmēru nosaka stiprinājuma, aizmugurējās plāksnes un filtrācijas pakāpju konfigurācija
+- Pielietojums: RO ūdens attīrītāji, ūdens dozatori, priekšfiltrācijas sistēmas, komerciāla ūdens attīrīšana un maiņas kārtridži
+
+### Galda RO ūdens aparāts ar kompresora dzesēšanu 100G
+
+- URL: https://www.yuchensy.com/lv/product-desktop-ro-water-machine-compressor-cooling-100g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Galda RO ūdens aparāts ar kompresora dzesēšanu 100G” apstiprinātie dati: darbības režīms: kompresora dzesēšana auksta dzeramā ūdens padevei un stabilai galda iekārtas darbībai; attīrīšanas process: četrpakāpju filtrācija ar PP, CTO, T33 un 100G RO membrānu; tīrā ūdens plūsma: 100G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: kompresora dzesēšana auksta dzeramā ūdens padevei un stabilai galda iekārtas darbībai
+- Attīrīšanas process: četrpakāpju filtrācija ar PP, CTO, T33 un 100G RO membrānu
+- Tīrā ūdens plūsma: 100G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: biroji, izstāžu telpas, dzīvokļi, nelielas virtuves, biroju virtuves un zīmolu galda iekārtu programmas
+
+### Integrēta rāmja RO iekārta ar divu tvertņu priekšattīrīšanu 1000-3000 L/h
+
+- URL: https://www.yuchensy.com/lv/product-dual-tank-pretreatment-integrated-skid-ro-equipment.html
+- Category: Rūpnieciskās RO iekārtas
+- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Integrēta rāmja RO iekārta ar divu tvertņu priekšattīrīšanu 1000-3000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, precīzais filtrs un reversā osmoze; tīrā ūdens plūsma: 1000-3000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, precīzais filtrs un reversā osmoze
+- Tīrā ūdens plūsma: 1000-3000 L/h
+- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Integrēta rāmja RO iekārta ar divu tvertņu priekšattīrīšanu 250-1000 L/h
+
+- URL: https://www.yuchensy.com/lv/product-dual-tank-pretreatment-ro-equipment-250-1000lph.html
+- Category: Rūpnieciskās RO iekārtas
+- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Integrēta rāmja RO iekārta ar divu tvertņu priekšattīrīšanu 250-1000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, precīzais filtrs un reversā osmoze; tīrā ūdens plūsma: 250-1000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, precīzais filtrs un reversā osmoze
+- Tīrā ūdens plūsma: 250-1000 L/h
+- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: viesnīcas, darbnīcas, skolas, klīnikas, komerciālas virtuves, pazemes ūdens priekšattīrīšana un kompakti ūdens attīrīšanas projekti
+
+### Kombinētais filtra kārtridžs
+
+- URL: https://www.yuchensy.com/lv/product-filter-combo.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Kombinētais filtra kārtridžs” apstiprinātie dati: pakāpju skaits: 3–5 pakāpes; kombinācija: pielāgojama konfigurācija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma. Pakāpju secību apstiprina pēc vajadzīgās filtrācijas funkcijas un saderīgās sistēmas.
+- Pakāpju skaits: 3–5 pakāpes
+- Kombinācija: pielāgojama konfigurācija
+
+### CTO filtra kārtridžs ar plakanu gala vāciņu
+
+- URL: https://www.yuchensy.com/lv/product-flat-cap-cto.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “CTO filtra kārtridžs ar plakanu gala vāciņu” apstiprinātie dati: veids: CTO oglekļa bloks; gala vāciņš: plakans gala vāciņš. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Veids: CTO oglekļa bloks
+- Gala vāciņš: plakans gala vāciņš
+
+### GAC filtra kārtridžs ar plakanu gala vāciņu
+
+- URL: https://www.yuchensy.com/lv/product-flat-cap-gac.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “GAC filtra kārtridžs ar plakanu gala vāciņu” apstiprinātie dati: gala vāciņš: plakans silikona gumijas gala vāciņš; materiāls: granulēta aktīvā ogle GAC. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Gala vāciņš: plakans silikona gumijas gala vāciņš
+- Materiāls: granulēta aktīvā ogle GAC
+
+### PP filtra kārtridžs ar plakanu gala vāciņu
+
+- URL: https://www.yuchensy.com/lv/product-flat-cap-pp.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PP filtra kārtridžs ar plakanu gala vāciņu” apstiprinātie dati: veids: kausējuma pūsts PP; gala vāciņš: plakans gala vāciņš. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Veids: kausējuma pūsts PP
+- Gala vāciņš: plakans gala vāciņš
+
+### 10 collu rāmja RO ūdens iekārta ar priekšējo paneli 400G-800G
+
+- URL: https://www.yuchensy.com/lv/product-front-panel-10-inch-frame-ro-water-machine-400g-800g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “10 collu rāmja RO ūdens iekārta ar priekšējo paneli 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
+- Attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs
+- Tīrā ūdens plūsma: 400G–800G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Horizontāla RO ūdens attīrīšanas iekārta 250 L/h
+
+- URL: https://www.yuchensy.com/lv/product-horizontal-reverse-osmosis-water-purification-equipment-250lph.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Horizontāla RO ūdens attīrīšanas iekārta 250 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 10 collu liela diametra PP filtrs, 20 collu liela diametra PP un ogles kompozītfiltrs, RO membrāna; tīrā ūdens plūsma: 250 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: 10 collu liela diametra PP filtrs, 20 collu liela diametra PP un ogles kompozītfiltrs, RO membrāna
+- Tīrā ūdens plūsma: 250 L/h
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Ūdens filtru korpusi 10 un 20 collu kasetnēm
+
+- URL: https://www.yuchensy.com/lv/product-housing-filter.html
+- Category: Ūdens filtru korpusi
+- Description: Šis ir nomaināmu filtra kārtridžu korpuss vai korpusu komplekts. Produktam “Ūdens filtru korpusi 10 un 20 collu kasetnēm” apstiprinātie dati: produkta veids: ūdens filtra korpuss; pieslēgums: 1/4, 1/2, 3/4 vai 1 collas pieslēgums; pieejama arī pielāgota versija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Produkta veids: ūdens filtra korpuss
+- Pieslēgums: 1/4, 1/2, 3/4 vai 1 collas pieslēgums; pieejama arī pielāgota versija
+
+### Inline katjonu sveķu filtrs
+
+- URL: https://www.yuchensy.com/lv/product-inline-cation-resin.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline katjonu sveķu filtrs” apstiprinātie dati: pildījuma funkcija: ūdens mīkstināšana ar jonu apmaiņu; sveķu veids: katjonu apmaiņas sveķi. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pildījuma funkcija: ūdens mīkstināšana ar jonu apmaiņu
+- Sveķu veids: katjonu apmaiņas sveķi
+
+### Inline filtrs PP
+
+- URL: https://www.yuchensy.com/lv/product-inline-pp.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline filtrs PP” apstiprinātie dati: materiāls: polipropilēns; filtrācijas precizitāte: 5 μm. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma. Nomaiņai pārbaudiet inline korpusa savienojumu, plūsmas virzienu un uzstādīšanas vietu.
+- Materiāls: polipropilēns
+- Filtrācijas precizitāte: 5 μm
+
+### Inline filtra kārtridžs mazām molekulām
+
+- URL: https://www.yuchensy.com/lv/product-inline-small-mol.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline filtra kārtridžs mazām molekulām” apstiprinātie dati: pildījuma funkcija: antibakteriāla pildījuma un mineralizācijas kombinācija; pieslēgums: ātrais savienojums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pildījuma funkcija: antibakteriāla pildījuma un mineralizācijas kombinācija
+- Pieslēgums: ātrais savienojums
+
+### T33 inline filtrs ar kokosriekstu čaumalu ogli
+
+- URL: https://www.yuchensy.com/lv/product-inline-t33-coconut.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “T33 inline filtrs ar kokosriekstu čaumalu ogli” apstiprinātie dati: produkta veids: inline aktīvās ogles pēcfiltrs; filtrējošais materiāls: kokosriekstu čaumalu aktīvā ogle; savienojums: 1/4 collas ātrais savienojums vai vītņots pieslēgums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Produkta veids: inline aktīvās ogles pēcfiltrs
+- Filtrējošais materiāls: kokosriekstu čaumalu aktīvā ogle
+- Savienojums: 1/4 collas ātrais savienojums vai vītņots pieslēgums
+- Pildījuma funkcija: noslēdzoša garšas un smaržas korekcija
+- Pielietojumi: RO sistēmas, ūdens dozatori un tiešās dzeršanas iekārtas
+
+### T33 inline mineralizācijas filtrs
+
+- URL: https://www.yuchensy.com/lv/product-inline-t33-mineral.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “T33 inline mineralizācijas filtrs” apstiprinātie dati: pildījuma funkcija: mineralizācija un noslēdzoša ūdens garšas korekcija; pieslēgums: ātrais savienojums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pildījuma funkcija: mineralizācija un noslēdzoša ūdens garšas korekcija
+- Pieslēgums: ātrais savienojums
+
+### Liela rūpnieciska RO ūdens attīrīšanas iekārta 3-100 t/h
+
+- URL: https://www.yuchensy.com/lv/product-large-industrial-reverse-osmosis-water-treatment-equipment.html
+- Category: Rūpnieciskās RO iekārtas
+- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Liela rūpnieciska RO ūdens attīrīšanas iekārta 3-100 t/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: trīspakāpju priekšattīrīšana un reversā osmoze; attīrīšanas procesu nosaka pēc ūdens analīzes; tīrā ūdens plūsma: 3-100 t/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: trīspakāpju priekšattīrīšana un reversā osmoze; attīrīšanas procesu nosaka pēc ūdens analīzes
+- Tīrā ūdens plūsma: 3-100 t/h
+- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
+- Cauruļvadu materiāls: UPVC vai 304 nerūsējošais tērauds atbilstoši projekta specifikācijai
+- Aizsardzības funkcijas: aizsardzība pret darbību bez ūdens, pārslodzes aizsardzība un trauksmes saskarnes
+- Vadība: PLC vai vadības paneli konfigurē atbilstoši pircēja tehniskajām prasībām
+- Pielietojums: rūpnīcas, ūdens sagatavošanas stacijas, viesnīcas, pārtikas pārstrāde un rūpnieciska tīrā ūdens projekti
+
+### Inline maifāna akmens filtrs
+
+- URL: https://www.yuchensy.com/lv/product-maifan-inline.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline maifāna akmens filtrs” apstiprinātie dati: minerālu pildījums: maifāna akmens; pildījuma funkcija: mineralizācija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Minerālu pildījums: maifāna akmens
+- Pildījuma funkcija: mineralizācija
+
+### Vidējās pakāpes filtra kārtridžs
+
+- URL: https://www.yuchensy.com/lv/product-mid-filter.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Vidējās pakāpes filtra kārtridžs” apstiprinātie dati: izmērs: vidējs izmērs; pieslēgums: varš. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Izmērs: vidējs izmērs
+- Pieslēgums: varš
+
+### Inline mineralizācijas filtrs
+
+- URL: https://www.yuchensy.com/lv/product-mineral-inline.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline mineralizācijas filtrs” apstiprinātie dati: pildījuma funkcija: mineralizācija; pildījuma sastāvs: kalcija, magnija un kālija minerālu pildījums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pildījuma funkcija: mineralizācija
+- Pildījuma sastāvs: kalcija, magnija un kālija minerālu pildījums
+
+### Ūdens dozators MT-600DG
+
+- URL: https://www.yuchensy.com/lv/product-mt-600dg.html
+- Category: Ūdens dozatori
+- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-600DG” apstiprinātie dati: montāža: montāža pie sienas; krāsa: tumši zaļa; jauda: 2200W. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Montāža: montāža pie sienas
+- Krāsa: tumši zaļa
+- Jauda: 2200W
+
+### Ūdens dozators MT-900G
+
+- URL: https://www.yuchensy.com/lv/product-mt-900g.html
+- Category: Ūdens dozatori
+- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-900G” apstiprinātie dati: jauda: 2200W; tilpums: 5 pakāpes; 150–850 ml; temperatūra: 25–100°C. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Jauda: 2200W
+- Tilpums: 5 pakāpes; 150–850 ml
+- Temperatūra: 25–100°C
+- Materiāls: 316L nerūsējošais tērauds
+
+### Ūdens dozators MT-B600
+
+- URL: https://www.yuchensy.com/lv/product-mt-b600.html
+- Category: Ūdens dozatori
+- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-B600” apstiprinātie dati: jauda: 2200W; karstā ūdens padeve: karstā ūdens padeve aptuveni 3 sekundēs; krāsa: balts stikla panelis. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Jauda: 2200W
+- Karstā ūdens padeve: karstā ūdens padeve aptuveni 3 sekundēs
+- Krāsa: balts stikla panelis
+
+### Ūdens dozators 1000W MT-DV-E600
+
+- URL: https://www.yuchensy.com/lv/product-mt-dv-e600.html
+- Category: Ūdens dozatori
+- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators 1000W MT-DV-E600” apstiprinātie dati: jauda: 1000W; tvertne: 304 nerūsējošais tērauds; displejs: digitāls LED displejs. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Jauda: 1000W
+- Tvertne: 304 nerūsējošais tērauds
+- Displejs: digitāls LED displejs
+
+### Vertikāls ūdens dozators MT-E600
+
+- URL: https://www.yuchensy.com/lv/product-mt-e600.html
+- Category: Ūdens dozatori
+- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Vertikāls ūdens dozators MT-E600” apstiprinātie dati: produkta veids: vertikāls dzeramā ūdens dozators; uzstādīšana: vertikāla uz grīdas uzstādāma iekārta; filtrācijas precizitāte: PP, CTO, GAC, UF vai RO moduļa iespējas. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Produkta veids: vertikāls dzeramā ūdens dozators
+- Uzstādīšana: vertikāla uz grīdas uzstādāma iekārta
+- Filtrācijas precizitāte: PP, CTO, GAC, UF vai RO moduļa iespējas
+- Funkcijas: istabas temperatūras, karstā vai aukstā ūdens versija atbilstoši modelim
+- Pielietojumi: biroji, skolas, klīnikas, dzīvokļi un publiskas telpas
+
+### Ūdens dozators MT-S800
+
+- URL: https://www.yuchensy.com/lv/product-mt-s800.html
+- Category: Ūdens dozatori
+- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-S800” apstiprinātie dati: jauda: 2200W; karstā ūdens padeve: karstā ūdens padeve aptuveni 3 sekundēs; krāsa: zelta krāsas stikla panelis. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Jauda: 2200W
+- Karstā ūdens padeve: karstā ūdens padeve aptuveni 3 sekundēs
+- Krāsa: zelta krāsas stikla panelis
+
+### Ūdens dozators MT-V-E300A
+
+- URL: https://www.yuchensy.com/lv/product-mt-v-e300a.html
+- Category: Ūdens dozatori
+- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-V-E300A” apstiprinātie dati: veids: vertikāla iekārta; tvertne: 304 nerūsējošais tērauds; krāsa: melna vai balta. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Veids: vertikāla iekārta
+- Tvertne: 304 nerūsējošais tērauds
+- Krāsa: melna vai balta
+
+### Pārnēsājams pielāgojams RO ūdens attīrītājs 400G-800G
+
+- URL: https://www.yuchensy.com/lv/product-portable-custom-ro-water-purifier-400g-800g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Pārnēsājams pielāgojams RO ūdens attīrītājs 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: integrēts ātri savienojams PP nogulšņu filtrs un 3013 RO membrāna; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
+- Attīrīšanas process: integrēts ātri savienojams PP nogulšņu filtrs un 3013 RO membrāna
+- Tīrā ūdens plūsma: 400G–800G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### T33 pēcfiltrs ar aktīvo ogli
+
+- URL: https://www.yuchensy.com/lv/product-post-t33.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “T33 pēcfiltrs ar aktīvo ogli” apstiprinātie dati: pozīcija sistēmā: noslēdzošā pakāpe; materiāls: aktīvā ogle. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pozīcija sistēmā: noslēdzošā pakāpe
+- Materiāls: aktīvā ogle
+
+### PP filtra kārtridžs ar ribotu gala vāciņu
+
+- URL: https://www.yuchensy.com/lv/product-pp-fin-cap.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PP filtra kārtridžs ar ribotu gala vāciņu” apstiprinātie dati: gala vāciņa veids: ribots gala vāciņš; materiāls: polipropilēns. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Gala vāciņa veids: ribots gala vāciņš
+- Materiāls: polipropilēns
+
+### PP filtra kārtridžs ar silikona blīvgredzenu
+
+- URL: https://www.yuchensy.com/lv/product-pp-silicon-ring.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PP filtra kārtridžs ar silikona blīvgredzenu” apstiprinātie dati: blīvgredzens: pārtikai piemērots silikons; materiāls: polipropilēns. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Blīvgredzens: pārtikai piemērots silikons
+- Materiāls: polipropilēns
+
+### Rūpnieciskais filtrs PP SOE/DOE
+
+- URL: https://www.yuchensy.com/lv/product-pp-soe-doe.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Rūpnieciskais filtrs PP SOE/DOE” apstiprinātie dati: veids: SOE/DOE gala konfigurācija; materiāls: polipropilēns; pielietojuma vide: rūpnieciska vide. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Veids: SOE/DOE gala konfigurācija
+- Materiāls: polipropilēns
+- Pielietojuma vide: rūpnieciska vide
+
+### PP kausējuma pūstā nogulšņu filtra kārtridžs
+
+- URL: https://www.yuchensy.com/lv/product-pp-spun.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PP kausējuma pūstā nogulšņu filtra kārtridžs” apstiprinātie dati: materiāls: pārtikai piemērots polipropilēns; nominālā filtrācijas pakāpe: 1, 3, 5, 10, 20 vai 50 μm; garums: 10, 20, 30 vai 40 collas pēc pieprasījuma. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Materiāls: pārtikai piemērots polipropilēns
+- Nominālā filtrācijas pakāpe: 1, 3, 5, 10, 20 vai 50 μm
+- Garums: 10, 20, 30 vai 40 collas pēc pieprasījuma
+- Ārējais diametrs: standarta ārējais diametrs 2,5 collas; pieejamas arī Jumbo versijas
+
+### PPF nogulšņu filtra kārtridžs
+
+- URL: https://www.yuchensy.com/lv/product-ppf-cartridge.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PPF nogulšņu filtra kārtridžs” apstiprinātie dati: materiāls: PP šķiedra; pildījuma funkcija: nogulšņu filtrācija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Materiāls: PP šķiedra
+- Pildījuma funkcija: nogulšņu filtrācija
+
+### UDF granulētās aktīvās ogles priekšfiltrs
+
+- URL: https://www.yuchensy.com/lv/product-pre-udf.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “UDF granulētās aktīvās ogles priekšfiltrs” apstiprinātie dati: pozīcija sistēmā: priekšfiltrs; materiāls: granulēta aktīvā ogle GAC. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pozīcija sistēmā: priekšfiltrs
+- Materiāls: granulēta aktīvā ogle GAC
+
+### RO ūdens attīrīšanas iekārta ar precīzo filtru 250-1000 L/h
+
+- URL: https://www.yuchensy.com/lv/product-precision-filter-ro-water-purification-equipment-250-1000lph.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “RO ūdens attīrīšanas iekārta ar precīzo filtru 250-1000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: precīzais filtrs un RO membrāna; tīrā ūdens plūsma: 250-1000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: precīzais filtrs un RO membrāna
+- Tīrā ūdens plūsma: 250-1000 L/h
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Piecu pakāpju RO ūdens attīrītājs bez sūkņa
+
+- URL: https://www.yuchensy.com/lv/product-pump-free-five-stage-ro-water-purifier.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Piecu pakāpju RO ūdens attīrītājs bez sūkņa” apstiprinātie dati: sistēmas veids: piecpakāpju RO ūdens attīrītājs bez paaugstināšanas sūkņa; filtrācijas pakāpes: PP, UDF/GAC, CTO, RO membrāna un T33 pēcfiltrs; ievades ūdens: ūdensvada ūdens ar stabilu spiedienu, kas jāpārbauda uzstādīšanas vietā. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Sistēmas veids: piecpakāpju RO ūdens attīrītājs bez paaugstināšanas sūkņa
+- Filtrācijas pakāpes: PP, UDF/GAC, CTO, RO membrāna un T33 pēcfiltrs
+- Ievades ūdens: ūdensvada ūdens ar stabilu spiedienu, kas jāpārbauda uzstādīšanas vietā
+- Uzstādīšana: zem izlietnes vai pie sienas
+
+### Sveķu filtra kārtridžs ūdens mīkstināšanai
+
+- URL: https://www.yuchensy.com/lv/product-resin-filter.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Sveķu filtra kārtridžs ūdens mīkstināšanai” apstiprinātie dati: pildījuma funkcija: ūdens mīkstināšana ar jonu apmaiņu. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pildījuma funkcija: ūdens mīkstināšana ar jonu apmaiņu
+
+### Augstas plūsmas RO membrānas elements 400 GPD
+
+- URL: https://www.yuchensy.com/lv/product-ro-membrane-400g.html
+- Category: RO membrānu elementi
+- Description: Šis ir reversās osmozes membrānas elements. Produktam “Augstas plūsmas RO membrānas elements 400 GPD” apstiprinātie dati: ražība vai ietilpība: 400 GPD; veids: sausa membrāna. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Ražība vai ietilpība: 400 GPD
+- Veids: sausa membrāna
+
+### RO membrānas elements 50–400 GPD
+
+- URL: https://www.yuchensy.com/lv/product-ro-membrane.html
+- Category: RO membrānu elementi
+- Description: Šis ir reversās osmozes membrānas elements. Produktam “RO membrānas elements 50–400 GPD” apstiprinātie dati: membrānas veids: TFC poliamīda RO membrāna; ražība vai ietilpība: 50, 75, 100, 200 vai 400 GPD iespējas; izmantošana: maiņas elements RO sistēmām. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Membrānas veids: TFC poliamīda RO membrāna
+- Ražība vai ietilpība: 50, 75, 100, 200 vai 400 GPD iespējas
+- Izmantošana: maiņas elements RO sistēmām
+
+### RO iekārta jūras ūdens atsāļošanai 1–5 t/h
+
+- URL: https://www.yuchensy.com/lv/product-ro-seawater-desalination-machine.html
+- Category: Rūpnieciskās RO iekārtas
+- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “RO iekārta jūras ūdens atsāļošanai 1–5 t/h” apstiprinātie dati: ražība vai ietilpība: 1, 2, 3 vai 5 t/h; lielāku ražību nosaka projektā; materiāls: nerūsējošā tērauda rāmis, FRP vai nerūsējošā tērauda tvertnes, PVC cauruļvadi, RO membrānu korpusi un rūpnieciskās vadības komponenti; priekšattīrīšana: kvarca smilšu filtrs, aktīvās ogles filtrs, mīkstinātājs, precīzais jeb drošības filtrs un dozēšanas sistēma. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Ražība vai ietilpība: 1, 2, 3 vai 5 t/h; lielāku ražību nosaka projektā
+- Materiāls: nerūsējošā tērauda rāmis, FRP vai nerūsējošā tērauda tvertnes, PVC cauruļvadi, RO membrānu korpusi un rūpnieciskās vadības komponenti
+- Priekšattīrīšana: kvarca smilšu filtrs, aktīvās ogles filtrs, mīkstinātājs, precīzais jeb drošības filtrs un dozēšanas sistēma
+- Pielietojums: jūras ūdens atsāļošana, iesāļa ūdens attīrīšana, komerciāla ūdens attīrīšana un rūpniecisko procesu ūdens sagatavošana
+
+### Zem izlietnes uzstādāms RO ūdens filtrs
+
+- URL: https://www.yuchensy.com/lv/product-ro-undersink.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Zem izlietnes uzstādāms RO ūdens filtrs” apstiprinātie dati: pakāpju skaits: vairākpakāpju sistēma; veids: nav nepieciešams paaugstināšanas sūknis; membrāna: RO membrāna 75 GPD. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pakāpju skaits: vairākpakāpju sistēma
+- Veids: nav nepieciešams paaugstināšanas sūknis
+- Membrāna: RO membrāna 75 GPD
+
+### Vienkārša tipa RO ūdens attīrīšanas iekārta 250-1000 L/h
+
+- URL: https://www.yuchensy.com/lv/product-simple-type-reverse-osmosis-water-purification-equipment-250-1000lph.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Vienkārša tipa RO ūdens attīrīšanas iekārta 250-1000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna; tīrā ūdens plūsma: 250-1000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna
+- Tīrā ūdens plūsma: 250-1000 L/h
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Vienas tvertnes RO iekārta ar lielu 20 collu PP priekšfiltru 250-500 L/h
+
+- URL: https://www.yuchensy.com/lv/product-single-tank-big-blue-pp-ro-equipment-250-500lph.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Vienas tvertnes RO iekārta ar lielu 20 collu PP priekšfiltru 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 20 collu Big Blue PP priekšfiltrs un RO membrāna; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: 20 collu Big Blue PP priekšfiltrs un RO membrāna
+- Tīrā ūdens plūsma: 250-500 L/h
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Vienas tvertnes integrēta RO ūdens attīrīšanas un padeves iekārta 250-500 L/h
+
+- URL: https://www.yuchensy.com/lv/product-single-tank-integrated-ro-water-purification-supply-equipment-250-500lph.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Vienas tvertnes integrēta RO ūdens attīrīšanas un padeves iekārta 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: ievades ūdens sūknis, automātisks smilšu un aktīvās ogles filtrs, 20 collu PP filtrs, RO membrāna, nerūsējošā tērauda tīrā ūdens tvertne un frekvenču vadīts padeves sūknis; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: ievades ūdens sūknis, automātisks smilšu un aktīvās ogles filtrs, 20 collu PP filtrs, RO membrāna, nerūsējošā tērauda tīrā ūdens tvertne un frekvenču vadīts padeves sūknis
+- Tīrā ūdens plūsma: 250-500 L/h
+- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Vienas tvertnes priekšattīrīšanas RO iekārta 250-500 L/h
+
+- URL: https://www.yuchensy.com/lv/product-single-tank-pretreatment-ro-equipment-250-500lph.html
+- Category: Rūpnieciskās RO iekārtas
+- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Vienas tvertnes priekšattīrīšanas RO iekārta 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: automātisks smilšu un aktīvās ogles filtrs, divi 20 collu PP filtri un RO pakāpe; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: automātisks smilšu un aktīvās ogles filtrs, divi 20 collu PP filtri un RO pakāpe
+- Tīrā ūdens plūsma: 250-500 L/h
+- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Sešu korpusu RO iekārta ar tīra ūdens tvertni 250-1000 L/h
+
+- URL: https://www.yuchensy.com/lv/product-six-housing-ro-equipment-with-pure-water-tank-250-1000lph.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Sešu korpusu RO iekārta ar tīra ūdens tvertni 250-1000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna; tīrā ūdens plūsma: 250-1000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna
+- Tīrā ūdens plūsma: 250-1000 L/h
+- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Šaura RO ūdens attīrīšanas iekārta 250-500 L/h
+
+- URL: https://www.yuchensy.com/lv/product-slim-reverse-osmosis-water-purification-equipment-250-500lph.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Šaura RO ūdens attīrīšanas iekārta 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: PP nogulšņu kārtridžs, aktīvās ogles kārtridžs un RO membrāna; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: PP nogulšņu kārtridžs, aktīvās ogles kārtridžs un RO membrāna
+- Tīrā ūdens plūsma: 250-500 L/h
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Maza un vidēja RO iekārta jūras ūdens atsāļošanai
+
+- URL: https://www.yuchensy.com/lv/product-small-medium-seawater-desalination-ro-equipment.html
+- Category: Rūpnieciskās RO iekārtas
+- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Maza un vidēja RO iekārta jūras ūdens atsāļošanai” apstiprinātie dati: produkta modelis: maza vai vidēja jūras ūdens atsāļošanas iekārta; ievades ūdens sāļums: 10000-45000 ppm; ievades ūdens temperatūra: 2–40 °C. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Produkta modelis: maza vai vidēja jūras ūdens atsāļošanas iekārta
+- Ievades ūdens sāļums: 10000-45000 ppm
+- Ievades ūdens temperatūra: 2–40 °C
+- Attīrītā ūdens plūsma: 60–10 000 L/h
+- Attīrītā ūdens sāļums: ≤750 ppm
+- Attīrīšanas process: trīspakāpju priekšattīrīšana un reversā osmoze; procesu nosaka pēc ūdens analīzes
+- Vadība un aizsardzība: automātiska darbība, aizsardzība pret darbību bez ūdens un pārslodzi; funkcijas izvēlas atbilstoši projektam
+- Pielietojums: jūras un iesāļa ūdens atsāļošana piekrastes, salu, kuģu un projektu ūdensapgādei
+
+### Viedais RO ūdens attīrītājs 400G-1200G
+
+- URL: https://www.yuchensy.com/lv/product-smart-ro-water-purifier-400g-1200g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Viedais RO ūdens attīrītājs 400G-1200G” apstiprinātie dati: tīrā ūdens plūsma: 400G, 600G, 800G vai 1200G atbilstoši pasūtījuma konfigurācijai; pielietojums: uzstādīšana zem izlietnes vai uz darba virsmas; attīrīšanas process: PP nogulšņu filtrācija, aktīvās ogles priekšfiltrācija, RO membrāna un ogles pēcfiltrs; secību precizē atbilstoši projektam. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Tīrā ūdens plūsma: 400G, 600G, 800G vai 1200G atbilstoši pasūtījuma konfigurācijai
+- Pielietojums: uzstādīšana zem izlietnes vai uz darba virsmas
+- Attīrīšanas process: PP nogulšņu filtrācija, aktīvās ogles priekšfiltrācija, RO membrāna un ogles pēcfiltrs; secību precizē atbilstoši projektam
+- Ievades ūdens: pašvaldības ūdensvada ūdens; ieplūdes apstākļi jāpārbauda pirms piedāvājuma
+
+### 304 nerūsējošā tērauda filtra korpuss
+
+- URL: https://www.yuchensy.com/lv/product-ss-jumbo-housing.html
+- Category: Ūdens filtru korpusi
+- Description: Šis ir nomaināmu filtra kārtridžu korpuss vai korpusu komplekts. Produktam “304 nerūsējošā tērauda filtra korpuss” apstiprinātie dati: materiāls: SUS 304 nerūsējošais tērauds; SUS 316L ir papildu materiāla iespēja īpašiem projektiem; garums: 10, 20 collu, Jumbo vai pielāgota versija; savienojums: NPT vai BSP vītnes iespējas. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Materiāls: SUS 304 nerūsējošais tērauds; SUS 316L ir papildu materiāla iespēja īpašiem projektiem
+- Garums: 10, 20 collu, Jumbo vai pielāgota versija
+- Savienojums: NPT vai BSP vītnes iespējas
+- Piemērotie kārtridži: PP, CTO, GAC, UF un speciālie kārtridži
+- Pielietojumi: komerciāla, rūpnieciska un augstas plūsmas filtrācija
+
+### T33 pēcfiltrs garšas korekcijai
+
+- URL: https://www.yuchensy.com/lv/product-t33-post.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “T33 pēcfiltrs garšas korekcijai” apstiprinātie dati: pozīcija sistēmā: pēcfiltrs; pildījuma funkcija: noslēdzoša ūdens garšas korekcija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pozīcija sistēmā: pēcfiltrs
+- Pildījuma funkcija: noslēdzoša ūdens garšas korekcija
+
+### 10 collu RO ūdens iekārta ar pastiprinātu nerūsējošā tērauda rāmi 400G-800G
+
+- URL: https://www.yuchensy.com/lv/product-thickened-stainless-steel-10-inch-frame-ro-water-machine-400g-800g.html
+- Category: RO ūdens attīrītāji
+- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “10 collu RO ūdens iekārta ar pastiprinātu nerūsējošā tērauda rāmi 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
+- Attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs
+- Tīrā ūdens plūsma: 400G–800G
+- Ievades ūdens: pašvaldības ūdensvada ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### Integrēta rāmja RO iekārta ar trīs tvertņu priekšattīrīšanu 1000-3000 L/h
+
+- URL: https://www.yuchensy.com/lv/product-three-tank-pretreatment-integrated-skid-ro-equipment.html
+- Category: Rūpnieciskās RO iekārtas
+- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Integrēta rāmja RO iekārta ar trīs tvertņu priekšattīrīšanu 1000-3000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, mīkstinātājs, precīzais filtrs un reversā osmoze; tīrā ūdens plūsma: 1000-3000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
+- Attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, mīkstinātājs, precīzais filtrs un reversā osmoze
+- Tīrā ūdens plūsma: 1000-3000 L/h
+- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
+- Ievades ūdens spiediens: 0,1–0,4 MPa
+- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
+
+### UDF granulētās aktīvās ogles filtra kārtridžs
+
+- URL: https://www.yuchensy.com/lv/product-udf-cartridge.html
+- Category: Aktīvās ogles filtra kārtridži
+- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “UDF granulētās aktīvās ogles filtra kārtridžs” apstiprinātie dati: filtrējošais materiāls: granulēta aktīvā ogle; ārējais korpuss: pārtikai piemērots PP; garums: 10 vai 20 collas. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Filtrējošais materiāls: granulēta aktīvā ogle
+- Ārējais korpuss: pārtikai piemērots PP
+- Garums: 10 vai 20 collas
+- Pozīcija sistēmā: aktīvās ogles priekšfiltra vai pēcfiltra pakāpe
+
+### UF filtra kārtridžs ar dobās šķiedras membrānu
+
+- URL: https://www.yuchensy.com/lv/product-uf-cartridge.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “UF filtra kārtridžs ar dobās šķiedras membrānu” apstiprinātie dati: membrāna: dobā šķiedra; filtrācijas precizitāte: 0,01 μm. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Membrāna: dobā šķiedra
+- Filtrācijas precizitāte: 0,01 μm
+
+### Dobās šķiedras UF membrānas filtrs
+
+- URL: https://www.yuchensy.com/lv/product-uf-filter-2.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Dobās šķiedras UF membrānas filtrs” apstiprinātie dati: membrāna: dobās šķiedras UF membrāna; nominālais poru izmērs: 0,01 μm klase; darbības princips: darbība ar spiedienu vai gravitācijas plūsmu atbilstoši konstrukcijai. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Membrāna: dobās šķiedras UF membrāna
+- Nominālais poru izmērs: 0,01 μm klase
+- Darbības princips: darbība ar spiedienu vai gravitācijas plūsmu atbilstoši konstrukcijai
+- Pielietojumi: ūdens attīrītāja kārtridži, dozatori un virtuves filtri
+
+### Ultrasmalkas membrānas filtra kārtridžs 0,01 μm
+
+- URL: https://www.yuchensy.com/lv/product-ultra-film.html
+- Category: Filtra kārtridži un membrānas
+- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Ultrasmalkas membrānas filtra kārtridžs 0,01 μm” apstiprinātie dati: veids: ultrasmalka membrāna; filtrācijas precizitāte: 0,01 μm. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Veids: ultrasmalka membrāna
+- Filtrācijas precizitāte: 0,01 μm
+
+### Daudzpakāpju ūdens attīrītājs ar UV
+
+- URL: https://www.yuchensy.com/lv/product-uv-purifier.html
+- Category: Dzeramā ūdens attīrītāji
+- Description: Šis ir daudzpakāpju dzeramā ūdens attīrīšanas produkts. Produktam “Daudzpakāpju ūdens attīrītājs ar UV” apstiprinātie dati: pakāpju skaits: trīs filtrācijas pakāpes un UV; uv pakāpe: UV-C pakāpe. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Pakāpju skaits: trīs filtrācijas pakāpes un UV
+- UV pakāpe: UV-C pakāpe
+
+### Piecu pakāpju ūdens attīrītājs ar maifāna akmeni
+
+- URL: https://www.yuchensy.com/lv/product-water-purifier-maifan.html
+- Category: Dzeramā ūdens attīrītāji
+- Description: Šis ir daudzpakāpju dzeramā ūdens attīrīšanas produkts. Produktam “Piecu pakāpju ūdens attīrītājs ar maifāna akmeni” apstiprinātie dati: minerālu pildījums: maifāna akmens; pakāpju skaits: piecas pakāpes. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
+- Minerālu pildījums: maifāna akmens
+- Pakāpju skaits: piecas pakāpes
+
+## Interpretation limits
+
+- Photographs can show optional configurations; visible accessories are not automatically standard equipment.
+- Unknown technical, performance, certification and commercial values are intentionally omitted.
+- Confirm the selected model, application, quantity, packaging and destination in the written quotation.

@@ -133,15 +133,7 @@
     <lastmod>2026-07-01</lastmod>
   </url>
   <url>
-    <loc>https://www.yuchensy.com/lv/product-flat-cap-cto.html</loc>
-    <lastmod>2026-07-01</lastmod>
-  </url>
-  <url>
     <loc>https://www.yuchensy.com/lv/product-flat-cap-gac.html</loc>
-    <lastmod>2026-07-01</lastmod>
-  </url>
-  <url>
-    <loc>https://www.yuchensy.com/lv/product-flat-cap-pp.html</loc>
     <lastmod>2026-07-01</lastmod>
   </url>
   <url>
@@ -384,4 +376,7 @@
     <loc>https://www.yuchensy.com/lv/product-smart-ro-water-purifier-400g-1200g.html</loc>
     <lastmod>2026-07-05</lastmod>
   </url>
+
+  <url><loc>https://www.yuchensy.com/lv/functional-filter-cartridge.html</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://www.yuchensy.com/lv/non-ro-water-purifier.html</loc><lastmod>2026-07-23</lastmod></url>
 </urlset>

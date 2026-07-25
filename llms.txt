@@ -1,35 +1,23 @@
 # Yuchen Water
 
-> Public product facts and navigation for search and answer tools.
+> Public, page-visible product facts and Latvian navigation for search and answer tools.
 
 ## Contact
 
 - Website: https://www.yuchensy.com/
 - Email: expresswater025@gmail.com
 - Telephone and WhatsApp: +86-19908311885
-- Location: Yuanhua Town, Haining, Zhejiang, China
 
-## Product categories
+## Latvian navigation
 
-- Water filter cartridges
-- Water filter housings
-- Reverse-osmosis water purifiers and treatment equipment
-- Water dispensers
+- Home: https://www.yuchensy.com/lv/index.html
+- Products: https://www.yuchensy.com/lv/products.html
+- Buyer FAQ: https://www.yuchensy.com/lv/faq.html
+- Contact: https://www.yuchensy.com/lv/contact.html
+- Filter housings: https://www.yuchensy.com/lv/filter-housing.html
+- RO water purifiers: https://www.yuchensy.com/lv/ro-water-purifier.html
+- Water dispensers: https://www.yuchensy.com/lv/water-dispenser.html
 
-## Latvian filter-housing pages
+## Interpretation limit
 
-- Product family: https://www.yuchensy.com/lv/product-housing-filter.html
-  - 10-inch and 20-inch cartridge lengths
-  - Slim and Big Blue/Jumbo housing formats
-  - Blue, black and transparent housing variants
-  - Single-, two- and three-stage configurations
-  - Wall bracket or floor-frame configurations
-  - Pressure gauge, housing wrench and installation accessories confirmed per order
-- Filter-housing category: https://www.yuchensy.com/lv/filter-housing.html
-- Three-stage Big Blue system: https://www.yuchensy.com/lv/product-big-blue-3stage.html
-
-## Accuracy note
-
-The published scope is limited to the listed housing sizes, formats, colors, stage
-options, mounting choices and selectable accessories. Confirm the exact model,
-quantity, packaging and destination before quotation.
+Product photos can show optional configurations. Use the canonical product page and a confirmed quotation for the selected size, material, capacity, accessories, packaging and destination. No unverified commercial, certification or performance claim is implied by this file.
