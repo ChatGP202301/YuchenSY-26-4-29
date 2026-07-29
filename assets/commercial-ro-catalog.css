@@ -1,0 +1,31 @@
+.commercial-ro-download-hero{background:linear-gradient(132deg,#071b2f 0%,#0d2d49 63%,#133b54 100%);color:#fff}
+.commercial-ro-download-hero h1{max-width:780px;color:#fff;font-size:clamp(2.35rem,5.8vw,4.85rem);line-height:1.02;letter-spacing:-.035em}
+.commercial-ro-download-hero p{max-width:760px;color:#d7e5ed}
+.commercial-ro-download-hero .breadcrumb,.commercial-ro-download-hero .breadcrumb a{color:#bcd0dc}
+.commercial-ro-download-hero .eyebrow{color:#d4b46e}
+.commercial-ro-download-hero .catalog-proof span{border-color:rgba(255,255,255,.2);background:rgba(255,255,255,.075);color:#fff}
+.commercial-ro-download-hero .hero-actions .btn:not(.btn-gold){border-color:rgba(255,255,255,.5);color:#fff}
+.commercial-ro-download-hero .sy-catalog-cover{filter:drop-shadow(0 28px 50px rgba(0,0,0,.35));transform:rotate(1.1deg)}
+.catalog-review-note{margin-top:16px;font-size:.84rem;color:#a9c0cd!important}
+.commercial-ro-family-summary{grid-template-columns:repeat(3,minmax(0,1fr))}
+.commercial-ro-family-summary div{min-height:125px;background:linear-gradient(145deg,#fff,#f1f7f9)}
+.commercial-ro-family-summary strong{display:block;color:#c39f58;font-size:2.1rem;line-height:1;margin-bottom:9px}
+.commercial-ro-terminology{background:#071b2f;color:#fff}
+.commercial-ro-terminology .section-head h2{color:#fff}
+.commercial-ro-terminology .section-head .eyebrow{color:#d4b46e}
+.terminology-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.terminology-cards article{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.13);border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.1),rgba(255,255,255,.035));padding:clamp(24px,4vw,38px)}
+.terminology-cards article:before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:#cfad68}
+.terminology-cards article:nth-child(2):before{background:#43b8c8}
+.terminology-cards h3{margin-top:0;color:#fff;font-size:1.35rem}
+.terminology-cards p{color:#c8d9e3;line-height:1.75}
+.terminology-cards span{display:inline-block;margin-top:10px;border-radius:999px;background:rgba(255,255,255,.1);padding:8px 13px;color:#fff;font-size:.8rem;font-weight:800}
+.form-security-note{display:grid;gap:4px;margin-top:24px;border-left:4px solid #c6a661;border-radius:7px;background:#fff;padding:15px 17px;box-shadow:0 12px 32px rgba(7,27,47,.09)}
+.form-security-note strong{color:#071b2f}.form-security-note span{color:#5f7180;font-size:.86rem}
+.catalog-faq-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.catalog-faq-grid article{border:1px solid #d5e1e7;border-radius:15px;background:#fff;padding:24px;box-shadow:0 14px 36px rgba(7,27,47,.06)}
+.catalog-faq-grid h3{margin-top:0;color:#0b2b46;font-size:1.05rem}
+.catalog-faq-grid p{margin-bottom:0;color:#5f7180;line-height:1.65}
+.catalog-mobile-download{display:none}
+@media(max-width:1024px){.commercial-ro-download-hero .sy-catalog-cover{transform:none}.commercial-ro-family-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){body.commercial-ro-catalog-page{padding-bottom:68px}.terminology-cards,.catalog-faq-grid,.commercial-ro-family-summary{grid-template-columns:1fr}.catalog-mobile-download{position:fixed;z-index:120;right:16px;bottom:14px;left:16px;display:block;border-radius:999px;background:#c6a661;padding:14px 20px;color:#071b2f;text-align:center;text-decoration:none;font-weight:900;box-shadow:0 15px 35px rgba(7,27,47,.35)}.commercial-ro-catalog-page .whatsapp-float{bottom:84px}.commercial-ro-download-hero h1{font-size:clamp(2.25rem,11vw,3.2rem)}}

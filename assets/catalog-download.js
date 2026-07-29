@@ -57,6 +57,9 @@
       const access = await fetch(`${config.apiBase}/v1/catalog/access`, { method:'POST', headers:{'content-type':'application/json'}, body:JSON.stringify(payload) });
       const result = await access.json().catch(() => ({}));
       if (!access.ok || !result.downloadUrl) throw new Error(result.code || 'network');
+      document.dispatchEvent(new CustomEvent('yuchen:catalog-submit-success', {
+        detail: { submissionId: payload.submissionId, ctaLocation: 'catalog_form' }
+      }));
       setStatus(strings.fetching, 'progress');
       const fileResponse = await fetch(result.downloadUrl, { cache:'no-store' });
       if (!fileResponse.ok) throw new Error('network');
@@ -71,7 +74,12 @@
       const token = decodeURIComponent(new URL(result.downloadUrl).pathname.split('/').pop());
       const complete = await fetch(`${config.apiBase}/v1/catalog/complete`, { method:'POST', headers:{'content-type':'application/json'}, body:JSON.stringify({ token, bytes:blob.size }) });
       setStatus(complete.ok ? strings.done : strings.recorded, complete.ok ? 'success' : 'warning');
-      if (complete.ok) form.reset();
+      if (complete.ok) {
+        document.dispatchEvent(new CustomEvent('yuchen:catalog-download-complete', {
+          detail: { submissionId: payload.submissionId, ctaLocation: 'catalog_form' }
+        }));
+        form.reset();
+      }
     } catch (error) {
       setStatus(strings[error.message] || strings.network, 'error');
       if (widgetId !== null && window.turnstile) window.turnstile.reset(widgetId);
