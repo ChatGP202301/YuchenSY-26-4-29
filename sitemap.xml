@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://www.yuchensy.com/sitemaps/sitemap-root.xml</loc>
-  </sitemap>
   <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-af.xml</loc>
   </sitemap>
@@ -13,6 +10,10 @@
     <loc>https://www.yuchensy.com/sitemaps/sitemap-az.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://www.yuchensy.com/sitemaps/sitemap-be.xml</loc>
+    <lastmod>2026-07-29</lastmod>
+  </sitemap>
+  <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-bg.xml</loc>
   </sitemap>
   <sitemap>
@@ -20,6 +21,10 @@
   </sitemap>
   <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-bs.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.yuchensy.com/sitemaps/sitemap-cnr.xml</loc>
+    <lastmod>2026-07-29</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-cs.xml</loc>
@@ -50,6 +55,10 @@
   </sitemap>
   <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-fr.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.yuchensy.com/sitemaps/sitemap-ga.xml</loc>
+    <lastmod>2026-07-29</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-ha.xml</loc>
@@ -94,13 +103,25 @@
     <loc>https://www.yuchensy.com/sitemaps/sitemap-ky.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://www.yuchensy.com/sitemaps/sitemap-lb.xml</loc>
+    <lastmod>2026-07-29</lastmod>
+  </sitemap>
+  <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-lt.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-lv.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://www.yuchensy.com/sitemaps/sitemap-mk.xml</loc>
+    <lastmod>2026-07-29</lastmod>
+  </sitemap>
+  <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-ms.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.yuchensy.com/sitemaps/sitemap-mt.xml</loc>
+    <lastmod>2026-07-29</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-nl.xml</loc>
@@ -118,6 +139,9 @@
     <loc>https://www.yuchensy.com/sitemaps/sitemap-ro.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://www.yuchensy.com/sitemaps/sitemap-root.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-ru.xml</loc>
   </sitemap>
   <sitemap>
@@ -130,10 +154,10 @@
     <loc>https://www.yuchensy.com/sitemaps/sitemap-sq.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://www.yuchensy.com/sitemaps/sitemap-sr.xml</loc>
+    <loc>https://www.yuchensy.com/sitemaps/sitemap-sr-me.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://www.yuchensy.com/sitemaps/sitemap-sr-me.xml</loc>
+    <loc>https://www.yuchensy.com/sitemaps/sitemap-sr.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://www.yuchensy.com/sitemaps/sitemap-sv.xml</loc>
