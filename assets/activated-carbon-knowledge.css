@@ -1,0 +1,114 @@
+.carbon-visual-section {
+  padding-block: clamp(28px, 5vw, 64px);
+}
+
+.carbon-visual {
+  margin: clamp(28px, 5vw, 56px) 0;
+  overflow: hidden;
+  border: 1px solid rgba(20, 45, 55, 0.14);
+  border-radius: 24px;
+  background: #f8f7f4;
+  box-shadow: 0 18px 50px rgba(17, 43, 52, 0.08);
+}
+
+.carbon-visual-section .carbon-visual {
+  margin: 0;
+}
+
+.carbon-visual picture,
+.carbon-visual img {
+  display: block;
+  width: 100%;
+}
+
+.carbon-visual img {
+  height: auto;
+  aspect-ratio: 800 / 421;
+  object-fit: contain;
+  background: #f8f7f4;
+}
+
+.carbon-visual figcaption {
+  display: grid;
+  gap: 14px;
+  padding: clamp(20px, 3vw, 32px);
+  border-top: 1px solid rgba(20, 45, 55, 0.11);
+  background: #fff;
+  color: #334d57;
+}
+
+.carbon-visual figcaption strong {
+  color: #17343e;
+  font-size: clamp(1rem, 1.4vw, 1.18rem);
+  line-height: 1.55;
+}
+
+.carbon-visual-legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carbon-visual-legend li {
+  position: relative;
+  margin: 0;
+  padding-inline-start: 17px;
+  color: #42606b;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.carbon-visual-legend li::before {
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0.67em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #1548a4;
+  content: "";
+  transform: translateY(-50%);
+}
+
+.carbon-visual-disclaimer {
+  margin: 0;
+  padding-top: 12px;
+  border-top: 1px solid rgba(20, 45, 55, 0.1);
+  color: #61747c;
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.carbon-review-links {
+  margin-top: 22px;
+}
+
+[dir="rtl"] .carbon-visual figcaption,
+[dir="rtl"] .carbon-visual-legend {
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .carbon-visual {
+    margin-block: 24px;
+    border-radius: 16px;
+  }
+
+  .carbon-visual figcaption {
+    padding: 18px;
+  }
+
+  .carbon-visual-legend {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carbon-visual,
+  .carbon-visual * {
+    scroll-behavior: auto;
+  }
+}

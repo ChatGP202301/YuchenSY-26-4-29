@@ -682,5 +682,45 @@ Product photos can show optional configurations. Use the canonical product page 
 - [Izindlu zezihlungi zamanzi zama-cartridge ashintshwayo angu-10 no-20 intshi — SUS 304](https://www.yuchensy.com/zu/product-ss-jumbo-housing.html)
 # END HOUSING PRODUCT LOCALIZED LINKS
 
-## Siliphos balls
-- Siliphos Balls: https://www.yuchensy.com/en/product-siliphos-balls.html
+
+<!-- VONTRON_KNOWLEDGE_START -->
+## Vontron membrane knowledge center
+
+- https://www.yuchensy.com/en/vontron-ro-nf-membranes.html
+- https://www.yuchensy.com/en/water-analysis-membrane-selection.html
+- https://www.yuchensy.com/en/resources/index.html
+- https://www.yuchensy.com/en/resources/ro-nf-uf-water-report-selection-guide.html
+- https://www.yuchensy.com/en/resources/seawater-brackish-water-membrane-treatment-guide.html
+- https://www.yuchensy.com/en/resources/groundwater-well-water-membrane-treatment-guide.html
+- https://www.yuchensy.com/en/resources/industrial-wastewater-reuse-uf-nf-ro-guide.html
+- https://www.yuchensy.com/en/resources/high-salinity-wastewater-zld-membrane-support.html
+- https://www.yuchensy.com/en/resources/salt-lake-brine-lithium-membrane-report-guide.html
+- https://www.yuchensy.com/en/resources/residential-light-commercial-ro-selection-guide.html
+- https://www.yuchensy.com/en/resources/activated-carbon-pretreatment-ro-membrane-guide.html
+<!-- VONTRON_KNOWLEDGE_END -->
+
+<!-- ACTIVATED_CARBON_CENTER_START -->
+## Activated carbon knowledge center
+
+- https://www.yuchensy.com/en/activated-carbon-knowledge-center.html
+- https://www.yuchensy.com/en/activated-carbon-technical-review.html
+- https://www.yuchensy.com/en/resources/activated-carbon-water-treatment-guide.html
+- https://www.yuchensy.com/en/resources/gac-cto-pac-t33-udf-comparison.html
+- https://www.yuchensy.com/en/resources/activated-carbon-raw-material-test-specifications.html
+- https://www.yuchensy.com/en/resources/gac-system-design-ebct-breakthrough-guide.html
+- https://www.yuchensy.com/en/resources/activated-carbon-pfas-test-evidence-guide.html
+- https://www.yuchensy.com/en/resources/carbon-filter-replacement-breakthrough-troubleshooting.html
+- https://www.yuchensy.com/en/resources/activated-carbon-pretreatment-ro-membrane-guide.html
+- https://www.yuchensy.com/en/carbon-filter-test-data.html
+<!-- ACTIVATED_CARBON_CENTER_END -->
+
+<!-- SILIPHOS_LLMS_START -->
+## Siliphos Balls — 62-language product system
+
+- English canonical: https://www.yuchensy.com/en/product-siliphos-balls.html
+- Forms: spherical 19 mm, 10 mm and 3–8 mm; broken particles 6–12 mm and 4–10 mm; powder; custom size confirmation.
+- Packaging: wood pallet, master carton, small boxes and small bottles.
+- Selection: confirm water conditions, equipment, intended use and local requirements; no certification or guaranteed-performance claim is made.
+- Localization: 62 active language routes use locale-specific product and procurement terminology.
+- Structured data: Product, FAQPage, BreadcrumbList and WebPage; no Offer, Review, AggregateRating or VideoObject.
+<!-- SILIPHOS_LLMS_END -->
