@@ -62,7 +62,8 @@
       form.elements.whatsapp.setCustomValidity('');
       return setStatus(strings.invalid_whatsapp, 'error');
     }
-    const turnstileToken = widgetId === null || !window.turnstile ? '' : window.turnstile.getResponse(widgetId);
+    const widgetToken = widgetId === null || !window.turnstile ? '' : window.turnstile.getResponse(widgetId);
+    const turnstileToken = widgetToken || form.querySelector('input[name="cf-turnstile-response"]')?.value || '';
     if (!turnstileToken) return setStatus(strings.turnstile, 'error');
 
     const data = new FormData(form);
