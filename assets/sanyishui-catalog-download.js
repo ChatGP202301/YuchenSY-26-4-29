@@ -39,7 +39,7 @@
 
   const interestsAreValid = () => {
     const valid = selectedInterests().length > 0;
-    interestError.hidden = valid;
+    if (interestError) interestError.hidden = valid;
     return valid;
   };
 
@@ -94,7 +94,8 @@
       form.elements.whatsapp.setCustomValidity('');
       return setStatus(copy.whatsapp, 'error');
     }
-    const turnstileToken = widgetId === null || !window.turnstile ? '' : window.turnstile.getResponse(widgetId);
+    const widgetToken = widgetId === null || !window.turnstile ? '' : window.turnstile.getResponse(widgetId);
+    const turnstileToken = widgetToken || form.querySelector('input[name="cf-turnstile-response"]')?.value || '';
     if (!turnstileToken) return setStatus(copy.turnstile, 'error');
 
     button.disabled = true;
