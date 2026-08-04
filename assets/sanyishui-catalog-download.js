@@ -9,6 +9,19 @@
   const turnstileMount = form.querySelector('[data-turnstile]');
   let widgetId = null;
   let submissionId = crypto.randomUUID();
+  const catalogId = form.dataset.catalogId || 'yuchen-oem-2026-en';
+  const locale = catalogId.split('-').pop() || 'en';
+
+  const consent = form.querySelector('.catalog-consent');
+  if (consent && !form.querySelector('[data-catalog-data-notice]')) {
+    const privacyLink = consent.querySelector('a[href$="privacy-policy.html"]');
+    if (privacyLink && new Set(['be', 'cnr', 'ga', 'lb', 'mk', 'mt']).has(locale)) privacyLink.href = '/en/privacy-policy.html';
+    const notice = document.createElement('p');
+    notice.dataset.catalogDataNotice = '';
+    notice.className = 'catalog-form-status';
+    notice.textContent = 'Your submitted business contact and project information is stored privately without automatic expiry and emailed to Yuchen Water sales. You may request correction or deletion at expresswater025@gmail.com.';
+    consent.insertAdjacentElement('afterend', notice);
+  }
 
   const copy = {
     setup: 'Secure catalog access is awaiting Cloudflare configuration. Please contact Yuchen Water for the current PDF.',
@@ -105,7 +118,8 @@
     const attribution = firstTouch();
     const payload = {
       submissionId,
-      catalogId: form.dataset.catalogId || 'yuchen-oem-2026-en',
+      catalogId,
+      locale,
       name: data.get('name'),
       jobTitle: data.get('jobTitle'),
       company: data.get('company'),
@@ -152,8 +166,9 @@
         detail: { submissionId, ctaLocation: 'sanyishui_catalog_form' }
       }));
       setStatus(copy.preparing, 'progress');
+      const receipt = response.headers.get('x-catalog-receipt') || '';
       const blob = await response.blob();
-      if (!blob.size || !String(response.headers.get('content-type')).includes('application/pdf')) throw new Error('catalog_unavailable');
+      if (!blob.size || !receipt || !String(response.headers.get('content-type')).includes('application/pdf')) throw new Error('catalog_unavailable');
       const objectUrl = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = objectUrl;
@@ -162,6 +177,13 @@
       link.click();
       link.remove();
       window.setTimeout(() => URL.revokeObjectURL(objectUrl), 60000);
+      fetch(`${config.apiBase}/v1/catalog/download-events`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ submissionId, catalogId: payload.catalogId, receipt }),
+        cache: 'no-store',
+        keepalive: true
+      }).catch(() => {});
       document.dispatchEvent(new CustomEvent('yuchen:catalog-download-complete', {
         detail: { submissionId, ctaLocation: 'sanyishui_catalog_form' }
       }));
