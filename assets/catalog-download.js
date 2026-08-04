@@ -19,6 +19,15 @@
   let widgetId = null;
   let submissionId = crypto.randomUUID();
 
+  const consent = form.querySelector('.catalog-consent');
+  if (consent && !form.querySelector('[data-catalog-data-notice]')) {
+    const notice = document.createElement('p');
+    notice.dataset.catalogDataNotice = '';
+    notice.className = 'catalog-form-status';
+    notice.textContent = 'Your submitted business contact and project information is stored privately without automatic expiry and emailed to Yuchen Water sales. You may request correction or deletion at expresswater025@gmail.com.';
+    consent.insertAdjacentElement('afterend', notice);
+  }
+
   const setStatus = (text, state = '') => {
     message.textContent = text;
     message.dataset.state = state;
@@ -27,6 +36,10 @@
   const resetStartedAt = () => { form.elements.formStartedAt.value = String(Date.now()); };
   const selectedInterests = () => Array.from(form.querySelectorAll('input[name="interests"]:checked'), input => input.value);
   const plausibleWhatsApp = value => /^\+[0-9][0-9\s().-]{6,24}$/.test(value.trim()) && value.replace(/\D/g, '').length <= 15;
+  const firstTouch = () => {
+    try { return JSON.parse(sessionStorage.getItem('yuchen_first_touch_v1') || '{}'); }
+    catch (error) { return {}; }
+  };
   const configured = Boolean(config.apiBase && config.turnstileSiteKey && !String(config.turnstileSiteKey).startsWith('REPLACE_'));
 
   const renderTurnstile = () => {
@@ -68,11 +81,14 @@
 
     const data = new FormData(form);
     const params = new URLSearchParams(location.search);
+    const attribution = firstTouch();
     const payload = {
       submissionId,
       catalogId: form.dataset.catalogId,
       locale,
       sourcePage: location.origin + location.pathname,
+      firstLandingPage: attribution.landingPage || location.pathname,
+      referrerDomain: attribution.referrerDomain || '',
       name: data.get('name'),
       company: data.get('company'),
       email: data.get('email'),
@@ -86,9 +102,11 @@
       website: data.get('website'),
       formStartedAt: Number(data.get('formStartedAt')),
       turnstileToken,
-      utmSource: params.get('utm_source') || '',
-      utmMedium: params.get('utm_medium') || '',
-      utmCampaign: params.get('utm_campaign') || ''
+      utmSource: params.get('utm_source') || attribution.utmSource || '',
+      utmMedium: params.get('utm_medium') || attribution.utmMedium || '',
+      utmCampaign: params.get('utm_campaign') || attribution.utmCampaign || '',
+      utmTerm: params.get('utm_term') || attribution.utmTerm || '',
+      utmContent: params.get('utm_content') || attribution.utmContent || ''
     };
 
     button.disabled = true;
@@ -106,8 +124,9 @@
       }
       setStatus(strings.fetching, 'progress');
       const contentType = String(response.headers.get('content-type') || '').toLowerCase();
+      const receipt = response.headers.get('x-catalog-receipt') || '';
       const blob = await response.blob();
-      if (!contentType.includes('application/pdf') || !blob.size) throw new Error('catalog_unavailable');
+      if (!contentType.includes('application/pdf') || !blob.size || !receipt) throw new Error('catalog_unavailable');
 
       document.dispatchEvent(new CustomEvent('yuchen:catalog-submit-success', {
         detail: { submissionId, ctaLocation: 'filter_catalog_form' }
@@ -120,6 +139,13 @@
       link.click();
       link.remove();
       window.setTimeout(() => URL.revokeObjectURL(objectUrl), 60000);
+      fetch(`${config.apiBase}/v1/catalog/download-events`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ submissionId, catalogId: form.dataset.catalogId, receipt }),
+        cache: 'no-store',
+        keepalive: true
+      }).catch(() => {});
       document.dispatchEvent(new CustomEvent('yuchen:catalog-download-complete', {
         detail: { submissionId, ctaLocation: 'filter_catalog_form' }
       }));
