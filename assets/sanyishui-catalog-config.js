@@ -1,4 +1,4 @@
 window.YUCHEN_SANYISHUI_CATALOG_CONFIG = Object.freeze({
-  apiBase: 'https://catalog.yuchensy.com',
-  turnstileSiteKey: 'REPLACE_WITH_CLOUDFLARE_TURNSTILE_SITE_KEY'
+  apiBase: 'https://yuchensy-sanyishui-catalog-gate.yuchensy-catalog.workers.dev',
+  turnstileSiteKey: '0x4AAAAAAEFNswNJJ-mxUz8-'
 });
