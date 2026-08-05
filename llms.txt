@@ -724,3 +724,13 @@ Product photos can show optional configurations. Use the canonical product page 
 - Localization: 62 active language routes use locale-specific product and procurement terminology.
 - Structured data: Product, FAQPage, BreadcrumbList and WebPage; no Offer, Review, AggregateRating or VideoObject.
 <!-- SILIPHOS_LLMS_END -->
+
+<!-- WATER_SOFTENER_LLMS_START -->
+## Automatic water filter and softener systems — English review
+
+- Hub: https://www.yuchensy.com/en/automatic-water-filter-softener-systems.html
+- Scope: 21 exact YC models in two automatic-filter series and five automatic-softener series.
+- Filter selection facts: source-listed flow, activated-carbon volume, FRP tank size, automatic filter valve and cabinet size.
+- Softener selection facts: source-listed flow, resin volume, FRP tank size, regeneration mode, automatic softener valve, brine valve and cabinet size.
+- Evidence limit: no certification, removal-performance, price, stock, warranty, brand or manufacturer claim is made.
+<!-- WATER_SOFTENER_LLMS_END -->
