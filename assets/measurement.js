@@ -5,6 +5,8 @@
   const config = window.YUCHEN_MEASUREMENT_CONFIG || {};
   const allowedEvents = new Set([
     'whatsapp_click',
+    'email_click',
+    'phone_click',
     'quote_form_start',
     'quote_submit_success',
     'catalog_submit_success',
@@ -36,13 +38,30 @@
     try { window.localStorage.setItem(key, value); }
     catch (error) { /* Storage can be unavailable in privacy modes. */ }
   };
+  const containsPersonalData = (value) => {
+    const text = String(value || '').trim();
+    return text.includes('@') || /\+?\d[\d\s().-]{6,}\d/.test(text);
+  };
   const safeCampaignValue = (value) => {
     const text = String(value || '').trim().slice(0, 120);
-    if (!text || text.includes('@') || /\+?\d[\d\s().-]{6,}\d/.test(text)) return text ? 'redacted' : '';
+    if (!text || containsPersonalData(text)) return text ? 'redacted' : '';
     return text.replace(/[^\p{L}\p{N}._~\- ]/gu, '').trim();
   };
-  const safeSlug = (value) => String(value || '').trim().toLowerCase()
-    .replace(/\.html$/i, '').replace(/[^a-z0-9_-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 120);
+  const safeSlug = (value) => {
+    const text = String(value || '').trim();
+    if (containsPersonalData(text)) return text ? 'redacted' : '';
+    return text.toLowerCase().replace(/\.html$/i, '').replace(/[^a-z0-9_-]+/g, '-')
+      .replace(/^-+|-+$/g, '').slice(0, 120);
+  };
+  const safePathname = () => {
+    const segments = location.pathname.split('/').map((segment) => {
+      let decoded = segment;
+      try { decoded = decodeURIComponent(segment); } catch (error) { /* Keep the encoded segment. */ }
+      return containsPersonalData(decoded) ? 'redacted' : segment;
+    });
+    return segments.join('/') || '/';
+  };
+  const safePageLocation = () => `${location.origin}${safePathname()}`;
   const language = () => (document.documentElement.lang || 'und').toLowerCase().slice(0, 12);
   const productSlug = () => {
     const declared = document.body && document.body.dataset.productSlug;
@@ -73,7 +92,8 @@
     return values;
   };
   const commonParams = (ctaLocation = '') => ({
-    page_path: location.pathname,
+    page_location: safePageLocation(),
+    page_path: safePathname(),
     language: language(),
     product_slug: productSlug(),
     product_family: productFamily(),
@@ -88,6 +108,11 @@
     if (gtmLoaded || !config.enabled || !validContainer()) return;
     gtmLoaded = true;
     window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+    window.dataLayer.push({
+      event: 'yuchen_page_view',
+      ...commonParams('page_view'),
+      measurement_version: '2026-08-10'
+    });
     const script = document.createElement('script');
     script.async = true;
     script.src = `https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(config.gtmContainerId)}`;
@@ -139,7 +164,9 @@
     window.dataLayer.push({
       event: eventName,
       ...commonParams(detail.ctaLocation || ''),
-      measurement_version: '2026-07-27'
+      ...(eventName === 'quote_submit_success' ? { lead_type: 'quote' } : {}),
+      ...(eventName === 'catalog_submit_success' ? { lead_type: 'catalog' } : {}),
+      measurement_version: '2026-08-10'
     });
   }
 
@@ -158,6 +185,10 @@
     const href = link.getAttribute('href') || '';
     if (/wa\.me\/|api\.whatsapp\.com\//i.test(href)) {
       emit('whatsapp_click', { ctaLocation: ctaLocation(link) });
+    } else if (/^mailto:/i.test(href)) {
+      emit('email_click', { ctaLocation: ctaLocation(link) });
+    } else if (/^tel:/i.test(href)) {
+      emit('phone_click', { ctaLocation: ctaLocation(link) });
     }
   }, true);
 
