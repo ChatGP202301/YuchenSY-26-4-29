@@ -3183,6 +3183,10 @@ body[dir="rtl"] .faq-item::before {
   }
 }
 
+/* Products dropdown: long localized labels wrap without widening the viewport. */
+.sy-products-nav .nav-resources-menu{min-width:min(360px,calc(100vw - 32px))}
+.sy-products-nav .nav-resources-menu a{white-space:normal;line-height:1.35;overflow-wrap:anywhere}
+
 @media (max-width: 680px) {
   .ew-detail-shell {
     padding-top: 24px !important;
@@ -4491,3 +4495,4 @@ a img {
     min-height: 146px;
   }
 }
+
