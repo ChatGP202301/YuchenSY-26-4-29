@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "policy": "Only exact source-backed facts may be added. Absence means UNKNOWN.",
+  "facts": [
+    {"fact_id": "org-name", "subject": "organization", "predicate": "name", "value": "Yuchen Water", "source_url": "https://www.yuchensy.com/", "scope": "global", "status": "verified"},
+    {"fact_id": "org-domain", "subject": "organization", "predicate": "domain", "value": "www.yuchensy.com", "source_url": "https://www.yuchensy.com/", "scope": "global", "status": "verified"}
+  ],
+  "forbidden_without_explicit_fact": ["certification", "NSF", "CE", "FDA", "warranty", "installed projects", "customers", "removal efficiency", "membrane life", "price", "country exports", "factory capacity", "years of experience", "technical test result"]
+}

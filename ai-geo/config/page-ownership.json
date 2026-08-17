@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "default": "unknown",
+  "policy": "Unknown ownership is never L1.",
+  "records": [],
+  "notes": ["The public GitHub repository contains generated output but not the owning Python generators.", "Add a page only after its generator/source-of-truth and deterministic rebuild have been versioned and hash-verified."]
+}

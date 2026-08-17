@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "system_name": "Yuchen Multilingual AI Citation & GEO",
+  "enabled_env": "AI_GEO_ENABLED",
+  "mode_env": "AI_GEO_MODE",
+  "default_enabled": true,
+  "default_mode": "DRY_RUN",
+  "budget_usd": 0,
+  "our_domain": "www.yuchensy.com",
+  "production_url": "https://www.yuchensy.com/",
+  "production_ref": "a383110a874971b977586942fa8511375543e713",
+  "staging_ref": "ed62f00d38996a92a18d822a50d00aa3b09b182b",
+  "staging_url_is_citation_target": false,
+  "gemini_model": "gemini-2.5-flash-lite",
+  "gemini_free_confirmation_env": "AI_GEO_FREE_TIER_CONFIRMED",
+  "daily_live_caps": {"en": 20, "ru": 20, "es": 0, "fr": 0},
+  "schedule_utc": {"daily": "02:00", "weekly": "MON 03:00", "monthly": "DAY1 04:00"},
+  "expected_site": {"scopes": 64, "html_pages": 14189, "sitemap_urls": 13942, "sitemap_duplicates": 0, "critical_failures": 0, "fingerprint": "a36b469cf0c2d0bf9d8006160c0054686a78aa1ea60378fcdf496dc304961cef"},
+  "repository_policy": {"allow_auto_merge": false, "branch_protection_verified": false}
+}

@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "exact_paths": ["index.html", "en/index.html", "ru/index.html", "es/index.html", "fr/index.html", "en/products.html", "ru/products.html", "es/products.html", "fr/products.html"],
+  "patterns": ["*/contact.html", "*/products.html", "*/yuchen-water-products.html", "*/oem-odm-water-filter-manufacturer.html"],
+  "dynamic_sources": ["gsc_top_10", "gsc_top_20", "high_clicks", "high_impressions", "existing_ai_citation", "lead_attribution"],
+  "missing_dynamic_data_action": "L2"
+}

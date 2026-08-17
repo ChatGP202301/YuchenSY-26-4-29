@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "source_workspace": "local deterministic controller snapshot",
+  "copied_at": "2026-08-17",
+  "policy": "Frozen reference only. Do not change its scoring rules, weights, regression contract or acceptance thresholds.",
+  "files": {
+    "site_quality_control.py": "898c4b5ad15325e348c1eb2a8844a4d2d2fac306a6c8876766021a54fccb1bbc",
+    "regression_contract.py": "a8ab1045eb1b09b09799af2137bea3038476028418cb524df0ed1e42824dc9f0",
+    "accepted-regression-contract.json": "67ca52e554b7be097ee140578d81bf8df1f2679b9c835abbb99fe2559850abaf"
+  }
+}
