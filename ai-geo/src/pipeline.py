@@ -131,12 +131,17 @@ def run_pipeline(output_root: Path, site_root: Path, fixture: bool = False) -> d
     feature_path = data / "metrics" / "feature-observations.jsonl"
     append_jsonl_idempotent(feature_path, feature_rows, "observation_id")
 
-    competitor_fixture = analyze_html("<html><head><title>Industrial RO supplier</title><script type='application/ld+json'>{\"@context\":\"https://schema.org\",\"@type\":\"Product\"}</script></head><body><main><h1>Industrial reverse osmosis system</h1><h2>Specifications</h2><p>Capacity and feed water selection checklist for industrial buyers.</p><h2>FAQ</h2><p>What data is required?</p></main></body></html>", "https://example-competitor.test/page")
-    gaps = [compare_pages(page, competitor_fixture, f"https://example-competitor.test/{language}/page") for language, _, page in pages]
     gap_path = data / "competitors" / "snapshots.jsonl"
-    append_jsonl_idempotent(gap_path, gaps, "snapshot_id")
-
-    tasks = [draft_task(path, [row for row in prompts if row["language"] == language], gaps[index], page) for index, (language, path, page) in enumerate(pages)]
+    if fixture:
+        competitor_fixture = analyze_html("<html><head><title>Industrial RO supplier</title><script type='application/ld+json'>{\"@context\":\"https://schema.org\",\"@type\":\"Product\"}</script></head><body><main><h1>Industrial reverse osmosis system</h1><h2>Specifications</h2><p>Capacity and feed water selection checklist for industrial buyers.</p><h2>FAQ</h2><p>What data is required?</p></main></body></html>", "https://example-competitor.test/page")
+        gaps = [compare_pages(page, competitor_fixture, f"https://example-competitor.test/{language}/page") for language, _, page in pages]
+        append_jsonl_idempotent(gap_path, gaps, "snapshot_id")
+        tasks = [draft_task(path, [row for row in prompts if row["language"] == language], gaps[index], page) for index, (language, path, page) in enumerate(pages)]
+        competitor_evidence = "fixture"
+    else:
+        gaps = []
+        tasks = []
+        competitor_evidence = "no-data"
     atomic_write_json(reports / "pr" / "codex-tasks.json", {"schema_version":1,"tasks":tasks})
 
     experiments = [create_experiment(task["page"], task["page"].split("/",1)[0], task["prompt_ids"], "faq_addition", created_at="2026-08-17T02:00:00+00:00") for task in tasks]
@@ -153,7 +158,10 @@ def run_pipeline(output_root: Path, site_root: Path, fixture: bool = False) -> d
     write_markdown_report(reports / "monthly" / "2026-08.md", "AI GEO Monthly Report", prompts, citations, feature_rows, tasks, experiments)
     sources = {"prompts":prompt_path,"citations":citation_path,"feature_observations":feature_path,"competitor_snapshots":gap_path,"experiments":experiment_path}
     sqlite_counts = rebuild_sqlite(data / "metrics" / "ai-geo.sqlite3", sources)
-    simulation = simulate_git_action("en", [tasks[0]["page"]], tasks[0]["prompt_ids"], "draft answer-ready FAQ coverage", pages[0][2]["answer_extractability_score"], pages[0][2]["answer_extractability_score"], {"seo_guard":"PASS","content_guard":"PASS"})
-    result = {"status":"PASS","mode":"DRY_RUN","fixture":fixture,"prompts":len(prompts),"citations":len(citations),"feature_observations":len(feature_rows),"tasks":len(tasks),"experiments":len(experiments),"gemini":sample_status,"sample_statuses":sample_statuses,"metrics":metrics,"sqlite":sqlite_counts,"git":simulation,"production_modified":False}
+    if tasks:
+        simulation = simulate_git_action("en", [tasks[0]["page"]], tasks[0]["prompt_ids"], "draft answer-ready FAQ coverage", pages[0][2]["answer_extractability_score"], pages[0][2]["answer_extractability_score"], {"seo_guard":"PASS","content_guard":"PASS"})
+    else:
+        simulation = {"status":"NO_PROPOSAL","mode":"DRY_RUN","push_performed":False,"pr_created":False,"merged":False,"deployed":False,"production_modified":False}
+    result = {"status":"PASS","mode":"DRY_RUN","fixture":fixture,"prompts":len(prompts),"citations":len(citations),"feature_observations":len(feature_rows),"competitor_evidence":competitor_evidence,"tasks":len(tasks),"experiments":len(experiments),"gemini":sample_status,"sample_statuses":sample_statuses,"metrics":metrics,"sqlite":sqlite_counts,"git":simulation,"production_modified":False}
     atomic_write_json(output_root / "run-result.json", {"schema_version":1,**result})
     return result

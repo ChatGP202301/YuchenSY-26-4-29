@@ -5,6 +5,7 @@ import ipaddress
 import os
 import re
 from abc import ABC, abstractmethod
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
@@ -81,28 +82,80 @@ class GeminiFreeAdapter(AIEngineAdapter):
         return "ELIGIBLE"
 
     def search(self, prompt: dict) -> dict:
+        if prompt.get("source") != "curated_local_v1":
+            return {
+                "status":"DENIED_NONPUBLIC_PROMPT",
+                "engine":self.name,
+                "prompt_id":prompt.get("prompt_id"),
+                "stop_sampling":True,
+            }
         status = self.eligibility()
         if status != "ELIGIBLE":
             return {"status":status, "engine":self.name, "prompt_id":prompt["prompt_id"]}
         model = self.config["gemini_model"]
         key = self.env["GEMINI_API_KEY"]
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-        request = Request(url, data=json.dumps({"contents":[{"parts":[{"text":prompt["prompt_text"]}]}]}).encode(), headers={"Content-Type":"application/json", "x-goog-api-key":key}, method="POST")
-        with urlopen(request, timeout=30) as response:
-            payload = json.loads(response.read(1024 * 1024))
+        body = {
+            "contents":[{"parts":[{"text":prompt["prompt_text"]}]}],
+            "tools":[{"google_search":{}}],
+        }
+        request = Request(url, data=json.dumps(body).encode(), headers={"Content-Type":"application/json", "x-goog-api-key":key}, method="POST")
+        try:
+            with urlopen(request, timeout=30) as response:
+                payload = json.loads(response.read(1024 * 1024))
+        except HTTPError as exc:
+            code = int(exc.code)
+            terminal = code in {403, 429}
+            return {
+                "status":f"STOPPED_HTTP_{code}" if terminal else f"ERROR_HTTP_{code}",
+                "engine":self.name,
+                "prompt_id":prompt["prompt_id"],
+                "http_status":code,
+                "stop_sampling":True,
+            }
+        except (URLError, TimeoutError, OSError, json.JSONDecodeError) as exc:
+            return {
+                "status":"ERROR_NETWORK_RESPONSE",
+                "engine":self.name,
+                "prompt_id":prompt["prompt_id"],
+                "error_type":type(exc).__name__,
+                "stop_sampling":True,
+            }
         text_parts = []
         citations = []
+        query_hashes = []
+        grounding_used = False
         for candidate in payload.get("candidates", []):
             for part in candidate.get("content", {}).get("parts", []):
                 if isinstance(part.get("text"), str):
                     text_parts.append(part["text"])
             grounding = candidate.get("groundingMetadata", {})
+            if grounding:
+                grounding_used = True
+            for query in grounding.get("webSearchQueries", []):
+                if isinstance(query, str):
+                    query_hashes.append(sha256_text(query))
             for position, chunk in enumerate(grounding.get("groundingChunks", []), 1):
                 web = chunk.get("web", {})
                 if web.get("uri"):
                     citations.append({"url":web["uri"], "position":position, "title":web.get("title", "")})
         answer = "\n".join(text_parts)
-        return {"status":"OK", "engine":self.name, "surface":self.surface, "model":model, "prompt_id":prompt["prompt_id"], "answer_sha256":sha256_text(answer), "citations":self.normalize_urls(citations), "captured_at":utc_now()}
+        citations = self.normalize_urls(citations)
+        return {
+            "status":"OK",
+            "observation_status":"cited" if citations else "no-citation",
+            "engine":self.name,
+            "surface":self.surface,
+            "model":model,
+            "prompt_id":prompt["prompt_id"],
+            "answer_sha256":sha256_text(answer),
+            "grounding_used":grounding_used,
+            "search_query_count":len(query_hashes),
+            "search_query_sha256":query_hashes,
+            "citations":citations,
+            "captured_at":utc_now(),
+            "stop_sampling":False,
+        }
 
 
 def validate_import_record(record: dict, our_domain: str = "www.yuchensy.com") -> dict:

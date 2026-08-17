@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import io
 import os
 import sqlite3
 import subprocess
@@ -9,13 +10,17 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.request import Request
+from unittest.mock import patch
 
 REPO = Path(__file__).resolve().parents[1]
 AI_GEO = REPO / "ai-geo"
 SRC = AI_GEO / "src"
 sys.path[:0] = [str(AI_GEO), str(SRC)]
 
+import adapters as adapters_module
+import cli as cli_module
 from adapters import GeminiFreeAdapter, MANUAL_ENGINES, ManualImportAdapter, validate_import_record
 from cli import read_records as cli_read_records, sample_budget
 from competitor import compare_pages, structural_gaps
@@ -73,6 +78,19 @@ class ConfigTests(unittest.TestCase):
 
 
 class PromptAndAdapterTests(unittest.TestCase):
+    class FakeResponse:
+        def __init__(self, payload):
+            self.payload = json.dumps(payload).encode("utf-8")
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *_):
+            return False
+
+        def read(self, limit=-1):
+            return self.payload[:limit]
+
     def test_fixture_discovers_40_localized_prompts(self):
         prompts = discover_prompts(["en", "ru"], 20)
         self.assertEqual(len(prompts), 40)
@@ -107,6 +125,103 @@ class PromptAndAdapterTests(unittest.TestCase):
         rows, statuses = live_gemini_citations(discover_prompts(["en", "ru"], 20), GeminiFreeAdapter(env={}))
         self.assertEqual(rows, [])
         self.assertTrue(all(row["status"] == "SKIPPED_NO_CREDENTIAL" for row in statuses))
+
+    def test_gemini_request_enables_grounding_and_redacts_answer_and_queries(self):
+        captured = {}
+        payload = {
+            "candidates": [{
+                "content": {"parts": [{"text": "RAW ANSWER MUST NOT PERSIST"}]},
+                "groundingMetadata": {
+                    "webSearchQueries": ["industrial RO supplier"],
+                    "groundingChunks": [{"web": {"uri": "https://www.yuchensy.com/en/", "title": "Yuchen"}}],
+                },
+            }]
+        }
+
+        def fake_urlopen(request, timeout):
+            captured["request"] = request
+            captured["timeout"] = timeout
+            return self.FakeResponse(payload)
+
+        prompt = discover_prompts(["en"], 1)[0]
+        with patch.object(adapters_module, "urlopen", side_effect=fake_urlopen):
+            result = GeminiFreeAdapter(env={"GEMINI_API_KEY":"top-secret", "AI_GEO_FREE_TIER_CONFIRMED":"true"}).search(prompt)
+        body = json.loads(captured["request"].data)
+        self.assertEqual(body["tools"], [{"google_search": {}}])
+        self.assertNotIn("top-secret", captured["request"].full_url)
+        self.assertTrue(result["grounding_used"])
+        self.assertEqual(result["observation_status"], "cited")
+        self.assertEqual(result["search_query_count"], 1)
+        self.assertNotIn("top-secret", json.dumps(result))
+        self.assertNotIn("industrial RO supplier", json.dumps(result))
+        self.assertNotIn("RAW ANSWER MUST NOT PERSIST", json.dumps(result))
+        self.assertNotIn("answer", result)
+
+    def test_gemini_rejects_nonpublic_prompt_without_network(self):
+        prompt = {**discover_prompts(["en"], 1)[0], "source":"customer_private"}
+        with patch.object(adapters_module, "urlopen", side_effect=AssertionError("network must not run")):
+            result = GeminiFreeAdapter(env={"GEMINI_API_KEY":"secret", "AI_GEO_FREE_TIER_CONFIRMED":"true"}).search(prompt)
+        self.assertEqual(result["status"], "DENIED_NONPUBLIC_PROMPT")
+
+    def test_gemini_http_403_stops_without_fallback(self):
+        error = HTTPError("https://example.invalid", 403, "Forbidden", {}, io.BytesIO())
+        with patch.object(adapters_module, "urlopen", side_effect=error):
+            result = GeminiFreeAdapter(env={"GEMINI_API_KEY":"secret", "AI_GEO_FREE_TIER_CONFIRMED":"true"}).search(discover_prompts(["en"], 1)[0])
+        self.assertEqual(result["status"], "STOPPED_HTTP_403")
+        self.assertTrue(result["stop_sampling"])
+        self.assertNotIn("fallback", json.dumps(result).lower())
+
+    def test_gemini_http_429_stops_without_retry_or_fallback(self):
+        error = HTTPError("https://example.invalid", 429, "Limited", {}, io.BytesIO())
+        calls = []
+
+        def fail_once(*args, **kwargs):
+            calls.append(1)
+            raise error
+
+        with patch.object(adapters_module, "urlopen", side_effect=fail_once):
+            result = GeminiFreeAdapter(env={"GEMINI_API_KEY":"secret", "AI_GEO_FREE_TIER_CONFIRMED":"true"}).search(discover_prompts(["en"], 1)[0])
+        self.assertEqual(result["status"], "STOPPED_HTTP_429")
+        self.assertTrue(result["stop_sampling"])
+        self.assertEqual(len(calls), 1)
+
+    def test_grounded_proof_selects_two_per_language_and_four_total(self):
+        prompts = discover_prompts(["en", "ru"], 20)
+        selected, quota = cli_module.select_grounded_proof_prompts(prompts)
+        self.assertEqual(len(selected), 4)
+        self.assertEqual([row["language"] for row in selected], ["en", "en", "ru", "ru"])
+        self.assertEqual(quota["total_cap"], 4)
+
+    def test_grounded_proof_rejects_nonpublic_input(self):
+        prompts = discover_prompts(["en", "ru"], 2)
+        prompts[0] = {**prompts[0], "source":"internal_notes"}
+        with self.assertRaisesRegex(ValueError, "curated_local_v1"):
+            cli_module.select_grounded_proof_prompts(prompts)
+
+    def test_sample_execution_stops_after_terminal_result(self):
+        class TerminalAdapter:
+            def __init__(self):
+                self.calls = 0
+
+            def search(self, prompt):
+                self.calls += 1
+                return {"status":"STOPPED_HTTP_429", "stop_sampling":True, "prompt_id":prompt["prompt_id"]}
+
+        adapter = TerminalAdapter()
+        results = cli_module.execute_samples(adapter, discover_prompts(["en", "ru"], 2))
+        self.assertEqual(adapter.calls, 1)
+        self.assertEqual(len(results), 1)
+
+    def test_grounded_proof_requires_private_tmp_output(self):
+        with self.assertRaisesRegex(ValueError, "/private/tmp"):
+            cli_module.validate_proof_output_path(Path("ai-geo/data/proof.json"))
+        allowed = cli_module.validate_proof_output_path(Path("/private/tmp/yuchen-gemini-proof-test/results.json"))
+        self.assertTrue(str(allowed).startswith("/private/tmp/"))
+
+    def test_missing_key_never_calls_network(self):
+        with patch.object(adapters_module, "urlopen", side_effect=AssertionError("network must not run")):
+            result = GeminiFreeAdapter(env={}).search(discover_prompts(["en"], 1)[0])
+        self.assertEqual(result["status"], "SKIPPED_NO_CREDENTIAL")
 
 
 class EvidenceStorageTests(unittest.TestCase):
@@ -361,6 +476,15 @@ class ExperimentGitAndRunTests(unittest.TestCase):
             self.assertEqual(first["sqlite"], second["sqlite"])
             plans = json.loads((Path(directory) / "data/experiments/retest-plans.json").read_text())["plans"]
             self.assertTrue(all(rows[0]["status"] == "NOT_SCHEDULED" for rows in plans.values()))
+
+    def test_live_pipeline_never_creates_fixture_competitors_tasks_or_experiments(self):
+        with tempfile.TemporaryDirectory() as directory:
+            result = run_pipeline(Path(directory), REPO, fixture=False)
+            self.assertEqual(result["tasks"], 0)
+            self.assertEqual(result["experiments"], 0)
+            self.assertEqual(result["competitor_evidence"], "no-data")
+            stored = "\n".join(path.read_text(encoding="utf-8", errors="replace") for path in Path(directory).rglob("*") if path.is_file() and path.suffix != ".sqlite3")
+            self.assertNotIn("example-competitor.test", stored)
 
     def test_workflow_is_read_only_and_has_no_production_job(self):
         text = (REPO / ".github/workflows/ai-geo-observe.yml").read_text()

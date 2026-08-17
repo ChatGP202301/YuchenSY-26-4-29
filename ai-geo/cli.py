@@ -101,17 +101,77 @@ def sample_budget(prompts: list[dict], language: str, requested: int) -> tuple[l
     return selected, {"requested": requested, "hard_cap": hard_cap, "configured_cap": configured_cap, "selected": len(selected)}
 
 
+def select_grounded_proof_prompts(prompts: list[dict]) -> tuple[list[dict], dict]:
+    """Select exactly two public EN and two public RU Prompts for one local proof."""
+    selected = []
+    by_language = {}
+    for language in ("en", "ru"):
+        candidates = [row for row in prompts if row.get("language") == language][:2]
+        if len(candidates) != 2:
+            raise ValueError(f"grounded proof requires exactly two {language} Prompts")
+        invalid = [row.get("prompt_id", "unknown") for row in candidates if row.get("source") != "curated_local_v1"]
+        if invalid:
+            raise ValueError(f"grounded proof accepts only source=curated_local_v1: {invalid}")
+        selected.extend(candidates)
+        by_language[language] = len(candidates)
+    if len(selected) > 4:
+        raise ValueError("grounded proof exceeds total hard cap 4")
+    return selected, {"requested_per_language":2, "selected_by_language":by_language, "selected":len(selected), "total_cap":4}
+
+
+def validate_proof_output_path(path: Path) -> Path:
+    if not path.is_absolute():
+        raise ValueError("grounded proof output must use an absolute path under /private/tmp")
+    resolved = path.expanduser().resolve()
+    allowed_root = Path("/private/tmp").resolve()
+    try:
+        resolved.relative_to(allowed_root)
+    except ValueError as exc:
+        raise ValueError("grounded proof output must remain under /private/tmp") from exc
+    return resolved
+
+
+def execute_samples(adapter: object, prompts: list[dict]) -> list[dict]:
+    results = []
+    for prompt in prompts:
+        result = adapter.search(prompt)
+        results.append(result)
+        if result.get("stop_sampling"):
+            break
+    return results
+
+
 def command_sample(args: argparse.Namespace) -> int:
     prompts = read_records(Path(args.prompts))
-    selected, quota = sample_budget(prompts, args.language, args.limit)
+    if args.grounded_proof:
+        if args.engine != "gemini_api":
+            raise ValueError("grounded proof supports only gemini_api")
+        if not args.output:
+            raise ValueError("grounded proof requires --output under /private/tmp")
+        output = validate_proof_output_path(Path(args.output))
+        selected, quota = select_grounded_proof_prompts(prompts)
+    else:
+        if not args.language:
+            raise ValueError("--language is required unless --grounded-proof is set")
+        output = Path(args.output) if args.output else None
+        selected, quota = sample_budget(prompts, args.language, args.limit)
     if args.engine == "gemini_api":
         adapter = GeminiFreeAdapter()
     else:
         adapter = ManualImportAdapter(args.engine)
-    results = [adapter.search(prompt) for prompt in selected]
-    if args.output:
-        atomic_write_json(Path(args.output), {"schema_version": 1, "results": results, "quota": quota})
-    emit({"status": "PASS", "engine": args.engine, "quota": quota, "results": results, "output": args.output})
+    results = execute_samples(adapter, selected)
+    statuses = [row.get("status", "UNKNOWN") for row in results]
+    if statuses and all(status == "OK" for status in statuses):
+        status = "PASS"
+    elif statuses and statuses[0].startswith("SKIPPED_"):
+        status = statuses[0]
+    elif any(row.get("stop_sampling") for row in results):
+        status = "STOPPED"
+    else:
+        status = "PARTIAL"
+    if output:
+        atomic_write_json(output, {"schema_version": 1, "status":status, "engine":args.engine, "results":results, "quota":quota})
+    emit({"status":status, "engine":args.engine, "quota":quota, "results":results, "output":str(output) if output else None})
     return 0
 
 
@@ -206,9 +266,10 @@ def parser() -> argparse.ArgumentParser:
 
     sample = commands.add_parser("sample")
     sample.add_argument("--prompts", required=True)
-    sample.add_argument("--language", required=True)
+    sample.add_argument("--language")
     sample.add_argument("--engine", default="gemini_api")
     sample.add_argument("--limit", type=int, default=20)
+    sample.add_argument("--grounded-proof", action="store_true")
     sample.add_argument("--output")
     sample.set_defaults(func=command_sample)
 
