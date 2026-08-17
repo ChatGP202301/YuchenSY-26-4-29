@@ -2,6 +2,7 @@
 
 Yuchen Water manufactures water filtration components, drinking-water systems and OEM/ODM product platforms in Haining, Zhejiang, China.
 
+<!-- PRODUCT_TAXONOMY_V2_START -->
 ## Canonical product discovery
 <!-- SANYISHUI_CATALOG_START -->
 - Products overview: https://www.yuchensy.com/en/products.html
@@ -11,6 +12,7 @@ Yuchen Water manufactures water filtration components, drinking-water systems an
 - Commercial, office and vending RO systems: https://www.yuchensy.com/en/commercial-ro-water-systems.html
 - Water softener systems: https://www.yuchensy.com/en/automatic-water-filter-softener-systems.html
 - Industrial RO and seawater desalination: https://www.yuchensy.com/en/industrial-ro-seawater-desalination-systems.html
+- 2,000 L/h seawater desalination RO system: https://www.yuchensy.com/en/product-2000lph-seawater-desalination-ro-system.html
 
 ## OEM/ODM families
 - pipeline: https://www.yuchensy.com/en/instant-heating-water-dispensers.html (23 products)
@@ -26,8 +28,20 @@ Yuchen Water manufactures water filtration components, drinking-water systems an
 - Contact: https://www.yuchensy.com/en/contact.html
 - Product specifications, compatibility and project configuration must be confirmed in the quotation.
 <!-- SANYISHUI_CATALOG_END -->
+<!-- RO_CABINET_UV_LLMS_START -->
+## Cabinet RO Water Purifier — 5/6 Stage, Optional UV
 
-## 158 canonical English product pages
+- English canonical: https://www.yuchensy.com/en/product-cabinet-ro-water-purifier-5-6-stage-uv.html
+- Product form: enclosed cabinet RO water purifier; separate intent from the open-frame 5/6/7-stage system.
+- Verified options: five or six filtration stages; UV is optional; OEM and ODM project support is available.
+- Quote gate: membrane capacity, dimensions, cartridge sequence, pump, voltage, UV power, order quantity and certification requirements must be confirmed.
+- Localization: 62 indexable routes, reviewed as ai-multipass-reviewed; no native-review claim.
+- Media: three debranded still images; the supplied branded video is intentionally not published.
+- Structured data: Product, WebPage, BreadcrumbList and FAQPage; no commercial, review or video schema.
+<!-- RO_CABINET_UV_LLMS_END -->
+<!-- PRODUCT_TAXONOMY_V2_END -->
+
+## 159 canonical English product pages
 - SY-081 Instant Heating Water Dispenser – Grey: https://www.yuchensy.com/en/sanyishui-gxj-081-1.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
 - SY-081 Instant Heating Water Dispenser – White: https://www.yuchensy.com/en/sanyishui-gxj-081-2.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
 - SY-0823 Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/sanyishui-gxj-082-1.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
@@ -161,6 +175,7 @@ Yuchen Water manufactures water filtration components, drinking-water systems an
 - Simple Type Reverse Osmosis Water Purification Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-simple-type-reverse-osmosis-water-purification-equipment-250-1000lph.html — Simple Type Reverse Osmosis Water Purification Equipment 250-1000 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane array.
 - Single-Tank Integrated RO Water Purification and Supply Equipment 250-500 L/h: https://www.yuchensy.com/en/product-single-tank-integrated-ro-water-purification-supply-equipment-250-500lph.html — Single-Tank Integrated RO Water Purification and Supply Equipment 250-500 L/h for project water treatment, with feed-water analysis, output, pretreatment.
 - Small and Medium Seawater Desalination RO Equipment: https://www.yuchensy.com/en/product-small-medium-seawater-desalination-ro-equipment.html — Small and Medium Seawater Desalination RO Equipment for project water treatment, with feed-water analysis, output, pretreatment, membrane array, control panel and.
+- 2,000 L/h Seawater Desalination RO System: https://www.yuchensy.com/en/product-2000lph-seawater-desalination-ro-system.html — This photographed seawater reverse-osmosis system is configured for a nominal product-water flow of 2,000 L/h.
 - Mobile SUS304 Skid-Mounted RO Plant 250-500 LPH: https://www.yuchensy.com/en/product-mobile-sus304-skid-mounted-ro-plant-250-500lph.html — 500 LPH mobile SUS304 skid-mounted RO plant with Vontron 4040 membranes, dual 20-inch prefilters, flow meters, TDS display and 220 V single-phase options.
 - Siliphos balls · polyphosphate scale inhibitor: https://www.yuchensy.com/en/product-siliphos-balls.html — Siliphos balls — specialty filter media. polyphosphate · Siliphos balls Ø19 mm, Ø10 mm, Ø3–8 mm; broken particles 6–12 mm / 4–10 mm; powder. Specifications may vary by selected configuration. Please confirm final requirements before quotation. OEM/ODM: wood pallet · master carton · small boxes · small bottles.
 - Cabinet RO Water Purifier — 5 or 6 Stage, Optional UV: https://www.yuchensy.com/en/product-cabinet-ro-water-purifier-5-6-stage-uv.html — A cabinet RO water purifier configurable with five or six filtration stages, optional UV, and OEM/ODM project support.. Specifications may vary by selected configuration. Please confirm final requirements before quotation.

@@ -945,7 +945,7 @@ body.rtl {
 }
 
 /* ========================================
-   Express Water 2026 redesign layer
+   Yuchen Water 2026 redesign layer
    Content stays unchanged; this layer reworks layout, hierarchy and responsiveness.
    ======================================== */
 
@@ -2575,7 +2575,7 @@ body.rtl .spec-table td {
   }
 }
 
-/* === Express Water 2026 fluid catalog redesign === */
+/* === Yuchen Water 2026 fluid catalog redesign === */
 :root {
   --ew-ink: #102a32;
   --ew-teal: #0f8f86;
@@ -4495,4 +4495,3 @@ a img {
     min-height: 146px;
   }
 }
-

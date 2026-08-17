@@ -40,6 +40,14 @@
     try { return JSON.parse(sessionStorage.getItem('yuchen_first_touch_v1') || '{}'); }
     catch (error) { return {}; }
   };
+  const sourcePage = () => {
+    const candidate = new URLSearchParams(location.search).get('yw_source_page') || location.pathname;
+    try {
+      const resolved = new URL(candidate, location.origin);
+      if (resolved.origin === location.origin && !/[@\\]/.test(resolved.pathname)) return location.origin + resolved.pathname.slice(0, 240);
+    } catch (error) { /* Use the current public catalog page. */ }
+    return location.origin + location.pathname;
+  };
   const configured = Boolean(config.apiBase && config.turnstileSiteKey && !String(config.turnstileSiteKey).startsWith('REPLACE_'));
 
   const renderTurnstile = () => {
@@ -86,7 +94,7 @@
       submissionId,
       catalogId: form.dataset.catalogId,
       locale,
-      sourcePage: location.origin + location.pathname,
+      sourcePage: sourcePage(),
       firstLandingPage: attribution.landingPage || location.pathname,
       referrerDomain: attribution.referrerDomain || '',
       name: data.get('name'),
@@ -129,7 +137,7 @@
       if (!contentType.includes('application/pdf') || !blob.size || !receipt) throw new Error('catalog_unavailable');
 
       document.dispatchEvent(new CustomEvent('yuchen:catalog-submit-success', {
-        detail: { submissionId, ctaLocation: 'filter_catalog_form' }
+        detail: { submissionId, resourceId: 'filter', ctaLocation: 'filter_catalog_form' }
       }));
       const objectUrl = URL.createObjectURL(blob);
       const link = document.createElement('a');
@@ -139,15 +147,11 @@
       link.click();
       link.remove();
       window.setTimeout(() => URL.revokeObjectURL(objectUrl), 60000);
-      fetch(`${config.apiBase}/v1/catalog/download-events`, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ submissionId, catalogId: form.dataset.catalogId, receipt }),
-        cache: 'no-store',
-        keepalive: true
-      }).catch(() => {});
+      const receiptPayload = { submissionId, catalogId: form.dataset.catalogId, receipt };
+      if (window.YuchenDownloadReceipts) window.YuchenDownloadReceipts.report({ apiBase: config.apiBase, payload: receiptPayload });
+      else fetch(`${config.apiBase}/v1/catalog/download-events`, { method:'POST', headers:{'content-type':'application/json'}, body:JSON.stringify(receiptPayload), cache:'no-store', keepalive:true }).catch(() => {});
       document.dispatchEvent(new CustomEvent('yuchen:catalog-download-complete', {
-        detail: { submissionId, ctaLocation: 'filter_catalog_form' }
+        detail: { submissionId, resourceId: 'filter', ctaLocation: 'filter_catalog_form' }
       }));
       setStatus(strings.done, 'success');
       form.reset();

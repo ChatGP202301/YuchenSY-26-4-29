@@ -9,8 +9,12 @@
     'phone_click',
     'quote_form_start',
     'quote_submit_success',
+    'download_center_open',
+    'download_resource_select',
+    'download_form_start',
     'catalog_submit_success',
-    'catalog_download_complete'
+    'catalog_download_complete',
+    'manual_access_granted'
   ]);
   const utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
   const consentKey = 'yuchen_analytics_consent_v1';
@@ -111,7 +115,7 @@
     window.dataLayer.push({
       event: 'yuchen_page_view',
       ...commonParams('page_view'),
-      measurement_version: '2026-08-10'
+      measurement_version: '2026-08-14'
     });
     const script = document.createElement('script');
     script.async = true;
@@ -166,7 +170,9 @@
       ...commonParams(detail.ctaLocation || ''),
       ...(eventName === 'quote_submit_success' ? { lead_type: 'quote' } : {}),
       ...(eventName === 'catalog_submit_success' ? { lead_type: 'catalog' } : {}),
-      measurement_version: '2026-08-10'
+      ...(eventName === 'manual_access_granted' ? { lead_type: 'manual' } : {}),
+      ...(/^download_|^catalog_|^manual_/.test(eventName) ? { resource_id: safeSlug(detail.resourceId || '') } : {}),
+      measurement_version: '2026-08-14'
     });
   }
 
@@ -202,11 +208,23 @@
   document.addEventListener('yuchen:quote-submit-success', (event) => {
     emit('quote_submit_success', event.detail || {});
   });
+  document.addEventListener('yuchen:download-center-open', (event) => {
+    emit('download_center_open', event.detail || {});
+  });
+  document.addEventListener('yuchen:download-resource-select', (event) => {
+    emit('download_resource_select', event.detail || {});
+  });
+  document.addEventListener('yuchen:download-form-start', (event) => {
+    emit('download_form_start', event.detail || {});
+  });
   document.addEventListener('yuchen:catalog-submit-success', (event) => {
     emit('catalog_submit_success', event.detail || {});
   });
   document.addEventListener('yuchen:catalog-download-complete', (event) => {
     emit('catalog_download_complete', event.detail || {});
+  });
+  document.addEventListener('yuchen:manual-access-granted', (event) => {
+    emit('manual_access_granted', event.detail || {});
   });
 
   if (hasConsent()) {
