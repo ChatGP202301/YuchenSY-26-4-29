@@ -1,0 +1,78 @@
+name: AI GEO Observe (DRY RUN)
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+    - cron: "0 3 * * 1"
+    - cron: "0 4 1 * *"
+  workflow_dispatch:
+    inputs:
+      cadence:
+        description: Observation cadence
+        required: true
+        default: daily
+        type: choice
+        options:
+          - daily
+          - weekly
+          - monthly
+      fixture:
+        description: Use fixture evidence; never counts as live
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ai-geo-observe-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  observe:
+    name: Read-only observation
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      AI_GEO_ENABLED: ${{ vars.AI_GEO_ENABLED || 'true' }}
+      AI_GEO_MODE: DRY_RUN
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - name: Check out the exact workflow revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+          ref: ${{ github.sha }}
+
+      - name: Verify control plane health
+        run: python3 ai-geo/cli.py doctor
+
+      - name: Health-only report when emergency switch is off
+        if: env.AI_GEO_ENABLED != 'true'
+        run: python3 ai-geo/cli.py report --output ai-geo-artifacts/health.md --title "AI GEO Disabled Health Report"
+
+      - name: Run read-only observation
+        if: env.AI_GEO_ENABLED == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_GEO_FREE_TIER_CONFIRMED: ${{ vars.AI_GEO_FREE_TIER_CONFIRMED || 'false' }}
+        run: |
+          fixture_flag=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.fixture }}" = "true" ]; then
+            fixture_flag="--fixture"
+          fi
+          python3 ai-geo/cli.py run --site-root . --output ai-geo-artifacts/run $fixture_flag
+
+      - name: Upload redacted observation artifact
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ai-geo-observation-${{ github.run_id }}
+          path: ai-geo-artifacts/
+          if-no-files-found: warn
+          retention-days: 30
+
+# This workflow deliberately has no contents:write, pull-requests:write, Pages,
+# administration, auto-merge, deploy or revert job. A later dispatcher PR may
+# pin a separately reviewed control commit after branch protections are verified.

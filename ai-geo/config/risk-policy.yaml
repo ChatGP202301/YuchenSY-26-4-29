@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "default_unknown_risk": "L2",
+  "limits": {"daily_pages": 5, "weekly_pages": 10, "files": 20, "changed_lines": 500, "deletion_ratio": 0.03, "cooling_days": 14},
+  "l1_change_types": ["faq_addition", "faq_refinement", "small_factual_paragraph", "internal_link", "image_alt", "schema_factual_addition", "meta_description", "language_naturalness", "answer_extractability"],
+  "l2_change_types": ["title", "h1", "large_rewrite", "section_reorder", "keyword_target", "template", "navigation"],
+  "deny_paths": [".github/**", ".github/workflows/**", "CNAME", "robots.txt", "sitemap.xml", "sitemaps/**", "package.json", "package-lock.json", "pnpm-lock.yaml", "yarn.lock", "wrangler.*", "**/wrangler.*"],
+  "deny_operations": ["url_change", "page_delete", "canonical_change", "hreflang_change", "robots_change", "sitemap_architecture", "domain_change", "workflow_change", "permission_change", "bulk_redirect", "bulk_noindex"],
+  "protected_signals": ["homepage", "core_category", "brand_page", "lead_page", "high_commercial_intent", "google_top_10", "google_top_20", "high_clicks", "high_impressions", "already_ai_cited"]
+}

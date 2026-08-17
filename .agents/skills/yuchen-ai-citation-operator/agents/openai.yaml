@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yuchen AI Citation Operator"
+  short_description: "Audit multilingual AI citations and draft safe GEO tasks"
+  default_prompt: "Use $yuchen-ai-citation-operator to audit AI citations and draft a safe GEO improvement task."

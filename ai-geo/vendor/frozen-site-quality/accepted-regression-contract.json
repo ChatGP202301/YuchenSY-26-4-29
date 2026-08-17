@@ -1,0 +1,40 @@
+{
+  "accepted_at": "2026-08-15T17:00:00+08:00",
+  "authorization": "User explicitly authorized local-only structured-data remediation and count-baseline refresh after a deterministic 14,189-page / 13,942-URL inventory.",
+  "english_inventory": {
+    "accepted_inventory": "migration/english-seo-baseline/accepted-inventory.json",
+    "candidate_count": 215,
+    "exception_count": 22,
+    "public_tree_sha256": "461e72fc1fb2086297ef0d9449027b1671f1f798499b837ca33850ba32ea1796",
+    "sitemap_url_count": 216
+  },
+  "notes": [
+    "This contract freezes the exact currently accepted local tree after reviewed English inventory changes.",
+    "Known multilingual debt remains review-required and is not approval of translation quality.",
+    "Any count or exact-list hash drift must fail closed and receive a separate review.",
+    "This contract does not authorize production publication.",
+    "The 2026-08-10 review confirms that be, cnr, ga, lb, mk and mt have zero English-template findings across the generated OEM surfaces.",
+    "The 2026-08-15 refresh changes only proven page and Sitemap count locks; scoring thresholds and quality rules are unchanged."
+  ],
+  "publication_allowed": "NO",
+  "sanyishui_known_debt": {
+    "handling": "PASS",
+    "protective_illegal_change_count": 0,
+    "protective_illegal_changes_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "unexpected_english_finding_count": 0,
+    "unexpected_english_findings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "unexpected_english_template_hit_count": 0
+  },
+  "schema_version": 1,
+  "site_quality": {
+    "html_pages": 14189,
+    "scopes": 64,
+    "sitemap_urls": 13942
+  },
+  "sitemaps": {
+    "duplicate_entries": 0,
+    "entries": 13942,
+    "files": 64,
+    "unique": 13942
+  }
+}
