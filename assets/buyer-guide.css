@@ -1,0 +1,23 @@
+.ybg-page {background:#f5f8f5;color:#173c35;}
+.ybg-article {max-width:1000px;margin:0 auto;padding:56px 24px;}
+.ybg-intro {max-width:880px;margin:0 0 36px;}
+.ybg-kicker {color:#0a7060;font-weight:700;letter-spacing:.03em;}
+.ybg-intro h1 {font-size:clamp(28px,4vw,46px);line-height:1.16;margin:12px 0 20px;overflow-wrap:anywhere;}
+.ybg-intro p {font-size:19px;line-height:1.7;color:#4a625b;}
+.ybg-actions {display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;}
+.ybg-button {display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:12px 20px;border:1px solid #0a7060;border-radius:9px;background:#0a7060;color:#fff!important;font-weight:650;text-decoration:none;}
+.ybg-button-secondary {color:#0a7060!important;background:#fff;}
+.ybg-sections {display:grid;gap:20px;}
+.ybg-section {padding:28px;border:1px solid #d5e3dc;border-radius:14px;background:white;}
+.ybg-section h2 {font-size:clamp(21px,2.5vw,27px);line-height:1.3;margin:0 0 16px;color:#124c3e;}
+.ybg-section p {font-size:17px;line-height:1.85;margin:0;overflow-wrap:anywhere;}
+.ybg-cta {margin-top:28px;padding:28px;background:#e2efe6;border-radius:14px;}
+.ybg-cta p {margin:0 0 18px;font-size:18px;line-height:1.7;}
+.ybg-footer {padding:28px 20px;text-align:center;border-top:1px solid #d4e0d9;overflow-wrap:anywhere;}
+.ybg-footer a {color:#075e54;text-decoration:underline;}
+.ybg-language {position:relative;}
+.ybg-language summary {cursor:pointer;min-height:44px;padding:10px;border:1px solid #c6dbd2;border-radius:8px;}
+.ybg-language>div {position:absolute;inset-inline-end:0;top:100%;width:270px;max-height:60vh;overflow-y:auto;z-index:1300;padding:10px;background:#fff;border:1px solid #c6dbd2;box-shadow:0 12px 32px #153c3533;}
+.ybg-language a {display:block;min-height:44px;padding:10px;color:#124c3e;}
+.ybg-page :focus-visible {outline:3px solid #078771;outline-offset:3px;}
+@media(max-width:700px){.ybg-article{padding:30px 16px;}.ybg-section,.ybg-cta{padding:22px 18px;}.ybg-intro p{font-size:17px;}.ybg-section p{font-size:16px;}.ybg-language>div{width:min(270px,85vw);}}
