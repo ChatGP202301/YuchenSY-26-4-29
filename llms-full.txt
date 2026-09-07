@@ -1631,3 +1631,9 @@ This file is generated from visible Latvian pages and their matching Product JSO
 - Softener selection facts: source-listed flow, resin volume, FRP tank size, regeneration mode, automatic softener valve, brine valve and cabinet size.
 - Evidence limit: no certification, removal-performance, price, stock, warranty, brand or manufacturer claim is made.
 <!-- WATER_SOFTENER_LLMS_END -->
+
+<!-- PURO_ULD_START -->
+## PURO-ULD technical guide
+
+- https://www.yuchensy.com/en/resources/vontron-puro-uld-antifouling-ro-membrane-industrial-wastewater-guide.html
+<!-- PURO_ULD_END -->
