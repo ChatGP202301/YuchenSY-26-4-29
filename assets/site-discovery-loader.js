@@ -6,10 +6,10 @@
   var own=document.currentScript;
   if(!own || !own.src) return;
   var base=new URL('.',own.src), style=document.createElement('link');
-  style.rel='stylesheet'; style.href=new URL('site-discovery.css?v=a9a9c1fd3fae1a42',base).href;
+  style.rel='stylesheet'; style.href=new URL('site-discovery.css?v=a410bacaa96d74fb',base).href;
   style.dataset.yuchenDiscovery='style';
   style.onload=function(){var script=document.createElement('script');
-    script.src=new URL('site-discovery.js?v=a9a9c1fd3fae1a42',base).href;
+    script.src=new URL('site-discovery.js?v=a410bacaa96d74fb',base).href;
     script.dataset.yuchenDiscovery='runtime'; document.head.appendChild(script);};
   document.head.appendChild(style);
 })();
