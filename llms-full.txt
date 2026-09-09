@@ -1,1639 +1,192 @@
-# Yuchen Water — Latvian approved public product facts
+# Yuchen Water
 
-This file is generated from visible Latvian pages and their matching Product JSON-LD. It does not replace a model-specific quotation or technical datasheet.
+Yuchen Water manufactures water filtration components, drinking-water systems and OEM/ODM product platforms in Haining, Zhejiang, China.
 
-## Contact
-
-- Website: https://www.yuchensy.com/
-- Email: expresswater025@gmail.com
-- Telephone and WhatsApp: +86-19908311885
-
-## Products
-
-### 10 collu rāmja RO ūdens iekārta 400G-1200G
-
-- URL: https://www.yuchensy.com/lv/product-10-inch-frame-ro-water-machine-400g-1200g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “10 collu rāmja RO ūdens iekārta 400G-1200G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–1200G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
-- Attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, RO membrāna un T33 pēcfiltrs
-- Tīrā ūdens plūsma: 400G–1200G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### 10 collu rāmja RO ūdens iekārta 400G-800G
-
-- URL: https://www.yuchensy.com/lv/product-10-inch-frame-ro-water-machine-400g-800g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “10 collu rāmja RO ūdens iekārta 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
-- Attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs
-- Tīrā ūdens plūsma: 400G–800G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### 20 collu komerciāls RO ūdens attīrītājs 800G/1200G/1600G/2000G
-
-- URL: https://www.yuchensy.com/lv/product-20-inch-commercial-ro-water-purifier-800g-2000g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “20 collu komerciāls RO ūdens attīrītājs 800G/1200G/1600G/2000G” apstiprinātie dati: ražība vai ietilpība: 800G, 1200G, 1600G vai 2000G; filtrācijas pakāpes: piecpakāpju filtrācija ar PP nogulšņu filtru, ogles priekšfiltru, RO membrānu un ogles pēcfiltru; secību var precizēt konfigurācijā; spiediena tvertne: standarta versija bez tvertnes; spiediena tvertni var pievienot atbilstoši saskaņotajai konfigurācijai. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Ražība vai ietilpība: 800G, 1200G, 1600G vai 2000G
-- Filtrācijas pakāpes: piecpakāpju filtrācija ar PP nogulšņu filtru, ogles priekšfiltru, RO membrānu un ogles pēcfiltru; secību var precizēt konfigurācijā
-- Spiediena tvertne: standarta versija bez tvertnes; spiediena tvertni var pievienot atbilstoši saskaņotajai konfigurācijai
-- Nominālā jauda: 160W
-- Iekārtas svars: 28 kg
-- Izmēri: koka rāmis 47 × 33 × 90 cm
-- Uzstādīšana: uz grīdas uzstādāma komerciāla tiešās dzeršanas ūdens iekārta
-- Pielietojums: biroji, restorāni, skolas, kafejnīcas, nelielas ražotnes un izplatītāju projekti
-
-### 20 collu rāmja RO ūdens iekārta 400G-1200G
-
-- URL: https://www.yuchensy.com/lv/product-20-inch-frame-ro-water-machine-400g-1200g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “20 collu rāmja RO ūdens iekārta 400G-1200G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 20 collu PP, 20 collu UDF, 20 collu PP, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–1200G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
-- Attīrīšanas process: 20 collu PP, 20 collu UDF, 20 collu PP, RO membrāna un T33 pēcfiltrs
-- Tīrā ūdens plūsma: 400G–1200G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Sārmains ūdens attīrītājs
-
-- URL: https://www.yuchensy.com/lv/product-alkaline-purifier.html
-- Category: Dzeramā ūdens attīrītāji
-- Description: Šis ir daudzpakāpju dzeramā ūdens attīrīšanas produkts. Produktam “Sārmains ūdens attīrītājs” apstiprinātie dati: veids: sārmains pildījums; ph diapazons: 8,5–9,5. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Veids: sārmains pildījums
-- pH diapazons: 8,5–9,5
-
-### Antibakteriāls mineralizācijas filtra kārtridžs
-
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Antibakteriāls mineralizācijas filtra kārtridžs” apstiprinātie dati: pildījuma funkcija: antibakteriāla pildījuma un mineralizācijas kombinācija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pildījuma funkcija: antibakteriāla pildījuma un mineralizācijas kombinācija
-
-### Trīspakāpju Big Blue filtru sistēma
-
-- URL: https://www.yuchensy.com/lv/product-big-blue-3stage.html
-- Category: Ūdens filtru korpusi
-- Description: Šis ir nomaināmu filtra kārtridžu korpuss vai korpusu komplekts. Produktam “Trīspakāpju Big Blue filtru sistēma” apstiprinātie dati: sistēmas veids: trīspakāpju Big Blue filtru komplekts; izmērs: 30 collu korpusu klase; pakāpju skaits: nogulšņu, ogles un smalkās filtrācijas pakāpju iespējas. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Sistēmas veids: trīspakāpju Big Blue filtru komplekts
-- Izmērs: 30 collu korpusu klase
-- Pakāpju skaits: nogulšņu, ogles un smalkās filtrācijas pakāpju iespējas
-- Savienojums: pielāgojamas ieplūdes un izplūdes pieslēgumu iespējas
-- Pielietojumi: privātmājas, komerciālas virtuves un vieglās rūpniecības priekšfiltrācija
-
-### RO ūdens attīrītājs ar iebūvētu spiediena tvertni 100G/200G
-
-- URL: https://www.yuchensy.com/lv/product-built-in-pressure-tank-ro.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “RO ūdens attīrītājs ar iebūvētu spiediena tvertni 100G/200G” apstiprinātie dati: filtrācijas pakāpes: piecpakāpju RO filtrācija: PP, UDF/GAC, CTO, RO membrāna un T33 pēcfiltrs; ražība vai ietilpība: 100G vai 200G; uzkrāšanas tvertne: iebūvēta spiediena tvertne. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Filtrācijas pakāpes: piecpakāpju RO filtrācija: PP, UDF/GAC, CTO, RO membrāna un T33 pēcfiltrs
-- Ražība vai ietilpība: 100G vai 200G
-- Uzkrāšanas tvertne: iebūvēta spiediena tvertne
-- Krāsa: standarta balta krāsa; paneļa un krāsas iespējas apstiprina pasūtījuma konfigurācijā
-- Korpuss: kompakts zem izlietnes uzstādāms skapis ar integrētu filtru un tvertni
-- Uzstādīšana: uzstādīšana zem izlietnes, virtuves skapī vai dzeramā ūdens lietošanas punktā
-- Pielietojums: dzīvojamo telpu virtuves, dzīvokļi, biroju virtuves un iekārtu zīmolu programmas
-
-### Augsta blīvuma CTO oglekļa bloka filtrs
-
-- URL: https://www.yuchensy.com/lv/product-carbon-block-2.html
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “Augsta blīvuma CTO oglekļa bloka filtrs” apstiprinātie dati: blīvums: augsts blīvums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Blīvums: augsts blīvums
-
-### Rūpnieciskais CTO oglekļa bloka filtrs
-
-- URL: https://www.yuchensy.com/lv/product-carbon-block-industrial.html
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “Rūpnieciskais CTO oglekļa bloka filtrs” apstiprinātie dati: veids: presēts oglekļa bloks; pielietojuma vide: rūpnieciska vide. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Veids: presēts oglekļa bloks
-- Pielietojuma vide: rūpnieciska vide
-
-### CTO kokosriekstu čaumalu oglekļa bloka filtrs
-
-- URL: https://www.yuchensy.com/lv/product-carbon-block.html
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “CTO kokosriekstu čaumalu oglekļa bloka filtrs” apstiprinātie dati: filtrējošais materiāls: kokosriekstu čaumalu aktīvās ogles bloks; nominālā filtrācijas pakāpe: 1, 5 vai 10 μm; garums: 10 vai 20 collas; iespējams pielāgots garums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Filtrējošais materiāls: kokosriekstu čaumalu aktīvās ogles bloks
-- Nominālā filtrācijas pakāpe: 1, 5 vai 10 μm
-- Garums: 10 vai 20 collas; iespējams pielāgots garums
-- Savietojamība: RO sistēmas, galda filtri un visas ēkas filtru korpusi
-
-### Keramikas filtra kārtridžs 0,2 μm
-
-- URL: https://www.yuchensy.com/lv/product-ceramic-filter.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Keramikas filtra kārtridžs 0,2 μm” apstiprinātie dati: filtrācijas precizitāte: 0,2 μm; veids: keramika. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Filtrācijas precizitāte: 0,2 μm
-- Veids: keramika
-
-### Komerciāls RO ūdens attīrītājs ar lielu korpusu 400G-800G
-
-- URL: https://www.yuchensy.com/lv/product-commercial-big-blue-ro-water-purifier-400g-800g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāls RO ūdens attīrītājs ar lielu korpusu 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu Big Blue PP priekšfiltrs, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
-- Attīrīšanas process: 10 collu Big Blue PP priekšfiltrs, RO membrāna un T33 pēcfiltrs
-- Tīrā ūdens plūsma: 400G–800G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Komerciāla centrālā RO ūdens attīrīšanas iekārta 250-500 L/h
-
-- URL: https://www.yuchensy.com/lv/product-commercial-central-ro-water-purification-equipment-250-500lph.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāla centrālā RO ūdens attīrīšanas iekārta 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna
-- Tīrā ūdens plūsma: 250-500 L/h
-- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Komerciāls augstas plūsmas luksusa RO ūdens attīrītājs ar lieliem korpusiem 800G-1600G
-
-- URL: https://www.yuchensy.com/lv/product-commercial-high-flow-deluxe-big-blue-ro-water-purifier-800g-1600g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāls augstas plūsmas luksusa RO ūdens attīrītājs ar lieliem korpusiem 800G-1600G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar aizsardzību pret ūdens trūkumu, automātisku apturēšanu, divu ūdens kvalitātes rādījumu, darba spiediena rādījumu, filtru maiņas atgādinājumu un mikrodatora vadību; attīrīšanas process: 10 collu liela diametra PP filtrs, 10 collu liela diametra PP un ogles kompozītfiltrs, divas RO membrānas; tīrā ūdens plūsma: 800G–1600G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar aizsardzību pret ūdens trūkumu, automātisku apturēšanu, divu ūdens kvalitātes rādījumu, darba spiediena rādījumu, filtru maiņas atgādinājumu un mikrodatora vadību
-- Attīrīšanas process: 10 collu liela diametra PP filtrs, 10 collu liela diametra PP un ogles kompozītfiltrs, divas RO membrānas
-- Tīrā ūdens plūsma: 800G–1600G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Komerciāls vidēja skapja RO ūdens attīrītājs ar iebūvētu spiediena tvertni 400G-1600G
-
-- URL: https://www.yuchensy.com/lv/product-commercial-mid-cabinet-ro-water-purifier-built-in-pressure-tank-400g-1600g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāls vidēja skapja RO ūdens attīrītājs ar iebūvētu spiediena tvertni 400G-1600G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–1600G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
-- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP, RO membrāna un T33 pēcfiltrs
-- Tīrā ūdens plūsma: 400G–1600G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Iekārtas izmēri: 65 × 55 × 126 cm
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Komerciāls maza skapja RO ūdens attīrītājs 400G-1600G
-
-- URL: https://www.yuchensy.com/lv/product-commercial-small-cabinet-ro-water-purifier-400g-1600g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Komerciāls maza skapja RO ūdens attīrītājs 400G-1600G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP, RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–1600G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
-- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP, RO membrāna un T33 pēcfiltrs
-- Tīrā ūdens plūsma: 400G–1600G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Iekārtas izmēri: 55 × 35 × 96 cm
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Komerciāls nerūsējošā tērauda RO ūdens dozators E900-K27
-
-- URL: https://www.yuchensy.com/lv/product-commercial-stainless-steel-ro-water-dispenser-e900-k27.html
-- Category: Ūdens dozatori
-- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Komerciāls nerūsējošā tērauda RO ūdens dozators E900-K27” apstiprinātie dati: modelis: E900-K27; izmērs: 800 x 480 x 1520 mm; karstā ūdens tvertne: 27L. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Modelis: E900-K27
-- Izmērs: 800 x 480 x 1520 mm
-- Karstā ūdens tvertne: 27L
-- Barošanas spriegums: 220 V
-- Jauda: 3 kW
-- Ražība: karstā un siltā ūdens padeve, 120 L/h
-- Displejs: LCD ekrāns ar mikrodatora vadību
-- Ūdens izvadi: viens karstā un divi siltā ūdens izvadi
-- Krāns: vieglas nospiešanas poga
-- Materiāls: nerūsējošais tērauds ar nanopārklājumu
-- Standarta filtrācijas secība: PP un presētas aktīvās ogles filtrs; PP un RO membrāna; T33 aktīvās ogles pēcfiltrs
-- Papildu RO modulis: 400G RO attīrīšanas modulis
-- Pielietojumi: biroji, rūpnīcas, skolas un slimnīcas
-
-### Pielāgojams 5/6/7 pakāpju RO ūdens attīrītājs
-
-- URL: https://www.yuchensy.com/lv/product-custom-5-6-7-stage-ro-water-purifier.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Pielāgojams 5/6/7 pakāpju RO ūdens attīrītājs” apstiprinātie dati: materiāls: pārtikai piemēroti plastmasas korpusi, plastmasas vai metāla stiprinājums un papildu manometri; izmērs: izmēru nosaka stiprinājuma, aizmugurējās plāksnes un filtrācijas pakāpju konfigurācija; pielietojums: RO ūdens attīrītāji, ūdens dozatori, priekšfiltrācijas sistēmas, komerciāla ūdens attīrīšana un maiņas kārtridži. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Materiāls: pārtikai piemēroti plastmasas korpusi, plastmasas vai metāla stiprinājums un papildu manometri
-- Izmērs: izmēru nosaka stiprinājuma, aizmugurējās plāksnes un filtrācijas pakāpju konfigurācija
-- Pielietojums: RO ūdens attīrītāji, ūdens dozatori, priekšfiltrācijas sistēmas, komerciāla ūdens attīrīšana un maiņas kārtridži
-
-### Galda RO ūdens aparāts ar kompresora dzesēšanu 100G
-
-- URL: https://www.yuchensy.com/lv/product-desktop-ro-water-machine-compressor-cooling-100g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Galda RO ūdens aparāts ar kompresora dzesēšanu 100G” apstiprinātie dati: darbības režīms: kompresora dzesēšana auksta dzeramā ūdens padevei un stabilai galda iekārtas darbībai; attīrīšanas process: četrpakāpju filtrācija ar PP, CTO, T33 un 100G RO membrānu; tīrā ūdens plūsma: 100G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: kompresora dzesēšana auksta dzeramā ūdens padevei un stabilai galda iekārtas darbībai
-- Attīrīšanas process: četrpakāpju filtrācija ar PP, CTO, T33 un 100G RO membrānu
-- Tīrā ūdens plūsma: 100G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: biroji, izstāžu telpas, dzīvokļi, nelielas virtuves, biroju virtuves un zīmolu galda iekārtu programmas
-
-### Integrēta rāmja RO iekārta ar divu tvertņu priekšattīrīšanu 1000-3000 L/h
-
-- URL: https://www.yuchensy.com/lv/product-dual-tank-pretreatment-integrated-skid-ro-equipment.html
-- Category: Rūpnieciskās RO iekārtas
-- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Integrēta rāmja RO iekārta ar divu tvertņu priekšattīrīšanu 1000-3000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, precīzais filtrs un reversā osmoze; tīrā ūdens plūsma: 1000-3000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, precīzais filtrs un reversā osmoze
-- Tīrā ūdens plūsma: 1000-3000 L/h
-- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Integrēta rāmja RO iekārta ar divu tvertņu priekšattīrīšanu 250-1000 L/h
-
-- URL: https://www.yuchensy.com/lv/product-dual-tank-pretreatment-ro-equipment-250-1000lph.html
-- Category: Rūpnieciskās RO iekārtas
-- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Integrēta rāmja RO iekārta ar divu tvertņu priekšattīrīšanu 250-1000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, precīzais filtrs un reversā osmoze; tīrā ūdens plūsma: 250-1000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, precīzais filtrs un reversā osmoze
-- Tīrā ūdens plūsma: 250-1000 L/h
-- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: viesnīcas, darbnīcas, skolas, klīnikas, komerciālas virtuves, pazemes ūdens priekšattīrīšana un kompakti ūdens attīrīšanas projekti
-
-### Kombinētais filtra kārtridžs
-
-- URL: https://www.yuchensy.com/lv/product-filter-combo.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Kombinētais filtra kārtridžs” apstiprinātie dati: pakāpju skaits: 3–5 pakāpes; kombinācija: pielāgojama konfigurācija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma. Pakāpju secību apstiprina pēc vajadzīgās filtrācijas funkcijas un saderīgās sistēmas.
-- Pakāpju skaits: 3–5 pakāpes
-- Kombinācija: pielāgojama konfigurācija
-
-### CTO filtra kārtridžs ar plakanu gala vāciņu
-
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “CTO filtra kārtridžs ar plakanu gala vāciņu” apstiprinātie dati: veids: CTO oglekļa bloks; gala vāciņš: plakans gala vāciņš. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Veids: CTO oglekļa bloks
-- Gala vāciņš: plakans gala vāciņš
-
-### GAC filtra kārtridžs ar plakanu gala vāciņu
-
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “GAC filtra kārtridžs ar plakanu gala vāciņu” apstiprinātie dati: gala vāciņš: plakans silikona gumijas gala vāciņš; materiāls: granulēta aktīvā ogle GAC. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Gala vāciņš: plakans silikona gumijas gala vāciņš
-- Materiāls: granulēta aktīvā ogle GAC
-
-### PP filtra kārtridžs ar plakanu gala vāciņu
-
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PP filtra kārtridžs ar plakanu gala vāciņu” apstiprinātie dati: veids: kausējuma pūsts PP; gala vāciņš: plakans gala vāciņš. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Veids: kausējuma pūsts PP
-- Gala vāciņš: plakans gala vāciņš
-
-### 10 collu rāmja RO ūdens iekārta ar priekšējo paneli 400G-800G
-
-- URL: https://www.yuchensy.com/lv/product-front-panel-10-inch-frame-ro-water-machine-400g-800g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “10 collu rāmja RO ūdens iekārta ar priekšējo paneli 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
-- Attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs
-- Tīrā ūdens plūsma: 400G–800G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Horizontāla RO ūdens attīrīšanas iekārta 250 L/h
-
-- URL: https://www.yuchensy.com/lv/product-horizontal-reverse-osmosis-water-purification-equipment-250lph.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Horizontāla RO ūdens attīrīšanas iekārta 250 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 10 collu liela diametra PP filtrs, 20 collu liela diametra PP un ogles kompozītfiltrs, RO membrāna; tīrā ūdens plūsma: 250 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: 10 collu liela diametra PP filtrs, 20 collu liela diametra PP un ogles kompozītfiltrs, RO membrāna
-- Tīrā ūdens plūsma: 250 L/h
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Ūdens filtru korpusi 10 un 20 collu kasetnēm
-
-- URL: https://www.yuchensy.com/lv/product-housing-filter.html
-- Category: Ūdens filtru korpusi
-- Description: Šis ir nomaināmu filtra kārtridžu korpuss vai korpusu komplekts. Produktam “Ūdens filtru korpusi 10 un 20 collu kasetnēm” apstiprinātie dati: produkta veids: ūdens filtra korpuss; pieslēgums: 1/4, 1/2, 3/4 vai 1 collas pieslēgums; pieejama arī pielāgota versija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Produkta veids: ūdens filtra korpuss
-- Pieslēgums: 1/4, 1/2, 3/4 vai 1 collas pieslēgums; pieejama arī pielāgota versija
-
-### Inline katjonu sveķu filtrs
-
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline katjonu sveķu filtrs” apstiprinātie dati: pildījuma funkcija: ūdens mīkstināšana ar jonu apmaiņu; sveķu veids: katjonu apmaiņas sveķi. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pildījuma funkcija: ūdens mīkstināšana ar jonu apmaiņu
-- Sveķu veids: katjonu apmaiņas sveķi
-
-### Inline filtrs PP
-
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline filtrs PP” apstiprinātie dati: materiāls: polipropilēns; filtrācijas precizitāte: 5 μm. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma. Nomaiņai pārbaudiet inline korpusa savienojumu, plūsmas virzienu un uzstādīšanas vietu.
-- Materiāls: polipropilēns
-- Filtrācijas precizitāte: 5 μm
-
-### Inline filtra kārtridžs mazām molekulām
-
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline filtra kārtridžs mazām molekulām” apstiprinātie dati: pildījuma funkcija: antibakteriāla pildījuma un mineralizācijas kombinācija; pieslēgums: ātrais savienojums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pildījuma funkcija: antibakteriāla pildījuma un mineralizācijas kombinācija
-- Pieslēgums: ātrais savienojums
-
-### T33 inline filtrs ar kokosriekstu čaumalu ogli
-
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “T33 inline filtrs ar kokosriekstu čaumalu ogli” apstiprinātie dati: produkta veids: inline aktīvās ogles pēcfiltrs; filtrējošais materiāls: kokosriekstu čaumalu aktīvā ogle; savienojums: 1/4 collas ātrais savienojums vai vītņots pieslēgums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Produkta veids: inline aktīvās ogles pēcfiltrs
-- Filtrējošais materiāls: kokosriekstu čaumalu aktīvā ogle
-- Savienojums: 1/4 collas ātrais savienojums vai vītņots pieslēgums
-- Pildījuma funkcija: noslēdzoša garšas un smaržas korekcija
-- Pielietojumi: RO sistēmas, ūdens dozatori un tiešās dzeršanas iekārtas
-
-### T33 inline mineralizācijas filtrs
-
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “T33 inline mineralizācijas filtrs” apstiprinātie dati: pildījuma funkcija: mineralizācija un noslēdzoša ūdens garšas korekcija; pieslēgums: ātrais savienojums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pildījuma funkcija: mineralizācija un noslēdzoša ūdens garšas korekcija
-- Pieslēgums: ātrais savienojums
-
-### Liela rūpnieciska RO ūdens attīrīšanas iekārta 3-100 t/h
-
-- URL: https://www.yuchensy.com/lv/product-large-industrial-reverse-osmosis-water-treatment-equipment.html
-- Category: Rūpnieciskās RO iekārtas
-- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Liela rūpnieciska RO ūdens attīrīšanas iekārta 3-100 t/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: trīspakāpju priekšattīrīšana un reversā osmoze; attīrīšanas procesu nosaka pēc ūdens analīzes; tīrā ūdens plūsma: 3-100 t/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: trīspakāpju priekšattīrīšana un reversā osmoze; attīrīšanas procesu nosaka pēc ūdens analīzes
-- Tīrā ūdens plūsma: 3-100 t/h
-- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
-- Cauruļvadu materiāls: UPVC vai 304 nerūsējošais tērauds atbilstoši projekta specifikācijai
-- Aizsardzības funkcijas: aizsardzība pret darbību bez ūdens, pārslodzes aizsardzība un trauksmes saskarnes
-- Vadība: PLC vai vadības paneli konfigurē atbilstoši pircēja tehniskajām prasībām
-- Pielietojums: rūpnīcas, ūdens sagatavošanas stacijas, viesnīcas, pārtikas pārstrāde un rūpnieciska tīrā ūdens projekti
-
-### Inline maifāna akmens filtrs
-
-- URL: https://www.yuchensy.com/lv/product-maifan-inline.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline maifāna akmens filtrs” apstiprinātie dati: minerālu pildījums: maifāna akmens; pildījuma funkcija: mineralizācija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Minerālu pildījums: maifāna akmens
-- Pildījuma funkcija: mineralizācija
-
-### Vidējās pakāpes filtra kārtridžs
-
-- URL: https://www.yuchensy.com/lv/product-mid-filter.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Vidējās pakāpes filtra kārtridžs” apstiprinātie dati: izmērs: vidējs izmērs; pieslēgums: varš. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Izmērs: vidējs izmērs
-- Pieslēgums: varš
-
-### Inline mineralizācijas filtrs
-
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Inline mineralizācijas filtrs” apstiprinātie dati: pildījuma funkcija: mineralizācija; pildījuma sastāvs: kalcija, magnija un kālija minerālu pildījums. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pildījuma funkcija: mineralizācija
-- Pildījuma sastāvs: kalcija, magnija un kālija minerālu pildījums
-
-### Ūdens dozators MT-600DG
-
-- Category: Ūdens dozatori
-- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-600DG” apstiprinātie dati: montāža: montāža pie sienas; krāsa: tumši zaļa; jauda: 2200W. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Montāža: montāža pie sienas
-- Krāsa: tumši zaļa
-- Jauda: 2200W
-
-### Ūdens dozators MT-900G
-
-- Category: Ūdens dozatori
-- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-900G” apstiprinātie dati: jauda: 2200W; tilpums: 5 pakāpes; 150–850 ml; temperatūra: 25–100°C. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Jauda: 2200W
-- Tilpums: 5 pakāpes; 150–850 ml
-- Temperatūra: 25–100°C
-- Materiāls: 316L nerūsējošais tērauds
-
-### Ūdens dozators MT-B600
-
-- Category: Ūdens dozatori
-- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-B600” apstiprinātie dati: jauda: 2200W; karstā ūdens padeve: karstā ūdens padeve aptuveni 3 sekundēs; krāsa: balts stikla panelis. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Jauda: 2200W
-- Karstā ūdens padeve: karstā ūdens padeve aptuveni 3 sekundēs
-- Krāsa: balts stikla panelis
-
-### Ūdens dozators 1000W MT-DV-E600
-
-- URL: https://www.yuchensy.com/lv/product-mt-dv-e600.html
-- Category: Ūdens dozatori
-- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators 1000W MT-DV-E600” apstiprinātie dati: jauda: 1000W; tvertne: 304 nerūsējošais tērauds; displejs: digitāls LED displejs. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Jauda: 1000W
-- Tvertne: 304 nerūsējošais tērauds
-- Displejs: digitāls LED displejs
-
-### Vertikāls ūdens dozators MT-E600
-
-- URL: https://www.yuchensy.com/lv/product-mt-e600.html
-- Category: Ūdens dozatori
-- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Vertikāls ūdens dozators MT-E600” apstiprinātie dati: produkta veids: vertikāls dzeramā ūdens dozators; uzstādīšana: vertikāla uz grīdas uzstādāma iekārta; filtrācijas precizitāte: PP, CTO, GAC, UF vai RO moduļa iespējas. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Produkta veids: vertikāls dzeramā ūdens dozators
-- Uzstādīšana: vertikāla uz grīdas uzstādāma iekārta
-- Filtrācijas precizitāte: PP, CTO, GAC, UF vai RO moduļa iespējas
-- Funkcijas: istabas temperatūras, karstā vai aukstā ūdens versija atbilstoši modelim
-- Pielietojumi: biroji, skolas, klīnikas, dzīvokļi un publiskas telpas
-
-### Ūdens dozators MT-S800
-
-- Category: Ūdens dozatori
-- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-S800” apstiprinātie dati: jauda: 2200W; karstā ūdens padeve: karstā ūdens padeve aptuveni 3 sekundēs; krāsa: zelta krāsas stikla panelis. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Jauda: 2200W
-- Karstā ūdens padeve: karstā ūdens padeve aptuveni 3 sekundēs
-- Krāsa: zelta krāsas stikla panelis
-
-### Ūdens dozators MT-V-E300A
-
-- URL: https://www.yuchensy.com/lv/product-mt-v-e300a.html
-- Category: Ūdens dozatori
-- Description: Šis modelis paredzēts dzeramā ūdens padevei komerciālā vidē. Produktam “Ūdens dozators MT-V-E300A” apstiprinātie dati: veids: vertikāla iekārta; tvertne: 304 nerūsējošais tērauds; krāsa: melna vai balta. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Veids: vertikāla iekārta
-- Tvertne: 304 nerūsējošais tērauds
-- Krāsa: melna vai balta
-
-### Pārnēsājams pielāgojams RO ūdens attīrītājs 400G-800G
-
-- URL: https://www.yuchensy.com/lv/product-portable-custom-ro-water-purifier-400g-800g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Pārnēsājams pielāgojams RO ūdens attīrītājs 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: integrēts ātri savienojams PP nogulšņu filtrs un 3013 RO membrāna; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
-- Attīrīšanas process: integrēts ātri savienojams PP nogulšņu filtrs un 3013 RO membrāna
-- Tīrā ūdens plūsma: 400G–800G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### T33 pēcfiltrs ar aktīvo ogli
-
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “T33 pēcfiltrs ar aktīvo ogli” apstiprinātie dati: pozīcija sistēmā: noslēdzošā pakāpe; materiāls: aktīvā ogle. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pozīcija sistēmā: noslēdzošā pakāpe
-- Materiāls: aktīvā ogle
-
-### PP filtra kārtridžs ar ribotu gala vāciņu
-
-- URL: https://www.yuchensy.com/lv/product-pp-fin-cap.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PP filtra kārtridžs ar ribotu gala vāciņu” apstiprinātie dati: gala vāciņa veids: ribots gala vāciņš; materiāls: polipropilēns. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Gala vāciņa veids: ribots gala vāciņš
-- Materiāls: polipropilēns
-
-### PP filtra kārtridžs ar silikona blīvgredzenu
-
-- URL: https://www.yuchensy.com/lv/product-pp-silicon-ring.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PP filtra kārtridžs ar silikona blīvgredzenu” apstiprinātie dati: blīvgredzens: pārtikai piemērots silikons; materiāls: polipropilēns. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Blīvgredzens: pārtikai piemērots silikons
-- Materiāls: polipropilēns
-
-### Rūpnieciskais filtrs PP SOE/DOE
-
-- URL: https://www.yuchensy.com/lv/product-pp-soe-doe.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Rūpnieciskais filtrs PP SOE/DOE” apstiprinātie dati: veids: SOE/DOE gala konfigurācija; materiāls: polipropilēns; pielietojuma vide: rūpnieciska vide. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Veids: SOE/DOE gala konfigurācija
-- Materiāls: polipropilēns
-- Pielietojuma vide: rūpnieciska vide
-
-### PP kausējuma pūstā nogulšņu filtra kārtridžs
-
-- URL: https://www.yuchensy.com/lv/product-pp-spun.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PP kausējuma pūstā nogulšņu filtra kārtridžs” apstiprinātie dati: materiāls: pārtikai piemērots polipropilēns; nominālā filtrācijas pakāpe: 1, 3, 5, 10, 20 vai 50 μm; garums: 10, 20, 30 vai 40 collas pēc pieprasījuma. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Materiāls: pārtikai piemērots polipropilēns
-- Nominālā filtrācijas pakāpe: 1, 3, 5, 10, 20 vai 50 μm
-- Garums: 10, 20, 30 vai 40 collas pēc pieprasījuma
-- Ārējais diametrs: standarta ārējais diametrs 2,5 collas; pieejamas arī Jumbo versijas
-
-### PPF nogulšņu filtra kārtridžs
-
-- URL: https://www.yuchensy.com/lv/product-ppf-cartridge.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “PPF nogulšņu filtra kārtridžs” apstiprinātie dati: materiāls: PP šķiedra; pildījuma funkcija: nogulšņu filtrācija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Materiāls: PP šķiedra
-- Pildījuma funkcija: nogulšņu filtrācija
-
-### UDF granulētās aktīvās ogles priekšfiltrs
-
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “UDF granulētās aktīvās ogles priekšfiltrs” apstiprinātie dati: pozīcija sistēmā: priekšfiltrs; materiāls: granulēta aktīvā ogle GAC. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pozīcija sistēmā: priekšfiltrs
-- Materiāls: granulēta aktīvā ogle GAC
-
-### RO ūdens attīrīšanas iekārta ar precīzo filtru 250-1000 L/h
-
-- URL: https://www.yuchensy.com/lv/product-precision-filter-ro-water-purification-equipment-250-1000lph.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “RO ūdens attīrīšanas iekārta ar precīzo filtru 250-1000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: precīzais filtrs un RO membrāna; tīrā ūdens plūsma: 250-1000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: precīzais filtrs un RO membrāna
-- Tīrā ūdens plūsma: 250-1000 L/h
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Piecu pakāpju RO ūdens attīrītājs bez sūkņa
-
-- URL: https://www.yuchensy.com/lv/product-pump-free-five-stage-ro-water-purifier.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Piecu pakāpju RO ūdens attīrītājs bez sūkņa” apstiprinātie dati: sistēmas veids: piecpakāpju RO ūdens attīrītājs bez paaugstināšanas sūkņa; filtrācijas pakāpes: PP, UDF/GAC, CTO, RO membrāna un T33 pēcfiltrs; ievades ūdens: ūdensvada ūdens ar stabilu spiedienu, kas jāpārbauda uzstādīšanas vietā. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Sistēmas veids: piecpakāpju RO ūdens attīrītājs bez paaugstināšanas sūkņa
-- Filtrācijas pakāpes: PP, UDF/GAC, CTO, RO membrāna un T33 pēcfiltrs
-- Ievades ūdens: ūdensvada ūdens ar stabilu spiedienu, kas jāpārbauda uzstādīšanas vietā
-- Uzstādīšana: zem izlietnes vai pie sienas
-
-### Sveķu filtra kārtridžs ūdens mīkstināšanai
-
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Sveķu filtra kārtridžs ūdens mīkstināšanai” apstiprinātie dati: pildījuma funkcija: ūdens mīkstināšana ar jonu apmaiņu. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pildījuma funkcija: ūdens mīkstināšana ar jonu apmaiņu
-
-### Augstas plūsmas RO membrānas elements 400 GPD
-
-- URL: https://www.yuchensy.com/lv/product-ro-membrane-400g.html
-- Category: RO membrānu elementi
-- Description: Šis ir reversās osmozes membrānas elements. Produktam “Augstas plūsmas RO membrānas elements 400 GPD” apstiprinātie dati: ražība vai ietilpība: 400 GPD; veids: sausa membrāna. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Ražība vai ietilpība: 400 GPD
-- Veids: sausa membrāna
-
-### RO membrānas elements 50–400 GPD
-
-- URL: https://www.yuchensy.com/lv/product-ro-membrane.html
-- Category: RO membrānu elementi
-- Description: Šis ir reversās osmozes membrānas elements. Produktam “RO membrānas elements 50–400 GPD” apstiprinātie dati: membrānas veids: TFC poliamīda RO membrāna; ražība vai ietilpība: 50, 75, 100, 200 vai 400 GPD iespējas; izmantošana: maiņas elements RO sistēmām. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Membrānas veids: TFC poliamīda RO membrāna
-- Ražība vai ietilpība: 50, 75, 100, 200 vai 400 GPD iespējas
-- Izmantošana: maiņas elements RO sistēmām
-
-### RO iekārta jūras ūdens atsāļošanai 1–5 t/h
-
-- URL: https://www.yuchensy.com/lv/product-ro-seawater-desalination-machine.html
-- Category: Rūpnieciskās RO iekārtas
-- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “RO iekārta jūras ūdens atsāļošanai 1–5 t/h” apstiprinātie dati: ražība vai ietilpība: 1, 2, 3 vai 5 t/h; lielāku ražību nosaka projektā; materiāls: nerūsējošā tērauda rāmis, FRP vai nerūsējošā tērauda tvertnes, PVC cauruļvadi, RO membrānu korpusi un rūpnieciskās vadības komponenti; priekšattīrīšana: kvarca smilšu filtrs, aktīvās ogles filtrs, mīkstinātājs, precīzais jeb drošības filtrs un dozēšanas sistēma. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Ražība vai ietilpība: 1, 2, 3 vai 5 t/h; lielāku ražību nosaka projektā
-- Materiāls: nerūsējošā tērauda rāmis, FRP vai nerūsējošā tērauda tvertnes, PVC cauruļvadi, RO membrānu korpusi un rūpnieciskās vadības komponenti
-- Priekšattīrīšana: kvarca smilšu filtrs, aktīvās ogles filtrs, mīkstinātājs, precīzais jeb drošības filtrs un dozēšanas sistēma
-- Pielietojums: jūras ūdens atsāļošana, iesāļa ūdens attīrīšana, komerciāla ūdens attīrīšana un rūpniecisko procesu ūdens sagatavošana
-
-### Zem izlietnes uzstādāms RO ūdens filtrs
-
-- URL: https://www.yuchensy.com/lv/product-ro-undersink.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Zem izlietnes uzstādāms RO ūdens filtrs” apstiprinātie dati: pakāpju skaits: vairākpakāpju sistēma; veids: nav nepieciešams paaugstināšanas sūknis; membrāna: RO membrāna 75 GPD. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pakāpju skaits: vairākpakāpju sistēma
-- Veids: nav nepieciešams paaugstināšanas sūknis
-- Membrāna: RO membrāna 75 GPD
-
-### Vienkārša tipa RO ūdens attīrīšanas iekārta 250-1000 L/h
-
-- URL: https://www.yuchensy.com/lv/product-simple-type-reverse-osmosis-water-purification-equipment-250-1000lph.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Vienkārša tipa RO ūdens attīrīšanas iekārta 250-1000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna; tīrā ūdens plūsma: 250-1000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna
-- Tīrā ūdens plūsma: 250-1000 L/h
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Vienas tvertnes RO iekārta ar lielu 20 collu PP priekšfiltru 250-500 L/h
-
-- URL: https://www.yuchensy.com/lv/product-single-tank-big-blue-pp-ro-equipment-250-500lph.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Vienas tvertnes RO iekārta ar lielu 20 collu PP priekšfiltru 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 20 collu Big Blue PP priekšfiltrs un RO membrāna; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: 20 collu Big Blue PP priekšfiltrs un RO membrāna
-- Tīrā ūdens plūsma: 250-500 L/h
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Vienas tvertnes integrēta RO ūdens attīrīšanas un padeves iekārta 250-500 L/h
-
-- URL: https://www.yuchensy.com/lv/product-single-tank-integrated-ro-water-purification-supply-equipment-250-500lph.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Vienas tvertnes integrēta RO ūdens attīrīšanas un padeves iekārta 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: ievades ūdens sūknis, automātisks smilšu un aktīvās ogles filtrs, 20 collu PP filtrs, RO membrāna, nerūsējošā tērauda tīrā ūdens tvertne un frekvenču vadīts padeves sūknis; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: ievades ūdens sūknis, automātisks smilšu un aktīvās ogles filtrs, 20 collu PP filtrs, RO membrāna, nerūsējošā tērauda tīrā ūdens tvertne un frekvenču vadīts padeves sūknis
-- Tīrā ūdens plūsma: 250-500 L/h
-- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Vienas tvertnes priekšattīrīšanas RO iekārta 250-500 L/h
-
-- URL: https://www.yuchensy.com/lv/product-single-tank-pretreatment-ro-equipment-250-500lph.html
-- Category: Rūpnieciskās RO iekārtas
-- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Vienas tvertnes priekšattīrīšanas RO iekārta 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: automātisks smilšu un aktīvās ogles filtrs, divi 20 collu PP filtri un RO pakāpe; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: automātisks smilšu un aktīvās ogles filtrs, divi 20 collu PP filtri un RO pakāpe
-- Tīrā ūdens plūsma: 250-500 L/h
-- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Sešu korpusu RO iekārta ar tīra ūdens tvertni 250-1000 L/h
-
-- URL: https://www.yuchensy.com/lv/product-six-housing-ro-equipment-with-pure-water-tank-250-1000lph.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Sešu korpusu RO iekārta ar tīra ūdens tvertni 250-1000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna; tīrā ūdens plūsma: 250-1000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: 20 collu PP, 20 collu CTO, 20 collu PP un RO membrāna
-- Tīrā ūdens plūsma: 250-1000 L/h
-- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Šaura RO ūdens attīrīšanas iekārta 250-500 L/h
-
-- URL: https://www.yuchensy.com/lv/product-slim-reverse-osmosis-water-purification-equipment-250-500lph.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Šaura RO ūdens attīrīšanas iekārta 250-500 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: PP nogulšņu kārtridžs, aktīvās ogles kārtridžs un RO membrāna; tīrā ūdens plūsma: 250-500 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: PP nogulšņu kārtridžs, aktīvās ogles kārtridžs un RO membrāna
-- Tīrā ūdens plūsma: 250-500 L/h
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Maza un vidēja RO iekārta jūras ūdens atsāļošanai
-
-- URL: https://www.yuchensy.com/lv/product-small-medium-seawater-desalination-ro-equipment.html
-- Category: Rūpnieciskās RO iekārtas
-- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Maza un vidēja RO iekārta jūras ūdens atsāļošanai” apstiprinātie dati: produkta modelis: maza vai vidēja jūras ūdens atsāļošanas iekārta; ievades ūdens sāļums: 10000-45000 ppm; ievades ūdens temperatūra: 2–40 °C. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Produkta modelis: maza vai vidēja jūras ūdens atsāļošanas iekārta
-- Ievades ūdens sāļums: 10000-45000 ppm
-- Ievades ūdens temperatūra: 2–40 °C
-- Attīrītā ūdens plūsma: 60–10 000 L/h
-- Attīrītā ūdens sāļums: ≤750 ppm
-- Attīrīšanas process: trīspakāpju priekšattīrīšana un reversā osmoze; procesu nosaka pēc ūdens analīzes
-- Vadība un aizsardzība: automātiska darbība, aizsardzība pret darbību bez ūdens un pārslodzi; funkcijas izvēlas atbilstoši projektam
-- Pielietojums: jūras un iesāļa ūdens atsāļošana piekrastes, salu, kuģu un projektu ūdensapgādei
-
-### Viedais RO ūdens attīrītājs 400G-1200G
-
-- URL: https://www.yuchensy.com/lv/product-smart-ro-water-purifier-400g-1200g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “Viedais RO ūdens attīrītājs 400G-1200G” apstiprinātie dati: tīrā ūdens plūsma: 400G, 600G, 800G vai 1200G atbilstoši pasūtījuma konfigurācijai; pielietojums: uzstādīšana zem izlietnes vai uz darba virsmas; attīrīšanas process: PP nogulšņu filtrācija, aktīvās ogles priekšfiltrācija, RO membrāna un ogles pēcfiltrs; secību precizē atbilstoši projektam. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Tīrā ūdens plūsma: 400G, 600G, 800G vai 1200G atbilstoši pasūtījuma konfigurācijai
-- Pielietojums: uzstādīšana zem izlietnes vai uz darba virsmas
-- Attīrīšanas process: PP nogulšņu filtrācija, aktīvās ogles priekšfiltrācija, RO membrāna un ogles pēcfiltrs; secību precizē atbilstoši projektam
-- Ievades ūdens: pašvaldības ūdensvada ūdens; ieplūdes apstākļi jāpārbauda pirms piedāvājuma
-
-### 304 nerūsējošā tērauda filtra korpuss
-
-- URL: https://www.yuchensy.com/lv/product-ss-jumbo-housing.html
-- Category: Ūdens filtru korpusi
-- Description: Šis ir nomaināmu filtra kārtridžu korpuss vai korpusu komplekts. Produktam “304 nerūsējošā tērauda filtra korpuss” apstiprinātie dati: materiāls: SUS 304 nerūsējošais tērauds; SUS 316L ir papildu materiāla iespēja īpašiem projektiem; garums: 10, 20 collu, Jumbo vai pielāgota versija; savienojums: NPT vai BSP vītnes iespējas. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Materiāls: SUS 304 nerūsējošais tērauds; SUS 316L ir papildu materiāla iespēja īpašiem projektiem
-- Garums: 10, 20 collu, Jumbo vai pielāgota versija
-- Savienojums: NPT vai BSP vītnes iespējas
-- Piemērotie kārtridži: PP, CTO, GAC, UF un speciālie kārtridži
-- Pielietojumi: komerciāla, rūpnieciska un augstas plūsmas filtrācija
-
-### T33 pēcfiltrs garšas korekcijai
-
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “T33 pēcfiltrs garšas korekcijai” apstiprinātie dati: pozīcija sistēmā: pēcfiltrs; pildījuma funkcija: noslēdzoša ūdens garšas korekcija. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pozīcija sistēmā: pēcfiltrs
-- Pildījuma funkcija: noslēdzoša ūdens garšas korekcija
-
-### 10 collu RO ūdens iekārta ar pastiprinātu nerūsējošā tērauda rāmi 400G-800G
-
-- URL: https://www.yuchensy.com/lv/product-thickened-stainless-steel-10-inch-frame-ro-water-machine-400g-800g.html
-- Category: RO ūdens attīrītāji
-- Description: Šo sistēmu konfigurē dzeramā ūdens sagatavošanai ar reverso osmozi. Produktam “10 collu RO ūdens iekārta ar pastiprinātu nerūsējošā tērauda rāmi 400G-800G” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību; attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs; tīrā ūdens plūsma: 400G–800G. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar mikrodatora vadību
-- Attīrīšanas process: 10 collu PP, 10 collu UDF, 10 collu PP, 3012 RO membrāna un T33 pēcfiltrs
-- Tīrā ūdens plūsma: 400G–800G
-- Ievades ūdens: pašvaldības ūdensvada ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### Integrēta rāmja RO iekārta ar trīs tvertņu priekšattīrīšanu 1000-3000 L/h
-
-- URL: https://www.yuchensy.com/lv/product-three-tank-pretreatment-integrated-skid-ro-equipment.html
-- Category: Rūpnieciskās RO iekārtas
-- Description: Šo iekārtu konfigurē rūpnieciskās ūdens attīrīšanas projektam. Produktam “Integrēta rāmja RO iekārta ar trīs tvertņu priekšattīrīšanu 1000-3000 L/h” apstiprinātie dati: darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām; attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, mīkstinātājs, precīzais filtrs un reversā osmoze; tīrā ūdens plūsma: 1000-3000 L/h. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Darbības režīms: pilnībā automātiska darbība ar manuālu servisa režīmu atbilstoši projekta prasībām
-- Attīrīšanas process: automātisks smilšu filtrs, aktīvās ogles filtrs, mīkstinātājs, precīzais filtrs un reversā osmoze
-- Tīrā ūdens plūsma: 1000-3000 L/h
-- Ievades ūdens: ūdensvada ūdens vai pazemes ūdens
-- Ievades ūdens spiediens: 0,1–0,4 MPa
-- Pielietojums: komerciāli dzeramā ūdens un ūdens attīrīšanas projekti
-
-### UDF granulētās aktīvās ogles filtra kārtridžs
-
-- Category: Aktīvās ogles filtra kārtridži
-- Description: Šis ir aktīvās ogles filtrācijas elements. Produktam “UDF granulētās aktīvās ogles filtra kārtridžs” apstiprinātie dati: filtrējošais materiāls: granulēta aktīvā ogle; ārējais korpuss: pārtikai piemērots PP; garums: 10 vai 20 collas. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Filtrējošais materiāls: granulēta aktīvā ogle
-- Ārējais korpuss: pārtikai piemērots PP
-- Garums: 10 vai 20 collas
-- Pozīcija sistēmā: aktīvās ogles priekšfiltra vai pēcfiltra pakāpe
-
-### UF filtra kārtridžs ar dobās šķiedras membrānu
-
-- URL: https://www.yuchensy.com/lv/product-uf-cartridge.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “UF filtra kārtridžs ar dobās šķiedras membrānu” apstiprinātie dati: membrāna: dobā šķiedra; filtrācijas precizitāte: 0,01 μm. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Membrāna: dobā šķiedra
-- Filtrācijas precizitāte: 0,01 μm
-
-### Dobās šķiedras UF membrānas filtrs
-
-- URL: https://www.yuchensy.com/lv/product-uf-filter-2.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Dobās šķiedras UF membrānas filtrs” apstiprinātie dati: membrāna: dobās šķiedras UF membrāna; nominālais poru izmērs: 0,01 μm klase; darbības princips: darbība ar spiedienu vai gravitācijas plūsmu atbilstoši konstrukcijai. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Membrāna: dobās šķiedras UF membrāna
-- Nominālais poru izmērs: 0,01 μm klase
-- Darbības princips: darbība ar spiedienu vai gravitācijas plūsmu atbilstoši konstrukcijai
-- Pielietojumi: ūdens attīrītāja kārtridži, dozatori un virtuves filtri
-
-### Ultrasmalkas membrānas filtra kārtridžs 0,01 μm
-
-- URL: https://www.yuchensy.com/lv/product-ultra-film.html
-- Category: Filtra kārtridži un membrānas
-- Description: Šis ir nomaināms ūdens filtrācijas elements. Produktam “Ultrasmalkas membrānas filtra kārtridžs 0,01 μm” apstiprinātie dati: veids: ultrasmalka membrāna; filtrācijas precizitāte: 0,01 μm. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Veids: ultrasmalka membrāna
-- Filtrācijas precizitāte: 0,01 μm
-
-### Daudzpakāpju ūdens attīrītājs ar UV
-
-- URL: https://www.yuchensy.com/lv/product-uv-purifier.html
-- Category: Dzeramā ūdens attīrītāji
-- Description: Šis ir daudzpakāpju dzeramā ūdens attīrīšanas produkts. Produktam “Daudzpakāpju ūdens attīrītājs ar UV” apstiprinātie dati: pakāpju skaits: trīs filtrācijas pakāpes un UV; uv pakāpe: UV-C pakāpe. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Pakāpju skaits: trīs filtrācijas pakāpes un UV
-- UV pakāpe: UV-C pakāpe
-
-### Piecu pakāpju ūdens attīrītājs ar maifāna akmeni
-
-- URL: https://www.yuchensy.com/lv/product-water-purifier-maifan.html
-- Category: Dzeramā ūdens attīrītāji
-- Description: Šis ir daudzpakāpju dzeramā ūdens attīrīšanas produkts. Produktam “Piecu pakāpju ūdens attīrītājs ar maifāna akmeni” apstiprinātie dati: minerālu pildījums: maifāna akmens; pakāpju skaits: piecas pakāpes. Precīzo versiju pārbauda pēc lietojuma, sistēmas savietojamības un rakstiskā tehniskā piedāvājuma.
-- Minerālu pildījums: maifāna akmens
-- Pakāpju skaits: piecas pakāpes
-
-## Interpretation limits
-
-- Photographs can show optional configurations; visible accessories are not automatically standard equipment.
-- Unknown technical, performance, certification and commercial values are intentionally omitted.
-- Confirm the selected model, application, quantity, packaging and destination in the written quotation.
-
-
-
+<!-- PRODUCT_TAXONOMY_V2_START -->
+## Canonical product discovery
 <!-- SANYISHUI_CATALOG_START -->
-## Yuchen Water English Product Portfolio
-- Unified product center: https://www.yuchensy.com/en/products.html
-- Yuchen Water OEM collection: https://www.yuchensy.com/en/sanyishui-products.html
-- Download the English PDF catalog: https://www.yuchensy.com/en/sanyishui-catalog.html
-- Product families: instant heating dispensers; bayonet-lock, quick-connect, flat-end, plug-in, female-threaded, functional-media and Big Blue filter cartridges.
-- Product brand and website organization: Yuchen Water.
-- Instant Heating Water Dispensers: https://www.yuchensy.com/en/sanyishui-products.html#pipeline
-- Bayonet-Lock Filter Cartridges: https://www.yuchensy.com/en/sanyishui-products.html#bayonet
-- Korean-Type Quick-Connect Inline Filter Cartridges: https://www.yuchensy.com/en/sanyishui-products.html#korean_quick
-- Korean-Type Quick-Connect Inline Filter Cartridges – Series 2: https://www.yuchensy.com/en/sanyishui-products.html#korean_quick_2
-- Flat-End Filter Cartridges: https://www.yuchensy.com/en/sanyishui-products.html#flat_end
-- Plug-In Water Purifier Filter Cartridges: https://www.yuchensy.com/en/sanyishui-products.html#plug_in
-- Female-Threaded Inline Filter Cartridges: https://www.yuchensy.com/en/sanyishui-products.html#female_thread
-- Mineralization, Scale-Inhibition & Resin Cartridges: https://www.yuchensy.com/en/sanyishui-products.html#functional
-- Big Blue Filter Cartridges: https://www.yuchensy.com/en/sanyishui-products.html#big_blue
-### OEM filter selection guides
-- PP Melt-Blown Sediment Filter Cartridge Selection Guide: https://www.yuchensy.com/en/pp-melt-blown-filter-cartridge.html
-- UDF Granular Activated Carbon Filter Cartridge Selection Guide: https://www.yuchensy.com/en/gac-udf-filter-cartridge.html
-- CTO Compressed & PCO Sintered Carbon Filter Selection Guide: https://www.yuchensy.com/en/cto-carbon-block-filter.html
-- T33 Coconut-Shell Post-Carbon Filter Cartridge Selection Guide: https://www.yuchensy.com/en/t33-inline-filter.html
-- Big Blue PP, UDF, CTO, PCO & Composite Filter Selection Guide: https://www.yuchensy.com/en/big-blue-filter-cartridge-selection-guide.html
-- Quick-Connect & Female-Threaded Filter Cartridge Selection Guide: https://www.yuchensy.com/en/quick-connect-filter-cartridge-selection-guide.html
-- Mineralization, Scale-Inhibition & Cation Resin Filter Selection Guide: https://www.yuchensy.com/en/mineralization-scale-inhibition-resin-filter-guide.html
-### Language product centers
-- af: https://www.yuchensy.com/af/products.html · https://www.yuchensy.com/af/sanyishui-products.html
-  - af guide: https://www.yuchensy.com/af/pp-melt-blown-filter-cartridge.html
-  - af guide: https://www.yuchensy.com/af/gac-udf-filter-cartridge.html
-  - af guide: https://www.yuchensy.com/af/cto-carbon-block-filter.html
-  - af guide: https://www.yuchensy.com/af/t33-inline-filter.html
-  - af guide: https://www.yuchensy.com/af/big-blue-filter-cartridge-selection-guide.html
-  - af guide: https://www.yuchensy.com/af/quick-connect-filter-cartridge-selection-guide.html
-  - af guide: https://www.yuchensy.com/af/mineralization-scale-inhibition-resin-filter-guide.html
-- ar: https://www.yuchensy.com/ar/products.html · https://www.yuchensy.com/ar/sanyishui-products.html
-  - ar guide: https://www.yuchensy.com/ar/pp-melt-blown-filter-cartridge.html
-  - ar guide: https://www.yuchensy.com/ar/gac-udf-filter-cartridge.html
-  - ar guide: https://www.yuchensy.com/ar/cto-carbon-block-filter.html
-  - ar guide: https://www.yuchensy.com/ar/t33-inline-filter.html
-  - ar guide: https://www.yuchensy.com/ar/big-blue-filter-cartridge-selection-guide.html
-  - ar guide: https://www.yuchensy.com/ar/quick-connect-filter-cartridge-selection-guide.html
-  - ar guide: https://www.yuchensy.com/ar/mineralization-scale-inhibition-resin-filter-guide.html
-- az: https://www.yuchensy.com/az/products.html · https://www.yuchensy.com/az/sanyishui-products.html
-  - az guide: https://www.yuchensy.com/az/pp-melt-blown-filter-cartridge.html
-  - az guide: https://www.yuchensy.com/az/gac-udf-filter-cartridge.html
-  - az guide: https://www.yuchensy.com/az/cto-carbon-block-filter.html
-  - az guide: https://www.yuchensy.com/az/t33-inline-filter.html
-  - az guide: https://www.yuchensy.com/az/big-blue-filter-cartridge-selection-guide.html
-  - az guide: https://www.yuchensy.com/az/quick-connect-filter-cartridge-selection-guide.html
-  - az guide: https://www.yuchensy.com/az/mineralization-scale-inhibition-resin-filter-guide.html
-- bg: https://www.yuchensy.com/bg/products.html · https://www.yuchensy.com/bg/sanyishui-products.html
-  - bg guide: https://www.yuchensy.com/bg/pp-melt-blown-filter-cartridge.html
-  - bg guide: https://www.yuchensy.com/bg/gac-udf-filter-cartridge.html
-  - bg guide: https://www.yuchensy.com/bg/cto-carbon-block-filter.html
-  - bg guide: https://www.yuchensy.com/bg/t33-inline-filter.html
-  - bg guide: https://www.yuchensy.com/bg/big-blue-filter-cartridge-selection-guide.html
-  - bg guide: https://www.yuchensy.com/bg/quick-connect-filter-cartridge-selection-guide.html
-  - bg guide: https://www.yuchensy.com/bg/mineralization-scale-inhibition-resin-filter-guide.html
-- bn: https://www.yuchensy.com/bn/products.html · https://www.yuchensy.com/bn/sanyishui-products.html
-  - bn guide: https://www.yuchensy.com/bn/pp-melt-blown-filter-cartridge.html
-  - bn guide: https://www.yuchensy.com/bn/gac-udf-filter-cartridge.html
-  - bn guide: https://www.yuchensy.com/bn/cto-carbon-block-filter.html
-  - bn guide: https://www.yuchensy.com/bn/t33-inline-filter.html
-  - bn guide: https://www.yuchensy.com/bn/big-blue-filter-cartridge-selection-guide.html
-  - bn guide: https://www.yuchensy.com/bn/quick-connect-filter-cartridge-selection-guide.html
-  - bn guide: https://www.yuchensy.com/bn/mineralization-scale-inhibition-resin-filter-guide.html
-- bs: https://www.yuchensy.com/bs/products.html · https://www.yuchensy.com/bs/sanyishui-products.html
-  - bs guide: https://www.yuchensy.com/bs/pp-melt-blown-filter-cartridge.html
-  - bs guide: https://www.yuchensy.com/bs/gac-udf-filter-cartridge.html
-  - bs guide: https://www.yuchensy.com/bs/cto-carbon-block-filter.html
-  - bs guide: https://www.yuchensy.com/bs/t33-inline-filter.html
-  - bs guide: https://www.yuchensy.com/bs/big-blue-filter-cartridge-selection-guide.html
-  - bs guide: https://www.yuchensy.com/bs/quick-connect-filter-cartridge-selection-guide.html
-  - bs guide: https://www.yuchensy.com/bs/mineralization-scale-inhibition-resin-filter-guide.html
-- cs: https://www.yuchensy.com/cs/products.html · https://www.yuchensy.com/cs/sanyishui-products.html
-  - cs guide: https://www.yuchensy.com/cs/pp-melt-blown-filter-cartridge.html
-  - cs guide: https://www.yuchensy.com/cs/gac-udf-filter-cartridge.html
-  - cs guide: https://www.yuchensy.com/cs/cto-carbon-block-filter.html
-  - cs guide: https://www.yuchensy.com/cs/t33-inline-filter.html
-  - cs guide: https://www.yuchensy.com/cs/big-blue-filter-cartridge-selection-guide.html
-  - cs guide: https://www.yuchensy.com/cs/quick-connect-filter-cartridge-selection-guide.html
-  - cs guide: https://www.yuchensy.com/cs/mineralization-scale-inhibition-resin-filter-guide.html
-- da: https://www.yuchensy.com/da/products.html · https://www.yuchensy.com/da/sanyishui-products.html
-  - da guide: https://www.yuchensy.com/da/pp-melt-blown-filter-cartridge.html
-  - da guide: https://www.yuchensy.com/da/gac-udf-filter-cartridge.html
-  - da guide: https://www.yuchensy.com/da/cto-carbon-block-filter.html
-  - da guide: https://www.yuchensy.com/da/t33-inline-filter.html
-  - da guide: https://www.yuchensy.com/da/big-blue-filter-cartridge-selection-guide.html
-  - da guide: https://www.yuchensy.com/da/quick-connect-filter-cartridge-selection-guide.html
-  - da guide: https://www.yuchensy.com/da/mineralization-scale-inhibition-resin-filter-guide.html
-- de: https://www.yuchensy.com/de/products.html · https://www.yuchensy.com/de/sanyishui-products.html
-  - de guide: https://www.yuchensy.com/de/pp-melt-blown-filter-cartridge.html
-  - de guide: https://www.yuchensy.com/de/gac-udf-filter-cartridge.html
-  - de guide: https://www.yuchensy.com/de/cto-carbon-block-filter.html
-  - de guide: https://www.yuchensy.com/de/t33-inline-filter.html
-  - de guide: https://www.yuchensy.com/de/big-blue-filter-cartridge-selection-guide.html
-  - de guide: https://www.yuchensy.com/de/quick-connect-filter-cartridge-selection-guide.html
-  - de guide: https://www.yuchensy.com/de/mineralization-scale-inhibition-resin-filter-guide.html
-- el: https://www.yuchensy.com/el/products.html · https://www.yuchensy.com/el/sanyishui-products.html
-  - el guide: https://www.yuchensy.com/el/pp-melt-blown-filter-cartridge.html
-  - el guide: https://www.yuchensy.com/el/gac-udf-filter-cartridge.html
-  - el guide: https://www.yuchensy.com/el/cto-carbon-block-filter.html
-  - el guide: https://www.yuchensy.com/el/t33-inline-filter.html
-  - el guide: https://www.yuchensy.com/el/big-blue-filter-cartridge-selection-guide.html
-  - el guide: https://www.yuchensy.com/el/quick-connect-filter-cartridge-selection-guide.html
-  - el guide: https://www.yuchensy.com/el/mineralization-scale-inhibition-resin-filter-guide.html
-- en: https://www.yuchensy.com/en/products.html · https://www.yuchensy.com/en/sanyishui-products.html
-  - en guide: https://www.yuchensy.com/en/pp-melt-blown-filter-cartridge.html
-  - en guide: https://www.yuchensy.com/en/gac-udf-filter-cartridge.html
-  - en guide: https://www.yuchensy.com/en/cto-carbon-block-filter.html
-  - en guide: https://www.yuchensy.com/en/t33-inline-filter.html
-  - en guide: https://www.yuchensy.com/en/big-blue-filter-cartridge-selection-guide.html
-  - en guide: https://www.yuchensy.com/en/quick-connect-filter-cartridge-selection-guide.html
-  - en guide: https://www.yuchensy.com/en/mineralization-scale-inhibition-resin-filter-guide.html
-- es: https://www.yuchensy.com/es/products.html · https://www.yuchensy.com/es/sanyishui-products.html
-  - es guide: https://www.yuchensy.com/es/pp-melt-blown-filter-cartridge.html
-  - es guide: https://www.yuchensy.com/es/gac-udf-filter-cartridge.html
-  - es guide: https://www.yuchensy.com/es/cto-carbon-block-filter.html
-  - es guide: https://www.yuchensy.com/es/t33-inline-filter.html
-  - es guide: https://www.yuchensy.com/es/big-blue-filter-cartridge-selection-guide.html
-  - es guide: https://www.yuchensy.com/es/quick-connect-filter-cartridge-selection-guide.html
-  - es guide: https://www.yuchensy.com/es/mineralization-scale-inhibition-resin-filter-guide.html
-- et: https://www.yuchensy.com/et/products.html · https://www.yuchensy.com/et/sanyishui-products.html
-  - et guide: https://www.yuchensy.com/et/pp-melt-blown-filter-cartridge.html
-  - et guide: https://www.yuchensy.com/et/gac-udf-filter-cartridge.html
-  - et guide: https://www.yuchensy.com/et/cto-carbon-block-filter.html
-  - et guide: https://www.yuchensy.com/et/t33-inline-filter.html
-  - et guide: https://www.yuchensy.com/et/big-blue-filter-cartridge-selection-guide.html
-  - et guide: https://www.yuchensy.com/et/quick-connect-filter-cartridge-selection-guide.html
-  - et guide: https://www.yuchensy.com/et/mineralization-scale-inhibition-resin-filter-guide.html
-- fa: https://www.yuchensy.com/fa/products.html · https://www.yuchensy.com/fa/sanyishui-products.html
-  - fa guide: https://www.yuchensy.com/fa/pp-melt-blown-filter-cartridge.html
-  - fa guide: https://www.yuchensy.com/fa/gac-udf-filter-cartridge.html
-  - fa guide: https://www.yuchensy.com/fa/cto-carbon-block-filter.html
-  - fa guide: https://www.yuchensy.com/fa/t33-inline-filter.html
-  - fa guide: https://www.yuchensy.com/fa/big-blue-filter-cartridge-selection-guide.html
-  - fa guide: https://www.yuchensy.com/fa/quick-connect-filter-cartridge-selection-guide.html
-  - fa guide: https://www.yuchensy.com/fa/mineralization-scale-inhibition-resin-filter-guide.html
-- fi: https://www.yuchensy.com/fi/products.html · https://www.yuchensy.com/fi/sanyishui-products.html
-  - fi guide: https://www.yuchensy.com/fi/pp-melt-blown-filter-cartridge.html
-  - fi guide: https://www.yuchensy.com/fi/gac-udf-filter-cartridge.html
-  - fi guide: https://www.yuchensy.com/fi/cto-carbon-block-filter.html
-  - fi guide: https://www.yuchensy.com/fi/t33-inline-filter.html
-  - fi guide: https://www.yuchensy.com/fi/big-blue-filter-cartridge-selection-guide.html
-  - fi guide: https://www.yuchensy.com/fi/quick-connect-filter-cartridge-selection-guide.html
-  - fi guide: https://www.yuchensy.com/fi/mineralization-scale-inhibition-resin-filter-guide.html
-- fr: https://www.yuchensy.com/fr/products.html · https://www.yuchensy.com/fr/sanyishui-products.html
-  - fr guide: https://www.yuchensy.com/fr/pp-melt-blown-filter-cartridge.html
-  - fr guide: https://www.yuchensy.com/fr/gac-udf-filter-cartridge.html
-  - fr guide: https://www.yuchensy.com/fr/cto-carbon-block-filter.html
-  - fr guide: https://www.yuchensy.com/fr/t33-inline-filter.html
-  - fr guide: https://www.yuchensy.com/fr/big-blue-filter-cartridge-selection-guide.html
-  - fr guide: https://www.yuchensy.com/fr/quick-connect-filter-cartridge-selection-guide.html
-  - fr guide: https://www.yuchensy.com/fr/mineralization-scale-inhibition-resin-filter-guide.html
-- ha: https://www.yuchensy.com/ha/products.html · https://www.yuchensy.com/ha/sanyishui-products.html
-  - ha guide: https://www.yuchensy.com/ha/pp-melt-blown-filter-cartridge.html
-  - ha guide: https://www.yuchensy.com/ha/gac-udf-filter-cartridge.html
-  - ha guide: https://www.yuchensy.com/ha/cto-carbon-block-filter.html
-  - ha guide: https://www.yuchensy.com/ha/t33-inline-filter.html
-  - ha guide: https://www.yuchensy.com/ha/big-blue-filter-cartridge-selection-guide.html
-  - ha guide: https://www.yuchensy.com/ha/quick-connect-filter-cartridge-selection-guide.html
-  - ha guide: https://www.yuchensy.com/ha/mineralization-scale-inhibition-resin-filter-guide.html
-- he: https://www.yuchensy.com/he/products.html · https://www.yuchensy.com/he/sanyishui-products.html
-  - he guide: https://www.yuchensy.com/he/pp-melt-blown-filter-cartridge.html
-  - he guide: https://www.yuchensy.com/he/gac-udf-filter-cartridge.html
-  - he guide: https://www.yuchensy.com/he/cto-carbon-block-filter.html
-  - he guide: https://www.yuchensy.com/he/t33-inline-filter.html
-  - he guide: https://www.yuchensy.com/he/big-blue-filter-cartridge-selection-guide.html
-  - he guide: https://www.yuchensy.com/he/quick-connect-filter-cartridge-selection-guide.html
-  - he guide: https://www.yuchensy.com/he/mineralization-scale-inhibition-resin-filter-guide.html
-- hi: https://www.yuchensy.com/hi/products.html · https://www.yuchensy.com/hi/sanyishui-products.html
-  - hi guide: https://www.yuchensy.com/hi/pp-melt-blown-filter-cartridge.html
-  - hi guide: https://www.yuchensy.com/hi/gac-udf-filter-cartridge.html
-  - hi guide: https://www.yuchensy.com/hi/cto-carbon-block-filter.html
-  - hi guide: https://www.yuchensy.com/hi/t33-inline-filter.html
-  - hi guide: https://www.yuchensy.com/hi/big-blue-filter-cartridge-selection-guide.html
-  - hi guide: https://www.yuchensy.com/hi/quick-connect-filter-cartridge-selection-guide.html
-  - hi guide: https://www.yuchensy.com/hi/mineralization-scale-inhibition-resin-filter-guide.html
-- hr: https://www.yuchensy.com/hr/products.html · https://www.yuchensy.com/hr/sanyishui-products.html
-  - hr guide: https://www.yuchensy.com/hr/pp-melt-blown-filter-cartridge.html
-  - hr guide: https://www.yuchensy.com/hr/gac-udf-filter-cartridge.html
-  - hr guide: https://www.yuchensy.com/hr/cto-carbon-block-filter.html
-  - hr guide: https://www.yuchensy.com/hr/t33-inline-filter.html
-  - hr guide: https://www.yuchensy.com/hr/big-blue-filter-cartridge-selection-guide.html
-  - hr guide: https://www.yuchensy.com/hr/quick-connect-filter-cartridge-selection-guide.html
-  - hr guide: https://www.yuchensy.com/hr/mineralization-scale-inhibition-resin-filter-guide.html
-- hu: https://www.yuchensy.com/hu/products.html · https://www.yuchensy.com/hu/sanyishui-products.html
-  - hu guide: https://www.yuchensy.com/hu/pp-melt-blown-filter-cartridge.html
-  - hu guide: https://www.yuchensy.com/hu/gac-udf-filter-cartridge.html
-  - hu guide: https://www.yuchensy.com/hu/cto-carbon-block-filter.html
-  - hu guide: https://www.yuchensy.com/hu/t33-inline-filter.html
-  - hu guide: https://www.yuchensy.com/hu/big-blue-filter-cartridge-selection-guide.html
-  - hu guide: https://www.yuchensy.com/hu/quick-connect-filter-cartridge-selection-guide.html
-  - hu guide: https://www.yuchensy.com/hu/mineralization-scale-inhibition-resin-filter-guide.html
-- hy: https://www.yuchensy.com/hy/products.html · https://www.yuchensy.com/hy/sanyishui-products.html
-  - hy guide: https://www.yuchensy.com/hy/pp-melt-blown-filter-cartridge.html
-  - hy guide: https://www.yuchensy.com/hy/gac-udf-filter-cartridge.html
-  - hy guide: https://www.yuchensy.com/hy/cto-carbon-block-filter.html
-  - hy guide: https://www.yuchensy.com/hy/t33-inline-filter.html
-  - hy guide: https://www.yuchensy.com/hy/big-blue-filter-cartridge-selection-guide.html
-  - hy guide: https://www.yuchensy.com/hy/quick-connect-filter-cartridge-selection-guide.html
-  - hy guide: https://www.yuchensy.com/hy/mineralization-scale-inhibition-resin-filter-guide.html
-- id: https://www.yuchensy.com/id/products.html · https://www.yuchensy.com/id/sanyishui-products.html
-  - id guide: https://www.yuchensy.com/id/pp-melt-blown-filter-cartridge.html
-  - id guide: https://www.yuchensy.com/id/gac-udf-filter-cartridge.html
-  - id guide: https://www.yuchensy.com/id/cto-carbon-block-filter.html
-  - id guide: https://www.yuchensy.com/id/t33-inline-filter.html
-  - id guide: https://www.yuchensy.com/id/big-blue-filter-cartridge-selection-guide.html
-  - id guide: https://www.yuchensy.com/id/quick-connect-filter-cartridge-selection-guide.html
-  - id guide: https://www.yuchensy.com/id/mineralization-scale-inhibition-resin-filter-guide.html
-- it: https://www.yuchensy.com/it/products.html · https://www.yuchensy.com/it/sanyishui-products.html
-  - it guide: https://www.yuchensy.com/it/pp-melt-blown-filter-cartridge.html
-  - it guide: https://www.yuchensy.com/it/gac-udf-filter-cartridge.html
-  - it guide: https://www.yuchensy.com/it/cto-carbon-block-filter.html
-  - it guide: https://www.yuchensy.com/it/t33-inline-filter.html
-  - it guide: https://www.yuchensy.com/it/big-blue-filter-cartridge-selection-guide.html
-  - it guide: https://www.yuchensy.com/it/quick-connect-filter-cartridge-selection-guide.html
-  - it guide: https://www.yuchensy.com/it/mineralization-scale-inhibition-resin-filter-guide.html
-- ja: https://www.yuchensy.com/ja/products.html · https://www.yuchensy.com/ja/sanyishui-products.html
-  - ja guide: https://www.yuchensy.com/ja/pp-melt-blown-filter-cartridge.html
-  - ja guide: https://www.yuchensy.com/ja/gac-udf-filter-cartridge.html
-  - ja guide: https://www.yuchensy.com/ja/cto-carbon-block-filter.html
-  - ja guide: https://www.yuchensy.com/ja/t33-inline-filter.html
-  - ja guide: https://www.yuchensy.com/ja/big-blue-filter-cartridge-selection-guide.html
-  - ja guide: https://www.yuchensy.com/ja/quick-connect-filter-cartridge-selection-guide.html
-  - ja guide: https://www.yuchensy.com/ja/mineralization-scale-inhibition-resin-filter-guide.html
-- ka: https://www.yuchensy.com/ka/products.html · https://www.yuchensy.com/ka/sanyishui-products.html
-  - ka guide: https://www.yuchensy.com/ka/pp-melt-blown-filter-cartridge.html
-  - ka guide: https://www.yuchensy.com/ka/gac-udf-filter-cartridge.html
-  - ka guide: https://www.yuchensy.com/ka/cto-carbon-block-filter.html
-  - ka guide: https://www.yuchensy.com/ka/t33-inline-filter.html
-  - ka guide: https://www.yuchensy.com/ka/big-blue-filter-cartridge-selection-guide.html
-  - ka guide: https://www.yuchensy.com/ka/quick-connect-filter-cartridge-selection-guide.html
-  - ka guide: https://www.yuchensy.com/ka/mineralization-scale-inhibition-resin-filter-guide.html
-- kk: https://www.yuchensy.com/kk/products.html · https://www.yuchensy.com/kk/sanyishui-products.html
-  - kk guide: https://www.yuchensy.com/kk/pp-melt-blown-filter-cartridge.html
-  - kk guide: https://www.yuchensy.com/kk/gac-udf-filter-cartridge.html
-  - kk guide: https://www.yuchensy.com/kk/cto-carbon-block-filter.html
-  - kk guide: https://www.yuchensy.com/kk/t33-inline-filter.html
-  - kk guide: https://www.yuchensy.com/kk/big-blue-filter-cartridge-selection-guide.html
-  - kk guide: https://www.yuchensy.com/kk/quick-connect-filter-cartridge-selection-guide.html
-  - kk guide: https://www.yuchensy.com/kk/mineralization-scale-inhibition-resin-filter-guide.html
-- ko: https://www.yuchensy.com/ko/products.html · https://www.yuchensy.com/ko/sanyishui-products.html
-  - ko guide: https://www.yuchensy.com/ko/pp-melt-blown-filter-cartridge.html
-  - ko guide: https://www.yuchensy.com/ko/gac-udf-filter-cartridge.html
-  - ko guide: https://www.yuchensy.com/ko/cto-carbon-block-filter.html
-  - ko guide: https://www.yuchensy.com/ko/t33-inline-filter.html
-  - ko guide: https://www.yuchensy.com/ko/big-blue-filter-cartridge-selection-guide.html
-  - ko guide: https://www.yuchensy.com/ko/quick-connect-filter-cartridge-selection-guide.html
-  - ko guide: https://www.yuchensy.com/ko/mineralization-scale-inhibition-resin-filter-guide.html
-- ku: https://www.yuchensy.com/ku/products.html · https://www.yuchensy.com/ku/sanyishui-products.html
-  - ku guide: https://www.yuchensy.com/ku/pp-melt-blown-filter-cartridge.html
-  - ku guide: https://www.yuchensy.com/ku/gac-udf-filter-cartridge.html
-  - ku guide: https://www.yuchensy.com/ku/cto-carbon-block-filter.html
-  - ku guide: https://www.yuchensy.com/ku/t33-inline-filter.html
-  - ku guide: https://www.yuchensy.com/ku/big-blue-filter-cartridge-selection-guide.html
-  - ku guide: https://www.yuchensy.com/ku/quick-connect-filter-cartridge-selection-guide.html
-  - ku guide: https://www.yuchensy.com/ku/mineralization-scale-inhibition-resin-filter-guide.html
-- ky: https://www.yuchensy.com/ky/products.html · https://www.yuchensy.com/ky/sanyishui-products.html
-  - ky guide: https://www.yuchensy.com/ky/pp-melt-blown-filter-cartridge.html
-  - ky guide: https://www.yuchensy.com/ky/gac-udf-filter-cartridge.html
-  - ky guide: https://www.yuchensy.com/ky/cto-carbon-block-filter.html
-  - ky guide: https://www.yuchensy.com/ky/t33-inline-filter.html
-  - ky guide: https://www.yuchensy.com/ky/big-blue-filter-cartridge-selection-guide.html
-  - ky guide: https://www.yuchensy.com/ky/quick-connect-filter-cartridge-selection-guide.html
-  - ky guide: https://www.yuchensy.com/ky/mineralization-scale-inhibition-resin-filter-guide.html
-- lt: https://www.yuchensy.com/lt/products.html · https://www.yuchensy.com/lt/sanyishui-products.html
-  - lt guide: https://www.yuchensy.com/lt/pp-melt-blown-filter-cartridge.html
-  - lt guide: https://www.yuchensy.com/lt/gac-udf-filter-cartridge.html
-  - lt guide: https://www.yuchensy.com/lt/cto-carbon-block-filter.html
-  - lt guide: https://www.yuchensy.com/lt/t33-inline-filter.html
-  - lt guide: https://www.yuchensy.com/lt/big-blue-filter-cartridge-selection-guide.html
-  - lt guide: https://www.yuchensy.com/lt/quick-connect-filter-cartridge-selection-guide.html
-  - lt guide: https://www.yuchensy.com/lt/mineralization-scale-inhibition-resin-filter-guide.html
-- lv: https://www.yuchensy.com/lv/products.html · https://www.yuchensy.com/lv/sanyishui-products.html
-  - lv guide: https://www.yuchensy.com/lv/pp-melt-blown-filter-cartridge.html
-  - lv guide: https://www.yuchensy.com/lv/gac-udf-filter-cartridge.html
-  - lv guide: https://www.yuchensy.com/lv/cto-carbon-block-filter.html
-  - lv guide: https://www.yuchensy.com/lv/t33-inline-filter.html
-  - lv guide: https://www.yuchensy.com/lv/big-blue-filter-cartridge-selection-guide.html
-  - lv guide: https://www.yuchensy.com/lv/quick-connect-filter-cartridge-selection-guide.html
-  - lv guide: https://www.yuchensy.com/lv/mineralization-scale-inhibition-resin-filter-guide.html
-- ms: https://www.yuchensy.com/ms/products.html · https://www.yuchensy.com/ms/sanyishui-products.html
-  - ms guide: https://www.yuchensy.com/ms/pp-melt-blown-filter-cartridge.html
-  - ms guide: https://www.yuchensy.com/ms/gac-udf-filter-cartridge.html
-  - ms guide: https://www.yuchensy.com/ms/cto-carbon-block-filter.html
-  - ms guide: https://www.yuchensy.com/ms/t33-inline-filter.html
-  - ms guide: https://www.yuchensy.com/ms/big-blue-filter-cartridge-selection-guide.html
-  - ms guide: https://www.yuchensy.com/ms/quick-connect-filter-cartridge-selection-guide.html
-  - ms guide: https://www.yuchensy.com/ms/mineralization-scale-inhibition-resin-filter-guide.html
-- nl: https://www.yuchensy.com/nl/products.html · https://www.yuchensy.com/nl/sanyishui-products.html
-  - nl guide: https://www.yuchensy.com/nl/pp-melt-blown-filter-cartridge.html
-  - nl guide: https://www.yuchensy.com/nl/gac-udf-filter-cartridge.html
-  - nl guide: https://www.yuchensy.com/nl/cto-carbon-block-filter.html
-  - nl guide: https://www.yuchensy.com/nl/t33-inline-filter.html
-  - nl guide: https://www.yuchensy.com/nl/big-blue-filter-cartridge-selection-guide.html
-  - nl guide: https://www.yuchensy.com/nl/quick-connect-filter-cartridge-selection-guide.html
-  - nl guide: https://www.yuchensy.com/nl/mineralization-scale-inhibition-resin-filter-guide.html
-- no: https://www.yuchensy.com/no/products.html · https://www.yuchensy.com/no/sanyishui-products.html
-  - no guide: https://www.yuchensy.com/no/pp-melt-blown-filter-cartridge.html
-  - no guide: https://www.yuchensy.com/no/gac-udf-filter-cartridge.html
-  - no guide: https://www.yuchensy.com/no/cto-carbon-block-filter.html
-  - no guide: https://www.yuchensy.com/no/t33-inline-filter.html
-  - no guide: https://www.yuchensy.com/no/big-blue-filter-cartridge-selection-guide.html
-  - no guide: https://www.yuchensy.com/no/quick-connect-filter-cartridge-selection-guide.html
-  - no guide: https://www.yuchensy.com/no/mineralization-scale-inhibition-resin-filter-guide.html
-- pl: https://www.yuchensy.com/pl/products.html · https://www.yuchensy.com/pl/sanyishui-products.html
-  - pl guide: https://www.yuchensy.com/pl/pp-melt-blown-filter-cartridge.html
-  - pl guide: https://www.yuchensy.com/pl/gac-udf-filter-cartridge.html
-  - pl guide: https://www.yuchensy.com/pl/cto-carbon-block-filter.html
-  - pl guide: https://www.yuchensy.com/pl/t33-inline-filter.html
-  - pl guide: https://www.yuchensy.com/pl/big-blue-filter-cartridge-selection-guide.html
-  - pl guide: https://www.yuchensy.com/pl/quick-connect-filter-cartridge-selection-guide.html
-  - pl guide: https://www.yuchensy.com/pl/mineralization-scale-inhibition-resin-filter-guide.html
-- pt: https://www.yuchensy.com/pt/products.html · https://www.yuchensy.com/pt/sanyishui-products.html
-  - pt guide: https://www.yuchensy.com/pt/pp-melt-blown-filter-cartridge.html
-  - pt guide: https://www.yuchensy.com/pt/gac-udf-filter-cartridge.html
-  - pt guide: https://www.yuchensy.com/pt/cto-carbon-block-filter.html
-  - pt guide: https://www.yuchensy.com/pt/t33-inline-filter.html
-  - pt guide: https://www.yuchensy.com/pt/big-blue-filter-cartridge-selection-guide.html
-  - pt guide: https://www.yuchensy.com/pt/quick-connect-filter-cartridge-selection-guide.html
-  - pt guide: https://www.yuchensy.com/pt/mineralization-scale-inhibition-resin-filter-guide.html
-- ro: https://www.yuchensy.com/ro/products.html · https://www.yuchensy.com/ro/sanyishui-products.html
-  - ro guide: https://www.yuchensy.com/ro/pp-melt-blown-filter-cartridge.html
-  - ro guide: https://www.yuchensy.com/ro/gac-udf-filter-cartridge.html
-  - ro guide: https://www.yuchensy.com/ro/cto-carbon-block-filter.html
-  - ro guide: https://www.yuchensy.com/ro/t33-inline-filter.html
-  - ro guide: https://www.yuchensy.com/ro/big-blue-filter-cartridge-selection-guide.html
-  - ro guide: https://www.yuchensy.com/ro/quick-connect-filter-cartridge-selection-guide.html
-  - ro guide: https://www.yuchensy.com/ro/mineralization-scale-inhibition-resin-filter-guide.html
-- ru: https://www.yuchensy.com/ru/products.html · https://www.yuchensy.com/ru/sanyishui-products.html
-  - ru guide: https://www.yuchensy.com/ru/pp-melt-blown-filter-cartridge.html
-  - ru guide: https://www.yuchensy.com/ru/gac-udf-filter-cartridge.html
-  - ru guide: https://www.yuchensy.com/ru/cto-carbon-block-filter.html
-  - ru guide: https://www.yuchensy.com/ru/t33-inline-filter.html
-  - ru guide: https://www.yuchensy.com/ru/big-blue-filter-cartridge-selection-guide.html
-  - ru guide: https://www.yuchensy.com/ru/quick-connect-filter-cartridge-selection-guide.html
-  - ru guide: https://www.yuchensy.com/ru/mineralization-scale-inhibition-resin-filter-guide.html
-- sk: https://www.yuchensy.com/sk/products.html · https://www.yuchensy.com/sk/sanyishui-products.html
-  - sk guide: https://www.yuchensy.com/sk/pp-melt-blown-filter-cartridge.html
-  - sk guide: https://www.yuchensy.com/sk/gac-udf-filter-cartridge.html
-  - sk guide: https://www.yuchensy.com/sk/cto-carbon-block-filter.html
-  - sk guide: https://www.yuchensy.com/sk/t33-inline-filter.html
-  - sk guide: https://www.yuchensy.com/sk/big-blue-filter-cartridge-selection-guide.html
-  - sk guide: https://www.yuchensy.com/sk/quick-connect-filter-cartridge-selection-guide.html
-  - sk guide: https://www.yuchensy.com/sk/mineralization-scale-inhibition-resin-filter-guide.html
-- sl: https://www.yuchensy.com/sl/products.html · https://www.yuchensy.com/sl/sanyishui-products.html
-  - sl guide: https://www.yuchensy.com/sl/pp-melt-blown-filter-cartridge.html
-  - sl guide: https://www.yuchensy.com/sl/gac-udf-filter-cartridge.html
-  - sl guide: https://www.yuchensy.com/sl/cto-carbon-block-filter.html
-  - sl guide: https://www.yuchensy.com/sl/t33-inline-filter.html
-  - sl guide: https://www.yuchensy.com/sl/big-blue-filter-cartridge-selection-guide.html
-  - sl guide: https://www.yuchensy.com/sl/quick-connect-filter-cartridge-selection-guide.html
-  - sl guide: https://www.yuchensy.com/sl/mineralization-scale-inhibition-resin-filter-guide.html
-- sq: https://www.yuchensy.com/sq/products.html · https://www.yuchensy.com/sq/sanyishui-products.html
-  - sq guide: https://www.yuchensy.com/sq/pp-melt-blown-filter-cartridge.html
-  - sq guide: https://www.yuchensy.com/sq/gac-udf-filter-cartridge.html
-  - sq guide: https://www.yuchensy.com/sq/cto-carbon-block-filter.html
-  - sq guide: https://www.yuchensy.com/sq/t33-inline-filter.html
-  - sq guide: https://www.yuchensy.com/sq/big-blue-filter-cartridge-selection-guide.html
-  - sq guide: https://www.yuchensy.com/sq/quick-connect-filter-cartridge-selection-guide.html
-  - sq guide: https://www.yuchensy.com/sq/mineralization-scale-inhibition-resin-filter-guide.html
-- sr: https://www.yuchensy.com/sr/products.html · https://www.yuchensy.com/sr/sanyishui-products.html
-  - sr guide: https://www.yuchensy.com/sr/pp-melt-blown-filter-cartridge.html
-  - sr guide: https://www.yuchensy.com/sr/gac-udf-filter-cartridge.html
-  - sr guide: https://www.yuchensy.com/sr/cto-carbon-block-filter.html
-  - sr guide: https://www.yuchensy.com/sr/t33-inline-filter.html
-  - sr guide: https://www.yuchensy.com/sr/big-blue-filter-cartridge-selection-guide.html
-  - sr guide: https://www.yuchensy.com/sr/quick-connect-filter-cartridge-selection-guide.html
-  - sr guide: https://www.yuchensy.com/sr/mineralization-scale-inhibition-resin-filter-guide.html
-- sr-me: https://www.yuchensy.com/sr-me/products.html · https://www.yuchensy.com/sr-me/sanyishui-products.html
-  - sr-me guide: https://www.yuchensy.com/sr-me/pp-melt-blown-filter-cartridge.html
-  - sr-me guide: https://www.yuchensy.com/sr-me/gac-udf-filter-cartridge.html
-  - sr-me guide: https://www.yuchensy.com/sr-me/cto-carbon-block-filter.html
-  - sr-me guide: https://www.yuchensy.com/sr-me/t33-inline-filter.html
-  - sr-me guide: https://www.yuchensy.com/sr-me/big-blue-filter-cartridge-selection-guide.html
-  - sr-me guide: https://www.yuchensy.com/sr-me/quick-connect-filter-cartridge-selection-guide.html
-  - sr-me guide: https://www.yuchensy.com/sr-me/mineralization-scale-inhibition-resin-filter-guide.html
-- sv: https://www.yuchensy.com/sv/products.html · https://www.yuchensy.com/sv/sanyishui-products.html
-  - sv guide: https://www.yuchensy.com/sv/pp-melt-blown-filter-cartridge.html
-  - sv guide: https://www.yuchensy.com/sv/gac-udf-filter-cartridge.html
-  - sv guide: https://www.yuchensy.com/sv/cto-carbon-block-filter.html
-  - sv guide: https://www.yuchensy.com/sv/t33-inline-filter.html
-  - sv guide: https://www.yuchensy.com/sv/big-blue-filter-cartridge-selection-guide.html
-  - sv guide: https://www.yuchensy.com/sv/quick-connect-filter-cartridge-selection-guide.html
-  - sv guide: https://www.yuchensy.com/sv/mineralization-scale-inhibition-resin-filter-guide.html
-- sw: https://www.yuchensy.com/sw/products.html · https://www.yuchensy.com/sw/sanyishui-products.html
-  - sw guide: https://www.yuchensy.com/sw/pp-melt-blown-filter-cartridge.html
-  - sw guide: https://www.yuchensy.com/sw/gac-udf-filter-cartridge.html
-  - sw guide: https://www.yuchensy.com/sw/cto-carbon-block-filter.html
-  - sw guide: https://www.yuchensy.com/sw/t33-inline-filter.html
-  - sw guide: https://www.yuchensy.com/sw/big-blue-filter-cartridge-selection-guide.html
-  - sw guide: https://www.yuchensy.com/sw/quick-connect-filter-cartridge-selection-guide.html
-  - sw guide: https://www.yuchensy.com/sw/mineralization-scale-inhibition-resin-filter-guide.html
-- ta: https://www.yuchensy.com/ta/products.html · https://www.yuchensy.com/ta/sanyishui-products.html
-  - ta guide: https://www.yuchensy.com/ta/pp-melt-blown-filter-cartridge.html
-  - ta guide: https://www.yuchensy.com/ta/gac-udf-filter-cartridge.html
-  - ta guide: https://www.yuchensy.com/ta/cto-carbon-block-filter.html
-  - ta guide: https://www.yuchensy.com/ta/t33-inline-filter.html
-  - ta guide: https://www.yuchensy.com/ta/big-blue-filter-cartridge-selection-guide.html
-  - ta guide: https://www.yuchensy.com/ta/quick-connect-filter-cartridge-selection-guide.html
-  - ta guide: https://www.yuchensy.com/ta/mineralization-scale-inhibition-resin-filter-guide.html
-- tg: https://www.yuchensy.com/tg/products.html · https://www.yuchensy.com/tg/sanyishui-products.html
-  - tg guide: https://www.yuchensy.com/tg/pp-melt-blown-filter-cartridge.html
-  - tg guide: https://www.yuchensy.com/tg/gac-udf-filter-cartridge.html
-  - tg guide: https://www.yuchensy.com/tg/cto-carbon-block-filter.html
-  - tg guide: https://www.yuchensy.com/tg/t33-inline-filter.html
-  - tg guide: https://www.yuchensy.com/tg/big-blue-filter-cartridge-selection-guide.html
-  - tg guide: https://www.yuchensy.com/tg/quick-connect-filter-cartridge-selection-guide.html
-  - tg guide: https://www.yuchensy.com/tg/mineralization-scale-inhibition-resin-filter-guide.html
-- th: https://www.yuchensy.com/th/products.html · https://www.yuchensy.com/th/sanyishui-products.html
-  - th guide: https://www.yuchensy.com/th/pp-melt-blown-filter-cartridge.html
-  - th guide: https://www.yuchensy.com/th/gac-udf-filter-cartridge.html
-  - th guide: https://www.yuchensy.com/th/cto-carbon-block-filter.html
-  - th guide: https://www.yuchensy.com/th/t33-inline-filter.html
-  - th guide: https://www.yuchensy.com/th/big-blue-filter-cartridge-selection-guide.html
-  - th guide: https://www.yuchensy.com/th/quick-connect-filter-cartridge-selection-guide.html
-  - th guide: https://www.yuchensy.com/th/mineralization-scale-inhibition-resin-filter-guide.html
-- tk: https://www.yuchensy.com/tk/products.html · https://www.yuchensy.com/tk/sanyishui-products.html
-  - tk guide: https://www.yuchensy.com/tk/pp-melt-blown-filter-cartridge.html
-  - tk guide: https://www.yuchensy.com/tk/gac-udf-filter-cartridge.html
-  - tk guide: https://www.yuchensy.com/tk/cto-carbon-block-filter.html
-  - tk guide: https://www.yuchensy.com/tk/t33-inline-filter.html
-  - tk guide: https://www.yuchensy.com/tk/big-blue-filter-cartridge-selection-guide.html
-  - tk guide: https://www.yuchensy.com/tk/quick-connect-filter-cartridge-selection-guide.html
-  - tk guide: https://www.yuchensy.com/tk/mineralization-scale-inhibition-resin-filter-guide.html
-- tl: https://www.yuchensy.com/tl/products.html · https://www.yuchensy.com/tl/sanyishui-products.html
-  - tl guide: https://www.yuchensy.com/tl/pp-melt-blown-filter-cartridge.html
-  - tl guide: https://www.yuchensy.com/tl/gac-udf-filter-cartridge.html
-  - tl guide: https://www.yuchensy.com/tl/cto-carbon-block-filter.html
-  - tl guide: https://www.yuchensy.com/tl/t33-inline-filter.html
-  - tl guide: https://www.yuchensy.com/tl/big-blue-filter-cartridge-selection-guide.html
-  - tl guide: https://www.yuchensy.com/tl/quick-connect-filter-cartridge-selection-guide.html
-  - tl guide: https://www.yuchensy.com/tl/mineralization-scale-inhibition-resin-filter-guide.html
-- tr: https://www.yuchensy.com/tr/products.html · https://www.yuchensy.com/tr/sanyishui-products.html
-  - tr guide: https://www.yuchensy.com/tr/pp-melt-blown-filter-cartridge.html
-  - tr guide: https://www.yuchensy.com/tr/gac-udf-filter-cartridge.html
-  - tr guide: https://www.yuchensy.com/tr/cto-carbon-block-filter.html
-  - tr guide: https://www.yuchensy.com/tr/t33-inline-filter.html
-  - tr guide: https://www.yuchensy.com/tr/big-blue-filter-cartridge-selection-guide.html
-  - tr guide: https://www.yuchensy.com/tr/quick-connect-filter-cartridge-selection-guide.html
-  - tr guide: https://www.yuchensy.com/tr/mineralization-scale-inhibition-resin-filter-guide.html
-- uk: https://www.yuchensy.com/uk/products.html · https://www.yuchensy.com/uk/sanyishui-products.html
-  - uk guide: https://www.yuchensy.com/uk/pp-melt-blown-filter-cartridge.html
-  - uk guide: https://www.yuchensy.com/uk/gac-udf-filter-cartridge.html
-  - uk guide: https://www.yuchensy.com/uk/cto-carbon-block-filter.html
-  - uk guide: https://www.yuchensy.com/uk/t33-inline-filter.html
-  - uk guide: https://www.yuchensy.com/uk/big-blue-filter-cartridge-selection-guide.html
-  - uk guide: https://www.yuchensy.com/uk/quick-connect-filter-cartridge-selection-guide.html
-  - uk guide: https://www.yuchensy.com/uk/mineralization-scale-inhibition-resin-filter-guide.html
-- ur: https://www.yuchensy.com/ur/products.html · https://www.yuchensy.com/ur/sanyishui-products.html
-  - ur guide: https://www.yuchensy.com/ur/pp-melt-blown-filter-cartridge.html
-  - ur guide: https://www.yuchensy.com/ur/gac-udf-filter-cartridge.html
-  - ur guide: https://www.yuchensy.com/ur/cto-carbon-block-filter.html
-  - ur guide: https://www.yuchensy.com/ur/t33-inline-filter.html
-  - ur guide: https://www.yuchensy.com/ur/big-blue-filter-cartridge-selection-guide.html
-  - ur guide: https://www.yuchensy.com/ur/quick-connect-filter-cartridge-selection-guide.html
-  - ur guide: https://www.yuchensy.com/ur/mineralization-scale-inhibition-resin-filter-guide.html
-- uz: https://www.yuchensy.com/uz/products.html · https://www.yuchensy.com/uz/sanyishui-products.html
-  - uz guide: https://www.yuchensy.com/uz/pp-melt-blown-filter-cartridge.html
-  - uz guide: https://www.yuchensy.com/uz/gac-udf-filter-cartridge.html
-  - uz guide: https://www.yuchensy.com/uz/cto-carbon-block-filter.html
-  - uz guide: https://www.yuchensy.com/uz/t33-inline-filter.html
-  - uz guide: https://www.yuchensy.com/uz/big-blue-filter-cartridge-selection-guide.html
-  - uz guide: https://www.yuchensy.com/uz/quick-connect-filter-cartridge-selection-guide.html
-  - uz guide: https://www.yuchensy.com/uz/mineralization-scale-inhibition-resin-filter-guide.html
-- vi: https://www.yuchensy.com/vi/products.html · https://www.yuchensy.com/vi/sanyishui-products.html
-  - vi guide: https://www.yuchensy.com/vi/pp-melt-blown-filter-cartridge.html
-  - vi guide: https://www.yuchensy.com/vi/gac-udf-filter-cartridge.html
-  - vi guide: https://www.yuchensy.com/vi/cto-carbon-block-filter.html
-  - vi guide: https://www.yuchensy.com/vi/t33-inline-filter.html
-  - vi guide: https://www.yuchensy.com/vi/big-blue-filter-cartridge-selection-guide.html
-  - vi guide: https://www.yuchensy.com/vi/quick-connect-filter-cartridge-selection-guide.html
-  - vi guide: https://www.yuchensy.com/vi/mineralization-scale-inhibition-resin-filter-guide.html
-- zu: https://www.yuchensy.com/zu/products.html · https://www.yuchensy.com/zu/sanyishui-products.html
-  - zu guide: https://www.yuchensy.com/zu/pp-melt-blown-filter-cartridge.html
-  - zu guide: https://www.yuchensy.com/zu/gac-udf-filter-cartridge.html
-  - zu guide: https://www.yuchensy.com/zu/cto-carbon-block-filter.html
-  - zu guide: https://www.yuchensy.com/zu/t33-inline-filter.html
-  - zu guide: https://www.yuchensy.com/zu/big-blue-filter-cartridge-selection-guide.html
-  - zu guide: https://www.yuchensy.com/zu/quick-connect-filter-cartridge-selection-guide.html
-  - zu guide: https://www.yuchensy.com/zu/mineralization-scale-inhibition-resin-filter-guide.html
-### Existing Yuchen product pages
-- Smart RO Water Purifier 400G-1200G: https://www.yuchensy.com/en/product-smart-ro-water-purifier-400g-1200g.html
-- Commercial Small-Cabinet RO Water Purifier 400G-1600G: https://www.yuchensy.com/en/product-commercial-small-cabinet-ro-water-purifier-400g-1600g.html
-- Large Industrial Reverse Osmosis Water Treatment Equipment 3-100 TPH: https://www.yuchensy.com/en/product-large-industrial-reverse-osmosis-water-treatment-equipment.html
-- Dual-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h: https://www.yuchensy.com/en/product-dual-tank-pretreatment-integrated-skid-ro-equipment.html
-- Three-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h: https://www.yuchensy.com/en/product-three-tank-pretreatment-integrated-skid-ro-equipment.html
-- Dual-Tank Pretreatment Reverse Osmosis Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-dual-tank-pretreatment-ro-equipment-250-1000lph.html
-- Six-Housing Reverse Osmosis Equipment with Pure Water Tank 250-1000 L/h: https://www.yuchensy.com/en/product-six-housing-ro-equipment-with-pure-water-tank-250-1000lph.html
-- Single-Tank Pretreatment Reverse Osmosis Water Purification Equipment 250-500 L/h: https://www.yuchensy.com/en/product-single-tank-pretreatment-ro-equipment-250-500lph.html
-- Single-Tank 20-Inch Big Blue PP Reverse Osmosis Water Purification Equipment 250-500 L/h: https://www.yuchensy.com/en/product-single-tank-big-blue-pp-ro-equipment-250-500lph.html
-- Slim Reverse Osmosis Water Purification Equipment 250-500 L/h: https://www.yuchensy.com/en/product-slim-reverse-osmosis-water-purification-equipment-250-500lph.html
-- Alkaline Water Purifier System: https://www.yuchensy.com/en/product-alkaline-purifier.html
-- 30-Inch Three-Stage Big Blue Water Filter System: https://www.yuchensy.com/en/product-big-blue-3stage.html
-- CTO Coconut Shell Carbon Block Filter: https://www.yuchensy.com/en/product-carbon-block.html
-- Compressed Activated CTO Carbon Block: https://www.yuchensy.com/en/product-carbon-block-2.html
-- Industrial High-Flow CTO Carbon Block Filter: https://www.yuchensy.com/en/product-carbon-block-industrial.html
-- Ceramic Filter Cartridge: https://www.yuchensy.com/en/product-ceramic-filter.html
-- Multi-Stage Filter Cartridge Combination: https://www.yuchensy.com/en/product-filter-combo.html
-- 10- and 20-Inch Water Filter Housings for Replacement Cartridges: https://www.yuchensy.com/en/product-housing-filter.html
-- Maifan Stone Inline Filter: https://www.yuchensy.com/en/product-maifan-inline.html
-- Medium Size Water Filter w/ Copper Connector: https://www.yuchensy.com/en/product-mid-filter.html
-- Commercial Stainless Steel RO Water Dispenser E900-K27: https://www.yuchensy.com/en/product-commercial-stainless-steel-ro-water-dispenser-e900-k27.html
-- E600-S Commercial RO Water Dispenser: https://www.yuchensy.com/en/product-commercial-ro-water-dispenser-e600-s.html
-- E600-S-Min Commercial RO Water Dispenser: https://www.yuchensy.com/en/product-e600-s-min-commercial-ro-water-dispenser.html
-- 1000W Vertical Water Dispenser MT-DV-E600: https://www.yuchensy.com/en/product-mt-dv-e600.html
-- Desktop RO Water Machine with Compressor Cooling 100G: https://www.yuchensy.com/en/product-desktop-ro-water-machine-compressor-cooling-100g.html
-- Vertical Water Dispenser MT-E600: https://www.yuchensy.com/en/product-mt-e600.html
-- Vertical Water Dispenser MT-V-E300A: https://www.yuchensy.com/en/product-mt-v-e300a.html
-- PP Melt Blown Filter with Fin End Cap: https://www.yuchensy.com/en/product-pp-fin-cap.html
-- PP Melt Blown Filter with Silicon Ring: https://www.yuchensy.com/en/product-pp-silicon-ring.html
-- Industrial PP Melt Blown Sediment Filter (SOE/DOE): https://www.yuchensy.com/en/product-pp-soe-doe.html
-- PP Melt Blown Sediment Filter Cartridge: https://www.yuchensy.com/en/product-pp-spun.html
-- PP Melt Blown Filter: https://www.yuchensy.com/en/product-ppf-cartridge.html
-- RO Membrane Element: https://www.yuchensy.com/en/product-ro-membrane.html
-- 400GPD High-Flow Reverse Osmosis (RO) Membrane Element: https://www.yuchensy.com/en/product-ro-membrane-400g.html
-- Under-Sink Reverse Osmosis Water Filter: https://www.yuchensy.com/en/product-ro-undersink.html
-- 304 Stainless Steel Filter Housing: https://www.yuchensy.com/en/product-ss-jumbo-housing.html
-- Ultrafiltration (UF) Cartridge: https://www.yuchensy.com/en/product-uf-cartridge.html
-- UF Hollow Fiber Filter: https://www.yuchensy.com/en/product-uf-filter-2.html
-- Ultra Film Filter Cartridge: https://www.yuchensy.com/en/product-ultra-film.html
-- Three Stage Plus UV Water Purifier: https://www.yuchensy.com/en/product-uv-purifier.html
-- Maifan Stone Mineralizing Purifier: https://www.yuchensy.com/en/product-water-purifier-maifan.html
-- Commercial Big Blue RO Water Purifier 400G-800G: https://www.yuchensy.com/en/product-commercial-big-blue-ro-water-purifier-400g-800g.html
-- 10-Inch Frame RO Water Machine 400G-1200G: https://www.yuchensy.com/en/product-10-inch-frame-ro-water-machine-400g-1200g.html
-- Thickened Stainless Steel 10-Inch Frame RO Water Machine 400G-800G: https://www.yuchensy.com/en/product-thickened-stainless-steel-10-inch-frame-ro-water-machine-400g-800g.html
-- 10-Inch Frame RO Water Machine 400G-800G: https://www.yuchensy.com/en/product-10-inch-frame-ro-water-machine-400g-800g.html
-- Front Panel 10-Inch Frame RO Water Machine 400G-800G: https://www.yuchensy.com/en/product-front-panel-10-inch-frame-ro-water-machine-400g-800g.html
-- 20-Inch Frame RO Water Machine 400G-1200G: https://www.yuchensy.com/en/product-20-inch-frame-ro-water-machine-400g-1200g.html
-- Pump-Free Five-Stage RO Water Purifier: https://www.yuchensy.com/en/product-pump-free-five-stage-ro-water-purifier.html
-- 20-inch Commercial RO Water Purifier 800G/1200G/1600G/2000G: https://www.yuchensy.com/en/product-20-inch-commercial-ro-water-purifier-800g-2000g.html
-- Built-In Pressure Tank RO Water Purifier 100G/200G: https://www.yuchensy.com/en/product-built-in-pressure-tank-ro.html
-- Commercial Central RO Water Purification Equipment 250-500 L/h: https://www.yuchensy.com/en/product-commercial-central-ro-water-purification-equipment-250-500lph.html
-- Commercial High-Flow Deluxe Big Blue RO Water Purifier 800G-1600G: https://www.yuchensy.com/en/product-commercial-high-flow-deluxe-big-blue-ro-water-purifier-800g-1600g.html
-- Commercial Mid-Cabinet RO Water Purifier with Built-In Pressure Tank 400G-1600G: https://www.yuchensy.com/en/product-commercial-mid-cabinet-ro-water-purifier-built-in-pressure-tank-400g-1600g.html
-- Custom 5/6/7 Stage RO Water Purifier OEM/ODM Manufacturer: https://www.yuchensy.com/en/product-custom-5-6-7-stage-ro-water-purifier.html
-- Horizontal Reverse Osmosis Water Purification Equipment 250 L/h: https://www.yuchensy.com/en/product-horizontal-reverse-osmosis-water-purification-equipment-250lph.html
-- Portable Custom RO Water Purifier 400G-800G: https://www.yuchensy.com/en/product-portable-custom-ro-water-purifier-400g-800g.html
-- Precision Filter RO Water Purification Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-precision-filter-ro-water-purification-equipment-250-1000lph.html
-- RO Seawater Desalination Equipment & Industrial RO Machine Manufacturer: https://www.yuchensy.com/en/product-ro-seawater-desalination-machine.html
-- Simple Type Reverse Osmosis Water Purification Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-simple-type-reverse-osmosis-water-purification-equipment-250-1000lph.html
-- Single-Tank Integrated RO Water Purification and Supply Equipment 250-500 L/h: https://www.yuchensy.com/en/product-single-tank-integrated-ro-water-purification-supply-equipment-250-500lph.html
-- Small and Medium Seawater Desalination RO Equipment: https://www.yuchensy.com/en/product-small-medium-seawater-desalination-ro-equipment.html
-- Mobile SUS304 Skid-Mounted RO Plant 250-500 LPH: https://www.yuchensy.com/en/product-mobile-sus304-skid-mounted-ro-plant-250-500lph.html
-### Yuchen Water OEM product pages
-- SY-081 Instant Heating Water Dispenser – Grey: https://www.yuchensy.com/en/sanyishui-gxj-081-1.html
-- SY-081 Instant Heating Water Dispenser – White: https://www.yuchensy.com/en/sanyishui-gxj-081-2.html
-- SY-0823 Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/sanyishui-gxj-082-1.html
-- SY-0828 Instant Heating Water Dispenser – Gold: https://www.yuchensy.com/en/sanyishui-gxj-082-2.html
-- SY-0826 Instant Heating Water Dispenser – Dark Green: https://www.yuchensy.com/en/sanyishui-gxj-082-3.html
-- SY-0822 Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/sanyishui-gxj-082-4.html
-- SY-0825 Instant Heating Water Dispenser – Silver: https://www.yuchensy.com/en/sanyishui-gxj-082-5.html
-- SY-0825F Instant Heating Water Dispenser – Silver: https://www.yuchensy.com/en/sanyishui-gxj-082f-1.html
-- SY-0828F Instant Heating Water Dispenser – Gold: https://www.yuchensy.com/en/sanyishui-gxj-082f-2.html
-- SY-0826F Instant Heating Water Dispenser – Dark Green: https://www.yuchensy.com/en/sanyishui-gxj-082f-3.html
-- SY-0822F Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/sanyishui-gxj-082f-4.html
-- SY-0823F Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/sanyishui-gxj-082f-5.html
-- SY-0883 Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/sanyishui-gxj-088-1.html
-- SY-0881 Instant Heating Water Dispenser – Coated Black: https://www.yuchensy.com/en/sanyishui-gxj-088-2.html
-- SY-0887 Instant Heating Water Dispenser – Coated Green: https://www.yuchensy.com/en/sanyishui-gxj-088-3.html
-- SY-0882 Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/sanyishui-gxj-088-4.html
-- SY-0863 Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/sanyishui-gxj-086-1.html
-- SY-0862 Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/sanyishui-gxj-086-2.html
-- SY-0867 Instant Heating Water Dispenser – Coated Green: https://www.yuchensy.com/en/sanyishui-gxj-086-3.html
-- SY-0861 Instant Heating Water Dispenser – Coated Black: https://www.yuchensy.com/en/sanyishui-gxj-086-4.html
-- SY-087 Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/sanyishui-gxj-087-1.html
-- SY-087 Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/sanyishui-gxj-087-2.html
-- SY-087 Instant Heating Water Dispenser – Coated Black: https://www.yuchensy.com/en/sanyishui-gxj-087-3.html
-- Bayonet-Lock PP Sediment Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxkj-sy-ppf.html
-- Bayonet-Lock UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxkj-sy-gac.html
-- Bayonet-Lock CTO Coconut-Shell Carbon Block Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxkj-sy-kcto.html
-- Bayonet-Lock RO Membrane Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxkj-sy-ro.html
-- Bayonet-Lock T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxkj-sy-t33.html
-- Integrated Quick-Connect PP Sediment Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxhs-sy-ppf.html
-- Integrated Quick-Connect UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxhs-sy-gac.html
-- Integrated Quick-Connect CTO Coconut-Shell Carbon Block Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxhs-sy-kcto.html
-- Integrated Quick-Connect RO Membrane Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxhs-sy-ro.html
-- Integrated Quick-Connect Large T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxhs-sy-t33.html
-- Integrated Quick-Connect PP Sediment Filter Cartridge – Series 2: https://www.yuchensy.com/en/sanyishui-lxhs2-pp.html
-- Integrated Quick-Connect UDF Coconut-Shell Granular Activated Carbon Filter Cartridge – Series 2: https://www.yuchensy.com/en/sanyishui-lxhs2-udf.html
-- Integrated Quick-Connect CTO Coconut-Shell Carbon Block Filter Cartridge – Series 2: https://www.yuchensy.com/en/sanyishui-lxhs2-cto.html
-- Integrated Quick-Connect RO Membrane Filter Cartridge – Series 2: https://www.yuchensy.com/en/sanyishui-lxhs2-ro.html
-- Integrated Quick-Connect UF Membrane Filter Cartridge – Series 2: https://www.yuchensy.com/en/sanyishui-lxhs2-uf.html
-- Integrated Quick-Connect Large T33 Coconut-Shell Activated Carbon Filter Cartridge – Series 2: https://www.yuchensy.com/en/sanyishui-lxhs2-t33.html
-- Flat-End PP Sediment Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxpk-sy-ppf.html
-- Flat-End UDF Coconut-Shell Granular Activated Carbon Filter Cartridge – Black End Caps: https://www.yuchensy.com/en/sanyishui-lxpk-sy-kfd.html
-- Flat-End CTO Coconut-Shell Carbon Block Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxpk-sy-cto.html
-- Flat-End T33 Coconut-Shell Activated Carbon Filter Cartridge – Black End Caps: https://www.yuchensy.com/en/sanyishui-lxpk-sy-t33.html
-- Flat-End PCO High-Iodine Sintered Activated Carbon Filter Cartridge – Black End Caps: https://www.yuchensy.com/en/sanyishui-lxpk-sy-pco.html
-- Flat-End UDF Coconut-Shell Granular Activated Carbon Filter Cartridge – Blue End Caps: https://www.yuchensy.com/en/sanyishui-lxpk-sy-udf.html
-- Flat-End CTO Carbon Block Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxpk-sy-cto1.html
-- Flat-End T33 Coconut-Shell Activated Carbon Filter Cartridge – White End Caps: https://www.yuchensy.com/en/sanyishui-lxpk-sy-t331.html
-- Flat-End PCO High-Iodine Sintered Activated Carbon Filter Cartridge – Blue End Caps: https://www.yuchensy.com/en/sanyishui-lxpk-sy-pco1.html
-- Flat-End UF Membrane Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxpk-sy-clm.html
-- Plug-In PP Sediment Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxck-sy-pp.html
-- Plug-In UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxck-sy-udf.html
-- Plug-In CTO Carbon Block Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxck-sy-cto.html
-- Plug-In UF Membrane Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxck-sy-clm.html
-- Female-Threaded PP Sediment Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxnly-sy-pp.html
-- Female-Threaded UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxnly-sy-udf.html
-- Female-Threaded CTO Carbon Block Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxnly-sy-cto.html
-- Female-Threaded T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxnly-sy-t33.html
-- Female-Threaded Small T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxnly-sy-xt33.html
-- Female-Threaded Small T Yellow Mineralization Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxkh-sy-1.html
-- Female-Threaded Small T Specialty Alkaline Mineralization Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxkh-sy-2.html
-- Quick-Connect Small T Alkaline Mineralization Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxkh-sy-3.html
-- Quick-Connect Small T Specialty Mineralization Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxkh-sy-4.html
-- Integrated Quick-Connect Large T FOF Scale-Inhibition Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxzg-sy-tfof.html
-- 10-Inch Flat-End FOF Scale-Inhibition Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxzg-sy-fof.html
-- Integrated Quick-Connect Cation-Exchange Resin Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxsz-sy-1.html
-- Flat-End Cation-Exchange Resin Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxsz-sy-2.html
-- Big Blue PP Sediment Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxdp-sy-pp.html
-- Big Blue Grooved PP Sediment Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxdp-sy-gcpp.html
-- Big Blue UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxdp-sy-udf.html
-- Big Blue CTO Carbon Block Filter Cartridge: https://www.yuchensy.com/en/sanyishui-lxdp-sy-cto.html
-- Big Blue PCP Composite PP–Coconut-Shell Carbon–PP Filter Cartridge – Printed-Label Outer Layer: https://www.yuchensy.com/en/sanyishui-lxdp-sy-pcp.html
-- Big Blue PCP Composite PP–Coconut-Shell Carbon–PP Filter Cartridge – Textured PP Outer Layer: https://www.yuchensy.com/en/sanyishui-lxdp-sy-pcp1.html
+- Products overview: https://www.yuchensy.com/en/products.html
+- Yuchen Water products: https://www.yuchensy.com/en/yuchen-water-products.html
+- OEM/ODM product collection: https://www.yuchensy.com/en/sanyishui-products.html
+- Private English catalog request: https://www.yuchensy.com/en/sanyishui-catalog.html
+- Commercial, office and vending RO systems: https://www.yuchensy.com/en/commercial-ro-water-systems.html
+- Water softener systems: https://www.yuchensy.com/en/automatic-water-filter-softener-systems.html
+- Industrial RO and seawater desalination: https://www.yuchensy.com/en/industrial-ro-seawater-desalination-systems.html
+- 2,000 L/h seawater desalination RO system: https://www.yuchensy.com/en/product-2000lph-seawater-desalination-ro-system.html
+
+## OEM/ODM families
+- pipeline: https://www.yuchensy.com/en/instant-heating-water-dispensers.html (23 products)
+- bayonet: https://www.yuchensy.com/en/quick-change-water-filter-cartridges.html (5 products)
+- korean_quick: https://www.yuchensy.com/en/integrated-quick-connect-water-filter-cartridges.html (5 products)
+- korean_quick_2: https://www.yuchensy.com/en/integrated-quick-connect-series-2-water-filter-cartridges.html (6 products)
+- flat_end: https://www.yuchensy.com/en/flat-end-water-filter-cartridges.html (10 products)
+- plug_in: https://www.yuchensy.com/en/plug-in-water-filter-cartridges.html (4 products)
+- female_thread: https://www.yuchensy.com/en/female-threaded-water-filter-cartridges.html (5 products)
+- functional: https://www.yuchensy.com/en/functional-media-water-filter-cartridges.html (8 products)
+- big_blue: https://www.yuchensy.com/en/big-blue-water-filter-cartridges.html (6 products)
+
+- Contact: https://www.yuchensy.com/en/contact.html
+- Product specifications, compatibility and project configuration must be confirmed in the quotation.
 <!-- SANYISHUI_CATALOG_END -->
+<!-- PRODUCT_TAXONOMY_V2_END -->
 
-# BEGIN HOUSING PRODUCT LOCALIZED LINKS
-## Water filter housing product pages
-- [20-duim-drietrap-Big Blue-waterfilterstelsel](https://www.yuchensy.com/af/product-big-blue-3stage.html)
-- [Waterfilterbehuizings vir 10- en 20-duim-vervangingspatrone](https://www.yuchensy.com/af/product-housing-filter.html)
-- [Waterfilterbehuizings vir 10- en 20-duim-vervangingspatrone — SUS 304](https://www.yuchensy.com/af/product-ss-jumbo-housing.html)
-- [نظام ترشيح مياه بيغ بلو ثلاثي المراحل مقاس 20 بوصة](https://www.yuchensy.com/ar/product-big-blue-3stage.html)
-- [حاويات فلاتر مياه لخراطيش الاستبدال مقاس 10 و20 بوصة](https://www.yuchensy.com/ar/product-housing-filter.html)
-- [حاويات فلاتر مياه لخراطيش الاستبدال مقاس 10 و20 بوصة — SUS 304](https://www.yuchensy.com/ar/product-ss-jumbo-housing.html)
-- [20 düymlük üçmərhələli Big Blue su filtri sistemi](https://www.yuchensy.com/az/product-big-blue-3stage.html)
-- [10 və 20 düymlük əvəzedici kartriclər üçün su filtri korpusları](https://www.yuchensy.com/az/product-housing-filter.html)
-- [10 və 20 düymlük əvəzedici kartriclər üçün su filtri korpusları — SUS 304](https://www.yuchensy.com/az/product-ss-jumbo-housing.html)
-- [20-инчова тристепенна система за филтриране на вода Big Blue](https://www.yuchensy.com/bg/product-big-blue-3stage.html)
-- [Филтърни корпуси за 10- и 20-инчови сменяеми патрони](https://www.yuchensy.com/bg/product-housing-filter.html)
-- [Филтърни корпуси за 10- и 20-инчови сменяеми патрони — SUS 304](https://www.yuchensy.com/bg/product-ss-jumbo-housing.html)
-- [২০ ইঞ্চি তিন-ধাপের বিগ ব্লু পানি ফিল্টার ব্যবস্থা](https://www.yuchensy.com/bn/product-big-blue-3stage.html)
-- [১০ ও ২০ ইঞ্চি প্রতিস্থাপন কার্ট্রিজের জন্য পানি ফিল্টার হাউজিং](https://www.yuchensy.com/bn/product-housing-filter.html)
-- [১০ ও ২০ ইঞ্চি প্রতিস্থাপন কার্ট্রিজের জন্য পানি ফিল্টার হাউজিং — SUS 304](https://www.yuchensy.com/bn/product-ss-jumbo-housing.html)
-- [Trostepeni Big Blue sistem za filtriranje vode od 20 inča](https://www.yuchensy.com/bs/product-big-blue-3stage.html)
-- [Kućišta filtera za zamjenske uloške od 10 i 20 inča](https://www.yuchensy.com/bs/product-housing-filter.html)
-- [Kućišta filtera za zamjenske uloške od 10 i 20 inča — SUS 304](https://www.yuchensy.com/bs/product-ss-jumbo-housing.html)
-- [20palcový třístupňový systém filtrace vody Big Blue](https://www.yuchensy.com/cs/product-big-blue-3stage.html)
-- [Pouzdra vodních filtrů pro 10- a 20palcové výměnné vložky](https://www.yuchensy.com/cs/product-housing-filter.html)
-- [Pouzdra vodních filtrů pro 10- a 20palcové výměnné vložky — SUS 304](https://www.yuchensy.com/cs/product-ss-jumbo-housing.html)
-- [20-tommers tretrins Big Blue-vandfiltersystem](https://www.yuchensy.com/da/product-big-blue-3stage.html)
-- [Vandfilterhuse til 10- og 20-tommers udskiftningspatroner](https://www.yuchensy.com/da/product-housing-filter.html)
-- [Vandfilterhuse til 10- og 20-tommers udskiftningspatroner — SUS 304](https://www.yuchensy.com/da/product-ss-jumbo-housing.html)
-- [20-Zoll-Big-Blue-Wasserfiltersystem mit drei Stufen](https://www.yuchensy.com/de/product-big-blue-3stage.html)
-- [Wasserfiltergehäuse für 10- und 20-Zoll-Ersatzkartuschen](https://www.yuchensy.com/de/product-housing-filter.html)
-- [Wasserfiltergehäuse für 10- und 20-Zoll-Ersatzkartuschen — SUS 304](https://www.yuchensy.com/de/product-ss-jumbo-housing.html)
-- [Σύστημα φίλτρανσης νερού Big Blue τριών σταδίων 20 ιντσών](https://www.yuchensy.com/el/product-big-blue-3stage.html)
-- [Κελύφη φίλτρων νερού για ανταλλακτικά φυσίγγια 10 και 20 ιντσών](https://www.yuchensy.com/el/product-housing-filter.html)
-- [Κελύφη φίλτρων νερού για ανταλλακτικά φυσίγγια 10 και 20 ιντσών — SUS 304](https://www.yuchensy.com/el/product-ss-jumbo-housing.html)
-- [20-Inch Three-Stage Big Blue Water Filter System](https://www.yuchensy.com/en/product-big-blue-3stage.html)
-- [10- and 20-Inch Water Filter Housings for Replacement Cartridges](https://www.yuchensy.com/en/product-housing-filter.html)
-- [SUS 304 Stainless Steel Jumbo Water Filter Housing for 10- and 20-Inch Cartridges](https://www.yuchensy.com/en/product-ss-jumbo-housing.html)
-- [Sistema de filtración de agua Big Blue de tres etapas y 20 pulgadas](https://www.yuchensy.com/es/product-big-blue-3stage.html)
-- [Carcasas de filtro de agua para cartuchos de repuesto de 10 y 20 pulgadas](https://www.yuchensy.com/es/product-housing-filter.html)
-- [Carcasas de filtro de agua para cartuchos de repuesto de 10 y 20 pulgadas — SUS 304](https://www.yuchensy.com/es/product-ss-jumbo-housing.html)
-- [20-tolline kolmeastmeline Big Blue veefiltrisüsteem](https://www.yuchensy.com/et/product-big-blue-3stage.html)
-- [Veefiltrikorpused 10- ja 20-tollistele vahetuskassettidele](https://www.yuchensy.com/et/product-housing-filter.html)
-- [Veefiltrikorpused 10- ja 20-tollistele vahetuskassettidele — SUS 304](https://www.yuchensy.com/et/product-ss-jumbo-housing.html)
-- [سیستم تصفیه آب سه‌مرحله‌ای بیگ بلو با محفظه ۲۰ اینچی](https://www.yuchensy.com/fa/product-big-blue-3stage.html)
-- [هوزینگ فیلتر آب برای کارتریج‌های تعویضی ۱۰ و ۲۰ اینچی](https://www.yuchensy.com/fa/product-housing-filter.html)
-- [هوزینگ فیلتر آب برای کارتریج‌های تعویضی ۱۰ و ۲۰ اینچی — SUS 304](https://www.yuchensy.com/fa/product-ss-jumbo-housing.html)
-- [20 tuuman kolmivaiheinen Big Blue -vedensuodatusjärjestelmä](https://www.yuchensy.com/fi/product-big-blue-3stage.html)
-- [Vedensuodatinkotelot 10 ja 20 tuuman vaihtopatruunoille](https://www.yuchensy.com/fi/product-housing-filter.html)
-- [Vedensuodatinkotelot 10 ja 20 tuuman vaihtopatruunoille — SUS 304](https://www.yuchensy.com/fi/product-ss-jumbo-housing.html)
-- [Système de filtration d’eau Big Blue à trois étapes de 20 pouces](https://www.yuchensy.com/fr/product-big-blue-3stage.html)
-- [Boîtiers de filtre à eau pour cartouches de remplacement de 10 et 20 pouces](https://www.yuchensy.com/fr/product-housing-filter.html)
-- [Boîtiers de filtre à eau pour cartouches de remplacement de 10 et 20 pouces — SUS 304](https://www.yuchensy.com/fr/product-ss-jumbo-housing.html)
-- [Tsarin tace ruwa na Big Blue mai matakai uku, inci 20](https://www.yuchensy.com/ha/product-big-blue-3stage.html)
-- [Gidajen tace ruwa don harsasan sauyawa na inci 10 da 20](https://www.yuchensy.com/ha/product-housing-filter.html)
-- [Gidajen tace ruwa don harsasan sauyawa na inci 10 da 20 — SUS 304](https://www.yuchensy.com/ha/product-ss-jumbo-housing.html)
-- [מערכת סינון מים ביג בלו תלת־שלבית בגודל 20 אינץ׳](https://www.yuchensy.com/he/product-big-blue-3stage.html)
-- [בתי מסנן מים למחסניות חלופיות בגודל 10 ו־20 אינץ׳](https://www.yuchensy.com/he/product-housing-filter.html)
-- [בתי מסנן מים למחסניות חלופיות בגודל 10 ו־20 אינץ׳ — SUS 304](https://www.yuchensy.com/he/product-ss-jumbo-housing.html)
-- [20 इंच तीन-चरण बिग ब्लू जल फ़िल्टर प्रणाली](https://www.yuchensy.com/hi/product-big-blue-3stage.html)
-- [10 और 20 इंच प्रतिस्थापन कार्ट्रिज के लिए जल फ़िल्टर हाउसिंग](https://www.yuchensy.com/hi/product-housing-filter.html)
-- [10 और 20 इंच प्रतिस्थापन कार्ट्रिज के लिए जल फ़िल्टर हाउसिंग — SUS 304](https://www.yuchensy.com/hi/product-ss-jumbo-housing.html)
-- [Trostupanjski sustav filtracije vode Big Blue od 20 inča](https://www.yuchensy.com/hr/product-big-blue-3stage.html)
-- [Kućišta filtra za zamjenske uloške od 10 i 20 inča](https://www.yuchensy.com/hr/product-housing-filter.html)
-- [Kućišta filtra za zamjenske uloške od 10 i 20 inča — SUS 304](https://www.yuchensy.com/hr/product-ss-jumbo-housing.html)
-- [20 hüvelykes, háromlépcsős Big Blue vízszűrő rendszer](https://www.yuchensy.com/hu/product-big-blue-3stage.html)
-- [Vízszűrőházak 10 és 20 hüvelykes cserebetétekhez](https://www.yuchensy.com/hu/product-housing-filter.html)
-- [Vízszűrőházak 10 és 20 hüvelykes cserebetétekhez — SUS 304](https://www.yuchensy.com/hu/product-ss-jumbo-housing.html)
-- [20 դյույմանոց եռաստիճան Big Blue ջրի զտման համակարգ](https://www.yuchensy.com/hy/product-big-blue-3stage.html)
-- [Ջրի զտիչի պատյաններ 10 և 20 դյույմանոց փոխարինվող քարթրիջների համար](https://www.yuchensy.com/hy/product-housing-filter.html)
-- [Ջրի զտիչի պատյաններ 10 և 20 դյույմանոց փոխարինվող քարթրիջների համար — SUS 304](https://www.yuchensy.com/hy/product-ss-jumbo-housing.html)
-- [Sistem filter air Big Blue tiga tahap 20 inci](https://www.yuchensy.com/id/product-big-blue-3stage.html)
-- [Rumah filter air untuk kartrid pengganti 10 dan 20 inci](https://www.yuchensy.com/id/product-housing-filter.html)
-- [Rumah filter air untuk kartrid pengganti 10 dan 20 inci — SUS 304](https://www.yuchensy.com/id/product-ss-jumbo-housing.html)
-- [Sistema di filtrazione dell’acqua Big Blue a tre stadi da 20 pollici](https://www.yuchensy.com/it/product-big-blue-3stage.html)
-- [Contenitori per filtri d’acqua con cartucce di ricambio da 10 e 20 pollici](https://www.yuchensy.com/it/product-housing-filter.html)
-- [Contenitori per filtri d’acqua con cartucce di ricambio da 10 e 20 pollici — SUS 304](https://www.yuchensy.com/it/product-ss-jumbo-housing.html)
-- [20インチ3段式ビッグブルー浄水フィルターシステム](https://www.yuchensy.com/ja/product-big-blue-3stage.html)
-- [10インチ・20インチ交換カートリッジ用浄水フィルターハウジング](https://www.yuchensy.com/ja/product-housing-filter.html)
-- [10インチ・20インチ交換カートリッジ用浄水フィルターハウジング — SUS 304](https://www.yuchensy.com/ja/product-ss-jumbo-housing.html)
-- [20-დუიმიანი სამსაფეხურიანი Big Blue წყლის ფილტრაციის სისტემა](https://www.yuchensy.com/ka/product-big-blue-3stage.html)
-- [წყლის ფილტრის კორპუსები 10 და 20 დუიმიანი შესაცვლელი კარტრიჯებისთვის](https://www.yuchensy.com/ka/product-housing-filter.html)
-- [წყლის ფილტრის კორპუსები 10 და 20 დუიმიანი შესაცვლელი კარტრიჯებისთვის — SUS 304](https://www.yuchensy.com/ka/product-ss-jumbo-housing.html)
-- [20 дюймдік үш сатылы Big Blue су сүзгілеу жүйесі](https://www.yuchensy.com/kk/product-big-blue-3stage.html)
-- [10 және 20 дюймдік ауыстырмалы картридждерге арналған су сүзгі корпустары](https://www.yuchensy.com/kk/product-housing-filter.html)
-- [10 және 20 дюймдік ауыстырмалы картридждерге арналған су сүзгі корпустары — SUS 304](https://www.yuchensy.com/kk/product-ss-jumbo-housing.html)
-- [20인치 3단계 빅블루 정수 필터 시스템](https://www.yuchensy.com/ko/product-big-blue-3stage.html)
-- [10인치 및 20인치 교체 카트리지용 정수 필터 하우징](https://www.yuchensy.com/ko/product-housing-filter.html)
-- [10인치 및 20인치 교체 카트리지용 정수 필터 하우징 — SUS 304](https://www.yuchensy.com/ko/product-ss-jumbo-housing.html)
-- [Pergala parzûnkirina avê ya Big Blue ya sê qonaxî û 20 înçî](https://www.yuchensy.com/ku/product-big-blue-3stage.html)
-- [Qalikên parzûna avê ji bo kartûşên guherbar ên 10 û 20 înçî](https://www.yuchensy.com/ku/product-housing-filter.html)
-- [Qalikên parzûna avê ji bo kartûşên guherbar ên 10 û 20 înçî — SUS 304](https://www.yuchensy.com/ku/product-ss-jumbo-housing.html)
-- [20 дюймдук үч баскычтуу Big Blue суу чыпкалоо тутуму](https://www.yuchensy.com/ky/product-big-blue-3stage.html)
-- [10 жана 20 дюймдук алмашма картридждер үчүн суу чыпка корпустары](https://www.yuchensy.com/ky/product-housing-filter.html)
-- [10 жана 20 дюймдук алмашма картридждер үчүн суу чыпка корпустары — SUS 304](https://www.yuchensy.com/ky/product-ss-jumbo-housing.html)
-- [20 colių trijų pakopų Big Blue vandens filtravimo sistema](https://www.yuchensy.com/lt/product-big-blue-3stage.html)
-- [Vandens filtrų korpusai 10 ir 20 colių keičiamoms kasetėms](https://www.yuchensy.com/lt/product-housing-filter.html)
-- [Vandens filtrų korpusai 10 ir 20 colių keičiamoms kasetėms — SUS 304](https://www.yuchensy.com/lt/product-ss-jumbo-housing.html)
-- [20 collu trīspakāpju Big Blue ūdens filtrēšanas sistēma](https://www.yuchensy.com/lv/product-big-blue-3stage.html)
-- [Ūdens filtru korpusi 10 un 20 collu maiņas kasetnēm](https://www.yuchensy.com/lv/product-housing-filter.html)
-- [Ūdens filtru korpusi 10 un 20 collu maiņas kasetnēm — SUS 304](https://www.yuchensy.com/lv/product-ss-jumbo-housing.html)
-- [Sistem penapis air Big Blue tiga peringkat 20 inci](https://www.yuchensy.com/ms/product-big-blue-3stage.html)
-- [Perumah penapis air untuk kartrij ganti 10 dan 20 inci](https://www.yuchensy.com/ms/product-housing-filter.html)
-- [Perumah penapis air untuk kartrij ganti 10 dan 20 inci — SUS 304](https://www.yuchensy.com/ms/product-ss-jumbo-housing.html)
-- [20-inch drietraps Big Blue-waterfiltersysteem](https://www.yuchensy.com/nl/product-big-blue-3stage.html)
-- [Waterfilterbehuizingen voor vervangingspatronen van 10 en 20 inch](https://www.yuchensy.com/nl/product-housing-filter.html)
-- [Waterfilterbehuizingen voor vervangingspatronen van 10 en 20 inch — SUS 304](https://www.yuchensy.com/nl/product-ss-jumbo-housing.html)
-- [20-tommers tretrinns Big Blue-vannfiltersystem](https://www.yuchensy.com/no/product-big-blue-3stage.html)
-- [Vannfilterhus for 10- og 20-tommers utskiftingspatroner](https://www.yuchensy.com/no/product-housing-filter.html)
-- [Vannfilterhus for 10- og 20-tommers utskiftingspatroner — SUS 304](https://www.yuchensy.com/no/product-ss-jumbo-housing.html)
-- [20-calowy trzystopniowy system filtracji wody Big Blue](https://www.yuchensy.com/pl/product-big-blue-3stage.html)
-- [Obudowy filtrów wody do wymiennych wkładów 10- i 20-calowych](https://www.yuchensy.com/pl/product-housing-filter.html)
-- [Obudowy filtrów wody do wymiennych wkładów 10- i 20-calowych — SUS 304](https://www.yuchensy.com/pl/product-ss-jumbo-housing.html)
-- [Sistema de filtragem de água Big Blue de três etapas e 20 polegadas](https://www.yuchensy.com/pt/product-big-blue-3stage.html)
-- [Carcaças de filtro de água para cartuchos de reposição de 10 e 20 polegadas](https://www.yuchensy.com/pt/product-housing-filter.html)
-- [Carcaças de filtro de água para cartuchos de reposição de 10 e 20 polegadas — SUS 304](https://www.yuchensy.com/pt/product-ss-jumbo-housing.html)
-- [Sistem de filtrare a apei Big Blue în trei trepte, de 20 de inci](https://www.yuchensy.com/ro/product-big-blue-3stage.html)
-- [Carcase de filtre de apă pentru cartușe de schimb de 10 și 20 de inci](https://www.yuchensy.com/ro/product-housing-filter.html)
-- [Carcase de filtre de apă pentru cartușe de schimb de 10 și 20 de inci — SUS 304](https://www.yuchensy.com/ro/product-ss-jumbo-housing.html)
-- [20-дюймовая трёхступенчатая система фильтрации воды Биг Блю](https://www.yuchensy.com/ru/product-big-blue-3stage.html)
-- [Корпуса водяных фильтров для сменных картриджей 10 и 20 дюймов](https://www.yuchensy.com/ru/product-housing-filter.html)
-- [Корпуса водяных фильтров для сменных картриджей 10 и 20 дюймов — SUS 304](https://www.yuchensy.com/ru/product-ss-jumbo-housing.html)
-- [20-palcový trojstupňový systém filtrácie vody Big Blue](https://www.yuchensy.com/sk/product-big-blue-3stage.html)
-- [Telesá vodných filtrov pre 10- a 20-palcové náhradné vložky](https://www.yuchensy.com/sk/product-housing-filter.html)
-- [Telesá vodných filtrov pre 10- a 20-palcové náhradné vložky — SUS 304](https://www.yuchensy.com/sk/product-ss-jumbo-housing.html)
-- [20-palčni tristopenjski sistem za filtriranje vode Big Blue](https://www.yuchensy.com/sl/product-big-blue-3stage.html)
-- [Ohišja vodnih filtrov za 10- in 20-palčne nadomestne vložke](https://www.yuchensy.com/sl/product-housing-filter.html)
-- [Ohišja vodnih filtrov za 10- in 20-palčne nadomestne vložke — SUS 304](https://www.yuchensy.com/sl/product-ss-jumbo-housing.html)
-- [Sistem filtrimi uji Big Blue me tri faza, 20 inç](https://www.yuchensy.com/sq/product-big-blue-3stage.html)
-- [Mbajtëse filtrash uji për fishekë zëvendësues 10 dhe 20 inç](https://www.yuchensy.com/sq/product-housing-filter.html)
-- [Mbajtëse filtrash uji për fishekë zëvendësues 10 dhe 20 inç — SUS 304](https://www.yuchensy.com/sq/product-ss-jumbo-housing.html)
-- [Систем за филтрирање воде Биг Блу од 20 инча са три степена](https://www.yuchensy.com/sr/product-big-blue-3stage.html)
-- [Кућишта филтера за воду за заменске улошке од 10 и 20 инча](https://www.yuchensy.com/sr/product-housing-filter.html)
-- [Кућишта филтера за воду за заменске улошке од 10 и 20 инча — SUS 304](https://www.yuchensy.com/sr/product-ss-jumbo-housing.html)
-- [Sistem za filtriranje vode Big Blue od 20 inča sa tri stepena](https://www.yuchensy.com/sr-me/product-big-blue-3stage.html)
-- [Kućišta filtera za vodu za zamjenske uloške od 10 i 20 inča](https://www.yuchensy.com/sr-me/product-housing-filter.html)
-- [Kućišta filtera za vodu za zamjenske uloške od 10 i 20 inča — SUS 304](https://www.yuchensy.com/sr-me/product-ss-jumbo-housing.html)
-- [20-tums trestegs Big Blue-vattenfiltersystem](https://www.yuchensy.com/sv/product-big-blue-3stage.html)
-- [Vattenfilterhus för 10- och 20-tums utbytespatroner](https://www.yuchensy.com/sv/product-housing-filter.html)
-- [Vattenfilterhus för 10- och 20-tums utbytespatroner — SUS 304](https://www.yuchensy.com/sv/product-ss-jumbo-housing.html)
-- [Mfumo wa kuchuja maji wa Big Blue wa inchi 20 na hatua tatu](https://www.yuchensy.com/sw/product-big-blue-3stage.html)
-- [Nyumba za vichujio vya maji kwa katriji mbadala za inchi 10 na 20](https://www.yuchensy.com/sw/product-housing-filter.html)
-- [Nyumba za vichujio vya maji kwa katriji mbadala za inchi 10 na 20 — SUS 304](https://www.yuchensy.com/sw/product-ss-jumbo-housing.html)
-- [20 அங்குல மூன்று நிலை பிக் ப்ளூ நீர் வடிகட்டும் அமைப்பு](https://www.yuchensy.com/ta/product-big-blue-3stage.html)
-- [10 மற்றும் 20 அங்குல மாற்று கார்ட்ரிட்ஜ்களுக்கான நீர் வடிகட்டி உறைகள்](https://www.yuchensy.com/ta/product-housing-filter.html)
-- [10 மற்றும் 20 அங்குல மாற்று கார்ட்ரிட்ஜ்களுக்கான நீர் வடிகட்டி உறைகள் — SUS 304](https://www.yuchensy.com/ta/product-ss-jumbo-housing.html)
-- [Низоми сесатҳаи филтркунии оби Биг Блуи 20-дюймӣ](https://www.yuchensy.com/tg/product-big-blue-3stage.html)
-- [Корпусҳои филтри об барои картриҷҳои ивазшавандаи 10 ва 20 дюйм](https://www.yuchensy.com/tg/product-housing-filter.html)
-- [Корпусҳои филтри об барои картриҷҳои ивазшавандаи 10 ва 20 дюйм — SUS 304](https://www.yuchensy.com/tg/product-ss-jumbo-housing.html)
-- [ระบบกรองน้ำบิ๊กบลู 20 นิ้ว แบบสามขั้นตอน](https://www.yuchensy.com/th/product-big-blue-3stage.html)
-- [กระบอกกรองน้ำสำหรับไส้กรองเปลี่ยนขนาด 10 และ 20 นิ้ว](https://www.yuchensy.com/th/product-housing-filter.html)
-- [กระบอกกรองน้ำสำหรับไส้กรองเปลี่ยนขนาด 10 และ 20 นิ้ว — SUS 304](https://www.yuchensy.com/th/product-ss-jumbo-housing.html)
-- [20 dýuýmlyk üç basgançakly Big Blue suw süzgüç ulgamy](https://www.yuchensy.com/tk/product-big-blue-3stage.html)
-- [10 we 20 dýuýmlyk çalşylýan kartrijler üçin suw süzgüç korpuslary](https://www.yuchensy.com/tk/product-housing-filter.html)
-- [10 we 20 dýuýmlyk çalşylýan kartrijler üçin suw süzgüç korpuslary — SUS 304](https://www.yuchensy.com/tk/product-ss-jumbo-housing.html)
-- [20-pulgadang tatlong-yugtong Big Blue na sistema ng pagsala ng tubig](https://www.yuchensy.com/tl/product-big-blue-3stage.html)
-- [Mga lalagyan ng pansala ng tubig para sa 10 at 20 pulgadang pamalit na kartutso](https://www.yuchensy.com/tl/product-housing-filter.html)
-- [Mga lalagyan ng pansala ng tubig para sa 10 at 20 pulgadang pamalit na kartutso — SUS 304](https://www.yuchensy.com/tl/product-ss-jumbo-housing.html)
-- [20 inç üç aşamalı Big Blue su filtreleme sistemi](https://www.yuchensy.com/tr/product-big-blue-3stage.html)
-- [10 ve 20 inç yedek kartuşlar için su filtresi gövdeleri](https://www.yuchensy.com/tr/product-housing-filter.html)
-- [10 ve 20 inç yedek kartuşlar için su filtresi gövdeleri — SUS 304](https://www.yuchensy.com/tr/product-ss-jumbo-housing.html)
-- [20-дюймова триступенева система фільтрації води Біг Блу](https://www.yuchensy.com/uk/product-big-blue-3stage.html)
-- [Корпуси водяних фільтрів для змінних картриджів 10 і 20 дюймів](https://www.yuchensy.com/uk/product-housing-filter.html)
-- [Корпуси водяних фільтрів для змінних картриджів 10 і 20 дюймів — SUS 304](https://www.yuchensy.com/uk/product-ss-jumbo-housing.html)
-- [20 انچ تین مرحلہ بگ بلیو واٹر فلٹریشن سسٹم](https://www.yuchensy.com/ur/product-big-blue-3stage.html)
-- [10 اور 20 انچ متبادل کارٹریجوں کے لیے واٹر فلٹر ہاؤسنگز](https://www.yuchensy.com/ur/product-housing-filter.html)
-- [10 اور 20 انچ متبادل کارٹریجوں کے لیے واٹر فلٹر ہاؤسنگز — SUS 304](https://www.yuchensy.com/ur/product-ss-jumbo-housing.html)
-- [20 dyuymli uch bosqichli Big Blue suv filtrlash tizimi](https://www.yuchensy.com/uz/product-big-blue-3stage.html)
-- [10 va 20 dyuymli almashtiriladigan kartrijlar uchun suv filtri korpuslari](https://www.yuchensy.com/uz/product-housing-filter.html)
-- [10 va 20 dyuymli almashtiriladigan kartrijlar uchun suv filtri korpuslari — SUS 304](https://www.yuchensy.com/uz/product-ss-jumbo-housing.html)
-- [Hệ thống lọc nước Big Blue 20 inch ba giai đoạn](https://www.yuchensy.com/vi/product-big-blue-3stage.html)
-- [Vỏ bộ lọc nước cho lõi lọc thay thế 10 và 20 inch](https://www.yuchensy.com/vi/product-housing-filter.html)
-- [Vỏ bộ lọc nước cho lõi lọc thay thế 10 và 20 inch — SUS 304](https://www.yuchensy.com/vi/product-ss-jumbo-housing.html)
-- [Uhlelo lokuhlunga amanzi lwe-Big Blue lwama-intshi angu-20 olunezigaba ezintathu](https://www.yuchensy.com/zu/product-big-blue-3stage.html)
-- [Izindlu zezihlungi zamanzi zama-cartridge ashintshwayo angu-10 no-20 intshi](https://www.yuchensy.com/zu/product-housing-filter.html)
-- [Izindlu zezihlungi zamanzi zama-cartridge ashintshwayo angu-10 no-20 intshi — SUS 304](https://www.yuchensy.com/zu/product-ss-jumbo-housing.html)
-# END HOUSING PRODUCT LOCALIZED LINKS
-
-
-<!-- VONTRON_KNOWLEDGE_START -->
-## Vontron membrane knowledge center
-
-- https://www.yuchensy.com/en/vontron-ro-nf-membranes.html
-- https://www.yuchensy.com/en/water-analysis-membrane-selection.html
-- https://www.yuchensy.com/en/resources/index.html
-- https://www.yuchensy.com/en/resources/ro-nf-uf-water-report-selection-guide.html
-- https://www.yuchensy.com/en/resources/seawater-brackish-water-membrane-treatment-guide.html
-- https://www.yuchensy.com/en/resources/groundwater-well-water-membrane-treatment-guide.html
-- https://www.yuchensy.com/en/resources/industrial-wastewater-reuse-uf-nf-ro-guide.html
-- https://www.yuchensy.com/en/resources/high-salinity-wastewater-zld-membrane-support.html
-- https://www.yuchensy.com/en/resources/salt-lake-brine-lithium-membrane-report-guide.html
-- https://www.yuchensy.com/en/resources/residential-light-commercial-ro-selection-guide.html
-- https://www.yuchensy.com/en/resources/activated-carbon-pretreatment-ro-membrane-guide.html
-<!-- VONTRON_KNOWLEDGE_END -->
-
-<!-- ACTIVATED_CARBON_CENTER_START -->
-## Activated carbon knowledge center
-
-- https://www.yuchensy.com/en/activated-carbon-knowledge-center.html
-- https://www.yuchensy.com/en/activated-carbon-technical-review.html
-- https://www.yuchensy.com/en/resources/activated-carbon-water-treatment-guide.html
-- https://www.yuchensy.com/en/resources/gac-cto-pac-t33-udf-comparison.html
-- https://www.yuchensy.com/en/resources/activated-carbon-raw-material-test-specifications.html
-- https://www.yuchensy.com/en/resources/gac-system-design-ebct-breakthrough-guide.html
-- https://www.yuchensy.com/en/resources/activated-carbon-pfas-test-evidence-guide.html
-- https://www.yuchensy.com/en/resources/carbon-filter-replacement-breakthrough-troubleshooting.html
-- https://www.yuchensy.com/en/resources/activated-carbon-pretreatment-ro-membrane-guide.html
-- https://www.yuchensy.com/en/carbon-filter-test-data.html
-<!-- ACTIVATED_CARBON_CENTER_END -->
-
-<!-- SILIPHOS_LLMS_START -->
-## Siliphos Balls — 62-language product system
-
-- English canonical: https://www.yuchensy.com/en/product-siliphos-balls.html
-- Forms: spherical 19 mm, 10 mm and 3–8 mm; broken particles 6–12 mm and 4–10 mm; powder; custom size confirmation.
-- Packaging: wood pallet, master carton, small boxes and small bottles.
-- Selection: confirm water conditions, equipment, intended use and local requirements; no certification or guaranteed-performance claim is made.
-- Localization: 62 active language routes use locale-specific product and procurement terminology.
-- Structured data: Product, FAQPage, BreadcrumbList and WebPage; no Offer, Review, AggregateRating or VideoObject.
-<!-- SILIPHOS_LLMS_END -->
-
-<!-- WATER_SOFTENER_LLMS_START -->
-## Automatic water filter and softener systems — English review
-
-- Hub: https://www.yuchensy.com/en/automatic-water-filter-softener-systems.html
-- Scope: 21 exact YC models in two automatic-filter series and five automatic-softener series.
-- Filter selection facts: source-listed flow, activated-carbon volume, FRP tank size, automatic filter valve and cabinet size.
-- Softener selection facts: source-listed flow, resin volume, FRP tank size, regeneration mode, automatic softener valve, brine valve and cabinet size.
-- Evidence limit: no certification, removal-performance, price, stock, warranty, brand or manufacturer claim is made.
-<!-- WATER_SOFTENER_LLMS_END -->
-
-<!-- PURO_ULD_START -->
-## PURO-ULD technical guide
-
-- https://www.yuchensy.com/en/resources/vontron-puro-uld-antifouling-ro-membrane-industrial-wastewater-guide.html
-<!-- PURO_ULD_END -->
+## 159 canonical English product pages
+- SY-081 Instant Heating Water Dispenser – Grey: https://www.yuchensy.com/en/product-sy-081-instant-heating-water-dispenser-grey.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-081 Instant Heating Water Dispenser – White: https://www.yuchensy.com/en/product-sy-081-instant-heating-water-dispenser-white.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0823 Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/product-sy-0823-instant-heating-water-dispenser-pearl-white.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0828 Instant Heating Water Dispenser – Gold: https://www.yuchensy.com/en/product-sy-0828-instant-heating-water-dispenser-gold.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0826 Instant Heating Water Dispenser – Dark Green: https://www.yuchensy.com/en/product-sy-0826-instant-heating-water-dispenser-dark-green.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0822 Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/product-sy-0822-instant-heating-water-dispenser-black.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0825 Instant Heating Water Dispenser – Silver: https://www.yuchensy.com/en/product-sy-0825-instant-heating-water-dispenser-silver.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0825F Instant Heating Water Dispenser – Silver: https://www.yuchensy.com/en/product-sy-0825f-instant-heating-water-dispenser-silver.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0828F Instant Heating Water Dispenser – Gold: https://www.yuchensy.com/en/product-sy-0828f-instant-heating-water-dispenser-gold.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0826F Instant Heating Water Dispenser – Dark Green: https://www.yuchensy.com/en/product-sy-0826f-instant-heating-water-dispenser-dark-green.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0822F Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/product-sy-0822f-instant-heating-water-dispenser-black.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0823F Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/product-sy-0823f-instant-heating-water-dispenser-pearl-white.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0883 Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/product-sy-0883-instant-heating-water-dispenser-pearl-white.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0881 Instant Heating Water Dispenser – Coated Black: https://www.yuchensy.com/en/product-sy-0881-instant-heating-water-dispenser-coated-black.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0887 Instant Heating Water Dispenser – Coated Green: https://www.yuchensy.com/en/product-sy-0887-instant-heating-water-dispenser-coated-green.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0882 Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/product-sy-0882-instant-heating-water-dispenser-black.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0863 Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/product-sy-0863-instant-heating-water-dispenser-pearl-white.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0862 Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/product-sy-0862-instant-heating-water-dispenser-black.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0867 Instant Heating Water Dispenser – Coated Green: https://www.yuchensy.com/en/product-sy-0867-instant-heating-water-dispenser-coated-green.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-0861 Instant Heating Water Dispenser – Coated Black: https://www.yuchensy.com/en/product-sy-0861-instant-heating-water-dispenser-coated-black.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-087 Instant Heating Water Dispenser – Black: https://www.yuchensy.com/en/product-sy-087-instant-heating-water-dispenser-black.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-087 Instant Heating Water Dispenser – Pearl White: https://www.yuchensy.com/en/product-sy-087-instant-heating-water-dispenser-pearl-white.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- SY-087 Instant Heating Water Dispenser – Coated Black: https://www.yuchensy.com/en/product-sy-087-instant-heating-water-dispenser-coated-black.html — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
+- Bayonet-Lock PP Sediment Filter Cartridge: https://www.yuchensy.com/en/product-bayonet-lock-quick-change-pp-sediment-filter-cartridge.html — Bayonet-Lock Filter Cartridges; family: bayonet. Specifications and project configuration require quotation confirmation.
+- Bayonet-Lock UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-bayonet-lock-quick-change-udf-coconut-shell-granular-activated-carbon-filter-cartridge.html — Bayonet-Lock Filter Cartridges; family: bayonet. Specifications and project configuration require quotation confirmation.
+- Bayonet-Lock CTO Coconut-Shell Carbon Block Filter Cartridge: https://www.yuchensy.com/en/product-bayonet-lock-quick-change-cto-coconut-shell-carbon-block-filter-cartridge.html — Bayonet-Lock Filter Cartridges; family: bayonet. Specifications and project configuration require quotation confirmation.
+- Bayonet-Lock RO Membrane Filter Cartridge: https://www.yuchensy.com/en/product-bayonet-lock-quick-change-ro-membrane-filter-cartridge.html — Bayonet-Lock Filter Cartridges; family: bayonet. Specifications and project configuration require quotation confirmation.
+- Bayonet-Lock T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-bayonet-lock-quick-change-t33-coconut-shell-activated-carbon-filter-cartridge.html — Bayonet-Lock Filter Cartridges; family: bayonet. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect PP Sediment Filter Cartridge: https://www.yuchensy.com/en/product-integrated-quick-connect-pp-sediment-filter-cartridge.html — Korean-Type Quick-Connect Inline Filter Cartridges; family: korean_quick. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-integrated-quick-connect-udf-coconut-shell-granular-activated-carbon-filter-cartridge.html — Korean-Type Quick-Connect Inline Filter Cartridges; family: korean_quick. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect CTO Coconut-Shell Carbon Block Filter Cartridge: https://www.yuchensy.com/en/product-integrated-quick-connect-cto-coconut-shell-carbon-block-filter-cartridge.html — Korean-Type Quick-Connect Inline Filter Cartridges; family: korean_quick. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect RO Membrane Filter Cartridge: https://www.yuchensy.com/en/product-integrated-quick-connect-ro-membrane-filter-cartridge.html — Korean-Type Quick-Connect Inline Filter Cartridges; family: korean_quick. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect Large T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-integrated-quick-connect-large-t33-coconut-shell-activated-carbon-filter-cartridge.html — Korean-Type Quick-Connect Inline Filter Cartridges; family: korean_quick. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect PP Sediment Filter Cartridge – Series 2: https://www.yuchensy.com/en/product-integrated-quick-connect-pp-sediment-filter-cartridge-series-2.html — Korean-Type Quick-Connect Inline Filter Cartridges – Series 2; family: korean_quick_2. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect UDF Coconut-Shell Granular Activated Carbon Filter Cartridge – Series 2: https://www.yuchensy.com/en/product-integrated-quick-connect-udf-coconut-shell-granular-activated-carbon-filter-cartridge-series-2.html — Korean-Type Quick-Connect Inline Filter Cartridges – Series 2; family: korean_quick_2. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect CTO Coconut-Shell Carbon Block Filter Cartridge – Series 2: https://www.yuchensy.com/en/product-integrated-quick-connect-cto-coconut-shell-carbon-block-filter-cartridge-series-2.html — Korean-Type Quick-Connect Inline Filter Cartridges – Series 2; family: korean_quick_2. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect RO Membrane Filter Cartridge – Series 2: https://www.yuchensy.com/en/product-integrated-quick-connect-ro-membrane-filter-cartridge-series-2.html — Korean-Type Quick-Connect Inline Filter Cartridges – Series 2; family: korean_quick_2. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect UF Membrane Filter Cartridge – Series 2: https://www.yuchensy.com/en/product-integrated-quick-connect-uf-membrane-filter-cartridge-series-2.html — Korean-Type Quick-Connect Inline Filter Cartridges – Series 2; family: korean_quick_2. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect Large T33 Coconut-Shell Activated Carbon Filter Cartridge – Series 2: https://www.yuchensy.com/en/product-integrated-quick-connect-large-t33-coconut-shell-activated-carbon-filter-cartridge-series-2.html — Korean-Type Quick-Connect Inline Filter Cartridges – Series 2; family: korean_quick_2. Specifications and project configuration require quotation confirmation.
+- Flat-End PP Sediment Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-pp-sediment-filter-cartridge.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Flat-End UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-udf-coconut-shell-granular-activated-carbon-filter-cartridge-black-end-caps.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Flat-End CTO Coconut-Shell Carbon Block Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-cto-coconut-shell-carbon-block-filter-cartridge.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Flat-End T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-t33-coconut-shell-activated-carbon-filter-cartridge-black-end-caps.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Flat-End PCO High-Iodine Sintered Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-pco-high-iodine-sintered-activated-carbon-filter-cartridge-black-end-caps.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Flat-End UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-udf-coconut-shell-granular-activated-carbon-filter-cartridge-blue-end-caps.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Flat-End CTO Carbon Block Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-cto-carbon-block-filter-cartridge.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Flat-End T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-t33-coconut-shell-activated-carbon-filter-cartridge-white-end-caps.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Flat-End PCO High-Iodine Sintered Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-pco-high-iodine-sintered-activated-carbon-filter-cartridge-blue-end-caps.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Flat-End UF Membrane Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-uf-membrane-filter-cartridge.html — Flat-End Filter Cartridges; family: flat_end. Specifications and project configuration require quotation confirmation.
+- Plug-In PP Sediment Filter Cartridge: https://www.yuchensy.com/en/product-plug-in-pp-sediment-filter-cartridge.html — Plug-In Water Purifier Filter Cartridges; family: plug_in. Specifications and project configuration require quotation confirmation.
+- Plug-In UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-plug-in-udf-coconut-shell-granular-activated-carbon-filter-cartridge.html — Plug-In Water Purifier Filter Cartridges; family: plug_in. Specifications and project configuration require quotation confirmation.
+- Plug-In CTO Carbon Block Filter Cartridge: https://www.yuchensy.com/en/product-plug-in-cto-carbon-block-filter-cartridge.html — Plug-In Water Purifier Filter Cartridges; family: plug_in. Specifications and project configuration require quotation confirmation.
+- Plug-In UF Membrane Filter Cartridge: https://www.yuchensy.com/en/product-plug-in-uf-membrane-filter-cartridge.html — Plug-In Water Purifier Filter Cartridges; family: plug_in. Specifications and project configuration require quotation confirmation.
+- Female-Threaded PP Sediment Filter Cartridge: https://www.yuchensy.com/en/product-female-threaded-pp-sediment-filter-cartridge.html — Female-Threaded Inline Filter Cartridges; family: female_thread. Specifications and project configuration require quotation confirmation.
+- Female-Threaded UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-female-threaded-udf-coconut-shell-granular-activated-carbon-filter-cartridge.html — Female-Threaded Inline Filter Cartridges; family: female_thread. Specifications and project configuration require quotation confirmation.
+- Female-Threaded CTO Carbon Block Filter Cartridge: https://www.yuchensy.com/en/product-female-threaded-cto-carbon-block-filter-cartridge.html — Female-Threaded Inline Filter Cartridges; family: female_thread. Specifications and project configuration require quotation confirmation.
+- Female-Threaded T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-female-threaded-t33-coconut-shell-activated-carbon-filter-cartridge.html — Female-Threaded Inline Filter Cartridges; family: female_thread. Specifications and project configuration require quotation confirmation.
+- Female-Threaded Small T33 Coconut-Shell Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-female-threaded-small-t33-coconut-shell-activated-carbon-filter-cartridge.html — Female-Threaded Inline Filter Cartridges; family: female_thread. Specifications and project configuration require quotation confirmation.
+- Female-Threaded Small T Yellow Mineralization Filter Cartridge: https://www.yuchensy.com/en/product-female-threaded-small-t-yellow-mineralization-filter-cartridge.html — Mineralization, Scale-Inhibition & Resin Cartridges; family: functional. Specifications and project configuration require quotation confirmation.
+- Female-Threaded Small T Antibacterial Alkaline Mineralization Filter Cartridge: https://www.yuchensy.com/en/product-female-threaded-small-t-specialty-alkaline-mineralization-filter-cartridge.html — Mineralization, Scale-Inhibition & Resin Cartridges; family: functional. Specifications and project configuration require quotation confirmation.
+- Quick-Connect Small T Alkaline Mineralization Filter Cartridge: https://www.yuchensy.com/en/product-quick-connect-small-t-alkaline-mineralization-filter-cartridge.html — Mineralization, Scale-Inhibition & Resin Cartridges; family: functional. Specifications and project configuration require quotation confirmation.
+- Quick-Connect Small T Antibacterial Mineralization Filter Cartridge: https://www.yuchensy.com/en/product-quick-connect-small-t-specialty-mineralization-filter-cartridge.html — Mineralization, Scale-Inhibition & Resin Cartridges; family: functional. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect Large T FOF Scale-Inhibition Filter Cartridge: https://www.yuchensy.com/en/product-integrated-quick-connect-large-t-fof-scale-inhibition-filter-cartridge.html — Mineralization, Scale-Inhibition & Resin Cartridges; family: functional. Specifications and project configuration require quotation confirmation.
+- 10-Inch Flat-End FOF Scale-Inhibition Filter Cartridge: https://www.yuchensy.com/en/product-10-inch-flat-end-fof-scale-inhibition-filter-cartridge.html — Mineralization, Scale-Inhibition & Resin Cartridges; family: functional. Specifications and project configuration require quotation confirmation.
+- Integrated Quick-Connect Cation-Exchange Resin Filter Cartridge: https://www.yuchensy.com/en/product-integrated-quick-connect-cation-exchange-resin-filter-cartridge.html — Mineralization, Scale-Inhibition & Resin Cartridges; family: functional. Specifications and project configuration require quotation confirmation.
+- Flat-End Cation-Exchange Resin Filter Cartridge: https://www.yuchensy.com/en/product-flat-end-cation-exchange-resin-filter-cartridge.html — Mineralization, Scale-Inhibition & Resin Cartridges; family: functional. Specifications and project configuration require quotation confirmation.
+- Big Blue PP Sediment Filter Cartridge: https://www.yuchensy.com/en/product-big-blue-pp-sediment-filter-cartridge.html — Big Blue Filter Cartridges; family: big_blue. Specifications and project configuration require quotation confirmation.
+- Big Blue Grooved PP Sediment Filter Cartridge: https://www.yuchensy.com/en/product-big-blue-grooved-pp-sediment-filter-cartridge.html — Big Blue Filter Cartridges; family: big_blue. Specifications and project configuration require quotation confirmation.
+- Big Blue UDF Coconut-Shell Granular Activated Carbon Filter Cartridge: https://www.yuchensy.com/en/product-big-blue-udf-coconut-shell-granular-activated-carbon-filter-cartridge.html — Big Blue Filter Cartridges; family: big_blue. Specifications and project configuration require quotation confirmation.
+- Big Blue CTO Carbon Block Filter Cartridge: https://www.yuchensy.com/en/product-big-blue-cto-carbon-block-filter-cartridge.html — Big Blue Filter Cartridges; family: big_blue. Specifications and project configuration require quotation confirmation.
+- Big Blue PCP Composite PP–Coconut-Shell Carbon–PP Filter Cartridge: https://www.yuchensy.com/en/product-big-blue-pcp-composite-pp-coconut-shell-carbon-pp-filter-cartridge-printed-label-outer-layer.html — Big Blue Filter Cartridges; family: big_blue. Specifications and project configuration require quotation confirmation.
+- Big Blue PCP Composite PP–Coconut-Shell Carbon–PP Filter Cartridge: https://www.yuchensy.com/en/product-big-blue-pcp-composite-pp-coconut-shell-carbon-pp-filter-cartridge-textured-pp-outer-layer.html — Big Blue Filter Cartridges; family: big_blue. Specifications and project configuration require quotation confirmation.
+- Smart RO Water Purifier 400G-1200G: https://www.yuchensy.com/en/product-smart-ro-water-purifier-400g-1200g.html — Smart RO Water Purifier 400G-1200G with TDS display and filter life reminder options for 400G-1200G private-label under-sink or countertop RO programs.
+- Commercial Small-Cabinet RO Water Purifier 400G-1600G: https://www.yuchensy.com/en/product-commercial-small-cabinet-ro-water-purifier-400g-1600g.html — Commercial Small-Cabinet RO Water Purifier 400G-1600G for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label.
+- Large Industrial Reverse Osmosis Water Treatment Equipment 3-100 TPH: https://www.yuchensy.com/en/product-large-industrial-reverse-osmosis-water-treatment-equipment.html — Large Industrial Reverse Osmosis Water Treatment Equipment 3-100 TPH for project water treatment, with feed-water analysis, output, pretreatment, membrane array.
+- Dual-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h: https://www.yuchensy.com/en/product-dual-tank-pretreatment-integrated-skid-ro-equipment.html — Dual-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane array.
+- Three-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h: https://www.yuchensy.com/en/product-three-tank-pretreatment-integrated-skid-ro-equipment.html — Three-Tank Pretreatment Integrated Skid RO Equipment 1000-3000 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane array.
+- Dual-Tank Pretreatment Reverse Osmosis Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-dual-tank-pretreatment-ro-equipment-250-1000lph.html — Dual-Tank Pretreatment Reverse Osmosis Equipment 250-1000 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane array, control.
+- Six-Housing Reverse Osmosis Equipment with Pure Water Tank 250-1000 L/h: https://www.yuchensy.com/en/product-six-housing-ro-equipment-with-pure-water-tank-250-1000lph.html — Six-Housing Reverse Osmosis Equipment with Pure Water Tank 250-1000 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane.
+- Single-Tank Pretreatment Reverse Osmosis Water Purification Equipment 250-500 L/h: https://www.yuchensy.com/en/product-single-tank-pretreatment-ro-equipment-250-500lph.html — Single-Tank Pretreatment Reverse Osmosis Water Purification Equipment 250-500 L/h for project water treatment, with feed-water analysis, output, pretreatment.
+- Single-Tank 20-Inch Big Blue PP Reverse Osmosis Water Purification Equipment 250-500 L/h: https://www.yuchensy.com/en/product-single-tank-big-blue-pp-ro-equipment-250-500lph.html — Single-Tank 20-Inch Big Blue PP Reverse Osmosis Water Purification Equipment 250-500 L/h for project water treatment, with feed-water analysis, output.
+- Slim Reverse Osmosis Water Purification Equipment 250-500 L/h: https://www.yuchensy.com/en/product-slim-reverse-osmosis-water-purification-equipment-250-500lph.html — Slim Reverse Osmosis Water Purification Equipment 250-500 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane array, control.
+- Alkaline Water Purifier System: https://www.yuchensy.com/en/product-alkaline-purifier.html — Alkaline Water Purifier System for purifier and dispenser replacement sets, with media function, connector, service life, compatibility and label options confirmed.
+- 20-Inch Three-Stage Big Blue Water Filter System: https://www.yuchensy.com/en/product-big-blue-3stage.html — Compare a 20-inch three-stage Big Blue water filter system for staged sediment, carbon and fine prefiltration in residential and commercial projects.
+- CTO Coconut Shell Carbon Block Filter: https://www.yuchensy.com/en/product-carbon-block.html — CTO Coconut Shell Carbon Block Filter, a carbon filter cartridge for chlorine, taste and odor reduction, with media, micron rating, size and private label.
+- Compressed Activated CTO Carbon Block: https://www.yuchensy.com/en/product-carbon-block-2.html — Compressed Activated CTO Carbon Block for chlorine, taste and odor reduction, with carbon media, micron rating, cartridge size, cap style and private label.
+- Industrial High-Flow CTO Carbon Block Filter: https://www.yuchensy.com/en/product-carbon-block-industrial.html — Industrial High-Flow CTO Carbon Block Filter for project water treatment, with feed-water analysis, output, pretreatment, membrane array, control panel and.
+- Ceramic Filter Cartridge: https://www.yuchensy.com/en/product-ceramic-filter.html — Ceramic Filter Cartridge for purifier and dispenser replacement sets, with media function, connector, service life, compatibility and label options confirmed.
+- Multi-Stage Filter Cartridge Combination: https://www.yuchensy.com/en/product-filter-combo.html — Multi-Stage Filter Cartridge Combination for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label and.
+- 10- and 20-Inch Water Filter Housings for Replacement Cartridges: https://www.yuchensy.com/en/product-housing-filter.html — Compare water filter housings for 10- and 20-inch replacement cartridges with 1/4-, 1/2-, 3/4- and 1-inch connection options.
+- Maifan Stone Inline Filter: https://www.yuchensy.com/en/product-maifan-inline.html — Maifan Stone Inline Filter for purifier and dispenser replacement sets, with media function, connector, service life, compatibility and label options confirmed.
+- Medium Size Water Filter w/ Copper Connector: https://www.yuchensy.com/en/product-mid-filter.html — Medium Size Water Filter w/ Copper Connector for chlorine, taste and odor reduction, with carbon media, micron rating, cartridge size, cap style and private label.
+- Commercial Stainless Steel RO Water Dispenser E900-K27: https://www.yuchensy.com/en/product-commercial-stainless-steel-ro-water-dispenser-e900-k27.html — Commercial Stainless Steel RO Water Dispenser E900-K27 for office, school and factory drinking water, with tank, power, outlet, display and matched filtration.
+- E600-S Commercial RO Water Dispenser — Available With or Without a Payment System: https://www.yuchensy.com/en/product-commercial-ro-water-dispenser-e600-s.html — E600-S Commercial RO Water Dispenser — Available With or Without a Payment System. Available with or without a payment system, according to the selected project configuration.
+- E600-S-Min Commercial RO Water Dispenser: https://www.yuchensy.com/en/product-e600-s-min-commercial-ro-water-dispenser.html — E600-S-Min compact commercial RO water dispenser in white or gray, with 100G/400G purification, TDS display and 5L/10L hot tank options.
+- 1000W Vertical Water Dispenser MT-DV-E600: https://www.yuchensy.com/en/product-mt-dv-e600.html — 1000W Vertical Water Dispenser MT-DV-E600 for office, school and factory drinking water, with tank, power, outlet, display and matched filtration options confirmed.
+- Desktop RO Water Machine with Compressor Cooling 100G: https://www.yuchensy.com/en/product-desktop-ro-water-machine-compressor-cooling-100g.html — Desktop RO Water Machine with Compressor Cooling 100G for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label.
+- Vertical Water Dispenser MT-E600: https://www.yuchensy.com/en/product-mt-e600.html — Vertical Water Dispenser MT-E600 for office, school and factory drinking water, with tank, power, outlet, display and matched filtration options confirmed.
+- Vertical Water Dispenser MT-V-E300A: https://www.yuchensy.com/en/product-mt-v-e300a.html — Vertical Water Dispenser MT-V-E300A for office, school and factory drinking water, with tank, power, outlet, display and matched filtration options confirmed.
+- Industrial PP Filter End Configurations — 222/226, Fin and Flat: https://www.yuchensy.com/en/product-pp-fin-cap.html — Compare industrial PP cartridge end configurations: 222 or 226 adapters with fin or flat closed ends. Confirm seal material and housing fit before quotation.
+- PP Melt-Blown Filter with Silicone O-ring: https://www.yuchensy.com/en/product-pp-silicon-ring.html — PP melt-blown filter cartridge with a Silicone O-ring sealing option. Confirm O-ring material, size, adapter, housing interface and operating conditions before quotation.
+- PP Melt-Blown Sediment Filter Cartridges — SOE and DOE: https://www.yuchensy.com/en/product-pp-soe-doe.html — Compare SOE and DOE PP melt-blown sediment cartridges, accepted DOE dimensions, Big Blue, core and custom rows, surface options and quotation checkpoints.
+- PP Melt-Blown Sediment Filter Cartridge: https://www.yuchensy.com/en/product-pp-spun.html — PP melt-blown sediment filter cartridges for water prefiltration. Compare PP media, dimensions, micron range, end configuration, housing fit and OEM inquiry details.
+- PP Melt Blown Filter: https://www.yuchensy.com/en/product-ppf-cartridge.html — PP Melt Blown Filter for sediment prefiltration, with micron rating, length, end cap, seal, housing fit and bulk packaging confirmed.
+- RO Membrane Element: https://www.yuchensy.com/en/product-ro-membrane.html — RO Membrane Element for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label and replacement planning confirmed.
+- 400GPD High-Flow Reverse Osmosis (RO) Membrane Element: https://www.yuchensy.com/en/product-ro-membrane-400g.html — 400GPD High-Flow Reverse Osmosis (RO) Membrane Element for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label.
+- Under-Sink Reverse Osmosis Water Filter: https://www.yuchensy.com/en/product-ro-undersink.html — Under-Sink Reverse Osmosis Water Filter for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label and replacement.
+- SUS 304 Stainless Steel Jumbo Water Filter Housing for 10- and 20-Inch Cartridges: https://www.yuchensy.com/en/product-ss-jumbo-housing.html — Compare a SUS 304 stainless steel Jumbo water filter housing for 10- and 20-inch cartridges, with an optional pressure gauge and PCP cartridge compatibility.
+- Ultrafiltration (UF) Cartridge: https://www.yuchensy.com/en/product-uf-cartridge.html — Ultrafiltration (UF) Cartridge for purifier and dispenser replacement sets, with media function, connector, service life, compatibility and label options confirmed.
+- UF Hollow Fiber Filter: https://www.yuchensy.com/en/product-uf-filter-2.html — UF Hollow Fiber Filter for purifier and dispenser replacement sets, with media function, connector, service life, compatibility and label options confirmed.
+- Ultra Film Filter Cartridge: https://www.yuchensy.com/en/product-ultra-film.html — Ultra Film Filter Cartridge for purifier and dispenser replacement sets, with media function, connector, service life, compatibility and label options confirmed.
+- Three Stage Plus UV Water Purifier: https://www.yuchensy.com/en/product-uv-purifier.html — Three Stage Plus UV Water Purifier for purifier and dispenser replacement sets, with media function, connector, service life, compatibility and label options.
+- Maifan Stone Mineralizing Purifier: https://www.yuchensy.com/en/product-water-purifier-maifan.html — Maifan Stone Mineralizing Purifier for purifier and dispenser replacement sets, with media function, connector, service life, compatibility and label options.
+- Commercial Big Blue RO Water Purifier 400G-800G: https://www.yuchensy.com/en/product-commercial-big-blue-ro-water-purifier-400g-800g.html — Commercial Big Blue RO Water Purifier 400G-800G for cartridge filtration systems, with material grade, port size, pressure rating, seal method and cartridge fit.
+- 10-Inch Frame RO Water Machine 400G-1200G: https://www.yuchensy.com/en/product-10-inch-frame-ro-water-machine-400g-1200g.html — 10-Inch Frame RO Water Machine 400G-1200G for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label and.
+- Thickened Stainless Steel 10-Inch Frame RO Water Machine 400G-800G: https://www.yuchensy.com/en/product-thickened-stainless-steel-10-inch-frame-ro-water-machine-400g-800g.html — Thickened Stainless Steel 10-Inch Frame RO Water Machine 400G-800G for RO purifier sourcing, with membrane capacity, installation layout, filter stages.
+- 10-Inch Frame RO Water Machine 400G-800G: https://www.yuchensy.com/en/product-10-inch-frame-ro-water-machine-400g-800g.html — 10-Inch Frame RO Water Machine 400G-800G for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label and.
+- Front Panel 10-Inch Frame RO Water Machine 400G-800G: https://www.yuchensy.com/en/product-front-panel-10-inch-frame-ro-water-machine-400g-800g.html — Front Panel 10-Inch Frame RO Water Machine 400G-800G for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label.
+- 20-Inch Frame RO Water Machine 400G-1200G: https://www.yuchensy.com/en/product-20-inch-frame-ro-water-machine-400g-1200g.html — 20-Inch Frame RO Water Machine 400G-1200G for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label and.
+- Pump-Free Five-Stage RO Water Purifier: https://www.yuchensy.com/en/product-pump-free-five-stage-ro-water-purifier.html — Pump-free five-stage reverse osmosis purifier for stable tap pressure, with PP, carbon, membrane and T33 stages for OEM kitchen programs.
+- 20-inch Commercial RO Water Purifier 800G/1200G/1600G/2000G: https://www.yuchensy.com/en/product-20-inch-commercial-ro-water-purifier-800g-2000g.html — 20-inch Commercial RO Water Purifier 800G/1200G/1600G/2000G for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private.
+- Built-In Pressure Tank RO Water Purifier 100G/200G: https://www.yuchensy.com/en/product-built-in-pressure-tank-ro.html — Built-In Pressure Tank RO Water Purifier 100G/200G for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label and.
+- Commercial Central RO Water Purification Equipment 250-500 L/h: https://www.yuchensy.com/en/product-commercial-central-ro-water-purification-equipment-250-500lph.html — Commercial Central RO Water Purification Equipment 250-500 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane array.
+- Commercial High-Flow Deluxe Big Blue RO Water Purifier 800G-1600G: https://www.yuchensy.com/en/product-commercial-high-flow-deluxe-big-blue-ro-water-purifier-800g-1600g.html — Commercial High-Flow Deluxe Big Blue RO Water Purifier 800G-1600G for cartridge filtration systems, with material grade, port size, pressure rating, seal method.
+- Commercial Mid-Cabinet RO Water Purifier with Built-In Pressure Tank 400G-1600G: https://www.yuchensy.com/en/product-commercial-mid-cabinet-ro-water-purifier-built-in-pressure-tank-400g-1600g.html — Commercial Mid-Cabinet RO Water Purifier with Built-In Pressure Tank 400G-1600G for RO purifier sourcing, with membrane capacity, installation layout.
+- Custom 5/6/7 Stage RO Water Purifier OEM/ODM Manufacturer: https://www.yuchensy.com/en/product-custom-5-6-7-stage-ro-water-purifier.html — Custom 5/6/7 Stage RO Water Purifier OEM/ODM Manufacturer for purifier and dispenser replacement sets, with media function, connector, service life, compatibility.
+- Horizontal Reverse Osmosis Water Purification Equipment 250 L/h: https://www.yuchensy.com/en/product-horizontal-reverse-osmosis-water-purification-equipment-250lph.html — Horizontal Reverse Osmosis Water Purification Equipment 250 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane array.
+- Portable Custom RO Water Purifier 400G-800G: https://www.yuchensy.com/en/product-portable-custom-ro-water-purifier-400g-800g.html — Portable Custom RO Water Purifier 400G-800G for RO purifier sourcing, with membrane capacity, installation layout, filter stages, private label and.
+- Precision Filter RO Water Purification Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-precision-filter-ro-water-purification-equipment-250-1000lph.html — Precision Filter RO Water Purification Equipment 250-1000 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane array, control.
+- RO Seawater Desalination Equipment & Industrial RO Machine Manufacturer: https://www.yuchensy.com/en/product-ro-seawater-desalination-machine.html — RO Seawater Desalination Equipment & Industrial RO Machine Manufacturer for project water treatment, with feed-water analysis, output, pretreatment, membrane.
+- Simple Type Reverse Osmosis Water Purification Equipment 250-1000 L/h: https://www.yuchensy.com/en/product-simple-type-reverse-osmosis-water-purification-equipment-250-1000lph.html — Simple Type Reverse Osmosis Water Purification Equipment 250-1000 L/h for project water treatment, with feed-water analysis, output, pretreatment, membrane array.
+- Single-Tank Integrated RO Water Purification and Supply Equipment 250-500 L/h: https://www.yuchensy.com/en/product-single-tank-integrated-ro-water-purification-supply-equipment-250-500lph.html — Single-Tank Integrated RO Water Purification and Supply Equipment 250-500 L/h for project water treatment, with feed-water analysis, output, pretreatment.
+- Small and Medium Seawater Desalination RO Equipment: https://www.yuchensy.com/en/product-small-medium-seawater-desalination-ro-equipment.html — Small and Medium Seawater Desalination RO Equipment for project water treatment, with feed-water analysis, output, pretreatment, membrane array, control panel and.
+- 2,000 L/h Seawater Desalination RO System: https://www.yuchensy.com/en/product-2000lph-seawater-desalination-ro-system.html — This photographed seawater reverse-osmosis system is configured for a nominal product-water flow of 2,000 L/h.
+- Mobile SUS304 Skid-Mounted RO Plant 250-500 LPH: https://www.yuchensy.com/en/product-mobile-sus304-skid-mounted-ro-plant-250-500lph.html — 500 LPH mobile SUS304 skid-mounted RO plant with Vontron 4040 membranes, dual 20-inch prefilters, flow meters, TDS display and 220 V single-phase options.
+- Siliphos balls · polyphosphate scale inhibitor: https://www.yuchensy.com/en/product-siliphos-balls.html — Siliphos balls — specialty filter media. polyphosphate · Siliphos balls Ø19 mm, Ø10 mm, Ø3–8 mm; broken particles 6–12 mm / 4–10 mm; powder. Specifications may vary by selected configuration. Please confirm final requirements before quotation. OEM/ODM: wood pallet · master carton · small boxes · small bottles.
+- Cabinet RO Water Purifier — 5 or 6 Stage, Optional UV: https://www.yuchensy.com/en/product-cabinet-ro-water-purifier-5-6-stage-uv.html — A cabinet RO water purifier configurable with five or six filtration stages, optional UV, and OEM/ODM project support.. Specifications may vary by selected configuration. Please confirm final requirements before quotation.
+- E500-TS2 Desktop Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e500-ts2-hot-tank.html — E500-TS2 Desktop Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- E500-TS2 Step-Heating Desktop RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e500-ts2-step-heating.html — E500-TS2 Step-Heating Desktop RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- E500-H Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e500-h.html — E500-H Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- E500-S Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e500-s.html — E500-S Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- E500 Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e500.html — E500 Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- E600 Step-Heating Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e600-step-heating.html — E600 Step-Heating Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- E300 Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e300.html — E300 Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- E900 Step-Heating Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e900-step-heating.html — E900 Step-Heating Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- D-Frame Commercial RO Water Purifier 800G–2400G: https://www.yuchensy.com/en/commercial-ro-water-purifier-d-frame-800g-2400g.html — D-Frame Commercial RO Water Purifier 800G–2400G. Payment hardware is not included in this configuration. Integration requires an engineering review.
+- F-Cabinet Commercial RO Water Purifier 1000G–2400G: https://www.yuchensy.com/en/commercial-ro-water-purifier-f-cabinet-1000g-2400g.html — F-Cabinet Commercial RO Water Purifier 1000G–2400G. Payment hardware is not included in this configuration. Integration requires an engineering review.
+- E-Cabinet Light-Commercial RO Water Purifier 600G–1000G: https://www.yuchensy.com/en/commercial-ro-water-purifier-e-cabinet-600g-1000g.html — E-Cabinet Light-Commercial RO Water Purifier 600G–1000G. Payment hardware is not included in this configuration. Integration requires an engineering review.
+- G Wall-Frame High-Flow RO Water Purifier 800G–1200G: https://www.yuchensy.com/en/commercial-ro-water-purifier-g-wall-frame-800g-1200g.html — G Wall-Frame High-Flow RO Water Purifier 800G–1200G. Payment hardware is not included in this configuration. Integration requires an engineering review.
+- E600-K20 Smart Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e600-k20.html — E600-K20 Smart Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- E600-K30 Smart Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e600-k30.html — E600-K30 Smart Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- E900-K40 Smart Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-e900-k40.html — E900-K40 Smart Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- 60L Smart Commercial RO Water Dispenser with Optional Payment: https://www.yuchensy.com/en/commercial-ro-water-dispenser-60l.html — 60L Smart Commercial RO Water Dispenser with Optional Payment. Available with or without a payment system, according to the selected project configuration.
+- 90L Smart Commercial RO Water Dispenser with Optional Payment: https://www.yuchensy.com/en/commercial-ro-water-dispenser-90l.html — 90L Smart Commercial RO Water Dispenser with Optional Payment. Available with or without a payment system, according to the selected project configuration.
+- 120L High-Capacity Smart Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-120l.html — 120L High-Capacity Smart Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- H-27 Commercial Stainless-Steel RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-h-27.html — H-27 Commercial Stainless-Steel RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- H-35 High-Capacity Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-h-35.html — H-35 High-Capacity Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- H-18 Low-Height Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-h-18.html — H-18 Low-Height Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+- GLM-800 Chilled Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-glm-800-chilled.html — GLM-800 Chilled Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
