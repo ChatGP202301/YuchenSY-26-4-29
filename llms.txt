@@ -7,8 +7,8 @@ Yuchen Water manufactures water filtration components, drinking-water systems an
 <!-- SANYISHUI_CATALOG_START -->
 - Products overview: https://www.yuchensy.com/en/products.html
 - Yuchen Water products: https://www.yuchensy.com/en/yuchen-water-products.html
-- OEM/ODM product collection: https://www.yuchensy.com/en/sanyishui-products.html
-- Private English catalog request: https://www.yuchensy.com/en/sanyishui-catalog.html
+- OEM/ODM product collection: https://www.yuchensy.com/en/oem-collection.html
+- Private English catalog request: https://www.yuchensy.com/en/oem-product-catalog.html
 - Commercial, office and vending RO systems: https://www.yuchensy.com/en/commercial-ro-water-systems.html
 - Water softener systems: https://www.yuchensy.com/en/automatic-water-filter-softener-systems.html
 - Industrial RO and seawater desalination: https://www.yuchensy.com/en/industrial-ro-seawater-desalination-systems.html

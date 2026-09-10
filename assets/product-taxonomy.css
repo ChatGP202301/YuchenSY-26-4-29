@@ -6,3 +6,6 @@
 @media(max-width:980px){.tx-hero-grid{grid-template-columns:1fr}.tx-product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.tx-gateway-grid,.tx-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.tx-product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tx-stats{max-width:430px}.taxonomy-page .header-row{align-items:flex-start}.taxonomy-page .nav{max-width:100%;overflow:auto}}
 @media(max-width:560px){.tx-container{width:min(100% - 24px,1200px)}.tx-hero{padding:42px 0}.tx-gateway-grid,.tx-category-grid,.tx-product-grid{grid-template-columns:1fr}.tx-product-card{display:grid;grid-template-columns:124px minmax(0,1fr)}.tx-product-card .tx-card-media{aspect-ratio:auto;min-height:150px;padding:10px}.tx-product-card .tx-card-copy{padding:14px}.tx-product-card p{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:2}.tx-stats{grid-template-columns:repeat(3,minmax(0,1fr))}.tx-specs div{grid-template-columns:1fr}.lang-menu{max-width:calc(100vw - 24px)}}
+
+/* Keep explicit product image links independently clickable. */
+.tx-card .tx-card-image-link{display:block;position:relative;z-index:1}
