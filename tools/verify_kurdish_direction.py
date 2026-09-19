@@ -10,8 +10,10 @@ from pathlib import Path
 
 
 HTML_TAG = re.compile(r'<html\b(?P<attrs>[^>]*)>', re.IGNORECASE)
+BODY_TAG = re.compile(r'<body\b(?P<attrs>[^>]*)>', re.IGNORECASE)
 LANG_KU = re.compile(r'\blang=["\']ku(?:-[^"\']+)?["\']', re.IGNORECASE)
 DIR = re.compile(r'\bdir=["\'](?P<value>ltr|rtl)["\']', re.IGNORECASE)
+CLASS = re.compile(r'\bclass=["\'](?P<value>[^"\']*)["\']', re.IGNORECASE)
 ARABIC = re.compile(r'[\u0600-\u06ff]')
 LATIN = re.compile(r'[A-Za-zÀ-ž]')
 
@@ -51,6 +53,10 @@ def inspect(path: Path) -> tuple[str, str, int, int] | None:
         return None
     direction = DIR.search(match.group("attrs"))
     actual = direction.group("value").casefold() if direction else "missing"
+    body = BODY_TAG.search(source)
+    body_class = CLASS.search(body.group("attrs")) if body else None
+    if body_class and "rtl" in body_class.group("value").casefold().split():
+        actual = "rtl"
     expected, arabic, latin = expected_direction(source)
     return actual, expected, arabic, latin
 
@@ -65,7 +71,20 @@ def repair(path: Path, expected: str) -> None:
         replacement = DIR.sub(f'dir="{expected}"', tag, count=1)
     else:
         replacement = tag[:-1] + f' dir="{expected}">'
-    path.write_text(source[:match.start()] + replacement + source[match.end():], encoding="utf-8")
+    source = source[:match.start()] + replacement + source[match.end():]
+    if expected == "ltr":
+        body = BODY_TAG.search(source)
+        body_class = CLASS.search(body.group("attrs")) if body else None
+        if body and body_class:
+            classes = [item for item in body_class.group("value").split() if item.casefold() != "rtl"]
+            body_tag = body.group(0)
+            if classes:
+                new_body_tag = CLASS.sub(f'class="{" ".join(classes)}"', body_tag, count=1)
+            else:
+                new_body_tag = CLASS.sub("", body_tag, count=1)
+                new_body_tag = re.sub(r"\s+>", ">", new_body_tag)
+            source = source[:body.start()] + new_body_tag + source[body.end():]
+    path.write_text(source, encoding="utf-8")
 
 
 def main() -> int:
