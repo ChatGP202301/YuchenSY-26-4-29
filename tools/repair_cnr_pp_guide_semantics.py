@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Restore reviewed PP specification semantics on the CNR selection guide.
+"""Restore reviewed specification semantics on four CNR selection guides.
 
-The historical sr-me guide and the current CNR guide have the same two tables
-and fourteen configurations.  The CNR generator preserved the numeric values
-but replaced several material/format fields with generic OEM labels.  This
-bounded repair copies only the reviewed table headings and data cells while
-preserving CNR configuration IDs, page chrome, links, metadata, and URLs.
+The historical sr-me guides and the current CNR guides have matching table and
+configuration structures.  The CNR generator preserved the numeric values but
+replaced several material/format fields with generic OEM labels.  This bounded
+repair copies only the reviewed table headings and data cells while preserving
+CNR configuration IDs, page chrome, links, metadata, and URLs.
 """
 
 from __future__ import annotations
@@ -15,7 +15,12 @@ import re
 from pathlib import Path
 
 
-ROUTE = "pp-melt-blown-filter-cartridge.html"
+ROUTES = (
+    "pp-melt-blown-filter-cartridge.html",
+    "gac-udf-filter-cartridge.html",
+    "cto-carbon-block-filter.html",
+    "t33-inline-filter.html",
+)
 TABLE_RE = re.compile(
     r'(<table class="sy-config-table".*?</table>)', re.DOTALL
 )
@@ -74,9 +79,9 @@ def repair_table(target: str, source: str) -> str:
 def transform(target: str, source: str) -> str:
     target_tables = TABLE_RE.findall(target)
     source_tables = TABLE_RE.findall(source)
-    if len(target_tables) != 2 or len(source_tables) != 2:
+    if not target_tables or len(target_tables) != len(source_tables):
         raise ValueError(
-            f"expected two PP tables, found source={len(source_tables)} "
+            f"table count mismatch: source={len(source_tables)} "
             f"target={len(target_tables)}"
         )
     repaired_tables = [
@@ -85,7 +90,7 @@ def transform(target: str, source: str) -> str:
     ]
     iterator = iter(repaired_tables)
     repaired = TABLE_RE.sub(lambda _match: next(iterator), target)
-    if repaired.count('<table class="sy-config-table"') != 2:
+    if repaired.count('<table class="sy-config-table"') != len(target_tables):
         raise ValueError("unexpected table count after repair")
     return repaired
 
@@ -96,19 +101,26 @@ def main() -> int:
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
 
-    target_path = args.site_root / "cnr" / ROUTE
-    source_path = args.site_root / "sr-me" / ROUTE
-    target = target_path.read_text(encoding="utf-8")
-    source = source_path.read_text(encoding="utf-8")
-    repaired = transform(target, source)
+    total_changed = 0
+    for route in ROUTES:
+        target_path = args.site_root / "cnr" / route
+        source_path = args.site_root / "sr-me" / route
+        target = target_path.read_text(encoding="utf-8")
+        source = source_path.read_text(encoding="utf-8")
+        repaired = transform(target, source)
+        table_count = repaired.count('<table class="sy-config-table"')
+        configuration_count = repaired.count('<a id="')
 
-    changed = repaired != target
-    if args.apply and changed:
-        target_path.write_text(repaired, encoding="utf-8")
-    print(
-        f"route=cnr/{ROUTE} tables=2 configurations=14 "
-        f"changed={str(changed).lower()} applied={str(args.apply and changed).lower()}"
-    )
+        changed = repaired != target
+        if args.apply and changed:
+            target_path.write_text(repaired, encoding="utf-8")
+        total_changed += int(changed)
+        print(
+            f"route=cnr/{route} tables={table_count} "
+            f"configurations={configuration_count} changed={str(changed).lower()} "
+            f"applied={str(args.apply and changed).lower()}"
+        )
+    print(f"routes={len(ROUTES)} changed={total_changed} apply={str(args.apply).lower()}")
     return 0
 
 
