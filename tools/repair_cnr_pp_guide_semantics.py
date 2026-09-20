@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Restore reviewed specification semantics on four CNR selection guides.
+"""Restore reviewed specification semantics on seven CNR selection guides.
 
 The historical sr-me guides and the current CNR guides have matching table and
 configuration structures.  The CNR generator preserved the numeric values but
@@ -20,6 +20,9 @@ ROUTES = (
     "gac-udf-filter-cartridge.html",
     "cto-carbon-block-filter.html",
     "t33-inline-filter.html",
+    "big-blue-filter-cartridge-selection-guide.html",
+    "mineralization-scale-inhibition-resin-filter-guide.html",
+    "quick-connect-filter-cartridge-selection-guide.html",
 )
 TABLE_RE = re.compile(
     r'(<table class="sy-config-table".*?</table>)', re.DOTALL
