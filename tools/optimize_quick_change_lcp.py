@@ -10,11 +10,17 @@ from pathlib import Path
 ROUTE = "quick-change-water-filter-cartridges.html"
 ASYNC_ASSETS = ("assets/styles.min.css", "assets/commercial-ro-products.css")
 LAYOUT_ASSET = "assets/sanyishui-catalog.css"
-LAYOUT_VERSION = "20260914-bayonet-gallery-v2"
+LAYOUT_VERSION = "20260921-lcp-wrap"
 REMOVE_ASSETS = ("assets/products/siliphos/siliphos-product.css", "assets/pp-filter-family.css")
 
 
 def transform(text: str) -> str:
+    text = re.sub(
+        rf'(<link rel="stylesheet" href="\.\./{re.escape(LAYOUT_ASSET)}\?v=)[^"]+("[^>]*>)',
+        rf'\g<1>{LAYOUT_VERSION}\2',
+        text,
+        flags=re.I,
+    )
     text = re.sub(
         r'\s*<link rel="preload" href="\.\./assets/backgrounds/eco_hero1\.webp" as="image"\s*/?>',
         "",
@@ -29,14 +35,20 @@ def transform(text: str) -> str:
             flags=re.I,
         )
     for asset in ASYNC_ASSETS:
-        pattern = rf'<link rel="stylesheet" href="(\.\./{re.escape(asset)}\?v=[^"]+)"(?:\s+media="all")?\s*/?>'
-        match = re.search(pattern, text, re.I)
+        # Replace the whole asset line so repeated runs collapse any older
+        # nested noscript markup back to one canonical, idempotent pair.
+        pattern = rf'^.*href="(\.\./{re.escape(asset)}\?v=[^"]+)".*$'
+        match = re.search(pattern, text, re.I | re.M)
         if match:
             href = match.group(1)
+            preserved_layout = (
+                f'<link rel="stylesheet" href="../{LAYOUT_ASSET}?v={LAYOUT_VERSION}" media="all">'
+                if LAYOUT_ASSET in match.group(0) else ""
+            )
             replacement = (
                 f'<link rel="preload" href="{href}" as="style" '
                 f'onload="this.onload=null;this.rel=\'stylesheet\'">'
-                f'<noscript><link rel="stylesheet" href="{href}"></noscript>'
+                f'<noscript><link rel="stylesheet" href="{href}"></noscript>{preserved_layout}'
             )
             text = text[:match.start()] + replacement + text[match.end():]
     text = re.sub(
@@ -46,6 +58,12 @@ def transform(text: str) -> str:
         count=1,
         flags=re.I | re.S,
     )
+    if LAYOUT_ASSET not in text:
+        text = text.replace(
+            "</head>",
+            f'<link rel="stylesheet" href="../{LAYOUT_ASSET}?v={LAYOUT_VERSION}" media="all">\n</head>',
+            1,
+        )
     text = re.sub(
         r'(<figure class="sy-bayonet-photo[^"]*"[^>]*><img\b[^>]*?)\sloading="eager"([^>]*>)',
         r'\1 loading="lazy"\2',
@@ -81,8 +99,10 @@ def verify(root: Path) -> None:
         for asset in required_async_assets:
             if not re.search(rf'<link rel="preload" href="\.\./{re.escape(asset)}\?v=[^"]+" as="style"', text):
                 failures.append(f"{path}: missing async stylesheet preload {asset}")
-        if not re.search(rf'<link rel="stylesheet" href="\.\./{re.escape(LAYOUT_ASSET)}\?v=[^"]+"', text):
-            failures.append(f"{path}: missing blocking page-specific stylesheet")
+            if text.count(f'../{asset}?v=') != 2:
+                failures.append(f"{path}: non-canonical async stylesheet markup {asset}")
+        if not re.search(rf'<link rel="stylesheet" href="\.\./{re.escape(LAYOUT_ASSET)}\?v={re.escape(LAYOUT_VERSION)}"', text):
+            failures.append(f"{path}: missing current blocking page-specific stylesheet")
         if 'loading="eager"' in text:
             failures.append(f"{path}: gallery still eager")
         if text.count('class="sy-bayonet-photo') != 13:  # grid token + 12 figures
