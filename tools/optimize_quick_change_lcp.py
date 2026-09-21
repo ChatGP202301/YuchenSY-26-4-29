@@ -8,7 +8,8 @@ import re
 from pathlib import Path
 
 ROUTE = "quick-change-water-filter-cartridges.html"
-ASYNC_ASSETS = ("assets/styles.min.css", "assets/commercial-ro-products.css")
+BLOCKING_ASSETS = ("assets/styles.min.css",)
+ASYNC_ASSETS = ("assets/commercial-ro-products.css",)
 LAYOUT_ASSET = "assets/sanyishui-catalog.css"
 LAYOUT_VERSION = "20260921-lcp-wrap"
 REMOVE_ASSETS = ("assets/products/siliphos/siliphos-product.css", "assets/pp-filter-family.css")
@@ -34,6 +35,17 @@ def transform(text: str) -> str:
             text,
             flags=re.I,
         )
+    for asset in BLOCKING_ASSETS:
+        pattern = rf'^.*href="(\.\./{re.escape(asset)}\?v=[^"]+)".*$'
+        match = re.search(pattern, text, re.I | re.M)
+        if match:
+            href = match.group(1)
+            preserved_layout = (
+                f'<link rel="stylesheet" href="../{LAYOUT_ASSET}?v={LAYOUT_VERSION}" media="all">'
+                if LAYOUT_ASSET in match.group(0) else ""
+            )
+            replacement = f'<link rel="stylesheet" href="{href}" media="all">{preserved_layout}'
+            text = text[:match.start()] + replacement + text[match.end():]
     for asset in ASYNC_ASSETS:
         # Replace the whole asset line so repeated runs collapse any older
         # nested noscript markup back to one canonical, idempotent pair.
@@ -95,7 +107,12 @@ def verify(root: Path) -> None:
         for asset in REMOVE_ASSETS:
             if asset in text:
                 failures.append(f"{path}: unrelated stylesheet {asset}")
-        required_async_assets = ASYNC_ASSETS if path.parent.name != "en" else ASYNC_ASSETS[:1]
+        for asset in BLOCKING_ASSETS:
+            if text.count(f'../{asset}?v=') != 1 or not re.search(
+                rf'<link rel="stylesheet" href="\.\./{re.escape(asset)}\?v=[^"]+" media="all">', text
+            ):
+                failures.append(f"{path}: missing canonical blocking stylesheet {asset}")
+        required_async_assets = ASYNC_ASSETS if path.parent.name != "en" else ()
         for asset in required_async_assets:
             if not re.search(rf'<link rel="preload" href="\.\./{re.escape(asset)}\?v=[^"]+" as="style"', text):
                 failures.append(f"{path}: missing async stylesheet preload {asset}")
