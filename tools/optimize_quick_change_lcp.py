@@ -11,7 +11,7 @@ ROUTE = "quick-change-water-filter-cartridges.html"
 BLOCKING_ASSETS = ("assets/styles.min.css",)
 ASYNC_ASSETS = ("assets/commercial-ro-products.css",)
 LAYOUT_ASSET = "assets/sanyishui-catalog.css"
-LAYOUT_VERSION = "20260921-lcp-wrap"
+LAYOUT_VERSION = "20260923-mobile-overlay-v1"
 REMOVE_ASSETS = ("assets/products/siliphos/siliphos-product.css", "assets/pp-filter-family.css")
 
 

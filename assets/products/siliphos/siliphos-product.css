@@ -143,3 +143,4 @@
 @media(max-width:520px){.siliphos-actions{grid-template-columns:1fr}.siliphos-btn{width:100%}.siliphos-fact-strip{grid-template-columns:1fr}.siliphos-fact{padding:10px 0}.siliphos-fact+.siliphos-fact{border-top:1px solid var(--sp-line);border-inline-start:0}.siliphos-shapes,.siliphos-pack-grid,.siliphos-related-grid{grid-template-columns:1fr}.siliphos-gallery-stack{grid-template-columns:1fr}.siliphos-related-card{grid-template-columns:86px minmax(0,1fr) 36px;gap:12px;padding:12px}.siliphos-related-media{width:86px;height:76px}.siliphos-related-arrow{width:36px;height:36px}.siliphos-dialog-inner{padding:44px 10px 10px}}
 @media(max-width:380px){.siliphos-center-card{grid-template-columns:112px minmax(0,1fr)}}
 @media(prefers-reduced-motion:reduce){.siliphos-btn,.siliphos-related-card,.siliphos-center-card .sy-card-image img{transition:none}}
+@media(max-width:680px){.siliphos-shell .mobile-whatsapp-bar{display:none!important}}
