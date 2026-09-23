@@ -41,6 +41,11 @@
 .category-card.commercial-ro-category-card{position:relative;overflow:hidden;border-color:#163c56;background:linear-gradient(145deg,#071b2f,#12415d);color:#fff;box-shadow:0 18px 42px rgba(7,27,47,.18)}.category-card.commercial-ro-category-card h3{color:#fff}.category-card.commercial-ro-category-card p{color:#d2e0e8}.category-card.commercial-ro-category-card .product-link{display:inline-flex;width:auto!important;margin-top:12px;border:0!important;border-radius:999px;background:#e0c17a;padding:8px 13px!important;color:#071b2f!important;font-weight:850}.commercial-ro-entry-count{display:inline-block;margin-bottom:9px;color:#e0c17a;font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
 @media(max-width:760px){.commercial-ro-entry-grid{grid-template-columns:1fr}.commercial-ro-entry-image{max-width:420px}.commercial-ro-entry-image img{height:260px}.commercial-ro-entry-copy h2{font-size:clamp(2rem,9vw,3rem)}}
 
+@media(max-width:350px){
+  html[lang="lb-LU"] main > .container > h1,
+  html[lang="mk-MK"] main > .container > h1{font-size:1.9rem}
+}
+
 /* Customer-facing language control and configuration note. */
 .commercial-language-selector summary{display:flex;align-items:center;gap:6px;max-width:220px;white-space:nowrap}
 .commercial-language-selector summary span:first-of-type{overflow:hidden;text-overflow:ellipsis}
