@@ -86,6 +86,12 @@
   margin-top: 22px;
 }
 
+@media (min-width: 821px) and (max-width: 1600px) {
+  .carbon-knowledge-page .header-actions > .btn {
+    display: none !important;
+  }
+}
+
 [dir="rtl"] .carbon-visual figcaption,
 [dir="rtl"] .carbon-visual-legend {
   text-align: right;
