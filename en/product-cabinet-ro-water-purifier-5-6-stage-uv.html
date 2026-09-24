@@ -48,6 +48,18 @@
     @media(max-width:719px){.rcu-topbar-row{align-items:flex-start;flex-direction:column;gap:2px;padding-block:9px}.rcu-brand img{width:108px}.rcu-primary-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 12px}.rcu-primary-nav a{justify-content:flex-start}.rcu-hero h1{font-size:clamp(2.05rem,10vw,3rem)}.rcu-hero::after{width:320px;height:320px}.rcu-faq-grid{grid-template-columns:1fr}.rcu-section{padding-block:68px}.rcu-config{padding-top:108px}}
     @media(max-width:559px){.rcu-container{width:min(calc(100% - 28px),1240px)}.rcu-header-row{gap:10px}.rcu-brand span{font-size:.92rem}.rcu-languages ul{position:absolute;inset-inline-end:0;width:min(320px,calc(100vw - 28px));columns:1;padding:12px}.rcu-actions{display:grid;grid-template-columns:1fr}.rcu-btn{width:100%}.rcu-facts{grid-template-columns:1fr}.rcu-fact+.rcu-fact,.rcu-fact:nth-child(3){border-inline-start:0;border-block-start:1px solid var(--rcu-line)}.rcu-confirm-grid{grid-template-columns:1fr}.rcu-image-frame{border-radius:18px 18px 0 0}.rcu-footer-links{display:grid;grid-template-columns:1fr}}
   </style>
+  <style>
+    /* Product-page fit overrides: keep the injected discovery tools in the existing header row. */
+    html.yd-ready .yd-header.rcu-header>.yd-controls{position:absolute;inset-block-start:50%;inset-inline-end:calc(max(16px,50% - 620px) + 56px);z-index:31;display:inline-flex;width:auto;margin:0!important;transform:translateY(-50%)}
+    html.yd-ready .yd-header.rcu-header>.yd-controls .yd-language-button{display:none!important}
+    .rcu-facts .rcu-fact{min-height:148px}
+    .rcu-gallery{grid-template-columns:repeat(2,minmax(0,1fr));max-width:960px;margin-inline:auto}
+    .rcu-gallery figure{align-self:start}
+    .rcu-gallery img{width:100%;max-width:360px;height:auto;aspect-ratio:1/1;flex:0 0 auto;margin-inline:auto;object-fit:contain}
+    @media(max-width:959px){html.yd-ready .yd-header.rcu-header>.yd-controls{inset-block-start:16px;inset-inline-end:72px;transform:none}.rcu-gallery{grid-template-columns:1fr;max-width:560px}.rcu-gallery figure{max-width:560px;width:100%;margin-inline:auto}}
+    @media(max-width:559px){.rcu-facts .rcu-fact{min-height:112px}.rcu-gallery img{max-width:300px}}
+    @media(max-width:350px){.rcu-brand img{width:92px}.rcu-brand span{display:none}}
+  </style>
 </head>
 <body class="rcu-page ltr" data-design-version="rcu-responsive-v2" data-responsive-contract="1240-1199-959-719-559">
 <div class="rcu-topbar"><div class="rcu-container rcu-topbar-row"><span>+86-19908311885 · expresswater025@gmail.com</span><span>OEM/ODM · RO · UV</span></div></div>
