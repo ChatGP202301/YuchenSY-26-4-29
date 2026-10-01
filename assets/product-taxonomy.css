@@ -75,3 +75,7 @@
 .taxonomy-page .footer-brand{flex-wrap:wrap}
 .taxonomy-page .footer-brand strong{min-width:0;overflow-wrap:anywhere}
 }
+@media(max-width:360px){
+.taxonomy-page .header-row{flex-wrap:wrap;gap:8px}
+.taxonomy-page .header-actions,.taxonomy-page .yd-controls{min-width:0;max-width:100%;flex-wrap:wrap;gap:6px}
+}
