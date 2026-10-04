@@ -6,3 +6,8 @@ body>.yuchen-consent-banner p{margin:0;flex:1;font-size:.85rem}
 body>.yuchen-consent-banner>div{flex-direction:row;flex-wrap:wrap;align-items:center;gap:10px}
 body>.yuchen-consent-banner .btn,body>.yuchen-consent-banner a{width:auto;min-height:44px}
 @media(max-width:680px){body>.yuchen-consent-banner{display:block;padding:12px 16px}body>.yuchen-consent-banner p{margin-bottom:10px}body>.yuchen-consent-banner>div{display:flex}body>.yuchen-consent-banner .btn{flex:1}}
+/* Reference material and inline inquiries must fit narrow and RTL layouts. */
+.pj-verified-content,.pj-verified-content .container{min-width:0}.pj-source-table{max-width:100%;overflow:auto}.pj-source-table table{width:100%;border-collapse:collapse}.pj-source-table th,.pj-source-table td{padding:10px;border:1px solid #d5e3e0;text-align:start;vertical-align:top;overflow-wrap:anywhere}.pj-source-specs{margin:16px 0}.pj-source-specs summary{cursor:pointer;overflow-wrap:anywhere}.pj-models .contact-form{width:100%;min-width:0;max-width:100%}.pj-models input,.pj-models textarea,.pj-models select{max-width:100%;box-sizing:border-box}
+
+/* Preserve legible primary CTA against taxonomy link color rules. */
+.taxonomy-page .pj-detail-actions a.tx-btn:first-child{color:#fff;background:#087f76}
