@@ -7,6 +7,9 @@
     'whatsapp_click',
     'email_click',
     'phone_click',
+    'quote_cta_click',
+    'catalog_cta_click',
+    'product_cta_click',
     'quote_form_start',
     'quote_submit_success',
     'download_center_open',
@@ -91,11 +94,45 @@
     catch (error) { return ''; }
   };
   const language = () => (document.documentElement.lang || 'und').toLowerCase().slice(0, 12);
+  const productSchemaEntries = () => {
+    const products = [];
+    const visit = (node) => {
+      if (Array.isArray(node)) return node.forEach(visit);
+      if (!node || typeof node !== 'object') return;
+      const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
+      if (types.includes('Product')) products.push(node);
+      Object.values(node).forEach(visit);
+    };
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(script => {
+      try { visit(JSON.parse(script.textContent)); } catch (error) { /* Invalid schema is not identity evidence. */ }
+    });
+    return products;
+  };
+  const currentProductSchema = () => {
+    const products = productSchemaEntries();
+    const current = products.find(p => {
+      try { return new URL(p.url).pathname === location.pathname && new URL(p.url).hash === location.hash; }
+      catch (error) { return false; }
+    });
+    return current || (products.length === 1 ? products[0] : null);
+  };
+  const hasCurrentProductSchema = () => productSchemaEntries().some(p => {
+    try { return new URL(p.url).pathname === location.pathname && new URL(p.url).hash === location.hash; }
+    catch (error) { return false; }
+  });
   const productSlug = () => {
     const declared = document.body && document.body.dataset.productSlug;
     if (declared) return safeSlug(declared);
     const params = new URLSearchParams(location.search);
     if (params.get('product_slug')) return safeSlug(params.get('product_slug'));
+    const sourcePage = params.get('yw_source_page') || params.get('source_page');
+    if (sourcePage) {
+      try {
+        const sourcePath = new URL(sourcePage, location.href || `${location.origin}${location.pathname}`).pathname;
+        const sourceName = sourcePath.split('/').pop() || '';
+        if (/^(product-|sanyishui-)/i.test(sourceName)) return safeSlug(sourceName);
+      } catch (error) { /* Fall through to the current product URL. */ }
+    }
     const name = location.pathname.split('/').pop() || '';
     return /^(product-|sanyishui-)/.test(name) ? safeSlug(name) : '';
   };
@@ -104,6 +141,8 @@
     if (declared) return safeSlug(declared);
     const params = new URLSearchParams(location.search);
     if (params.get('product_family')) return safeSlug(params.get('product_family'));
+    const schemaCategory = currentProductSchema()?.category;
+    if (schemaCategory) return safeSlug(schemaCategory);
     const path = location.pathname.toLowerCase();
     if (path.includes('gac-udf')) return 'gac-udf';
     if (path.includes('pp-melt')) return 'pp';
@@ -116,25 +155,29 @@
   const productIdentity = () => {
     const declared = document.body && document.body.dataset.productId;
     if (declared) return { id: safeSlug(declared), source: 'declared-product-id' };
-    const products = [];
-    const visit = (node) => {
-      if (Array.isArray(node)) return node.forEach(visit);
-      if (!node || typeof node !== 'object') return;
-      const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
-      if (types.includes('Product')) products.push(node);
-      Object.values(node).forEach(visit);
-    };
-    document.querySelectorAll('script[type="application/ld+json"]').forEach(script => {
-      try { visit(JSON.parse(script.textContent)); } catch (error) { /* Invalid schema is not identity evidence. */ }
-    });
-    const current = products.find(p => {
-      try { return new URL(p.url).pathname === location.pathname && new URL(p.url).hash === location.hash; }
-      catch (error) { return false; }
-    });
-    const product = current || (products.length === 1 ? products[0] : null);
+    const productNode = document.querySelector('[data-decision-card][data-product-id], [data-product-id]');
+    if (productNode && productNode.dataset.productId) {
+      return { id: safeSlug(productNode.dataset.productId), source: 'declared-product-id' };
+    }
+    const params = new URLSearchParams(location.search);
+    const contextualId = params.get('product_id');
+    if (contextualId) return { id: safeSlug(contextualId), source: 'product-context' };
+    const product = currentProductSchema();
     const identifier = product && (product.sku || product.model);
     return identifier ? { id: safeSlug(identifier), source: 'visible-product-schema' }
-      : { id: productSlug(), source: productSlug() ? 'page-slug-not-verified-sku' : 'none' };
+      : { id: productSlug(), source: productSlug() ? 'stable-page-slug' : 'none' };
+  };
+  const isProductDetailPage = () => {
+    const name = (location.pathname.split('/').pop() || '').toLowerCase();
+    return Boolean((document.body && (document.body.dataset.productSlug || document.body.dataset.product))
+      || /^(product-|sanyishui-)/.test(name)
+      || document.querySelector('[data-decision-card][data-product-id], main .product-detail, main .sy-detail-grid')
+      || hasCurrentProductSchema());
+  };
+  const productName = () => {
+    if (!isProductDetailPage()) return '';
+    const heading = document.querySelector('h1');
+    return heading ? String(heading.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 160) : '';
   };
   const campaignParams = () => {
     const params = new URLSearchParams(location.search);
@@ -150,7 +193,8 @@
     product_slug: productSlug(),
     product_family: productFamily(),
     product_id: productIdentity().id,
-    product_identity_source: productIdentity().source,
+      product_identity_source: productIdentity().source,
+      product_name: productName(),
     cta_location: safeSlug(ctaLocation || 'unknown'),
     ...campaignParams()
   });
@@ -184,7 +228,7 @@
     window.dataLayer.push({
       event: 'yuchen_page_view',
       ...commonParams('page_view'),
-      measurement_version: '2026-10-02'
+      measurement_version: '2026-10-08-product-events'
     });
     const script = document.createElement('script');
     script.async = true;
@@ -202,9 +246,9 @@
       gtag('event', 'page_view', { ...commonParams('page_view'), page_referrer: safeReferrer(),
         send_to: config.ga4MeasurementId });
       const identity = productIdentity();
-      if (identity.id && identity.source !== 'page-slug-not-verified-sku' && identity.source !== 'none') {
-        gtag('event', 'view_item', { ...commonParams('product_view'),
-          items: [{ item_id: identity.id, item_category: productFamily() }], send_to: config.ga4MeasurementId });
+      if (identity.id && isProductDetailPage()) {
+        const item = { item_id: identity.id, item_name: productName(), item_category: productFamily() };
+        gtag('event', 'view_item', { ...commonParams('product_view'), items: [item], send_to: config.ga4MeasurementId });
       }
       script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(config.ga4MeasurementId)}`;
     } else {
@@ -265,6 +309,7 @@
     window.dataLayer.push({
       event: eventName,
       ...commonParams(detail.ctaLocation || ''),
+      ...(detail.ctaType ? { cta_type: safeSlug(detail.ctaType) } : {}),
       ...(eventName === 'quote_submit_success' ? { lead_type: 'quote' } : {}),
       ...(eventName === 'catalog_submit_success' ? { lead_type: 'catalog' } : {}),
       ...(eventName === 'manual_access_granted' ? { lead_type: 'manual' } : {}),
@@ -280,7 +325,7 @@
         part_id: safeSlug(detail.partId || ''),
         interaction_state: safeSlug(detail.state || detail.errorBucket || '')
       } : {}),
-      measurement_version: '2026-10-02'
+      measurement_version: '2026-10-08-product-events'
     });
     if (directGa4()) {
       const payload = { ...window.dataLayer[window.dataLayer.length - 1] };
@@ -309,6 +354,16 @@
       emit('email_click', { ctaLocation: ctaLocation(link) });
     } else if (/^tel:/i.test(href)) {
       emit('phone_click', { ctaLocation: ctaLocation(link) });
+    }
+    const isProductContext = Boolean(productIdentity().id && isProductDetailPage());
+    if (isProductContext) {
+      const cta = link.closest('[data-primary-cta], [data-catalog-cta], [data-cta-location], .product-actions a, .product-actions button');
+      if (cta) {
+        const isCatalog = cta.hasAttribute('data-catalog-cta') || /catalog|download/i.test(`${cta.getAttribute('href') || ''} ${cta.textContent || ''}`);
+        const isQuote = cta.hasAttribute('data-primary-cta') || /contact\.html|quote|inquir|request/i.test(`${cta.getAttribute('href') || ''} ${cta.textContent || ''}`);
+        const eventName = isCatalog ? 'catalog_cta_click' : isQuote ? 'quote_cta_click' : 'product_cta_click';
+        emit(eventName, { ctaLocation: ctaLocation(cta), ctaType: isCatalog ? 'catalog' : isQuote ? 'quote' : 'other' });
+      }
     }
   }, true);
 
