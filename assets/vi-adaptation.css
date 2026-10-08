@@ -1,0 +1,64 @@
+/* VI-only: retain native select, constrain its invisible hit area to the language button. */
+@media (max-width: 768px) {
+  html[lang="vi"] .lang-select-mobile { width: 42px !important; max-width: 42px !important; right: auto; }
+}
+/* Vietnamese card copy expands naturally so longer translations remain readable. */
+html[lang="vi"] .product-card h3,
+html[lang="vi"] .product-card .product-title,
+html[lang="vi"] .pj-model h3,
+html[lang="vi"] .product-card p,
+html[lang="vi"] .tx-product-card p,
+html[lang="vi"] .tx-card-copy p,
+html[lang="vi"] .sy-card-body p {
+  display: block !important;
+  -webkit-line-clamp: unset !important;
+  max-height: none !important;
+  overflow: visible !important;
+  white-space: normal !important;
+}
+/* Two desktop header rows preserve all Vietnamese labels and the RFQ action. */
+@media (min-width: 1181px) {
+  html[lang="vi"] .header-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto !important;
+    grid-template-rows: auto auto !important;
+    align-items: center !important;
+    gap: 6px 16px !important;
+  }
+  html[lang="vi"] .header-row > .brand {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    min-width: 0;
+  }
+  html[lang="vi"] .header-row > .header-actions {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    margin-left: 0 !important;
+  }
+  html[lang="vi"] .header-row > .nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: flex !important;
+    position: static !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    align-items: center;
+    width: 100%;
+    min-width: 0;
+    gap: 4px !important;
+    overflow: visible !important;
+    padding: 4px 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  html[lang="vi"] .header-row > .nav .nav-link {
+    flex: 0 0 auto;
+    white-space: normal;
+    padding: 7px 8px !important;
+  }
+  html[lang="vi"] .header-row > .mobile-menu-toggle { display: none !important; }
+}

@@ -1,0 +1,548 @@
+/* Yuchen Water Interactive JS */
+
+function toggleLangMenu() {
+    const menu = document.getElementById('langMenu');
+    if (!menu) return;
+    const overlay = ensureLangMenuOverlay();
+    const isOpen = menu.classList.toggle('open');
+    overlay.classList.toggle('open', isOpen);
+    document.body.classList.toggle('lang-menu-open', isOpen);
+}
+
+function changeLanguage(select) {
+    if (select && select.value) {
+        window.location.href = select.value;
+    }
+}
+
+function ensureLangMenuOverlay() {
+    let overlay = document.querySelector('.lang-menu-overlay');
+    if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.className = 'lang-menu-overlay';
+        overlay.setAttribute('aria-hidden', 'true');
+        overlay.addEventListener('click', closeLangMenu);
+        document.body.appendChild(overlay);
+    }
+    return overlay;
+}
+
+function closeLangMenu() {
+    const menu = document.getElementById('langMenu');
+    const overlay = document.querySelector('.lang-menu-overlay');
+    if (menu) menu.classList.remove('open');
+    if (overlay) overlay.classList.remove('open');
+    document.body.classList.remove('lang-menu-open');
+}
+
+// Close menus when clicking outside
+document.addEventListener('click', function(e) {
+    const langSwitcher = document.querySelector('.lang-switcher');
+    const langMenu = document.getElementById('langMenu');
+    if (langSwitcher && langMenu && !langSwitcher.contains(e.target)) {
+        closeLangMenu();
+    }
+});
+
+// FAQ Accordion
+document.querySelectorAll('.faq-q').forEach(button => {
+    button.addEventListener('click', () => {
+        const item = button.parentElement;
+        item.classList.toggle('open');
+    });
+});
+
+// Category Filter (for products.html)
+let filterFrame = 0;
+let productCardsCache;
+
+function filterCat(cat, btn) {
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+
+    if (filterFrame) cancelAnimationFrame(filterFrame);
+    filterFrame = requestAnimationFrame(() => {
+        productCardsCache = productCardsCache || Array.from(document.querySelectorAll('.product-card'));
+        productCardsCache.forEach(card => {
+            const cardCat = card.getAttribute('data-cat');
+            const badge = card.querySelector('.product-cat-badge');
+            const badgeText = badge ? badge.textContent.trim() : '';
+            card.hidden = !(cat === 'all' || cardCat === cat || badgeText === cat);
+        });
+        filterFrame = 0;
+    });
+}
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const langMenu = document.getElementById('langMenu');
+        const nav = document.querySelector('.nav');
+        if (langMenu) closeLangMenu();
+        if (nav) nav.classList.remove('open');
+    }
+});
+
+const inquirySuccessHtml = 'Yêu cầu của bạn đã được dịch vụ xử lý biểu mẫu chấp nhận. Vui lòng lưu giữ mã gửi biểu mẫu hiển thị bên dưới. Yuchen Water sẽ xác minh việc chuyển giao yêu cầu trước khi ghi nhận đây là yêu cầu đã tiếp nhận từ khách hàng tiềm năng.';
+const inquiryErrorText = 'Hiện không thể gửi biểu mẫu. Vui lòng gửi email đến expresswater025@gmail.com hoặc liên hệ qua WhatsApp +86-19908311885.';
+
+function safeAttributionValue(value, maxLength) {
+    const text = String(value || '').trim().slice(0, maxLength || 160);
+    if (!text || text.includes('@')) return text ? 'redacted' : '';
+    return text.replace(/[^\p{L}\p{N}._~\- /]/gu, '').trim();
+}
+
+function readFirstTouchAttribution() {
+    const key = 'yuchen_first_touch_v1';
+    let stored = {};
+    try { stored = JSON.parse(window.sessionStorage.getItem(key) || '{}'); }
+    catch (error) { stored = {}; }
+    if (!stored.landingPage) {
+        let referrerDomain = '';
+        try {
+            const hostname = document.referrer ? new URL(document.referrer).hostname : '';
+            if (hostname && hostname !== window.location.hostname) referrerDomain = hostname.slice(0, 160);
+        } catch (error) { referrerDomain = ''; }
+        const params = new URLSearchParams(window.location.search);
+        stored = {
+            landingPage: window.location.pathname,
+            referrerDomain,
+            utmSource: safeAttributionValue(params.get('utm_source')),
+            utmMedium: safeAttributionValue(params.get('utm_medium')),
+            utmCampaign: safeAttributionValue(params.get('utm_campaign')),
+            utmTerm: safeAttributionValue(params.get('utm_term')),
+            utmContent: safeAttributionValue(params.get('utm_content'))
+        };
+        try { window.sessionStorage.setItem(key, JSON.stringify(stored)); }
+        catch (error) { /* Attribution still works for the current page. */ }
+    }
+    return stored;
+}
+
+function formAttributionContext() {
+    const params = new URLSearchParams(window.location.search);
+    const firstTouch = readFirstTouchAttribution();
+    const currentOrFirst = (key, storedKey) => safeAttributionValue(params.get(key)) || safeAttributionValue(firstTouch[storedKey]);
+    const pathname = window.location.pathname;
+    const filename = pathname.split('/').pop() || '';
+    const inferredSlug = /^(?:product-|sanyishui-)/.test(filename) ? filename.replace(/\.html$/i, '') : '';
+    return {
+        firstLandingPage: safeAttributionValue(firstTouch.landingPage || pathname, 240),
+        referrerDomain: safeAttributionValue(firstTouch.referrerDomain || '', 160),
+        utmSource: currentOrFirst('utm_source', 'utmSource'),
+        utmMedium: currentOrFirst('utm_medium', 'utmMedium'),
+        utmCampaign: currentOrFirst('utm_campaign', 'utmCampaign'),
+        utmTerm: currentOrFirst('utm_term', 'utmTerm'),
+        utmContent: currentOrFirst('utm_content', 'utmContent'),
+        product: String(params.get('product') || '').trim().slice(0, 180),
+        productSlug: safeAttributionValue(params.get('product_slug') || document.body?.dataset.productSlug || inferredSlug, 140),
+        productFamily: safeAttributionValue(params.get('product_family') || document.body?.dataset.productFamily || '', 100),
+        ctaLocation: safeAttributionValue(params.get('cta_location') || 'quote_form', 100)
+    };
+}
+
+function setAttributionField(form, attribute, value) {
+    form.querySelectorAll('[' + attribute + ']').forEach(input => { input.value = value || ''; });
+}
+
+function dispatchQuoteSuccess(form, submissionId) {
+    document.dispatchEvent(new CustomEvent('yuchen:quote-submit-success', {
+        detail: {
+            submissionId: String(submissionId || ''),
+            ctaLocation: form.dataset.ctaLocation || 'quote_form'
+        }
+    }));
+}
+
+function prepareInquiryForm(form) {
+    if (!form) return;
+    if (form.dataset.prepared !== 'true') {
+        form.dataset.prepared = 'true';
+        form.dataset.readyAt = String(Date.now());
+    }
+    form.querySelectorAll('[data-current-page]').forEach(input => {
+        input.value = window.location.origin + window.location.pathname;
+    });
+    form.querySelectorAll('[data-form-loaded-at]').forEach(input => {
+        input.value = new Date().toISOString();
+    });
+    form.querySelectorAll('[data-submitted-language]').forEach(input => {
+        input.value = document.documentElement.lang || '';
+    });
+    form.querySelectorAll('[data-submission-id]').forEach(input => {
+        if (!input.value) {
+            const randomPart = window.crypto && window.crypto.randomUUID ? window.crypto.randomUUID().replace(/-/g, '').slice(0, 20) : Math.random().toString(36).slice(2) + Date.now().toString(36);
+            input.value = 'YC-' + (document.documentElement.lang || 'xx').toUpperCase() + '-' + randomPart.toUpperCase();
+        }
+    });
+    const attribution = formAttributionContext();
+    setAttributionField(form, 'data-first-landing-page', attribution.firstLandingPage);
+    setAttributionField(form, 'data-referrer-domain', attribution.referrerDomain);
+    setAttributionField(form, 'data-utm-source', attribution.utmSource);
+    setAttributionField(form, 'data-utm-medium', attribution.utmMedium);
+    setAttributionField(form, 'data-utm-campaign', attribution.utmCampaign);
+    setAttributionField(form, 'data-utm-term', attribution.utmTerm);
+    setAttributionField(form, 'data-utm-content', attribution.utmContent);
+    setAttributionField(form, 'data-product-slug-field', attribution.productSlug);
+    setAttributionField(form, 'data-product-family-field', attribution.productFamily);
+    setAttributionField(form, 'data-cta-location-field', attribution.ctaLocation);
+    form.dataset.ctaLocation = attribution.ctaLocation || 'quote_form';
+    const productField = form.querySelector('[data-product-field]');
+    if (productField && attribution.product && !productField.value) productField.value = attribution.product;
+}
+
+document.querySelectorAll('form.contact-form').forEach(prepareInquiryForm);
+
+(function captureVietnameseRfqHandoff(){
+  const params=new URLSearchParams(location.search);
+  const guide=params.get('rfq_guide')||'';
+  const allowedGuides=new Set(['big_blue','quick_connect','functional']);
+  const ids=(params.get('rfq_ids')||'').split(',').map(x=>x.trim().toLowerCase()).filter(x=>/^[a-z0-9][a-z0-9-]{0,79}$/.test(x)).slice(0,3).join(',');
+  const allowedLabels=new Set(['Product family','Length','Connection / format','Construction','Filter media','Media weight','Micron rating','Iodine value','Treatment','Additive','Nominal dimensions']);
+  const filters=(params.get('rfq_filters')||'').split('|').slice(0,10).map(part=>{
+    const i=part.indexOf(':');if(i<1)return '';
+    const label=part.slice(0,i).trim(),raw=part.slice(i+1).trim().slice(0,100);
+    if(!allowedLabels.has(label)||!raw||raw.includes('@'))return '';
+    const value=raw.replace(/[^\p{L}\p{N} ._~,:=()/%+×≥>–\-]/gu,'').trim();
+    return value?label+': '+value:'';
+  }).filter(Boolean).join(' | ').slice(0,500);
+  document.querySelectorAll('form.contact-form').forEach(form=>{
+    const values=[['[data-rfq-guide-field]',allowedGuides.has(guide)?guide:''],['[data-rfq-ids-field]',ids],['[data-rfq-filters-field]',filters]];
+    values.forEach(([selector,value])=>{const input=form.querySelector(selector);if(input)input.value=value;});
+  });
+})();
+
+
+const pendingAppScriptForms = new Map();
+
+function submitToAppScript(form, endpoint, submitButton) {
+    const submissionId = form.querySelector('[data-submission-id]')?.value || '';
+    const turnstile = form.querySelector('[name="cf-turnstile-response"]');
+    if (!submissionId || !turnstile || !turnstile.value) throw new Error('Vui lòng hoàn tất bước xác minh chống thư rác.');
+    const frameName = 'yuchen-form-frame-' + submissionId.replace(/[^A-Za-z0-9-]/g, '');
+    let frame = document.querySelector(`iframe[name="${frameName}"]`);
+    if (!frame) {
+        frame = document.createElement('iframe');
+        frame.name = frameName;
+        frame.hidden = true;
+        frame.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(frame);
+    }
+    form.action = endpoint;
+    form.method = 'POST';
+    form.target = frameName;
+    const timeout = window.setTimeout(() => {
+        const pending = pendingAppScriptForms.get(submissionId);
+        if (!pending) return;
+        pendingAppScriptForms.delete(submissionId);
+        if (pending.button) pending.button.disabled = false;
+        if (pending.error) {
+            pending.error.textContent = 'Dịch vụ chuyển gửi chưa xác nhận việc tiếp nhận. Nội dung biểu mẫu của bạn chưa bị xóa. Vui lòng thử lại hoặc sử dụng WhatsApp.';
+            pending.error.hidden = false;
+        }
+    }, 30000);
+    pendingAppScriptForms.set(submissionId, { form, button: submitButton, error: form.querySelector('.form-error'), success: form.querySelector('.form-success'), timeout });
+    HTMLFormElement.prototype.submit.call(form);
+}
+
+window.addEventListener('message', function(event) {
+    let messageHost = '';
+    try { messageHost = new URL(event.origin).hostname; } catch (error) { return; }
+    if (!/(^|\.)googleusercontent\.com$|(^|\.)google\.com$/.test(messageHost)) return;
+    const data = event.data;
+    if (!data || data.source !== 'yuchen-form' || !data.payload || !data.payload.id) return;
+    const pending = pendingAppScriptForms.get(data.payload.id);
+    if (!pending) return;
+    window.clearTimeout(pending.timeout);
+    pendingAppScriptForms.delete(data.payload.id);
+    if (pending.button) pending.button.disabled = false;
+    if (data.payload.emailSent === true && data.payload.status === 'EMAIL_SENT') {
+        const localized = pending.form.dataset.successMessage || (pending.success ? pending.success.textContent.trim() : '');
+        if (pending.success) {
+            pending.success.textContent = (localized || 'Yêu cầu của bạn đã được ghi nhận và email thông báo đã được gửi.') + ' ' + data.payload.id;
+            pending.success.hidden = false;
+            pending.success.setAttribute('role', 'status');
+        }
+        dispatchQuoteSuccess(pending.form, data.payload.id);
+        pending.form.reset();
+        pending.form.dataset.prepared = 'false';
+        prepareInquiryForm(pending.form);
+        if (window.turnstile) window.turnstile.reset();
+    } else if (pending.error) {
+        pending.error.textContent = data.payload.recorded ? 'Yêu cầu của bạn đã được ghi nhận an toàn, nhưng email thông báo đang chờ thử gửi lại. ID yêu cầu đã gửi: ' + data.payload.id : 'Máy chủ đã từ chối yêu cầu hỏi hàng này: ' + (data.payload.status || 'UNKNOWN');
+        pending.error.hidden = false;
+        pending.error.setAttribute('role', 'alert');
+    }
+});
+
+document.addEventListener('submit', async function(e) {
+    const form = e.target;
+    if (!form || !form.classList || !form.classList.contains('contact-form')) return;
+
+    prepareInquiryForm(form);
+
+    const appScriptEndpoint = form.dataset.appsScriptEndpoint;
+    const endpoint = form.dataset.endpoint;
+    if (appScriptEndpoint) {
+        e.preventDefault();
+        const submitButton = form.querySelector('[type="submit"]');
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        form.querySelectorAll('[data-submitted-at]').forEach(input => { input.value = new Date().toISOString(); });
+        if (submitButton) submitButton.disabled = true;
+        try { submitToAppScript(form, appScriptEndpoint, submitButton); }
+        catch (error) {
+            if (submitButton) submitButton.disabled = false;
+            const formError = form.querySelector('.form-error');
+            if (formError) { formError.textContent = error.message; formError.hidden = false; }
+        }
+        return;
+    }
+    if (!endpoint || !window.fetch) return;
+
+    e.preventDefault();
+
+    const success = form.querySelector('.form-success');
+    const error = form.querySelector('.form-error');
+    const submitButton = form.querySelector('[type="submit"]');
+    const honeypot = form.querySelector('input[name="_honey"]');
+    const readyAt = Number(form.dataset.readyAt || Date.now());
+    const message = form.querySelector('textarea[name="message"]');
+    const urlCount = message && message.value ? (message.value.match(/https?:\/\/|www\./gi) || []).length : 0;
+
+    if (success) success.hidden = true;
+    if (error) error.hidden = true;
+
+    if (honeypot && honeypot.value.trim()) return;
+
+    if (Date.now() - readyAt < Number(form.dataset.minSubmitMs || 2500)) {
+        if (error) {
+            error.textContent = 'Vui lòng kiểm tra lại nội dung yêu cầu hỏi hàng trước khi gửi.';
+            error.hidden = false;
+        }
+        return;
+    }
+
+    if (urlCount > 3) {
+        if (error) {
+            error.textContent = 'Vui lòng xóa các liên kết dư thừa khỏi tin nhắn rồi gửi lại.';
+            error.hidden = false;
+        }
+        return;
+    }
+
+    if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+    }
+
+    form.querySelectorAll('[data-form-loaded-at]').forEach(input => {
+        if (!input.value) input.value = new Date(readyAt).toISOString();
+    });
+    form.querySelectorAll('[data-submitted-at]').forEach(input => {
+        input.value = new Date().toISOString();
+    });
+
+    if (submitButton) submitButton.disabled = true;
+
+    try {
+        const response = await fetch(endpoint, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+        });
+
+        let payload;
+        try { payload = await response.json(); }
+        catch (parseError) { throw new Error('Điểm tiếp nhận biểu mẫu đã trả về phản hồi không hợp lệ.'); }
+        const accepted = payload && (payload.success === true || payload.success === 'true');
+        if (!response.ok || !accepted) throw new Error(payload && payload.message ? payload.message : 'Điểm tiếp nhận biểu mẫu đã từ chối yêu cầu liên hệ.');
+
+        if (success) {
+            const submissionId = form.querySelector('[data-submission-id]')?.value || '';
+            success.innerHTML = inquirySuccessHtml + (submissionId ? '<br><strong>' + submissionId.replace(/[<>&"']/g, '') + '</strong>' : '');
+            success.hidden = false;
+            success.setAttribute('role', 'status');
+            success.setAttribute('tabindex', '-1');
+            success.focus({ preventScroll: true });
+            dispatchQuoteSuccess(form, submissionId);
+        }
+        form.reset();
+        form.dataset.prepared = 'false';
+        prepareInquiryForm(form);
+    } catch (err) {
+        if (error) {
+            error.textContent = inquiryErrorText;
+            error.hidden = false;
+            error.setAttribute('role', 'alert');
+        }
+    } finally {
+        if (submitButton) submitButton.disabled = false;
+    }
+});
+
+// Strengthen contact-form validation without changing localized page copy.
+(function(){
+  function setHiddenValue(form, selector, value){
+    form.querySelectorAll(selector).forEach(function(input){ input.value = value; });
+  }
+  function compactToken(value){
+    try { return btoa(unescape(encodeURIComponent(value))).replace(/=+$/,''); }
+    catch (err) { return String(Date.now()); }
+  }
+  function prepareProtectedForm(form){
+    if (!form || form.dataset.antiSpamReady === 'true') return;
+    form.dataset.antiSpamReady = 'true';
+    form.dataset.lastSubmitAt = '0';
+    var seed = [Date.now(), window.location.hostname, document.documentElement.lang || ''].join('|');
+    setHiddenValue(form, '[data-form-token]', compactToken(seed));
+    setHiddenValue(form, '[data-form-source-check]', window.location.hostname || 'local-preview');
+  }
+  function getWhatsAppFields(form){
+    return Array.prototype.slice.call(form.querySelectorAll('[data-whatsapp-field], input[name="whatsapp"], input[name="WhatsApp"]'));
+  }
+  function normalizeWhatsApp(value){
+    var compact = String(value || '').trim().replace(/[\s().-]/g, '');
+    if (compact.indexOf('00') === 0) compact = '+' + compact.slice(2);
+    var digits = compact.replace(/^\+/, '');
+    return { compact: compact, digits: digits, normalized: compact.charAt(0) === '+' ? compact : '+' + digits };
+  }
+  function looksLikeFakeNumber(digits){
+    if (!digits) return true;
+    if (/^(\d)\1+$/.test(digits)) return true;
+    if ('01234567890123456789'.indexOf(digits) !== -1) return true;
+    if ('98765432109876543210'.indexOf(digits) !== -1) return true;
+    return false;
+  }
+  function validateWhatsAppFields(form){
+    var fields = getWhatsAppFields(form);
+    var valid = true;
+    var firstInvalid = null;
+    fields.forEach(function(field){
+      var value = field.value || '';
+      if (!value.trim()) {
+        field.setCustomValidity('');
+        return;
+      }
+      var info = normalizeWhatsApp(value);
+      var ok = /^\+[1-9]\d{7,14}$/.test(info.compact) && !looksLikeFakeNumber(info.digits);
+      field.setCustomValidity(ok ? '' : (field.getAttribute('title') || '+86 19908311885 / +971 50 123 4567'));
+      if (ok) {
+        field.value = info.normalized;
+        setHiddenValue(form, '[data-whatsapp-normalized]', info.normalized);
+      } else {
+        valid = false;
+        if (!firstInvalid) firstInvalid = field;
+      }
+    });
+    if (!valid && firstInvalid) firstInvalid.reportValidity();
+    return valid;
+  }
+  function validateContactChoice(form){
+    if (!form.hasAttribute('data-require-contact-choice')) return true;
+    var email = form.querySelector('input[type="email"][name="email"]');
+    var whatsapp = getWhatsAppFields(form)[0];
+    if (email) email.setCustomValidity('');
+    if ((email && email.value.trim()) || (whatsapp && whatsapp.value.trim())) return true;
+    if (email) {
+      email.setCustomValidity('Nhập email công việc hoặc số WhatsApp để chúng tôi có thể phản hồi.');
+      email.reportValidity();
+    }
+    return false;
+  }
+  document.querySelectorAll('form.contact-form').forEach(prepareProtectedForm);
+  document.querySelectorAll('form.contact-form[data-require-contact-choice]').forEach(function(form){
+    form.addEventListener('input', function(){
+      var email = form.querySelector('input[type="email"][name="email"]');
+      if (email) email.setCustomValidity('');
+    });
+  });
+  document.addEventListener('submit', function(event){
+    var form = event.target;
+    if (!form || !form.classList || !form.classList.contains('contact-form')) return;
+    prepareProtectedForm(form);
+    var trap = form.querySelector('[data-spam-trap], input[name="_honey"]');
+    if (trap && trap.value.trim()) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      return false;
+    }
+    var now = Date.now();
+    var last = Number(form.dataset.lastSubmitAt || 0);
+    var repeatDelay = Number(form.dataset.repeatSubmitMs || 8000);
+    if (last && now - last < repeatDelay) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      return false;
+    }
+    var text = Array.prototype.map.call(form.querySelectorAll('input:not([type="hidden"]), textarea'), function(el){ return el.value || ''; }).join(' ');
+    var urlCount = (text.match(/https?:\/\/|www\./gi) || []).length;
+    if (urlCount > Number(form.dataset.maxLinks || 3)) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      var error = form.querySelector('.form-error');
+      if (error) { error.hidden = false; error.setAttribute('role','alert'); }
+      return false;
+    }
+    if (!validateContactChoice(form) || !validateWhatsAppFields(form)) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      return false;
+    }
+    if (!form.checkValidity()) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      form.reportValidity();
+      return false;
+    }
+    form.dataset.lastSubmitAt = String(now);
+  }, true);
+})();
+
+// Add the English technical-article hub to existing resource menus without rewriting every language page.
+(function addTechnicalArticlesLink(){
+  var english = document.documentElement.lang === 'en' || /\/en(?:\/|$)/.test(location.pathname);
+  if (!english) return;
+  document.querySelectorAll('.nav-resources-menu').forEach(function(menu){
+    if (menu.querySelector('[data-technical-articles-link]')) return;
+    var link = document.createElement('a');
+    link.href = /\/en\/resources\//.test(location.pathname) ? './' : 'resources/';
+    link.textContent = 'Bài viết kỹ thuật';
+    link.dataset.technicalArticlesLink = 'true';
+    menu.appendChild(link);
+  });
+})();
+
+// Load the disabled-by-default consent and measurement layer from the same asset directory.
+(function loadYuchenMeasurement(){
+  if (document.querySelector('script[data-yuchen-measurement]')) return;
+  var ownScript = document.currentScript || Array.prototype.find.call(document.scripts, function(script){ return /\/assets\/site\.min\.js(?:\?|$)/.test(script.src || ''); });
+  if (!ownScript || !ownScript.src) return;
+  var base = new URL('.', ownScript.src);
+  var configScript = document.createElement('script');
+  configScript.src = new URL('measurement-config.js?v=20261008&release=20261008-product-events', base).href;
+  configScript.defer = true;
+  configScript.dataset.yuchenMeasurement = 'config';
+  configScript.onload = function(){
+    var measurementScript = document.createElement('script');
+    measurementScript.src = new URL('measurement.js?v=20261008&release=20261008-product-events', base).href;
+    measurementScript.defer = true;
+    measurementScript.dataset.yuchenMeasurement = 'runtime';
+    document.head.appendChild(measurementScript);
+  };
+  document.head.appendChild(configScript);
+})();
+
+/* SITE_DISCOVERY_LOADER_START */
+(function(){
+  if(new URLSearchParams(location.search).get('yw_download_embed')==='1') return;
+  if(document.querySelector('[data-yuchen-discovery]')) return;
+  var own=document.currentScript;
+  if(!own || !own.src) return;
+  var base=new URL('.',own.src), style=document.createElement('link');
+  style.rel='stylesheet'; style.href=new URL('site-discovery.css?v=60a325121fd06700',base).href;
+  style.dataset.yuchenDiscovery='style';
+  style.onload=function(){var script=document.createElement('script');
+    script.src=new URL('site-discovery.js?v=60a325121fd06700',base).href;
+    script.dataset.yuchenDiscovery='runtime'; document.head.appendChild(script);};
+  document.head.appendChild(style);
+})();
+/* SITE_DISCOVERY_LOADER_END */
