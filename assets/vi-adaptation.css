@@ -16,6 +16,15 @@ html[lang="vi"] .sy-card-body p {
   overflow: visible !important;
   white-space: normal !important;
 }
+/* The home hero and footer already provide WhatsApp links; avoid covering copy with the global fixed mobile bar. */
+@media (max-width: 640px) {
+  html[lang="vi"] body.vi-homepage {
+    padding-bottom: 0 !important;
+  }
+  html[lang="vi"] body.vi-homepage > .mobile-whatsapp-bar {
+    display: none !important;
+  }
+}
 /* Two desktop header rows preserve all Vietnamese labels and the RFQ action. */
 @media (min-width: 1181px) {
   html[lang="vi"] .header-row {
