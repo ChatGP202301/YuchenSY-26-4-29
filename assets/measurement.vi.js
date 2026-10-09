@@ -120,6 +120,27 @@
     try { return new URL(p.url).pathname === location.pathname && new URL(p.url).hash === location.hash; }
     catch (error) { return false; }
   });
+  const productListItems = () => productSchemaEntries().flatMap((product, index) => {
+    try {
+      const url = new URL(product.url, location.href);
+      if (url.pathname !== location.pathname || !url.hash) return [];
+      const identifier = product.sku || product.model || url.hash.slice(1);
+      if (!identifier || !product.name) return [];
+      const item = {
+        item_id: safeSlug(identifier),
+        item_name: String(product.name).trim().slice(0, 160),
+        index: index + 1
+      };
+      if (product.category) item.item_category = safeSlug(product.category);
+      if (product.model) item.item_variant = safeSlug(product.model);
+      return [item];
+    } catch (error) { return []; }
+  });
+  const productListName = () => {
+    const heading = document.querySelector('h1');
+    return heading ? String(heading.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 160) : '';
+  };
+  const productListId = () => safeSlug((location.pathname.split('/').pop() || '').replace(/\.html$/i, ''));
   const productSlug = () => {
     const declared = document.body && document.body.dataset.productSlug;
     if (declared) return safeSlug(declared);
@@ -250,6 +271,13 @@
         const item = { item_id: identity.id, item_name: productName(), item_category: productFamily() };
         gtag('event', 'view_item', { ...commonParams('product_view'), items: [item], send_to: config.ga4MeasurementId });
       }
+      const listedItems = productListItems();
+      if (listedItems.length > 1) {
+        gtag('event', 'view_item_list', {
+          ...commonParams('product_list'), item_list_id: productListId(),
+          item_list_name: productListName(), items: listedItems, send_to: config.ga4MeasurementId
+        });
+      }
       script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(config.ga4MeasurementId)}`;
     } else {
       script.src = `https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(config.gtmContainerId)}`;
@@ -348,6 +376,21 @@
     const link = event.target.closest('a[href]');
     if (!link) return;
     const href = link.getAttribute('href') || '';
+    const listedItems = productListItems();
+    if (listedItems.length > 1 && hasConsent() && directGa4()) {
+      try {
+        const destination = new URL(link.href, location.href);
+        const requestedId = destination.searchParams.get('product_id')
+          || destination.searchParams.get('model') || destination.hash.slice(1);
+        const selected = listedItems.find(item => safeSlug(requestedId) === item.item_id);
+        if (selected) {
+          gtag('event', 'select_item', {
+            ...commonParams('product_list_select'), item_list_id: productListId(),
+            item_list_name: productListName(), items: [selected], send_to: config.ga4MeasurementId
+          });
+        }
+      } catch (error) { /* Ignore malformed or unrelated product links. */ }
+    }
     if (/wa\.me\/|api\.whatsapp\.com\//i.test(href)) {
       emit('whatsapp_click', { ctaLocation: ctaLocation(link) });
     } else if (/^mailto:/i.test(href)) {
