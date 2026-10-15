@@ -1,0 +1,45 @@
+html[lang="es"]{text-size-adjust:100%;-webkit-text-size-adjust:100%}html[lang="es"] body{overflow-wrap:break-word;overflow-x:visible}html[lang="es"] .product-body :is(h3,p){display:block!important;-webkit-line-clamp:unset!important;line-clamp:unset!important;overflow:visible!important;height:auto!important;max-height:none!important}html[lang="es"] :is(h1,h2,h3,h4,p,.desc,.product-title-link,.tx-btn,.btn){word-break:normal;hyphens:auto}html[lang="es"] :is(img,video){max-width:100%}html[lang="es"] .header-row{flex-wrap:wrap!important;min-width:0}html[lang="es"] :is(.nav,.header-actions){flex-wrap:wrap;min-width:0;max-width:100%}html[lang="es"] .product-body p{line-height:1.6!important}html[lang="es"] :is(.product-card,.category-card,.tx-card,.sy-card){min-width:0}html[lang="es"] :is(.btn,.tx-btn,button){white-space:normal;height:auto;line-height:1.4}html[lang="es"] :is(.sy-facts-wrap,.table-wrap,.table-responsive){max-width:100%;overflow-x:auto}html[lang="es"] :is(.hero-actions,.product-actions,.pj-detail-actions){flex-wrap:wrap;gap:.75rem}@media(max-width:640px){html[lang="es"] .product-card{grid-template-columns:1fr!important}html[lang="es"] .product-img-wrap{height:auto!important;min-height:0!important;aspect-ratio:4/3!important;border-right:0!important}} html[lang="es"] .taxonomy-page .tx-product-card p{display:block!important;-webkit-line-clamp:unset!important;line-clamp:unset!important;-webkit-box-orient:initial!important;overflow:visible!important;height:auto!important;max-height:none!important}
+
+/* Content-driven ES adaptation; preserve source gallery and fixed CTA behavior. */
+html[lang="es"] .pp-switcher-copy strong{display:block!important;-webkit-line-clamp:unset!important;line-clamp:unset!important;overflow:visible!important;height:auto!important;max-height:none!important}
+html[lang="es"] .rcu-hero{padding-bottom:34px}
+html[lang="es"] main :is(h1,h2,h3,h4,p,li,dt,dd){overflow-wrap:anywhere}
+html[lang="es"] main .content-grid>*{min-width:0}
+@media(max-width:820px){html[lang="es"] .seo-buyer-notes .content-grid.two-col{grid-template-columns:minmax(0,1fr)!important}}
+html[lang="es"] .tx-hero-grid{min-width:0}
+html[lang="es"] .tx-stats,.taxonomy-page .tx-stat{min-width:0;max-width:100%}
+html[lang="es"] .tx-stat span{overflow-wrap:anywhere;word-break:normal}
+html[lang="es"] .sy-card-body p{display:block!important;-webkit-line-clamp:unset!important;line-clamp:unset!important;-webkit-box-orient:initial!important;overflow:visible!important;height:auto!important;max-height:none!important}
+@media (min-width:969px) and (max-width:1180px){
+ html[lang="es"] .header .header-row{display:flex!important;flex-wrap:wrap!important;align-items:center!important;min-width:0!important;gap:8px 12px!important}
+ html[lang="es"] .header .brand{flex:1 1 auto!important;max-width:calc(100% - 120px)!important;min-width:0!important}
+ html[lang="es"] .header .header-actions{flex:0 0 auto!important;margin-left:auto!important}
+ html[lang="es"] .header .nav:not(.yd-primary-nav){display:flex!important;position:static!important;inset:auto!important;flex:1 0 100%!important;width:100%!important;max-width:100%!important;min-width:0!important;flex-wrap:wrap!important;white-space:normal!important;overflow:visible!important;justify-content:flex-start!important;gap:4px 12px!important;padding:4px 0!important;box-shadow:none!important}
+ html[lang="es"] .header .nav:not(.yd-primary-nav) .nav-link{flex:0 1 auto!important;width:auto!important;max-width:100%!important;white-space:normal!important;overflow-wrap:anywhere!important;padding:7px 5px!important;}
+}
+@media (max-width:860px){
+ html[lang="es"] .product-gallery{width:100%!important}
+ html[lang="es"] .tx-hero-grid{grid-template-columns:minmax(0,1fr)!important}
+ html[lang="es"] .tx-stats{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+}
+@media (max-width:420px){html[lang="es"] .tx-stat{padding:10px 6px!important;}}
+@media (max-width:1180px){
+ html[lang="es"] .commercial-site-header{display:flex!important;flex-wrap:wrap!important;gap:8px 14px!important;padding:8px 16px!important}
+ html[lang="es"] .commercial-site-header .commercial-brand{flex:1 1 auto!important;min-width:0!important}
+ html[lang="es"] .commercial-site-header .commercial-language-selector{margin-inline-start:auto!important;flex:0 0 auto!important}
+ html[lang="es"] .commercial-site-header nav{display:flex!important;position:static!important;order:3;flex:1 0 100%!important;width:100%!important;min-width:0!important;flex-wrap:wrap!important;justify-content:flex-start!important;gap:4px 12px!important;margin-inline-start:0!important}
+ html[lang="es"] .commercial-site-header nav a{flex:0 1 auto!important;min-width:0!important;max-width:100%!important;padding:6px 4px!important;white-space:normal!important;overflow-wrap:anywhere!important}
+}
+
+/* Keep the persistent Spanish privacy control in the footer flow with clear separation. */
+html[lang="es"] footer > [data-yuchen-consent-settings]{display:block!important;position:static!important;width:fit-content;max-width:calc(100vw - 32px);margin:16px auto 0!important;white-space:normal;text-align:center}
+/* Prevent automatic Spanish hyphenation from inserting a visual hyphen into model identifiers in headings. */
+html[lang="es"] :is(h1,h2,h3,h4){-webkit-hyphens:none!important;hyphens:none!important}
+html[lang="es"] .es-product-model-nowrap{white-space:nowrap!important;display:inline-block}
+/* Keep intentionally scrollable RO proof galleries within the page edge on narrow screens. */
+@media(max-width:768px){html[lang="es"] :is(.ro-proof-gallery,.ro-packing-gallery){margin-right:-16px!important;padding-right:16px!important}}
+html[lang="es"] .product-cat-badge{border-radius:10px!important}
+/* Keep the mobile WhatsApp action after the footer instead of covering Spanish copy and links. */
+@media(max-width:640px){html[lang="es"] .mobile-whatsapp-bar{position:static!important;right:auto!important;bottom:auto!important;left:auto!important;z-index:auto!important;width:calc(100% - 32px);min-height:48px;margin:16px auto 24px!important;border-radius:8px}html[lang="es"] body{padding-bottom:16px!important}}
+/* Short landscape screens need a non-sticky header so it cannot cover headings or inquiry actions. */
+@media(max-width:820px) and (max-height:600px){html[lang="es"] .header{position:static!important;top:auto!important}}

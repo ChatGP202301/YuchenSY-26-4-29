@@ -149,7 +149,7 @@
       if (!contentType.includes('application/pdf') || !blob.size || !receipt) throw new Error('catalog_unavailable');
 
       document.dispatchEvent(new CustomEvent('yuchen:catalog-submit-success', {
-        detail: { submissionId, resourceId: 'filter', ctaLocation: 'filter_catalog_form' }
+        detail: { submissionId, confirmedSuccess: true, resourceId: 'filter', ctaLocation: 'filter_catalog_form' }
       }));
       const objectUrl = URL.createObjectURL(blob);
       const link = document.createElement('a');
@@ -163,7 +163,7 @@
       if (window.YuchenDownloadReceipts) window.YuchenDownloadReceipts.report({ apiBase: config.apiBase, payload: receiptPayload });
       else fetch(`${config.apiBase}/v1/catalog/download-events`, { method:'POST', headers:{'content-type':'application/json'}, body:JSON.stringify(receiptPayload), cache:'no-store', keepalive:true }).catch(() => {});
       document.dispatchEvent(new CustomEvent('yuchen:catalog-download-complete', {
-        detail: { submissionId, resourceId: 'filter', ctaLocation: 'filter_catalog_form' }
+        detail: { submissionId, confirmedSuccess: true, resourceId: 'filter', ctaLocation: 'filter_catalog_form' }
       }));
       setStatus(strings.done, 'success');
       form.reset();

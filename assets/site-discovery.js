@@ -217,13 +217,17 @@
       var target = core.safePath(a.getAttribute('href'), location.href);
       if (lang && target && target.indexOf('/sr-me/') !== 0) existing[lang] = target;
     });
+    function routeKey(value) {
+      try { return decodeURIComponent(value).normalize('NFC'); } catch (_) { return String(value || '').normalize('NFC'); }
+    }
     function loadDestinations() {
       if (!routePromise) routePromise = getJSON(new URL('search/routes.json?v=' + config.routesVersion, assetBase)).then(function (data) {
-        var paths = new Set(data.paths), aliases = data.aliases || {}, current = location.pathname;
+        var paths = new Set(data.paths.map(routeKey)), rawAliases = data.aliases || {}, aliases = {}, current = routeKey(location.pathname);
+        Object.keys(rawAliases).forEach(function (key) { aliases[routeKey(key)] = routeKey(rawAliases[key]); });
         var suffix = current.replace(/^\/[a-z]{2,3}(?:-[a-z]{2})?\//, '');
         destinations = {};
         config.locales.forEach(function (l) {
-          var candidate = existing[l.code] || '/' + l.code + '/' + suffix;
+          var candidate = routeKey(existing[l.code] || '/' + l.code + '/' + suffix);
           candidate = aliases[candidate] || candidate;
           var correctLocale = candidate.startsWith('/' + l.code + '/') || (l.code === 'en' && candidate === '/');
           destinations[l.code] = correctLocale && paths.has(candidate) ? candidate : l.home;

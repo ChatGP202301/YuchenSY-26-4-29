@@ -10,7 +10,8 @@
   let widgetId = null;
   let submissionId = crypto.randomUUID();
   const catalogId = form.dataset.catalogId || 'yuchen-oem-2026-en';
-  const locale = catalogId.split('-').pop() || 'en';
+  const pageLanguage = document.documentElement.lang || '';
+  const locale = /^es(?:-|$)/i.test(pageLanguage) || /^\/es(?:\/|$)/.test(location.pathname) ? 'es' : (catalogId.split('-').pop() || 'en');
 
   const consent = form.querySelector('.catalog-consent');
   if (consent && !form.querySelector('[data-catalog-data-notice]')) {
@@ -19,11 +20,24 @@
     const notice = document.createElement('p');
     notice.dataset.catalogDataNotice = '';
     notice.className = 'catalog-form-status';
-    notice.textContent = 'Your submitted business contact and project information is stored privately without automatic expiry and emailed to Yuchen Water sales. You may request correction or deletion at expresswater025@gmail.com.';
+    notice.textContent = locale === 'es' ? 'Los datos de contacto comercial y la información del proyecto que envíe se almacenan de forma privada, sin caducidad automática, y se envían por correo electrónico al equipo de ventas de Yuchen Water. Puede solicitar su corrección o eliminación en expresswater025@gmail.com.' : 'Your submitted business contact and project information is stored privately without automatic expiry and emailed to Yuchen Water sales. You may request correction or deletion at expresswater025@gmail.com.';
     consent.insertAdjacentElement('afterend', notice);
   }
 
-  const copy = {
+  const copy = locale === 'es' ? {
+    setup: 'El acceso seguro al catálogo está pendiente de configuración en Cloudflare. Contacte con Yuchen Water para obtener el PDF actual.',
+    checking: 'Comprobando sus datos…',
+    preparing: 'Preparando la descarga de su catálogo privado…',
+    done: 'La descarga del catálogo OEM de Yuchen Water ha comenzado.',
+    network: 'No hemos podido completar la solicitud. Los datos introducidos permanecen en el formulario; inténtelo de nuevo.',
+    interests: 'Seleccione al menos una familia de productos.',
+    whatsapp: 'Introduzca un número de WhatsApp con un formato internacional válido, incluido el signo + y el código de país.',
+    turnstile: 'Complete la verificación antispam.',
+    rate_limited: 'Se han realizado demasiadas solicitudes recientemente. Inténtelo más tarde.',
+    invalid_submission: 'Revise todos los campos obligatorios e inténtelo de nuevo.',
+    email_failed: 'No se ha podido entregar su solicitud al equipo de ventas. Inténtelo de nuevo.',
+    catalog_unavailable: 'El catálogo no está disponible temporalmente. Inténtelo más tarde.'
+  } : {
     setup: 'Secure catalog access is awaiting Cloudflare configuration. Please contact Yuchen Water for the current PDF.',
     checking: 'Checking your information…',
     preparing: 'Preparing your private catalog download…',
@@ -172,13 +186,13 @@
         const problem = await response.json().catch(() => ({}));
         throw new Error(problem.code || 'network');
       }
-      document.dispatchEvent(new CustomEvent('yuchen:catalog-submit-success', {
-        detail: { submissionId, resourceId, ctaLocation: 'sanyishui_catalog_form' }
-      }));
       setStatus(copy.preparing, 'progress');
       const receipt = response.headers.get('x-catalog-receipt') || '';
       const blob = await response.blob();
       if (!blob.size || !receipt || !String(response.headers.get('content-type')).includes('application/pdf')) throw new Error('catalog_unavailable');
+      document.dispatchEvent(new CustomEvent('yuchen:catalog-submit-success', {
+        detail: { submissionId, confirmedSuccess: true, resourceId, ctaLocation: 'sanyishui_catalog_form' }
+      }));
       const objectUrl = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = objectUrl;
