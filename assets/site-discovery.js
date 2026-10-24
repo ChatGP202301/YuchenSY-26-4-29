@@ -8,7 +8,7 @@
     return String(value || '').normalize('NFKC').toLowerCase()
       .replace(/[\u2010-\u2015\u2212]/g, '-').replace(/\s+/g, ' ').trim();
   }
-  function searchNormalize(value) { return normalize(value).replace(/(\d)[,.\u00a0\u202f ](?=\d{3}(?:\D|$))/gu, '$1'); }
+  function searchNormalize(value) { return normalize(value).replace(/(\d)[,.\u00a0\u202f ](?=\d{3}(?:\D|$))/gu, '$1').replace(/(\p{N})(?=\p{L})/gu, '$1 ').replace(/(\p{L})(?=\p{N})/gu, '$1 '); }
   function compact(value) { return searchNormalize(value).replace(/[^\p{L}\p{N}]/gu, ''); }
   function prepare(documents) {
     return documents.map(function (doc) {
