@@ -8,15 +8,16 @@
     return String(value || '').normalize('NFKC').toLowerCase()
       .replace(/[\u2010-\u2015\u2212]/g, '-').replace(/\s+/g, ' ').trim();
   }
-  function compact(value) { return normalize(value).replace(/[^\p{L}\p{N}]/gu, ''); }
+  function searchNormalize(value) { return normalize(value).replace(/(\d)[,.\u00a0\u202f ](?=\d{3}(?:\D|$))/gu, '$1'); }
+  function compact(value) { return searchNormalize(value).replace(/[^\p{L}\p{N}]/gu, ''); }
   function prepare(documents) {
     return documents.map(function (doc) {
-      return { doc: doc, title: normalize(doc.title), headings: normalize(doc.headings),
-        text: normalize(doc.text), models: (doc.models || []).map(compact) };
+      return { doc: doc, title: searchNormalize(doc.title), headings: searchNormalize(doc.headings),
+        text: searchNormalize(doc.text), models: (doc.models || []).map(compact) };
     });
   }
   function search(prepared, query) {
-    var term = normalize(query).slice(0, 120);
+    var term = searchNormalize(query).slice(0, 120);
     if (!term) return [];
     var tokens = term.split(/[\s\-_/]+/u).filter(Boolean), model = compact(term);
     return prepared.map(function (item) {
@@ -35,7 +36,8 @@
   }
   function localeCode(tag, available) {
     var value = normalize(tag).replace(/_/g, '-');
-    if (/^sr-(?:latn-)?me$/.test(value) || value === 'cnr') value = 'cnr';
+    if (value === 'sr-me' && available.includes('sr-me')) value = 'sr-me';
+    else if (/^sr-(?:latn-)?me$/.test(value) || value === 'cnr') value = 'cnr';
     else if (/^(nb|nn)(-|$)/.test(value)) value = 'no';
     else if (/^fil(-|$)/.test(value)) value = 'tl';
     else if (/^iw(-|$)/.test(value)) value = 'he';
@@ -128,14 +130,27 @@
     searchDialog.append(searchForm, status, results, more, fallback);
     var indexPromise = null, queryRevision = 0, currentResults = [], visibleCount = 0, debounce;
     function loadIndex() {
-      if (!indexPromise) indexPromise = getJSON(new URL('search/' + code + '.json?v=' + locale.indexVersion, assetBase))
-        .then(function (data) {
-          if (data.locale !== code || !Array.isArray(data.documents)) throw new Error('Invalid search index');
-          return core.prepare(data.documents.filter(function (d) {
+      if (!indexPromise) {
+        var basePromise = locale.indexVersion
+          ? getJSON(new URL('search/' + code + '.json?v=' + locale.indexVersion, assetBase)).then(function (data) {
+              if (data.locale !== code || !Array.isArray(data.documents)) throw new Error('Invalid search index');
+              return data.documents;
+            })
+          : Promise.resolve([]);
+        var productPromise = getJSON(new URL('search/product-2000lph.json?v=' + config.productIndexVersion, assetBase))
+          .then(function (data) {
+            if (data.version !== 1 || !Array.isArray(data.documents)) throw new Error('Invalid product search index');
+            return data.documents.filter(function (d) { return d.locale === code; });
+          }).catch(function () { return []; });
+        indexPromise = Promise.all([basePromise, productPromise]).then(function (sets) {
+          var merged = new Map();
+          sets[0].concat(sets[1]).forEach(function (d) {
             var p = core.safePath(d.url, location.href);
-            return p && (p === '/' && code === 'en' || p.startsWith('/' + code + '/'));
-          }));
+            if (p && (p === '/' && code === 'en' || p.startsWith('/' + code + '/'))) merged.set(p, d);
+          });
+          return core.prepare(Array.from(merged.values()));
         }).catch(function (error) { indexPromise = null; throw error; });
+      }
       return indexPromise;
     }
     function renderMore() {
