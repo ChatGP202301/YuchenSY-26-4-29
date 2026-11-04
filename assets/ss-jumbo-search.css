@@ -1,0 +1,17 @@
+.housing-products-task-page .ss-search-trigger{display:inline-flex!important;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;padding:10px;border:1px solid #d6e2df;border-radius:50%;background:#fff;color:#16444a;cursor:pointer;order:-1}
+.ss-search-trigger svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8}
+.ss-search-trigger:focus-visible,.ss-search-dialog :focus-visible{outline:3px solid #0c746d;outline-offset:3px}
+.ss-search-dialog{box-sizing:border-box;width:min(640px,calc(100vw - 32px));max-height:85vh;margin:12vh auto auto;padding:28px;border:1px solid #d6e2df;border-radius:16px;background:#fffdfa;color:#102a32;box-shadow:0 24px 90px #102a3240;overflow:auto}
+.ss-search-dialog::backdrop{background:#102a3299}
+.ss-search-top{display:flex;align-items:start;justify-content:space-between;gap:16px}.ss-search-top h2{margin:0;font-size:1.5rem}.ss-search-top p{margin:8px 0 0;color:#52656c;font-size:.9rem}
+.ss-search-close{flex-shrink:0;display:grid;place-items:center;width:44px;height:44px;border:1px solid #d6e2df;border-radius:50%;background:transparent;font-size:1.5rem;color:#16444a;cursor:pointer}
+.ss-search-dialog .en-product-search{box-sizing:border-box;width:100%;margin:20px 0 0;padding:0;border:0;background:transparent;color:inherit}
+.ss-search-dialog summary[hidden]{display:none}
+.ss-search-dialog .en-product-search form{display:flex;align-items:end;flex-wrap:nowrap;gap:10px;margin:0}
+.ss-search-dialog label{display:grid;flex:1;min-width:0;gap:8px;font-size:.85rem;font-weight:600}
+.ss-search-dialog input{box-sizing:border-box;width:100%;min-width:0;height:48px;padding:12px!important;border:1px solid #9cb3ae;border-radius:8px;font:inherit;background:#fff}
+.ss-search-dialog form button{height:48px;padding:0 20px;border:0;border-radius:8px;background:#0c746d;color:#fff;font:inherit;font-weight:650;cursor:pointer}
+.ss-search-dialog [role=status]:empty,.ss-search-dialog ul:empty{display:none}.ss-search-dialog [role=status]{margin:18px 0 10px;font-size:.85rem;color:#52656c}
+.ss-search-dialog ul{list-style:none;padding:0;margin:0}.ss-search-dialog li{border-top:1px solid #d6e2df}.ss-search-dialog li a{display:block;padding:14px 0;color:#0c746d;font-size:.95rem;text-decoration:none;line-height:1.5}
+@media(max-width:680px){.ss-search-dialog{margin-top:8vh;padding:20px}.ss-search-dialog input{font-size:16px}.ss-search-dialog form button{padding:0 14px}.housing-products-task-page .header-actions{gap:8px}}
+.housing-products-task-page .ss-search-dialog .en-product-search form button{background:#0c746d!important;color:#fff!important;border:0!important;font-weight:650}
