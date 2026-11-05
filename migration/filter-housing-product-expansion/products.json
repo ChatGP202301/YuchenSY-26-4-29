@@ -1,0 +1,269 @@
+[
+  {
+    "id": "medium-blue",
+    "name": "10-inch medium-body blue filter housing",
+    "image": "medium-blue",
+    "size": "10-inch",
+    "ports": [
+      "Standard thread: 3/8 inch",
+      "Standard thread: 1/2 inch",
+      "Standard thread: 3/4 inch",
+      "Standard thread: 1 inch",
+      "Brass-insert thread: 1/2 inch",
+      "Brass-insert thread: 3/4 inch",
+      "Brass-insert thread: 1 inch"
+    ],
+    "pack": "12 sets/carton",
+    "description": "Supplied with a mounting bracket, screws and housing wrench. Choose a white or colour inner box. Confirm cartridge diameter and installation clearance before ordering.",
+    "kind": "single",
+    "colour": "Blue",
+    "source": "screenshot 1"
+  },
+  {
+    "id": "medium-clear",
+    "name": "10-inch medium-body clear filter housing",
+    "image": "medium-clear",
+    "size": "10-inch",
+    "ports": [
+      "Standard thread: 3/8 inch",
+      "Standard thread: 1/2 inch",
+      "Standard thread: 3/4 inch",
+      "Standard thread: 1 inch",
+      "Brass-insert thread: 1/2 inch",
+      "Brass-insert thread: 3/4 inch",
+      "Brass-insert thread: 1 inch"
+    ],
+    "pack": "12 sets/carton",
+    "description": "Supplied with a mounting bracket, screws and housing wrench. Choose a white or colour inner box. Confirm cartridge diameter and installation clearance before ordering.",
+    "kind": "single",
+    "colour": "Clear",
+    "source": "screenshot 1"
+  },
+  {
+    "id": "large-blue-10",
+    "name": "10-inch large-body blue filter housing",
+    "image": "large-blue-10",
+    "size": "10 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch",
+      "Brass-insert thread: 3/4 inch",
+      "Brass-insert thread: 1 inch"
+    ],
+    "pack": "8 sets/carton",
+    "description": "A single large-body housing supplied with a wrench. Select the thread construction and port size together. Mounting bracket is listed separately; confirm the final accessory set.",
+    "kind": "single",
+    "colour": "Blue",
+    "source": "screenshot 3"
+  },
+  {
+    "id": "large-clear-10",
+    "name": "10-inch large-body clear filter housing",
+    "image": "large-clear-10",
+    "size": "10 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch",
+      "Brass-insert thread: 3/4 inch",
+      "Brass-insert thread: 1 inch"
+    ],
+    "pack": "8 sets/carton",
+    "description": "A single large-body housing supplied with a wrench. Select the thread construction and port size together. Mounting bracket is listed separately; confirm the final accessory set.",
+    "kind": "single",
+    "colour": "Clear",
+    "source": "screenshot 3"
+  },
+  {
+    "id": "large-blue-20",
+    "name": "20-inch large-body blue filter housing",
+    "image": "large-blue-20",
+    "size": "20 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch",
+      "Brass-insert thread: 3/4 inch",
+      "Brass-insert thread: 1 inch"
+    ],
+    "pack": "4 sets/carton",
+    "description": "A single large-body housing supplied with a wrench. Select the thread construction and port size together. Mounting bracket is listed separately; confirm the final accessory set.",
+    "kind": "single",
+    "colour": "Blue",
+    "source": "screenshot 3"
+  },
+  {
+    "id": "large-clear-20",
+    "name": "20-inch large-body clear filter housing",
+    "image": "large-clear-20",
+    "size": "20 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch",
+      "Brass-insert thread: 3/4 inch",
+      "Brass-insert thread: 1 inch"
+    ],
+    "pack": "4 sets/carton",
+    "description": "A single large-body housing supplied with a wrench. Select the thread construction and port size together. Mounting bracket is listed separately; confirm the final accessory set.",
+    "kind": "single",
+    "colour": "Clear",
+    "source": "screenshot 3"
+  },
+  {
+    "id": "assembly-0",
+    "name": "10-inch two-stage filter housing assembly \u2014 wall bracket",
+    "image": "assembly-0",
+    "size": "10 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch"
+    ],
+    "pack": "1 assembly/carton",
+    "description": "2 housing positions supplied with a wall bracket and wrench. Confirm wall strength and fixing requirements before installation. Cartridges are purchased separately; the number of stages does not specify filtration performance.",
+    "kind": "assembly",
+    "colour": "Blue",
+    "source": "screenshot 2"
+  },
+  {
+    "id": "assembly-1",
+    "name": "10-inch three-stage filter housing assembly \u2014 wall bracket",
+    "image": "assembly-1",
+    "size": "10 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch"
+    ],
+    "pack": "1 assembly/carton",
+    "description": "3 housing positions supplied with a wall bracket and wrench. Confirm wall strength and fixing requirements before installation. Cartridges are purchased separately; the number of stages does not specify filtration performance.",
+    "kind": "assembly",
+    "colour": "Blue",
+    "source": "screenshot 2"
+  },
+  {
+    "id": "assembly-2",
+    "name": "10-inch two-stage filter housing assembly \u2014 support frame",
+    "image": "assembly-2",
+    "size": "10 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch"
+    ],
+    "pack": "1 assembly/carton",
+    "description": "2 housing positions supplied with a support frame and wrench. Check the support surface and space beneath the bowls for cartridge removal. Cartridges are purchased separately; the number of stages does not specify filtration performance.",
+    "kind": "assembly",
+    "colour": "Blue",
+    "source": "screenshot 2"
+  },
+  {
+    "id": "assembly-3",
+    "name": "10-inch three-stage filter housing assembly \u2014 support frame",
+    "image": "assembly-3",
+    "size": "10 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch"
+    ],
+    "pack": "1 assembly/carton",
+    "description": "3 housing positions supplied with a support frame and wrench. Check the support surface and space beneath the bowls for cartridge removal. Cartridges are purchased separately; the number of stages does not specify filtration performance.",
+    "kind": "assembly",
+    "colour": "Blue",
+    "source": "screenshot 2"
+  },
+  {
+    "id": "assembly-4",
+    "name": "20-inch two-stage filter housing assembly \u2014 wall bracket",
+    "image": "assembly-4",
+    "size": "20 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch"
+    ],
+    "pack": "1 assembly/carton",
+    "description": "2 housing positions supplied with a wall bracket and wrench. Confirm wall strength and fixing requirements before installation. Cartridges are purchased separately; the number of stages does not specify filtration performance.",
+    "kind": "assembly",
+    "colour": "Blue",
+    "source": "screenshot 2"
+  },
+  {
+    "id": "assembly-5",
+    "name": "20-inch two-stage filter housing assembly \u2014 support frame",
+    "image": "assembly-5",
+    "size": "20 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch"
+    ],
+    "pack": "1 assembly/carton",
+    "description": "2 housing positions supplied with a support frame and wrench. Check the support surface and space beneath the bowls for cartridge removal. Cartridges are purchased separately; the number of stages does not specify filtration performance.",
+    "kind": "assembly",
+    "colour": "Blue",
+    "source": "screenshot 2"
+  },
+  {
+    "id": "assembly-6",
+    "name": "20-inch three-stage filter housing assembly \u2014 wall bracket",
+    "image": "assembly-6",
+    "size": "20 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch"
+    ],
+    "pack": "1 assembly/carton",
+    "description": "3 housing positions supplied with a wall bracket and wrench. Confirm wall strength and fixing requirements before installation. Cartridges are purchased separately; the number of stages does not specify filtration performance.",
+    "kind": "assembly",
+    "colour": "Blue",
+    "source": "screenshot 2"
+  },
+  {
+    "id": "assembly-7",
+    "name": "20-inch three-stage filter housing assembly \u2014 support frame",
+    "image": "assembly-7",
+    "size": "20 \u00d7 4.5 inch",
+    "ports": [
+      "Plastic thread: 3/4 inch",
+      "Plastic thread: 1 inch",
+      "Plastic thread: 1.5 inch"
+    ],
+    "pack": "1 assembly/carton",
+    "description": "3 housing positions supplied with a support frame and wrench. Check the support surface and space beneath the bowls for cartridge removal. Cartridges are purchased separately; the number of stages does not specify filtration performance.",
+    "kind": "assembly",
+    "colour": "Blue",
+    "source": "screenshot 2"
+  },
+  {
+    "id": "bracket",
+    "name": "Large-body housing mounting bracket",
+    "image": "bracket",
+    "size": "Confirm housing fit",
+    "ports": [
+      "Confirm mounting-hole pattern"
+    ],
+    "pack": "Not specified",
+    "description": "Separate mounting accessory. Confirm the housing head and fixing-hole pattern before ordering.",
+    "kind": "accessory",
+    "colour": "Blue",
+    "source": "screenshot 3"
+  },
+  {
+    "id": "screws",
+    "name": "Large-body housing screws",
+    "image": "screws",
+    "size": "Confirm screw fit",
+    "ports": [
+      "Confirm screw specification"
+    ],
+    "pack": "4 pieces/pack",
+    "description": "Accessory pack containing four screws. Confirm thread and mounting compatibility; screw dimensions are not provided.",
+    "kind": "accessory",
+    "colour": "Blue",
+    "source": "screenshot 3"
+  }
+]
