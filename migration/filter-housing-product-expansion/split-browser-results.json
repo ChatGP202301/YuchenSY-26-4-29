@@ -1,0 +1,30 @@
+[
+  {
+    "width": 1440,
+    "pages": 16,
+    "passed": true
+  },
+  {
+    "width": 1024,
+    "pages": 16,
+    "passed": true
+  },
+  {
+    "width": 768,
+    "pages": 16,
+    "passed": true
+  },
+  {
+    "width": 390,
+    "pages": 16,
+    "passed": true
+  },
+  {
+    "width": 375,
+    "pages": 16,
+    "passed": true
+  },
+  {
+    "search": "frame=4, impossible=0, reset=18"
+  }
+]
