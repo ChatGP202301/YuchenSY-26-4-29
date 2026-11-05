@@ -53,3 +53,5 @@ These tests are not proof of every possible overlap, real iPad/iPhone hardware b
 After an authorized release and usable analytics access, establish inquiry-click → form arrival → successful submission baseline and review real non-brand queries. Use the existing measurement setup if available, add no tracking authority silently. Judge actual qualified inquiries, not keyword count. No schedule or experiment was executed in this review.
 
 Verification refresh: 80 layout cases and 16 form handoffs rerun after the BB collection headline/hero and three-step guide changes. See split-browser-results.json; no publication performed.
+
+Screenshot-driven finding: initial expanded three-step guide pushed product cards too far below the hero, especially on 375px. Shortened introductory copy and converted the guide to an accessible native details/summary disclosure (not JS-only content). Rebuilt before repeating deterministic/viewport checks. Earlier screenshot files represent the pre-correction layout; recapture for final review.
