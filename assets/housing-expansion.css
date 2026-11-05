@@ -1,3 +1,31 @@
 .fh-page{background:#f4f2eb;color:#173c43;padding:32px 0 80px}.fh-page *{box-sizing:border-box}.fh-wrap{width:min(1180px,calc(100% - 40px));margin:auto}.fh-page h1{font-size:clamp(2rem,5vw,4rem);line-height:1.08;max-width:850px;margin:18px 0}.fh-page h2{font-size:clamp(1.65rem,3vw,2.4rem);margin:48px 0 16px}.fh-page h3{font-size:1.4rem;line-height:1.25;margin:10px 0 16px}.fh-page p{line-height:1.75;max-width:80ch}.fh-hero{padding:48px 0}.fh-kicker{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:#38645f;font-weight:700}.fh-jump{display:flex;flex-wrap:wrap;gap:12px;padding:20px 0;border-block:1px solid #cdd5cd}.fh-jump a{padding:10px 14px;border-radius:8px;background:white;color:#174b45}.fh-card{display:grid;grid-template-columns:minmax(200px,.7fr) minmax(0,1.3fr);gap:36px;padding:32px;margin:24px 0;background:#fffefa;border:1px solid #d9ded4;border-radius:16px;scroll-margin-top:110px}.fh-card figure{margin:0;min-width:0}.fh-card img{display:block;width:100%;height:350px;object-fit:contain;background:#fff;border-radius:10px}.fh-card figcaption{font-size:.75rem;line-height:1.5;margin-top:12px;color:#536760}.fh-card dl{display:grid;grid-template-columns:1fr 1fr;border-block:1px solid #d9ded4;padding:12px 0;gap:12px}.fh-card dt{font-weight:700}.fh-card dd{margin:0}.fh-options{display:flex;flex-wrap:wrap;gap:14px}.fh-options label{display:grid;gap:7px;flex:1 1 200px;min-width:0;font-size:.85rem;font-weight:700}.fh-options select{max-width:100%;width:100%;padding:12px 8px;background:white;border:1px solid #9eb2aa;border-radius:6px;color:#173c43;font:inherit;min-height:46px}.fh-summary{font-size:.85rem;overflow-wrap:anywhere}.fh-quote{display:inline-block;background:#165d54;color:white!important;padding:13px 20px;border-radius:7px;text-decoration:none;font-weight:700;line-height:1.4}.fh-guide{padding:24px 0}.fh-page a:focus-visible,.fh-page select:focus-visible{outline:3px solid #b87820;outline-offset:4px}.fh-page section{scroll-margin-top:110px}@media(max-width:700px){.fh-wrap{width:calc(100% - 28px)}.fh-hero{padding:28px 0}.fh-card{grid-template-columns:1fr;padding:20px;gap:20px}.fh-card img{height:280px}.fh-card dl{grid-template-columns:1fr}.fh-card dd{margin-bottom:8px}.fh-jump{gap:8px}.fh-jump a{font-size:.85rem}.fh-page{padding-top:20px}}
 .fh-card[hidden]{display:none}.fh-search{margin:28px 0;padding:20px;background:white;border-radius:12px}.fh-search label{display:block;font-weight:700;margin-bottom:10px}.fh-search input{width:100%;padding:14px;border:1px solid #9eb2aa;border-radius:6px;font:inherit}
 .fh-directory-card{display:inline-flex;vertical-align:top;flex-direction:column;width:calc(50% - 14px);margin:12px 7px;padding:24px;gap:12px}.fh-directory-card .fh-product-link{display:block;color:#173c43;text-decoration:none}.fh-directory-card img{height:300px;background:white}.fh-directory-card h3{margin-top:20px}.fh-directory-card p{margin:0}.fh-directory-card .fh-quote{align-self:flex-start;margin-top:auto}@media(max-width:700px){.fh-directory-card{display:flex;width:100%;margin:18px 0}.fh-directory-card img{height:280px}}
+/* One consistent light product catalogue: singles, assemblies and mounting accessories. */
+.fh-page{color-scheme:only light}
+.fh-page #housing-products,.fh-page #assemblies,.fh-page #accessories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+.fh-page #housing-products>h2,.fh-page #housing-products>p,.fh-page #assemblies>h2,.fh-page #assemblies>p,.fh-page #accessories>h2,.fh-page #accessories>p{grid-column:1/-1;margin-bottom:0}
+.fh-page #housing-products>.fh-card,.fh-page #assemblies>.fh-card,.fh-page #accessories>.fh-card{display:flex;flex-direction:column;width:100%;min-width:0;margin:0;padding:24px;gap:16px;background:#fff;color:#173c43;border:1px solid #d9ded4;border-radius:16px;color-scheme:only light}
+.fh-page .fh-card figure,.fh-page .fh-product-link{background:#fff;border-radius:10px;min-width:0}
+.fh-page .fh-card img{width:100%;height:320px;object-fit:contain;object-position:center;background:#fff;border-radius:10px}
+.fh-page .fh-directory-card h3{margin:18px 0 0;color:#173c43}
+.fh-page .fh-directory-card>.fh-quote{margin-top:auto}
+.fh-page #accessories .fh-card>div{min-width:0}
+@media(max-width:700px){.fh-page #housing-products,.fh-page #assemblies,.fh-page #accessories{grid-template-columns:minmax(0,1fr);gap:18px}.fh-page #housing-products>.fh-card,.fh-page #assemblies>.fh-card,.fh-page #accessories>.fh-card{padding:20px}.fh-page .fh-card img{height:280px}}
+.fh-page .fh-card[hidden]{display:none!important}
+/* Match the reference: a broad uninterrupted photo stage and aligned copy/actions. */
+.fh-page .fh-media-stage{display:flex;align-items:center;justify-content:center;width:100%;height:340px;overflow:hidden;border-radius:10px;background:#fff}
+.fh-page .fh-media-stage img{width:100%;height:100%;object-fit:contain;border-radius:0}
+.fh-page #assemblies .fh-media-stage img{transform:scale(1.23)}
+.fh-page .fh-directory-card .fh-product-link{display:flex;flex-direction:column;flex:1}
+.fh-page .fh-directory-card h3{min-height:3.75em;margin:22px 0 0;line-height:1.25;font-size:1.4rem}
+.fh-page .fh-directory-card>p{margin:12px 0 0}
+.fh-page .fh-directory-card>.fh-quote{margin-top:0;min-height:48px}
+.fh-page #accessories .fh-card figure{display:flex;flex-direction:column;align-items:center}
+.fh-page #accessories .fh-card figure img{height:340px;object-fit:contain}
+@media(max-width:700px){.fh-page .fh-media-stage,.fh-page #accessories .fh-card figure img{height:280px}.fh-page .fh-directory-card h3{min-height:0;font-size:1.25rem;margin-top:18px}}
+/* Scale only within the source photo's measured white margins; keep frames/bases complete. */
+.fh-page #assemblies .fh-media-stage img{transform:none}
+.fh-page #assembly-0 .fh-media-stage img,.fh-page #assembly-1 .fh-media-stage img{transform:scale(1.2)}
+.fh-page #assembly-2 .fh-media-stage img{transform:scale(1.05)}
+.fh-page #assembly-3 .fh-media-stage img{transform:scale(1.12)}

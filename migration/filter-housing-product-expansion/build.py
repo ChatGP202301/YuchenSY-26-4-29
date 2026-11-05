@@ -73,7 +73,7 @@ def schema(m):
 base=re.sub(r'<script type="application/ld\+json">(.*?)</script>',schema,base,flags=re.S)
 base=re.sub(r'(<meta property="og:title" content=")[^"]*',r'\g<1>10/20-inch water filter housings and Big Blue-style BB options',base)
 base=re.sub(r'(<meta property="og:description" content=")[^"]*',r'\g<1>Compare Big Blue-style (BB) and medium-body housings, including black singles and two/three-stage assemblies. Cartridges sold separately.',base)
-base=base.replace('</head>','<link rel="stylesheet" href="../assets/housing-expansion.css">\n<script src="../assets/housing-expansion.js" defer></script>\n</head>')
+base=base.replace('</head>','<link rel="stylesheet" href="../assets/housing-expansion.css?v=20261105-media-v2">\n<script src="../assets/housing-expansion.js" defer></script>\n</head>')
 (ROOT/'en/product-housing-filter.html').write_text(base)
 (ROOT/'tools/templates/housing-filter-en.html').write_text(base)
 print('Built',len(products),'items')
