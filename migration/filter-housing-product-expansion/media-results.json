@@ -1,0 +1,102 @@
+[
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      340
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "colorScheme": "light",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      340
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "colorScheme": "light",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      340
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      280
+    ],
+    "overflow": false
+  },
+  {
+    "width": 375,
+    "colorScheme": "light",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      280
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      340
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "colorScheme": "dark",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      340
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "colorScheme": "dark",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      340
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      280
+    ],
+    "overflow": false
+  },
+  {
+    "width": 375,
+    "colorScheme": "dark",
+    "cards": 18,
+    "white": true,
+    "heights": [
+      280
+    ],
+    "overflow": false
+  }
+]
