@@ -31,6 +31,10 @@ for i,(p,slug) in enumerate(zip(products,slugs)):
 for p,slug in zip(products,slugs):
  needle='<h3>'+html.escape(p['name'])+'</h3>'
  base=base.replace(needle,needle+f'<p><a href="{slug}">View full product details →</a></p>')
+# Collection displays product entries; full descriptions belong on each dedicated URL.
+for p,slug in zip(products,slugs):
+ card=f'<article class="fh-card fh-directory-card" id="{p["id"]}"><a class="fh-product-link" href="{slug}"><img src="../assets/products/housing-expansion-white/{p["image"]}.webp" alt="{html.escape(p["name"])}" width="1254" height="1254" loading="lazy"><h3>{html.escape(p["name"])}</h3></a><p>{html.escape(p["size"])} · {html.escape(p["pack"])}</p><a class="fh-quote" href="{slug}">View this product</a></article>'
+ base=re.sub(r'<article class="fh-card" id="'+p['id']+r'".*?</article>',lambda _:card,base,flags=re.S)
 base=base.replace('<section id="housing-products">','<div class="fh-search"><label for="fh-search">Search housings by size, colour, stages or mounting style</label><input id="fh-search" type="search" placeholder="Try: 20-inch, clear, support frame" aria-describedby="fh-search-count"><p id="fh-search-count" aria-live="polite">14 housings and 2 accessories</p></div><section id="housing-products">')
 (R/'en/product-housing-filter.html').write_text(base);(R/'tools/templates/housing-filter-en.html').write_text(base)
 (T/'url-manifest.json').write_text(json.dumps([dict(product=p['id'],name=p['name'],url='https://www.yuchensy.com/en/'+s,keyword=p['name'],intent='Compare specifications, select configuration and request quotation') for p,s in zip(products,slugs)],indent=2))
