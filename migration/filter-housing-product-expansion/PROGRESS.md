@@ -1,0 +1,52 @@
+# Progress — 2026-11-05
+- Goal: one English housing page; 14 housings + 2 accessories, local only.
+- Baseline: all repository files are untracked; before.html preserves this page.
+- Original screenshots found and archived; product crops derived without retouching.
+- Generator found: tools/build_multilingual_product_pages.py; English-only template override added.
+- Implementation: static product sections, per-product constrained options, contact product-field handoff.
+- No working-pressure, temperature, flow or certification claims introduced.
+- Main risk: screenshot crop quality and colour availability require supplier confirmation.
+- Browser verification in progress; no publication or submission.
+- Final browser checks passed at 1440/1024/768/390/375: 16 cards, zero overflow, zero broken product images.
+- Contact handoff passed; missing-card negative check detected failure and reload restored 16; JS-disabled content passed.
+- Static contract and JS syntax passed; deterministic rebuild produced zero page changes.
+- Desktop/mobile screenshot crops visually inspected. Platform citation and index checks remain unverified as itemized in BLOCKED.md.
+- Local implementation complete; external visibility validation incomplete. No publication.
+- Image revision: all 16 screenshot crops replaced with 1254px-square reference-based AI-enhanced white-background images in assets/products/housing-expansion-white/.
+- Originals retained. white-image-map.json records enhancement source outputs; install-white-images.py creates web assets and contact sheet.
+- Visually inspected all 16 in contact sheet; corrected incomplete 20-inch blue head using existing additional reference. Four screws retained; stage counts and bracket/frame classes checked.
+- Captions identify reference-based enhancement; not newly photographed originals. Fine unseen geometry is not verified by these images.
+- 14-URL expansion started on user request; task brief saved as TASK-14-URLS.md (2261 characters).
+- 14 separate English product URLs generated, each one H1/self-canonical/Product JSON-LD; collection links and local keyword search added. Accessories remain collection-only.
+- Remote main baseline a6f8752a1c8dcf5b6ffc7a2d492c1bad216cdeea, tree b3f70980bd67d018e4f5585d140a638fbfcccf31; branch codex/filter-housing-14-products created.
+- Remote sitemap has 239 URLs; all preserved and 14 added. XML-prefix mutation found and fixed using namespace-aware XML node creation.
+- 70 browser combinations passed; local search support-frame=4, unknown=0, clear=16; deterministic rebuild passed.
+- GitHub CLI credential invalid, connector read/write works. Large initial binary upload failed; optimizing WebP delivery assets and retrying; original enhanced PNGs retained.
+- GSC currently only read-only API; browser session discovery timed out. No sitemap submission or index claim.
+- GitHub commit c654ebc3ed251e5741df6d0b91e8c12754a1825e published to codex/filter-housing-14-products; PR #15 created: https://github.com/ChatGP202301/YuchenSY-26-4-29/pull/15 .
+- PR recheck: mergeable=true, mergeable_state=clean. No pull-request workflow runs returned. Main unchanged; merge/publication decision pending because user supplied repository but did not answer the separately asked publish-vs-PR option.
+- 16 optimized WebP image blobs uploaded; one automatic-review timeout succeeded on permitted single retry. No blocked GitHub write remains.
+- Current online/AI index state unverified; no GSC write performed. Need publication confirmation and a usable GSC write session for downstream submission.
+- User screenshot investigation: live old collection has zero new product cards/links, PR unmerged. Live diagnostic did not reproduce unstyled rendering; only Cloudflare beacon timeout observed, so screenshot asset failure not claimed fixed.
+- Directory revised to 14 compact product entries: image/title/button all link to each distinct product URL. Detailed specification/configuration remains on single-product pages, accessories remain on directory.
+- Configuration initializer skips directory-only cards. All 70 responsive combinations and search checks passed again.
+- PR updated with commit e1f48b082cd233b527451a3f81fa0888f65e83f5; no production merge performed.
+
+- 2026-11-05 explicit production authorization received. PR #15 merged; merge 702f154e7e297f1338a97bf7b0232fba8cbf2002; Pages run 41959970471 success.
+- Production verification PASS: 14/14 HTTP 200, self-canonical, correct product, one product each; collection 14 links + 2 accessories, zero broken product images; online English sitemap contains all 14 new URLs. Evidence: production-results.json.
+- GSC submission and actual Google/AI indexing/citations remain unverified; no writable GSC session available. Previous publication-approval blocker resolved.
+- Inquiry-link enhancement: each of 14 product pages now has top/bottom Send a product inquiry links, synchronized with selected configuration and anchored to existing contact #quoteForm.
+- Browser verification: 14/14 passed for both links, selected Black option, correct product prefill, visible form; POST=0 (no actual inquiry sent).
+- Commit 432eecaca433df6a4c121b8606a495bc6ea32ee6 uploaded to codex/housing-inquiry-links.
+- GitHub connector transport failed on PR creation and subsequent PR lookup. Merge/deployment NOT confirmed; do not describe new inquiry links as live. Existing production configuration inquiry link remains unchanged.
+- Inquiry links release authorized and completed: PR #16 merged, commit 39fd97244c9b68ac367cbea99cee00d4d9d7203e; Pages run 41987481384 success.
+- Live browser verification PASS 14/14: both inquiry links, selected configuration, correct product prefill, visible form. Actual formsubmit.co POST=0; analytics POSTs excluded from submission count.
+- GSC submission remains blocked: API read-only and browser-control session inventory timed out. No GSC write attempted or success claimed.
+- BB revision implemented locally: 16 independent product pages + 2 accessories; 14 old URL slugs retained, 2 black URLs added. Existing production unchanged.
+- BB terminology applied to large single housings and assemblies only; original specification evidence retained. Black images referenced from original black photograph, not recoloured blue.
+- 80 browser viewport cases passed; 16 inquiry handoffs passed, actual forms not sent. Red→green negative cases and deterministic regeneration passed.
+- Per-page keywords/evidence: bb-page-keywords.csv; rationale and image limitation: bb-keyword-review.md. Screenshots bb-black-1440/768/375.png.
+
+- Deep keyword/conversion review: collection title/H1/hero now explicitly name Big Blue-style BB; medium-body distinction preserved. Shortened hero and native expandable journey guide after screenshot review.
+- 80 layout checks and 16 inquiry handoffs passed after changes; source/keyword dispositions and limitations in DEEP-REVIEW.md; rewritten operational prompt in DEEP-TASK-PROMPT.md.
+- GitHub PR #17 created on codex/bb-black-housings-review; not merged or published.

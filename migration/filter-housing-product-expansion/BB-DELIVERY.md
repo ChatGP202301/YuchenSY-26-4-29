@@ -11,4 +11,4 @@ Checks: bundled Python verify-bb.py (negative cases + page contracts + determini
 
 Important image limitation: 10-inch black white-background image is a derived illustration from the original black housing reference, explicitly captioned; exact 10-inch camera photo unavailable. 20-inch black is a reference-based enhancement. Both source generation paths retained in white-image-map.json.
 
-No GitHub push, production publication, GSC submission or actual AI-citation verification performed for this revision, consistent with the approved local-review boundary. Prior production records refer to the previous release only.
+GitHub review submission: PR #17, https://github.com/ChatGP202301/YuchenSY-26-4-29/pull/17 . This revision is not merged or published. GSC submission and actual AI citation checks remain unverified. Prior production records refer to the previous release only.
