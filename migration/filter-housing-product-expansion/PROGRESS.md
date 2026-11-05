@@ -50,3 +50,6 @@
 - Deep keyword/conversion review: collection title/H1/hero now explicitly name Big Blue-style BB; medium-body distinction preserved. Shortened hero and native expandable journey guide after screenshot review.
 - 80 layout checks and 16 inquiry handoffs passed after changes; source/keyword dispositions and limitations in DEEP-REVIEW.md; rewritten operational prompt in DEEP-TASK-PROMPT.md.
 - GitHub PR #17 created on codex/bb-black-housings-review; not merged or published.
+- Final user task reconciliation: PR #17 verified open/unmerged; no rebuild needed for unchanged implementation. Added detailed keyword-intent-evidence.csv and final deliverable index.
+- Additional uncertainty resolved: verify-controls.cjs passed 80 combinations / 330 inquiry/select controls for viewport bounds, centre-point obstruction and programmatic focus; result saved.
+- No production publication, actual form submission, GSC write or platform citation claim in this review package.

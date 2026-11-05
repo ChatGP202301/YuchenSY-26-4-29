@@ -1,0 +1,6 @@
+{
+  "cases": 80,
+  "controls": 330,
+  "passed": true,
+  "scope": "Viewport-bounded and centre-point-uncovered inquiry links/selects; programmatic focus. Not exhaustive accessibility/real-device testing."
+}

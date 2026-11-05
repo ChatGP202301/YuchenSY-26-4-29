@@ -55,3 +55,8 @@ After an authorized release and usable analytics access, establish inquiry-click
 Verification refresh: 80 layout cases and 16 form handoffs rerun after the BB collection headline/hero and three-step guide changes. See split-browser-results.json; no publication performed.
 
 Screenshot-driven finding: initial expanded three-step guide pushed product cards too far below the hero, especially on 375px. Shortened introductory copy and converted the guide to an accessible native details/summary disclosure (not JS-only content). Rebuilt before repeating deterministic/viewport checks. Earlier screenshot files represent the pre-correction layout; recapture for final review.
+
+## Final delivery audit
+The earlier compact per-product map has been supplemented by keyword-intent-evidence.csv: each row explicitly records term, procurement intent, product fact, visible landing section, source and unmeasured-demand status. Core terms and actual intent answers are distinguished from literal permutation coverage.
+Additional control obstruction checks: verify-controls.cjs passed 80 page/viewport combinations and 330 controls (top/bottom inquiry links and product selectors). Each control is inside horizontal viewport bounds, its centre hit target is the control or descendant, and programmatic focus succeeds. Results: control-check-results.json. This does not test every possible overlap, native select popup, physical device or screen reader.
+Final collection screenshots were recaptured after shortening the hero and collapsing the guide: deep-collection-1440.png, deep-collection-768.png, deep-collection-375.png. No actual form messages sent. No merge/publication performed.
