@@ -140,7 +140,7 @@
     const name = location.pathname.split('/').pop() || '';
     return /^(product-|sanyishui-)/.test(name) ? safeSlug(name) : '';
   };
-  const productFamily = () => {
+  const productFamily = () => { if (handoffItem()) return handoffItem().item_category;
     const declared = document.body && document.body.dataset.productFamily;
     if (declared) return safeSlug(declared);
     const params = new URLSearchParams(location.search);
@@ -163,10 +163,11 @@
     if (!name || name.length > 100 || category.length > 100 || containsPersonalData(name) || containsPersonalData(category)) return null;
     return { item_id: item.item_id, item_name: name, item_category: category };
   };
+  const handoffItem = () => { const p=new URLSearchParams(location.search); const slug='product-e600-s-min-commercial-ro-water-dispenser'; return /\/en\/contact\.html$/.test(location.pathname) && (p.get('product_slug')===slug || p.get('product_id')===slug) ? {item_id:'E600-S-Min',item_name:'E600-S-Min Commercial RO Water Dispenser',item_category:'Commercial RO water dispenser'} : null; };
   const detailItem = () => cleanItem(context.detail);
-  const productIdentity = () => ({ id: detailItem()?.item_id || '', source: detailItem() ? 'frozen-english-ledger' : 'none' });
+  const productIdentity = () => ({ id: (detailItem() || handoffItem())?.item_id || '', source: detailItem() ? 'frozen-english-ledger' : handoffItem() ? 'trusted-handoff-map' : 'none' });
   const isProductDetailPage = () => Boolean(detailItem());
-  const productName = () => detailItem()?.item_name || '';
+  const productName = () => (detailItem() || handoffItem())?.item_name || '';
   const lists = () => (context.lists || (context.list ? [context.list] : [])).filter(list => list && list.id);
   const listItems = list => ((list || context.list)?.items || []).map(cleanItem).filter(Boolean);
   const listStates = new Map();
@@ -228,7 +229,7 @@
     source_page: safeSourcePage(),
     language: language(),
     product_slug: productSlug(),
-    product_family: detailItem()?.item_category || '',
+    product_family: (detailItem() || handoffItem())?.item_category || '',
     locale: language(),
     page_location: (() => { try { const u = new URL(context.canonical); return u.search || u.hash || containsPersonalData(decodeURIComponent(u.pathname)) ? safePageLocation() : u.origin + u.pathname; } catch (_) { return safePageLocation(); } })(),
     product_id: productIdentity().id,
