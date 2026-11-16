@@ -11,3 +11,8 @@
 
 /* Single white dimension plate; scoped to this figure only. */
 .fit.dimension-plate{background:#fff;padding:12px;align-self:start}.fit.dimension-plate>img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+
+/* Core-language navigation and natural text expansion. */
+.ts1-languages{max-width:1240px;margin:auto;padding:14px 40px;display:flex;gap:12px 22px;flex-wrap:wrap;font-size:14px}.ts1-languages [aria-current]{font-weight:700;text-decoration-thickness:2px}select{max-width:100%;white-space:normal}th,td,.button,figcaption{overflow-wrap:anywhere}.columns>*,.hero>*,.closing-grid>*{min-width:0}[dir=rtl] .eyebrow{letter-spacing:0}[dir=rtl] .closing-grid{text-align:right}[dir=rtl] .search-close{padding-left:0;padding-right:32px;border-left:0;border-right:1px solid var(--line)}[dir=rtl] .installation-scene{justify-self:end}[dir=rtl] #capacity{direction:ltr}html[dir=rtl] body{font-family:Tahoma,Arial,sans-serif}@media(max-width:760px){.ts1-languages{padding:12px 22px;gap:10px 16px}[dir=rtl] .search-close{padding:22px 0 0;border-right:0}}
+[dir=rtl] .skip{left:auto;right:-1000px}[dir=rtl] .skip:focus{right:10px;left:auto}
+[dir=rtl] .metrics strong,[dir=rtl] .metrics span,[dir=rtl] td:has(>bdi){unicode-bidi:isolate}bdi.ts1-number{direction:ltr;unicode-bidi:isolate;display:inline-block}
