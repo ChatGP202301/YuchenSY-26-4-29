@@ -190,3 +190,27 @@ Yuchen Water manufactures water filtration components, drinking-water systems an
 - H-35 High-Capacity Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-h-35.html — H-35 High-Capacity Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
 - H-18 Low-Height Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-h-18.html — H-18 Low-Height Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
 - GLM-800 Chilled Commercial RO Water Dispenser: https://www.yuchensy.com/en/commercial-ro-water-dispenser-glm-800-chilled.html — GLM-800 Chilled Commercial RO Water Dispenser. Available with or without a payment system, according to the selected project configuration.
+
+<!-- E500_TS1_LLMS_START -->
+## E500-TS-1 (B/W) countertop RO water dispenser
+
+Plumbed-in hot and cold reverse osmosis water dispenser with compressor cooling and intelligent control. OEM/private-label supply and two- or three-outlet configurations can be discussed. English display artwork is a customizable sample.
+
+### Product pages by language
+- [English](https://www.yuchensy.com/en/countertop-ro-water-dispenser-e500-ts1.html)
+- [Français](https://www.yuchensy.com/fr/countertop-ro-water-dispenser-e500-ts1.html)
+- [Deutsch](https://www.yuchensy.com/de/countertop-ro-water-dispenser-e500-ts1.html)
+- [Español](https://www.yuchensy.com/es/countertop-ro-water-dispenser-e500-ts1.html)
+- [Русский](https://www.yuchensy.com/ru/countertop-ro-water-dispenser-e500-ts1.html)
+- [Português](https://www.yuchensy.com/pt/countertop-ro-water-dispenser-e500-ts1.html)
+- [العربية](https://www.yuchensy.com/ar/countertop-ro-water-dispenser-e500-ts1.html)
+
+### Confirmed specifications and configuration boundaries
+- Filtration: PP, CTO, RO and T33. The physical cartridge arrangement in a photo is not a flow diagram.
+- Membrane options: 100 GPD or 200 GPD; nominal daily production, not instantaneous dispensing flow.
+- Dimensions (W × D × H): 295 × 440 × 520 mm. Dispensing clearance: 245 mm.
+- TDS detection is available. TDS alone does not establish drinking-water safety.
+- IoT and antibacterial functions are optional customizations; implementation and supporting documentation must be agreed for the order.
+- Installation requires mains water, a separate RO concentrate drain and suitable grounded power. Allow filter-service and ventilation access.
+- Confirm voltage, rated power, tank capacities, temperature performance, quantity, destination, lead time and applicable documentation in the quotation. No certification, removal-rate or instant-heating claim is implied.
+<!-- E500_TS1_LLMS_END -->

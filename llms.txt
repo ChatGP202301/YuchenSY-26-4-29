@@ -29,3 +29,20 @@ Yuchen Water manufactures water filtration components, drinking-water systems an
 - Product specifications, compatibility and project configuration must be confirmed in the quotation.
 <!-- SANYISHUI_CATALOG_END -->
 <!-- PRODUCT_TAXONOMY_V2_END -->
+
+<!-- E500_TS1_LLMS_START -->
+## E500-TS-1 (B/W) countertop RO water dispenser
+
+Plumbed-in hot and cold reverse osmosis water dispenser with compressor cooling and intelligent control. OEM/private-label supply and two- or three-outlet configurations can be discussed. English display artwork is a customizable sample.
+
+### Product pages by language
+- [English](https://www.yuchensy.com/en/countertop-ro-water-dispenser-e500-ts1.html)
+- [Français](https://www.yuchensy.com/fr/countertop-ro-water-dispenser-e500-ts1.html)
+- [Deutsch](https://www.yuchensy.com/de/countertop-ro-water-dispenser-e500-ts1.html)
+- [Español](https://www.yuchensy.com/es/countertop-ro-water-dispenser-e500-ts1.html)
+- [Русский](https://www.yuchensy.com/ru/countertop-ro-water-dispenser-e500-ts1.html)
+- [Português](https://www.yuchensy.com/pt/countertop-ro-water-dispenser-e500-ts1.html)
+- [العربية](https://www.yuchensy.com/ar/countertop-ro-water-dispenser-e500-ts1.html)
+
+100/200 GPD options; four-stage PP/CTO/RO/T33 filtration; TDS detection; optional IoT/antibacterial customization. See product pages for installation and order-specific limitations.
+<!-- E500_TS1_LLMS_END -->
