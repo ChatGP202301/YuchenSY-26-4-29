@@ -68,3 +68,11 @@ BB denotes the described housing format, not brand origin or guaranteed cartridg
 - 10-inch black BB-style filter housing: https://www.yuchensy.com/en/10-inch-black-bb-filter-housing.html
 - 20-inch black BB-style filter housing: https://www.yuchensy.com/en/20-inch-black-bb-filter-housing.html
 <!-- FILTER_HOUSINGS_16_END -->
+
+<!-- E600_S_MIN_LLMS_START -->
+## E600-S-Min commercial RO water dispenser
+- Canonical English product: https://www.yuchensy.com/en/product-e600-s-min-commercial-ro-water-dispenser.html
+- Floor-standing dispenser for office and hospitality drinking-water projects; white or gray cabinet. Select 100G or 400G RO purification (listed purified-water flow: 0.26 or 1.05 L/min), a 5 L or 10 L hot tank, and optional cooling.
+- Quick-change PP, CTO, T33 and RO membrane cartridges; long-term spare-parts support is paid. Installation requires inlet-water and drainage connections. Voltage and frequency can be customized.
+- Samples, minimum order quantity and lead time require sales confirmation of project and customization requirements.
+<!-- E600_S_MIN_LLMS_END -->
