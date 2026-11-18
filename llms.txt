@@ -46,3 +46,25 @@ Plumbed-in hot and cold reverse osmosis water dispenser with compressor cooling 
 
 100/200 GPD options; four-stage PP/CTO/RO/T33 filtration; TDS detection; optional IoT/antibacterial customization. See product pages for installation and order-specific limitations.
 <!-- E500_TS1_LLMS_END -->
+
+<!-- FILTER_HOUSINGS_16_START -->
+## Water filter housings: medium-body and Big Blue-style (BB)
+- Collection and configuration comparison: https://www.yuchensy.com/en/product-housing-filter.html
+BB denotes the described housing format, not brand origin or guaranteed cartridge compatibility. Housings are for cold-water projects; cartridges are sold separately. Confirm mating connections and operating conditions before ordering.
+- 10-inch medium-body blue filter housing: https://www.yuchensy.com/en/10-inch-medium-body-blue-filter-housing.html
+- 10-inch medium-body clear filter housing: https://www.yuchensy.com/en/10-inch-medium-body-clear-filter-housing.html
+- 10-inch BB-style blue filter housing: https://www.yuchensy.com/en/10-inch-large-body-blue-filter-housing.html
+- 10-inch BB-style clear filter housing: https://www.yuchensy.com/en/10-inch-large-body-clear-filter-housing.html
+- 20-inch BB-style blue filter housing: https://www.yuchensy.com/en/20-inch-large-body-blue-filter-housing.html
+- 20-inch BB-style clear filter housing: https://www.yuchensy.com/en/20-inch-large-body-clear-filter-housing.html
+- 10-inch two-stage BB-style filter housing assembly — wall bracket: https://www.yuchensy.com/en/10-inch-two-stage-filter-housing-assembly-wall-bracket.html
+- 10-inch three-stage BB-style filter housing assembly — wall bracket: https://www.yuchensy.com/en/10-inch-three-stage-filter-housing-assembly-wall-bracket.html
+- 10-inch two-stage BB-style filter housing assembly — support frame: https://www.yuchensy.com/en/10-inch-two-stage-filter-housing-assembly-support-frame.html
+- 10-inch three-stage BB-style filter housing assembly — support frame: https://www.yuchensy.com/en/10-inch-three-stage-filter-housing-assembly-support-frame.html
+- 20-inch two-stage BB-style filter housing assembly — wall bracket: https://www.yuchensy.com/en/20-inch-two-stage-filter-housing-assembly-wall-bracket.html
+- 20-inch two-stage BB-style filter housing assembly — support frame: https://www.yuchensy.com/en/20-inch-two-stage-filter-housing-assembly-support-frame.html
+- 20-inch three-stage BB-style filter housing assembly — wall bracket: https://www.yuchensy.com/en/20-inch-three-stage-filter-housing-assembly-wall-bracket.html
+- 20-inch three-stage BB-style filter housing assembly — support frame: https://www.yuchensy.com/en/20-inch-three-stage-filter-housing-assembly-support-frame.html
+- 10-inch black BB-style filter housing: https://www.yuchensy.com/en/10-inch-black-bb-filter-housing.html
+- 20-inch black BB-style filter housing: https://www.yuchensy.com/en/20-inch-black-bb-filter-housing.html
+<!-- FILTER_HOUSINGS_16_END -->
