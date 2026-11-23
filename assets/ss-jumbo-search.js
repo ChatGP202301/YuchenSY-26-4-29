@@ -11,7 +11,7 @@
   panel.querySelector('summary').hidden=true;
   dialog.querySelector('[data-ss-search-content]').append(panel);
   const field=panel.querySelector('input');
-  field.placeholder='e.g. housing, carbon filter, RO membrane';
+  field.placeholder=document.documentElement.lang==='fr'?'Ex. : porte-filtre, charbon actif, membrane': 'e.g. housing, carbon filter, RO membrane';
   trigger.disabled=false;
   return true;
  }

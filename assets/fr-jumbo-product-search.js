@@ -1,0 +1,11 @@
+/* English product search fallback; default discovery UI wins if present. */
+(()=>{'use strict';
+ const footer=document.querySelector('footer');
+ const assetBase=new URL('.',document.currentScript.src);
+ const panel=document.createElement('details');panel.className='en-product-search';panel.dataset.enProductSearch='true';
+ const summary=document.createElement('summary');summary.textContent='Rechercher des produits';panel.append(summary);
+ const form=document.createElement('form');form.setAttribute('role','search');const label=document.createElement('label');label.textContent='Nom du produit ou critère de sélection';const field=document.createElement('input');field.type='search';field.required=true;field.maxLength=120;field.name='q';label.append(field);form.append(label);
+ const button=document.createElement('button');button.type='submit';button.textContent='Rechercher';form.append(button);panel.append(form);
+ const status=document.createElement('p');status.setAttribute('role','status');const list=document.createElement('ul');panel.append(status,list);footer.append(panel);
+ let index;form.addEventListener('submit',async e=>{e.preventDefault();const term=field.value.trim().toLowerCase();if(!term)return;status.textContent='Recherche en cours…';list.replaceChildren();try{index??=fetch(new URL('search/fr.json?v=20261123',assetBase),{credentials:'same-origin'}).then(r=>{if(!r.ok)throw Error('index');return r.json()});const data=await index;const tokens=term.split(/[\s–—_/-]+/).filter(Boolean);const matches=data.documents.filter(d=>tokens.every(t=>(d.title+' '+d.headings+' '+d.text).toLowerCase().includes(t))).sort((a,b)=>Number(b.title.toLowerCase().includes(term))-Number(a.title.toLowerCase().includes(term))||a.url.localeCompare(b.url));status.textContent=matches.length+' résultats dans le catalogue français';for(const d of matches.slice(0,20)){if(!d.url.startsWith('/fr/')||d.url.includes('..'))continue;const li=document.createElement('li'),a=document.createElement('a');a.href=d.url;a.textContent=d.title;li.append(a);list.append(li)}}catch(_){index=null;status.textContent='Recherche indisponible. Consultez le catalogue.';const a=document.createElement('a');a.href='/fr/products.html';a.textContent='Produits';list.append(a)}});
+})();
