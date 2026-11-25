@@ -1,0 +1,42 @@
+[
+  {
+    "route": "reducing-elbow.html",
+    "expected_failure": "swapped elbow sizes",
+    "detected": [
+      "swapped elbow sizes"
+    ],
+    "clean": []
+  },
+  {
+    "route": "inline-pressure-reducing-valve.html",
+    "expected_failure": "equipment pressure in valve specs",
+    "detected": [
+      "equipment pressure in valve specs"
+    ],
+    "clean": []
+  },
+  {
+    "route": "housing-union.html",
+    "expected_failure": "unverified compatibility claim",
+    "detected": [
+      "unverified compatibility claim"
+    ],
+    "clean": []
+  },
+  {
+    "route": "housing-union.html",
+    "expected_failure": "split card links",
+    "detected": [
+      "split card links"
+    ],
+    "clean": []
+  },
+  {
+    "route": "housing-union.html",
+    "expected_failure": "wrong inquiry product",
+    "detected": [
+      "wrong inquiry product"
+    ],
+    "clean": []
+  }
+]
