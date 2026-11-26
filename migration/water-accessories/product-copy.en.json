@@ -1,0 +1,67 @@
+[
+  {
+    "category": "Filter housing connections",
+    "intro": "Connect the threaded head of a large-body filter housing to PP-R pipe while retaining a detachable service joint. Once the pipe-side socket is heat-fused, the union nut provides a separation point for removing the housing head.",
+    "spec": {
+      "Housing end": "1-inch male thread",
+      "Pipe end": "PP-R heat-fusion socket, supplier designation 25",
+      "Joint": "Removable union with a separate sealing ring shown"
+    },
+    "heading": "Matching the housing port",
+    "detail": "Start with the port on the filter head. Several BB-style housings are available with different port sizes and thread constructions under the same housing name. Use the port specification for the exact head being ordered. On the pipe side, match the fusion socket to the pipe marking.",
+    "photo": "Assembled union and separate components, including the nut and sealing ring.",
+    "inquiry_checklist": "Send the housing model and a close-up of its port, the marked PP-R pipe size or measured outside diameter, and the required quantity. Confirm the thread standard and whether the nut and seal are included."
+  },
+  {
+    "category": "Tube fittings",
+    "intro": "A 90-degree elbow that turns a threaded filter connection into a push-fit connection for PE tubing. Two versions share the same nominal threaded-end size and differ at the tube end.",
+    "spec": {
+      "Threaded end": "1-inch male thread",
+      "Tube end": "Push-fit for PE tubing",
+      "Versions shown": "Left: 1/2″ tube connection. Right: 3/8″ tube connection."
+    },
+    "heading": "Selecting the tube end",
+    "detail": "Choose the elbow against the outside diameter marked on the tube. The two versions look similar from the threaded side. Include the tube marking and the mating port specification on the same enquiry so the supplier can identify both ends.",
+    "photo": "Two threaded reducing elbows as pictured. Left: 1/2″ tube connection. Right: 3/8″ tube connection.",
+    "inquiry_checklist": "Send the mating threaded-port specification, a photo of the PE tube marking or its measured outside diameter, the desired elbow version and the quantity. Confirm the thread standard before ordering."
+  },
+  {
+    "category": "Pressure control",
+    "intro": "An inline pressure-reducing valve for a water purifier feed line. Its straight-through form places the inlet and outlet on opposite ends; the arrow on the body identifies the indicated flow direction.",
+    "spec": {
+      "Function": "Feed-line pressure reduction",
+      "Body layout": "Inline, with directional arrow",
+      "Connection sizes": "1/4″ and 3/8″ listed; confirm the inlet and outlet combination for the selected version."
+    },
+    "heading": "Sizing for an RO feed line",
+    "detail": "Use the RO unit’s permitted feed pressure as the downstream requirement. To select a valve, compare the actual supply pressure with the valve’s inlet rating and outlet setting. The pressure range shown on a related RO machine belongs to the machine.",
+    "photo": "Inline reducing valve with the flow arrow visible on the lower half of the body.",
+    "inquiry_checklist": "Send the RO model, measured upstream pressure, required downstream pressure, inlet and outlet tube outside diameters, and the quantity. Ask for the selected valve’s allowable inlet pressure, outlet setpoint and flow direction."
+  },
+  {
+    "category": "Water purifier valves",
+    "intro": "A four-port valve for purifier tubing, with a 3/8″ connection at each port. When replacing an existing valve, the four line destinations and the valve’s switching function determine whether the replacement belongs in the same circuit.",
+    "spec": {
+      "Connections": "Four ports",
+      "Port markings": "3/8″ at each of the four ports",
+      "Port assignment": "Model-specific circuit drawing required"
+    },
+    "heading": "Replacing a four-port valve",
+    "detail": "Photograph the existing installation before disconnecting any tube. Trace each line to its next component and submit the valve model and circuit drawing. Confirm each port’s role and what causes the valve to switch.",
+    "photo": "Four-port valve body showing the four connection openings and cover screws.",
+    "inquiry_checklist": "Send the valve model, photos of all four connections and the manufacturer’s circuit drawing. Mark where each tube goes and describe when the valve should switch."
+  },
+  {
+    "category": "Leak protection",
+    "intro": "This non-electric leak shutoff is designed to interrupt the purifier’s water supply when water reaches its trigger. Its two tube ports connect it in the feed line. Select the connection size against the existing tube before specifying the device for a cabinet installation.",
+    "spec": {
+      "Function": "Water-triggered shutoff, as described by the supplier",
+      "Power supply": "No electrical connection required",
+      "Connections": "Two tube ports; listed connection sizes 1/4″ and 3/8″"
+    },
+    "heading": "Choosing a serviceable installation",
+    "detail": "Identify the feed tube that needs to be isolated and record its outside diameter. Leave access to the device for inspection after a leak. Before specifying it for a machine, obtain the model’s activation and reset instructions, including whether the disc must be replaced after use.",
+    "photo": "Shutoff assembly with two tube ports, hinged cover, mounting feet and a separately wrapped disc.",
+    "inquiry_checklist": "Send the purifier model, a feed-line photo, measured tube outside diameter and requested quantity. Ask for the trigger and reset instructions, the disc’s function, whether it is replaced after activation and how many are supplied."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "route": "housing-union",
+    "width": 390,
+    "height": 844,
+    "passed": true
+  },
+  {
+    "route": "reducing-elbow",
+    "width": 390,
+    "height": 844,
+    "passed": true
+  },
+  {
+    "route": "inline-pressure-reducing-valve",
+    "width": 390,
+    "height": 844,
+    "passed": true
+  },
+  {
+    "route": "four-port-valve",
+    "width": 390,
+    "height": 844,
+    "passed": true
+  },
+  {
+    "route": "leak-shutoff-device",
+    "width": 390,
+    "height": 844,
+    "passed": true
+  },
+  {
+    "route": "housing-union",
+    "width": 820,
+    "height": 1180,
+    "passed": true
+  },
+  {
+    "route": "reducing-elbow",
+    "width": 820,
+    "height": 1180,
+    "passed": true
+  },
+  {
+    "route": "inline-pressure-reducing-valve",
+    "width": 820,
+    "height": 1180,
+    "passed": true
+  },
+  {
+    "route": "four-port-valve",
+    "width": 820,
+    "height": 1180,
+    "passed": true
+  },
+  {
+    "route": "leak-shutoff-device",
+    "width": 820,
+    "height": 1180,
+    "passed": true
+  },
+  {
+    "route": "housing-union",
+    "width": 1180,
+    "height": 820,
+    "passed": true
+  },
+  {
+    "route": "reducing-elbow",
+    "width": 1180,
+    "height": 820,
+    "passed": true
+  },
+  {
+    "route": "inline-pressure-reducing-valve",
+    "width": 1180,
+    "height": 820,
+    "passed": true
+  },
+  {
+    "route": "four-port-valve",
+    "width": 1180,
+    "height": 820,
+    "passed": true
+  },
+  {
+    "route": "leak-shutoff-device",
+    "width": 1180,
+    "height": 820,
+    "passed": true
+  },
+  {
+    "route": "housing-union",
+    "width": 1440,
+    "height": 900,
+    "passed": true
+  },
+  {
+    "route": "reducing-elbow",
+    "width": 1440,
+    "height": 900,
+    "passed": true
+  },
+  {
+    "route": "inline-pressure-reducing-valve",
+    "width": 1440,
+    "height": 900,
+    "passed": true
+  },
+  {
+    "route": "four-port-valve",
+    "width": 1440,
+    "height": 900,
+    "passed": true
+  },
+  {
+    "route": "leak-shutoff-device",
+    "width": 1440,
+    "height": 900,
+    "passed": true
+  }
+]
