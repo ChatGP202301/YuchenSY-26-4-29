@@ -30,6 +30,15 @@ Yuchen Water manufactures water filtration components, drinking-water systems an
 <!-- SANYISHUI_CATALOG_END -->
 <!-- PRODUCT_TAXONOMY_V2_END -->
 
+<!-- EN_WATER_ACCESSORIES_START -->
+## Water filtration fittings and valves · English
+- [Filter housing union adapter](https://www.yuchensy.com/en/housing-union.html) — Removable union with a 1-inch male threaded housing end and a PP-R heat-fusion socket marked 25. Confirm the thread standard, required pipe outside diameter and supplied seal and nut.
+- [Push-fit reducing elbow](https://www.yuchensy.com/en/reducing-elbow.html) — 90-degree threaded-to-PE push-fit elbow. The 1/2-inch version is on the left in the product photo and the 3/8-inch version is on the right. Confirm the thread standard and tube outside diameter.
+- [Inline pressure-reducing valve](https://www.yuchensy.com/en/inline-pressure-reducing-valve.html) — Inline valve for water purifier feed lines. Confirm flow direction, inlet and outlet tube sizes, allowable inlet pressure and outlet setting for the specific valve.
+- [Four-port valve](https://www.yuchensy.com/en/four-port-valve.html) — Four ports marked 3/8 inch. Use the manufacturer’s model-specific circuit diagram to verify port assignments and switching conditions.
+- [Leak shutoff device](https://www.yuchensy.com/en/leak-shutoff-device.html) — Water-triggered shutoff device that does not require electrical power, according to the supplier. Confirm tube size, placement, reset procedure and the role of the pictured disc.
+<!-- EN_WATER_ACCESSORIES_END -->
+
 ## 159 canonical English product pages
 - [SY-081 Instant Heating Water Dispenser – Grey](https://www.yuchensy.com/en/product-sy-081-instant-heating-water-dispenser-grey.html): — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.
 - [SY-081 Instant Heating Water Dispenser – White](https://www.yuchensy.com/en/product-sy-081-instant-heating-water-dispenser-white.html): — Instant Heating Water Dispensers; family: pipeline. Specifications and project configuration require quotation confirmation.

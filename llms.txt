@@ -30,6 +30,15 @@ Yuchen Water manufactures water filtration components, drinking-water systems an
 <!-- SANYISHUI_CATALOG_END -->
 <!-- PRODUCT_TAXONOMY_V2_END -->
 
+<!-- EN_WATER_ACCESSORIES_START -->
+## Water filtration fittings and valves · English
+- [Filter housing union adapter](https://www.yuchensy.com/en/housing-union.html)
+- [Push-fit reducing elbow](https://www.yuchensy.com/en/reducing-elbow.html)
+- [Inline pressure-reducing valve](https://www.yuchensy.com/en/inline-pressure-reducing-valve.html)
+- [Four-port valve](https://www.yuchensy.com/en/four-port-valve.html)
+- [Leak shutoff device](https://www.yuchensy.com/en/leak-shutoff-device.html)
+<!-- EN_WATER_ACCESSORIES_END -->
+
 <!-- E500_TS1_LLMS_START -->
 ## E500-TS-1 (B/W) countertop RO water dispenser
 
