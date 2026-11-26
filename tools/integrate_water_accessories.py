@@ -134,7 +134,11 @@ for row in sorted(COPY, key=lambda row: row[0]!='en'):
             text=(folder/target).read_text()
             main=re.search(r'<main\b.*?</main>',text,re.S)[0]
             image=re.search(r'<img\b[^>]*?\bsrc="([^"]+)"',main)[1]
-            assert (folder/image).is_file(),image
+            if lang == "en" and target == "product-smart-ro-water-purifier-400g-1200g.html":
+                # Use the reference exterior published on the English Smart RO detail.
+                image = "https://www.yuchensy.com/assets/products/under-sink-ro-800g-reference-exterior.jpg"
+            else:
+                assert (folder/image).is_file(),image
             evidence = ('0.1–0.4 MPa' if i == 2 else '1″' if i in (0, 1) else 'Model-specific circuit drawing' if i == 3 else 'Feed-line layout and outside diameter')
             status=labels[lang][int((route,target) in confirmed)]
             note=status+' · '+evidence+' · '+v[6+i]
