@@ -17,6 +17,11 @@ DATA = SITE / "migration/water-accessories"
 FACTS = json.loads((DATA / "facts.json").read_text())
 COPY = list(csv.reader((DATA / "copy.psv").read_text().splitlines(), delimiter="|"))
 RO = "product-commercial-mid-cabinet-ro-water-purifier-built-in-pressure-tank-400g-1600g.html"
+RO_SELECTION = (
+    "product-built-in-pressure-tank-ro.html",
+    "product-pump-free-five-stage-ro-water-purifier.html",
+    "product-smart-ro-water-purifier-400g-1200g.html",
+)
 GROUP = "product-housing-filter.html"
 GUIDE = "water-accessory-selection-guide.html"
 INDEX = "water-accessories.html"
@@ -122,20 +127,24 @@ for row in sorted(COPY, key=lambda row: row[0]!='en'):
             routes=[r for r in routes if (folder/r).exists()]
         if i==2:
             routes=[RO]
+        if lang == "en" and i in (3, 4):
+            routes = RO_SELECTION
         devices=[]
         for target in routes:
             text=(folder/target).read_text()
             main=re.search(r'<main\b.*?</main>',text,re.S)[0]
             image=re.search(r'<img\b[^>]*?\bsrc="([^"]+)"',main)[1]
             assert (folder/image).is_file(),image
-            evidence=('0.1–0.4 MPa' if i==2 else '1″')
+            evidence = ('0.1–0.4 MPa' if i == 2 else '1″' if i in (0, 1) else 'Model-specific circuit drawing' if i == 3 else 'Feed-line layout and outside diameter')
             status=labels[lang][int((route,target) in confirmed)]
             note=status+' · '+evidence+' · '+v[6+i]
             if lang == "en":
                 reason = [
                     "Compare the housing head’s 1-inch port option with the union’s male thread before choosing a pipe-side connection.",
                     "The elbow turns the feed tube through 90°. Select the housing’s 1-inch port option, then match the 1/2″ or 3/8″ tube end.",
-                    "This RO unit specifies 0.1–0.4 MPa at its inlet. Compare the valve’s outlet setting with that range and size both connections."
+                    "This RO unit specifies 0.1–0.4 MPa at its inlet. Compare the valve’s outlet setting with that range and size both connections.",
+                    "For this RO machine, request its configuration-specific water circuit diagram. Verify the four tube destinations and switching conditions before choosing a replacement valve.",
+                    "For this RO machine, identify the feed tube and measure its outside diameter. Confirm the shutoff location, trigger clearance and reset procedure before ordering."
                 ][i]
                 note = status + ". " + reason
             devices.append(card(target,(labels[lang][2]+" · " if target==GROUP else "")+title(text),image,note))

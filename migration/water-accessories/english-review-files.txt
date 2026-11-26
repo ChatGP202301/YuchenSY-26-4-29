@@ -18,8 +18,11 @@ en/four-port-valve.html
 en/housing-union.html
 en/inline-pressure-reducing-valve.html
 en/leak-shutoff-device.html
+en/product-built-in-pressure-tank-ro.html
 en/product-commercial-mid-cabinet-ro-water-purifier-built-in-pressure-tank-400g-1600g.html
 en/product-housing-filter.html
+en/product-pump-free-five-stage-ro-water-purifier.html
+en/product-smart-ro-water-purifier-400g-1200g.html
 en/products.html
 en/reducing-elbow.html
 en/water-accessories.html
