@@ -110,11 +110,17 @@ for row in sorted(COPY, key=lambda row: row[0]!='en'):
             nav = re.sub(r'<div class="lang-switcher">.*?(?=<a href="contact.html" class="btn btn-gold">)',
                          '', nav, count=1, flags=re.S)
         crumb=f'<nav><a href="products.html">{catalog}</a> › <a href="{INDEX}">{v[5]}</a></nav>'
+        measurement = ''
+        site_script = '../assets/site.min.js'
         tracking = ''
         if lang == 'en' and kind == 'Product':
             product_id = escape(route.removesuffix('.html'))
+            item = {'item_id': product_id, 'item_name': unescape(name), 'item_category': 'water-accessories'}
+            context = json.dumps({'detail': item}).replace('<', r'\u003c')
+            measurement = f'<script>window.YUCHEN_PRODUCT_MEASUREMENT = {context};</script>'
+            site_script += '?v=20261126-accessories'
             tracking = f' data-product-id="{product_id}" data-product-slug="{product_id}" data-product-family="water-accessories"'
-        html=f'<!doctype html>{tag}<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>{name} | Yuchen Water</title><meta name="description" content="{escape(description)}"><link rel="canonical" href="{url}">{alternate}{image_meta}<link rel="stylesheet" href="../assets/styles.min.css">{CSS}<script type="application/ld+json">{schema}</script></head><body{tracking}>{nav}<main class="wa-wrap">{crumb}<h1>{name}</h1>{body}</main>{footer}<script defer src="../assets/site.min.js"></script></body></html>'
+        html=f'<!doctype html>{tag}<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>{name} | Yuchen Water</title><meta name="description" content="{escape(description)}"><link rel="canonical" href="{url}">{alternate}{image_meta}<link rel="stylesheet" href="../assets/styles.min.css">{CSS}<script type="application/ld+json">{schema}</script>{measurement}</head><body{tracking}>{nav}<main class="wa-wrap">{crumb}<h1>{name}</h1>{body}</main>{footer}<script defer src="{site_script}"></script></body></html>'
         (folder/route).write_text(clean_marks(html))
     catalog=title((folder/'products.html').read_text())
     cards=[card(f['id']+'.html',v[i],f'../assets/water-accessories/{i+1}-480.webp') for i,f in enumerate(FACTS)]

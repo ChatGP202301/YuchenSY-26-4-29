@@ -163,7 +163,41 @@
     if (!name || name.length > 100 || category.length > 100 || containsPersonalData(name) || containsPersonalData(category)) return null;
     return { item_id: item.item_id, item_name: name, item_category: category };
   };
-  const handoffItem = () => { const p=new URLSearchParams(location.search); const slug='product-e600-s-min-commercial-ro-water-dispenser'; return /\/en\/contact\.html$/.test(location.pathname) && (p.get('product_slug')===slug || p.get('product_id')===slug) ? {item_id:'E600-S-Min',item_name:'E600-S-Min Commercial RO Water Dispenser',item_category:'Commercial RO water dispenser'} : null; };
+  const accessoryItems = Object.freeze({
+  "housing-union": {
+    "item_id": "housing-union",
+    "item_name": "Filter housing union adapter",
+    "item_category": "water-accessories"
+  },
+  "reducing-elbow": {
+    "item_id": "reducing-elbow",
+    "item_name": "Push-fit reducing elbow",
+    "item_category": "water-accessories"
+  },
+  "inline-pressure-reducing-valve": {
+    "item_id": "inline-pressure-reducing-valve",
+    "item_name": "Inline pressure-reducing valve",
+    "item_category": "water-accessories"
+  },
+  "four-port-valve": {
+    "item_id": "four-port-valve",
+    "item_name": "Four-port valve",
+    "item_category": "water-accessories"
+  },
+  "leak-shutoff-device": {
+    "item_id": "leak-shutoff-device",
+    "item_name": "Leak shutoff device",
+    "item_category": "water-accessories"
+  }
+});
+  const handoffItem = () => {
+    const p = new URLSearchParams(location.search);
+    if (location.pathname === '/en/contact.html') {
+      const id = p.get('product_id');
+      if (id === p.get('product_slug') && Object.prototype.hasOwnProperty.call(accessoryItems, id)) return accessoryItems[id];
+    }
+    const slug='product-e600-s-min-commercial-ro-water-dispenser'; return /\/en\/contact\.html$/.test(location.pathname) && (p.get('product_slug')===slug || p.get('product_id')===slug) ? {item_id:'E600-S-Min',item_name:'E600-S-Min Commercial RO Water Dispenser',item_category:'Commercial RO water dispenser'} : null;
+  };
   const detailItem = () => cleanItem(context.detail);
   const productIdentity = () => ({ id: (detailItem() || handoffItem())?.item_id || '', source: detailItem() ? 'frozen-english-ledger' : handoffItem() ? 'trusted-handoff-map' : 'none' });
   const isProductDetailPage = () => Boolean(detailItem());
