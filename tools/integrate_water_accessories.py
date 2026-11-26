@@ -4,7 +4,8 @@ import csv
 import json
 import re
 import shutil
-from urllib.parse import quote, urlencode
+from urllib.parse import quote
+from accessory_quote_form import render_accessory_quote
 from html import escape, unescape
 from pathlib import Path
 
@@ -177,10 +178,7 @@ for row in sorted(COPY, key=lambda row: row[0]!='en'):
         family=f'<p class="wa-family">{product["category"]}</p>' if detailed else ''
         cta=f'<a class="btn btn-gold" href="mailto:expresswater025@gmail.com?subject={quote(v[i])}&amp;body={quote(v[12])}">{v[11]}</a>'
         if lang == "en":
-            query = urlencode({"product": v[i], "product_family": "water-accessories",
-                               "product_slug": f["id"], "source_page": route,
-                               "product_id": f["id"], "cta_location": "product_hero"})
-            cta = f'<a class="btn btn-gold" data-primary-cta data-cta-location="product_hero" href="contact.html?{escape(query)}#quoteForm">{v[11]}</a>'
+            cta = f'<a class="btn btn-gold" data-primary-cta data-cta-location="product_hero" href="#accessory-quote">{v[11]}</a>'
         body=f'<section class="wa-hero">{picture}<div>{family}<p>{intro}</p>{facts_html}{cta}</div></section>'
         if detailed:
             body+=f'<section class="wa-copy"><h2>{product["heading"]}</h2><p>{product["detail"]}</p></section>'
@@ -191,6 +189,8 @@ for row in sorted(COPY, key=lambda row: row[0]!='en'):
             related = ({'en':'<h2>Related equipment</h2>','fr':'<h2>Équipements associés</h2>','es':'<h2>Equipos relacionados</h2>','de':'<h2>Verwandte Geräte</h2>','ar':'<h2>الأجهزة ذات الصلة</h2>','ja':'<h2>関連機器</h2>','ru':'<h2>Связанное оборудование</h2>'}.get(lang,''))+section(devices)
             body += f'<section class="wa-related-compact">{related}</section>' if i == 2 and lang == "en" else related
         image_url = f'https://www.yuchensy.com/assets/water-accessories/{i+1}-960.webp' if lang == 'en' else None
+        if lang == 'en':
+            body += render_accessory_quote(f['id'], unescape(v[i]), (folder/'contact.html').read_text())
         render(route,v[i],intro,body,'Product',image_url)
     for target,items in by_device.items():
         inject(folder/target,section(items))
